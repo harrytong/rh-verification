@@ -1,0 +1,25 @@
+Stage 3 v0.5 validation, 2026-11-23
+
+LOCAL EXECUTED:
+python3 -m unittest discover -s rh-audit-stage3-v0.5 -p 'test_*.py'
+38 distinct tests passed (30 inherited + 8 new), exit 0.
+python3 -m py_compile audit_stage3.py test_uses.py
+Passed, exit 0.
+
+New tests cover occurrence record validation, limits and truncation,
+no-lambda heads, explicit scope limitations, fixture case and stored-theorem
+checks, shared helper bytes, frozen targets, fail-closed sequencing and
+retained failure evidence, and unchanged read-only resource controls.
+Tests use synthetic JSON/mocked process results where noted in their source;
+they do not execute Lean or the project.
+
+NOT EXECUTED LOCALLY:
+No Lean executable is installed. ArgumentUseHelpers, ArgumentUseFixture and
+ArgumentUses have NOT been compiled in this workspace. Mandatory server
+fixtures are the next validation gate. Do not present Python tests as a
+successful Lean audit. No RH/GRH or necessity verdict is asserted.
+
+PRIOR EVIDENCE:
+v0.4 server evidence successfully ran the prior provenance fixture and project
+probe. That validates the earlier helper on the pinned toolchain, not the new
+argument scanner. Comparator status is not inspected by this package.

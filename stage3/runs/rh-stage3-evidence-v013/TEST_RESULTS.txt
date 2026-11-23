@@ -1,0 +1,17 @@
+Stage 3 v0.13 local validation — 2026-11-23
+
+Command: python3 -m unittest discover -s rh-audit-stage3-v0.13 -p 'test_*.py'
+Result: 78 tests passed.
+
+New phase tests cover target/helper consistency, successful runner output,
+fixture failure preventing the Main probe, and project failure preserving
+failure metadata and an evidence archive. Inherited tests cover provenance
+parsing, capped source collection, read-only runner constraints, and previous
+phase behavior. Runner integration tests use synthetic logs and mocked Docker;
+they are not Lean executions or independent reproductions.
+
+The provenance helper and positive/negative/provenance Lean fixtures are
+byte-for-byte unchanged from v0.12. The new ThetaRealization.lean probe has NOT
+been compiled locally: no Lean executable is available in this environment.
+The user-side run must confirm compilation, exact target availability, and
+conditional-lemma acceptance. No RH/GRH or necessity verdict is asserted.

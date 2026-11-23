@@ -1,0 +1,19 @@
+Stage 3 v0.11 packaging validation — 2026-11-23
+
+python3 -m unittest discover -s rh-audit-stage3-v0.11 -p 'test_*.py'
+Ran 70 tests. OK. 66 inherited tests plus 4 descent-phase tests.
+
+New coverage: eight-target/marker/helper contract; mocked phase success with
+protocol/config hashes and evidence outputs; provenance fixture failure blocks
+Main; project failure preserves failure status and evidence archive.
+These are runner tests, not mathematical verification.
+
+All Python files passed syntax compilation. The Lean provenance helper,
+provenance fixture, positive fixture and negative fixture are byte-identical
+to v0.10. Final package manifest and ZIP contents were validated locally.
+
+No local Lean executable is available. ThetaDescent.lean has NOT been
+compiled here. Required target lookup, declaration printing and the actual
+project run remain to be performed on Harry's server.
+
+No new RH/GRH, semantic necessity, independent-kernel or Comparator verdict.

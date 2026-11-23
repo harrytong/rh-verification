@@ -1,0 +1,58 @@
+[
+  {
+    "probe": "generic-GeoCl-interface",
+    "source": "GeometryAbstraction.lean",
+    "source_sha256": "fd3ad98ac22029aed80b9984fc5776da0d01cce2e6c4d90b38b1bc9ca7b604a3",
+    "compiled": true,
+    "failure": null,
+    "first_error": {
+      "line": null,
+      "context": "",
+      "provisional_category": "no-elaboration-error-found",
+      "reviewed_classification": "not applicable or process-level failure; inspect full log"
+    },
+    "global_necessity_or_invalidity_verdict": "not established"
+  },
+  {
+    "probe": "baseline",
+    "source": "AbstractionBaseline.lean",
+    "source_sha256": "f7c0aa22aed9a78767f61c673bbb53e3dc20f87381fe580e03a13876089a399a",
+    "compiled": true,
+    "failure": null,
+    "first_error": {
+      "line": null,
+      "context": "",
+      "provisional_category": "no-elaboration-error-found",
+      "reviewed_classification": "not applicable or process-level failure; inspect full log"
+    },
+    "global_necessity_or_invalidity_verdict": "not established"
+  },
+  {
+    "probe": "arbitrary-P",
+    "source": "AbstractionArbitraryP.lean",
+    "source_sha256": "b4f4fda36835274bcd73abf1464fa9c19410659537e37c7d8a804bf381b850d9",
+    "compiled": false,
+    "failure": "Phase failed with exit 1. Preserve /home/harry/rh-verification/critics-audit-stage2/stage2-dhyss28y/probe-arbitrary-P.log; later phases were not started.",
+    "first_error": {
+      "line": 3,
+      "context": "/audit/AbstractionArbitraryP.lean:63:25: error: Application type mismatch: The argument\n  hOpen1\nhas type\n  S0.OpenParameterStatements (parametersOfDependence hL (max CF0 CF1))\nbut is expected to have type\n  S0.OpenParameterStatements\n    (parametersOfExtension (GlobalTheory.HeightCounting.Up.extensionWithList hL (max CF0 CF1)) SExt.none\n      (geoCl auditGamma))\nin the application\n  hMono.right hOpen1",
+      "provisional_category": "type-or-interface-mismatch; premise-status-unresolved",
+      "reviewed_classification": "pending human review"
+    },
+    "global_necessity_or_invalidity_verdict": "not established"
+  },
+  {
+    "probe": "universal-P",
+    "source": "AbstractionUniversalP.lean",
+    "source_sha256": "5bb801f82ab4f639a32db307f79d1f8d2c40769415a794be3cbf4bca9d25118d",
+    "compiled": false,
+    "failure": "Phase failed with exit 1. Preserve /home/harry/rh-verification/critics-audit-stage2/stage2-dhyss28y/probe-universal-P.log; later phases were not started.",
+    "first_error": {
+      "line": 3,
+      "context": "/audit/AbstractionUniversalP.lean:63:25: error: Application type mismatch: The argument\n  hOpen1\nhas type\n  S0.OpenParameterStatements (parametersOfDependence hL (max CF0 CF1))\nbut is expected to have type\n  S0.OpenParameterStatements\n    (parametersOfExtension (GlobalTheory.HeightCounting.Up.extensionWithList hL (max CF0 CF1)) SExt.none\n      (geoCl auditGamma))\nin the application\n  hMono.right hOpen1",
+      "provisional_category": "type-or-interface-mismatch; premise-status-unresolved",
+      "reviewed_classification": "pending human review"
+    },
+    "global_necessity_or_invalidity_verdict": "not established"
+  }
+]

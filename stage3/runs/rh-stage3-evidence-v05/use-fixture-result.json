@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "direct",
+    "absent",
+    "shadowed",
+    "outer-under-lambda",
+    "binder-domain-only",
+    "forall-domain-and-body",
+    "let-type-value-body",
+    "projection",
+    "annotation-inherited",
+    "metadata",
+    "node-cap",
+    "depth-cap",
+    "stored theorem binder",
+    "outer-step cap",
+    "binder cap"
+  ],
+  "meaning": "tool fixture only; synthetic AST cases are not mathematical proofs"
+}

@@ -1,0 +1,2432 @@
+{
+  "meaning": "bounded source context, not a proof closure or use census",
+  "configuration": {
+    "roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsSeed.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OrgOfKept.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FiniteLevelAndSecond.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Has3NeoOfSteps.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaDataExists.lean"
+    ],
+    "import_depth": 2,
+    "max_files": 250,
+    "max_file_bytes": 2097152,
+    "max_total_bytes": 8388608
+  },
+  "total_bytes": 1480419,
+  "files": [
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 11822,
+      "sha256": "6f169d9ffa0441883cb42cc48c734206385b0faa203b04edaa67947775e84d0d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsSeed.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 3747,
+      "sha256": "1dae3d9024220d28e99e74e7850d3bddc316922fd57a65fdc2d172f6b97c3285",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsSeed.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 6033,
+      "sha256": "03b29295c4d0d7e2750eb3eef9672f8f3fd09540caffe2d05ba2f95b5fcb15a3",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2911,
+      "sha256": "aa646ada796832425d544e34e116c0b75bf2544c18b3a91c94c9b454fd9523fe",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4801,
+      "sha256": "a207ffc7e0f6ab3d6c059f6a0b602ac78040c31495fee30af739f30df22dec48",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 8495,
+      "sha256": "20a8b06eed100a4f20c6741cb84221f371c9e1dc20ef10416ba1ad55fefb57c2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2049,
+      "sha256": "4d155718d7474a6c9615b061b80494817023f855f70bf7c889e15f52bf15f25d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OrgOfKept.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4418,
+      "sha256": "ca3b48066d75affd891048aee8bf20e3810e871cf5844c7842bb83a2b2809837",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OrgOfKept.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FiniteLevelAndSecond.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 14656,
+      "sha256": "d452693836906729e5c6e9b3d47002d04c68e058e1b7e269b333a7a7ff9ca19d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FiniteLevelAndSecond.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 5257,
+      "sha256": "e58e8bd2d19935c944a331e638e9e08f0b7398444077e84f715db89496943b2b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 7299,
+      "sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Has3NeoOfSteps.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 3362,
+      "sha256": "c43b4932843faccdb3d4c2b2de310e8435ee8031c5ad7060bdf9c3646a091ee2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Has3NeoOfSteps.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaDataExists.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4231,
+      "sha256": "8aed9a245f8b4b0e78b00bb37b6889861b7ea050e25ac9f5035c522805617b1d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaDataExists.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FinitenessOfPublishedInputsStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1853,
+      "sha256": "1a58cab61c3f447a18551f145c81ec599cf3ca1ac2722f4c74a1e7ad499f0e1e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FinitenessOfPublishedInputsStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 15,
+      "sha256": "1015f8f4676a27ea63780b30cc916712232857097b2bdf635dc61cb949c107fb",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1687,
+      "sha256": "38a7f18a0640d6b84d2abf2f462b9881cf74654c6250cf10df7900538c755a97",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEq.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5362,
+      "sha256": "299a93f17a70eabf03506e18f00e2db19b7ea363283b0d3e48e35f8aaf9f8ee1",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEq.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeOpen.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 9541,
+      "sha256": "19d2e0182327dd83ee996dcd659cf54803a4502c2bb62157d0aa85c07af665af",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeOpen.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowsAtStart.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 14009,
+      "sha256": "5040c3ec21a5f46d73850c9dd56e0b3af917d3b34610ce763f5d27ade9edeee3",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowsAtStart.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ForcedByAutomorphicSemisimpleData.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1762,
+      "sha256": "1eae1731f22b88b429c59321ffd0a9705fec06a998266878ef1811d1c3f2d84c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ForcedByAutomorphicSemisimpleData.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4974,
+      "sha256": "98b9e4db79d3c7e7b650dedb897a52f279392a03696134b104891137ffe674ae",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalMultiplicityFamily.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6395,
+      "sha256": "63fc472ac12dc6405a2b533170fd23b587d425966708269929214c22395fd3c5",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalMultiplicityFamily.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTied.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2158,
+      "sha256": "97958166b1f744c7c17d2aee1fb2f57cd6452972cf3be96bc6b1896b67a8fb47",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTied.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTiedRowLoc.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 802,
+      "sha256": "381c5070544bcb876fc7b9eed8fcb66aefb0068a24fa780bc46504a5193ace1b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTiedRowLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NAllCWithLoc.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6018,
+      "sha256": "bca01c4ff8d91273da6b7f5701bf8200d3d89ac77139bb3756c717fd529bbf04",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NAllCWithLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaLocalInputs.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1575,
+      "sha256": "fad3f38583734f73cfb5e7c2ceca414b9113a6dc1a8acd18b5cea56348711605",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaLocalInputs.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocAllExistsStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2520,
+      "sha256": "9a1f261e874a3bfe9a4bbc290260f6ff0544ffead43471a90ffdcf5d99e29457",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocAllExistsStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BlocksUniqueOfCgTrue.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3432,
+      "sha256": "6faee8abb5fd504a60caa6986668c3939177b6fba70591950da56555a3d38ee7",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BlocksUniqueOfCgTrue.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/IsRecTOfIsRec.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6283,
+      "sha256": "4054d69535a55b8df339dee1ed766d38cb271ae87ce6033a8e0195ac577d9931",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/Foundations/LocalLanglands/IsRecTOfIsRec.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteLevelAndSecond.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 19309,
+      "sha256": "d52ee2928e62717fd98866a9fb63d0ae7536ad8322950c957cd34ef375eae1f7",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteLevelAndSecond.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5218,
+      "sha256": "8a04a9690a6f7021e7957fa027a4666aa17546333b41ca23857a4956c464cd57",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SettingsFormsExistList.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2535,
+      "sha256": "f51835beabd0dd93d75a54a5a937e7f8d707a024febc76d720bbc8b0605775e6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SettingsFormsExistList.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsUnlocalizedSaturatedState.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6954,
+      "sha256": "69ba118065f9ece25bb7628dfd9d6816a5e34d0e580c31f993e713dc91d5e0ec",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsUnlocalizedSaturatedState.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AllReductionStatementsHoldStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2393,
+      "sha256": "078ceffcb519394fa5d3c46e1b36283b722160b0131d594bb7c68ae44b33bc60",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AllReductionStatementsHoldStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityOfPrimitive.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1768,
+      "sha256": "ea80d19e50972a69c7a4910a14e2ed63fb5d30bbac3f4b2566e8497a212d3771",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityOfPrimitive.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SRatOfIsotInternal.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4579,
+      "sha256": "ed0d0307a0ddb6764bdcfa10d5b1a44dacb8abdf1b5a242900fbc8f65f3acb05",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SRatOfIsotInternal.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IsotypicOverAllComponents.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3676,
+      "sha256": "993929c2210b4b5f3c622ab6e4317f0936313a1e415a9aba7f2d13a535b0f37a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IsotypicOverAllComponents.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalParameterStableAtUnramifiedPlace.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5185,
+      "sha256": "53f4ab06b2fe633a7953dc56f6f2ab0633378a2ab91f4aff0706417653d4202e",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalParameterStableAtUnramifiedPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SLarge.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8882,
+      "sha256": "bce21cbf44c0508709ad98e57489bcc34c9a1e0a6ed291944c800d93ca6e91d9",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SLarge.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/StepsPin.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4124,
+      "sha256": "9773aa0a555e25f175965344e3136b520b17099c9e0f955e16492a1ef1d41488",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/StepsPin.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionToLocalLanglandsA.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5439,
+      "sha256": "5de22b06f1da95621821603891f25a32426cc099ae871f8248951e6259969be5",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionToLocalLanglandsA.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SCuspOfParSt.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3069,
+      "sha256": "efcf506e51f5e899f0db847b2d1e26725bc75e62064eb226da3dfe71bc518ca8",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SCuspOfParSt.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionSeriesB0.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8850,
+      "sha256": "1312a7bb0d0e3f42d2d29df473685f93dd3f28550b0950a9004907817290bf03",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionSeriesB0.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SecondBoundOfPrimitive.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3994,
+      "sha256": "1fa298f5960f3b75d98818fedb690a66168ecc17f43b703bc2a8b90623d9c599",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SecondBoundOfPrimitive.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionSeriesB2.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4153,
+      "sha256": "bb6e63202e87b3327f25b5fe421e890c5f06bcdbab701836897c0894a74b10b1",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ReductionSeriesB2.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesCoverOfPrimitive.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3110,
+      "sha256": "410eb39479536a5af1ad361820b2e0469bf8579d8c97e42bcf74e622d675feee",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesCoverOfPrimitive.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SXdAll.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1669,
+      "sha256": "9b6e1f58a630892b233737de8a3c1222358e3b148cd3b7423eec116c6a685d66",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SXdAll.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Lv3StageMovesSpectral.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6306,
+      "sha256": "d10c591f2ea9980d6dcd69fd2c1bada8d00db142ec53b3bdc2e3602e72858fda",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Lv3StageMovesSpectral.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerUpStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2762,
+      "sha256": "47a4a4f29dd936ffb94464ba7c68c9b82c2d1c8c87d7e86c973cc2e710491b68",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerUpStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteLevelAndSecondStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1793,
+      "sha256": "36ae3a0894d61f4e71dc51ac05828a2c95b5cd33058ac78f32725d91037a1bde",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteLevelAndSecondStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MinimalKtypeOfLocalComponents.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4473,
+      "sha256": "1625a3cb6fb69526c4559dbe4245cf429f05e71d7ee72daf424efa027cea14a1",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MinimalKtypeOfLocalComponents.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SatakeParametersDeterminedAtUnramifiedPlaces.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5745,
+      "sha256": "894d7c4ac173a1df7b1bc94f4eed72a586d86eaf64448d3d1374517c1a405a6a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SatakeParametersDeterminedAtUnramifiedPlaces.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityBoundOfLocalComponents.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3426,
+      "sha256": "0de5059f16b8389d548167a734dfbcd07da6aff8f10bafbe0ec4eef3eb960266",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityBoundOfLocalComponents.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelComparisonChoicesExistAtAllPlaces.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 13042,
+      "sha256": "1d7633a687125e70c19b09f1b96836d62531448e763cb7c5e39d82b4081374f2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelComparisonChoicesExistAtAllPlaces.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTwistedCohomologyClassLift.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4593,
+      "sha256": "db31eb25a5815ce57e3376098580b2054f5130afb3a50752d9bbfa3fa96f024a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTwistedCohomologyClassLift.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RigidRawPacketEqPow.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2423,
+      "sha256": "e0774129d382144b9cb1ddd318919a48a0f7f824380757ed53a2bc531bf309cb",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RigidRawPacketEqPow.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RatInEig.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4916,
+      "sha256": "25e0f83618725aefbb84f1afac87a4d301815a2b4a728cc70a3c9658ce0f22ae",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RatInEig.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowLocPin.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1308,
+      "sha256": "742ebcb86c56f37078777667625ef5125d5c3541e43534d9df178296ddf9992c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowLocPin.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8042,
+      "sha256": "f9596e85c42411193ee6c1a86ef19ea1c6c1eef6decb6f3e52dd3ead03a13e01",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CGTrueT.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1518,
+      "sha256": "9db2c974f0df3a6f4b2fcddad483baed51e1145806765ce3d20b84b56acfc182",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CGTrueT.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MemberBuiltLinkedGeometric.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 7075,
+      "sha256": "bdf824334a0f95c42a79354605d3e11816f43d65f85c33d69ea617a88172315d",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MemberBuiltLinkedGeometric.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CenUsedOfCenReal.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6992,
+      "sha256": "ed951fa4c3fd7a81ff0d32e581e155fd11d2caad810374bc73f9d3e8193d950b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CenUsedOfCenReal.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CharacterChoiceData.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4054,
+      "sha256": "1eb6ebc5232d4c10145277e3d0590b42e4e7c216c36388f66eb326ee1afb916d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CharacterChoiceData.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CuspidalGaloisUnramified.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2962,
+      "sha256": "65669247e14e45b92e55ff41b824099d90b5dd9af62191583897c7920a2ed6dd",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CuspidalGaloisUnramified.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FinitenessOfHyp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 17798,
+      "sha256": "4d06530d75984501e5cae355cc704ca4f8d1c52779b077a883d8399b9d86e5c4",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FinitenessOfHyp.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CoreEq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2905,
+      "sha256": "9f22b4364ec2981ac4a5f9a10bdc03cc2765d48a3fd8b9c9a9b10a4930b10544",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CoreEq.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsRhoPtOfSplitting.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 23097,
+      "sha256": "10b11e76e6e2d854cf25b004106f7c52e202ae14efbb61da20483ba07615c9ac",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsRhoPtOfSplitting.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsComp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2151,
+      "sha256": "1b392001ebb23caf24c9babdb6907f090422aeaaafdef6d15ea33aca01661b11",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsComp.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/DsExistsOfDiscreteSeriesExists.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3797,
+      "sha256": "a81ad1da63db274d457a3dbcd676e5a49d2c90585e708a7c7d5e2c9ad74f9f74",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/DsExistsOfDiscreteSeriesExists.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/HarishChandraFinite.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8308,
+      "sha256": "5e072fe8c42326f4445d5dcaf4b11be8ae312b466d5bd9455eed932afe3f18e2",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/HarishChandraFinite.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/ExistsNormLeHeightPow.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6329,
+      "sha256": "989529f0c78ee871fe52db4fac9ef3f77e68975132577caab3ee5e7b9019f026",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/ExistsNormLeHeightPow.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/WeilRepresentationUnitaryPair.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 752,
+      "sha256": "1de1e534b167ce6ee7c65e25f96004f48bd30e7863485ba548308a7ff2ef2bf3",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/WeilRepresentationUnitaryPair.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/PublishedInputsThirdLayer.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1611,
+      "sha256": "6c63793f19960c7ce22a281f2cd5cc14c1c564f2a3c88c2dcf7f31549277099c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/PublishedInputsThirdLayer.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonemptyAllIff.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6862,
+      "sha256": "4fc1e480cf245c95c643a6ae63bad56d99f3639699479ebe209161b9300ffa13",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonemptyAllIff.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalLinkChar.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 600,
+      "sha256": "c65c3d7c142bbca36ddbe2e87fa4799a6c7bf3cce6fe4ff4a2991f89be1954c2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalLinkChar.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LiftToGlobalDescentData.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 404,
+      "sha256": "83784f4ab3f525ece5c398f13fe4d192bba01e7c7c05509babefb12a6a57d80f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LiftToGlobalDescentData.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RingSpecNormalisedCharacterEq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 33635,
+      "sha256": "6886e5dd980b032f12981d9577ce59cf506bb0ccc7375d0ee3afee18f679bb95",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RingSpecNormalisedCharacterEq.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DaAutRepSphAt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 233,
+      "sha256": "496de44ae80c3bdf7c1087be273d9ad12fc19d05c0d4d41205d3489638144702",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DaAutRepSphAt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/Divisors/IsRecTLocRecT.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1678,
+      "sha256": "cf5c6ea675fe48794e34d8a221fd64c29a95712acf6154de005f3394f7b3a006",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/Divisors/IsRecTLocRecT.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MtAdLStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2081,
+      "sha256": "12ab0e3ef9444568a93ca6cb7c636c85460fd23fb5826011b384b00c7a51da12",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MtAdLStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesAtOfExpRelation.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13980,
+      "sha256": "873056df186889754ef991d40634e634dabb698c76c6dfd141f160228e06a272",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesAtOfExpRelation.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HkRowLStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2038,
+      "sha256": "4a4c19226b2d9ebaa2dbb5cdde9e7e83fdaba82e0a4b43b8f3adefdfa41602fa",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HkRowLStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EigHkDatBackStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2048,
+      "sha256": "070ee98e038f42ea330dac913aebd1d910e80c71bdf9a1363889ded1cf03cdae",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EigHkDatBackStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaLStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2001,
+      "sha256": "be1bbb201014c914c7f50784b9d07db105f6dc2be476315caa5fe11703c2fa8a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaLStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GrpTieOfLCStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1829,
+      "sha256": "a2f3ceaeea141b7796296fc074a64081eb147abe2bb9e30d5fc1e72ed19efb24",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GrpTieOfLCStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TieOfTrue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1608,
+      "sha256": "a2b10f295e7420cc21d0388d8954aa5109cd18ee101af5111030c2bf256a1e8f",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TieOfTrue.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/BuiltEx.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1583,
+      "sha256": "ae360dcfb33f3a384dc9d1cde3bd6a7dd3c8530be615ff7f6c9b3484a369ea0f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/BuiltEx.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ThetaChr.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5962,
+      "sha256": "5f3ceefcb362546e864206ccef7dc7489c95316c04dabe77b1c08caffcdda31e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ThetaChr.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerTwoFamilyClass.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2698,
+      "sha256": "e8478f66e987b8242149a1962cb9353403430310c9d92473c33c4cc1d9c1f043",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerTwoFamilyClass.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesKernelFrame.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2238,
+      "sha256": "c3d440324d9158426ad4bb631c5933fb58b10cc36b58a19416d2b5e8b14864ed",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesKernelFrame.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesFixedValues.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2384,
+      "sha256": "1a043439f48acdc6c3e1dba763838084c57f305ef90d8f317e72c69471b37d96",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesFixedValues.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEqAlt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4242,
+      "sha256": "1d4e5beabaa8b69e9f732c28bbfc4e5648894a1c659819fba1ca2100b4d585d9",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEqAlt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistDataAgreeAcrossCoefficientsLocalized.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9647,
+      "sha256": "6e208410371713e510f772b00a95177cf532f9b57f03d1c95fb923441e7972ca",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistDataAgreeAcrossCoefficientsLocalized.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/NGalTied.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2106,
+      "sha256": "5b53da85baef159bce46ff4736d1637f3e2081d01bb483c843aeb3d4de6e28de",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GaloisLevelStructure/NGalTied.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/TiedRowLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1230,
+      "sha256": "f9a5c8021dd1fa9bfa0819e04c8a41094ff569976088a4f12da954f02f24f720",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GaloisLevelStructure/TiedRowLoc.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NAllCWithLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4999,
+      "sha256": "926d4922bacb308318651462a4084a412f13ddf28ccbace40de4c825f1b5e7bc",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NAllCWithLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalTiedWithLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3275,
+      "sha256": "171876d4417e114a2201cf6de58debe88d327223a3a0781bcf73db4a65bd7c25",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalTiedWithLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NTiedLocTiedOfBuilt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1465,
+      "sha256": "9d5d7a267e3a37eae5af572d7490dc6d4fddee7802833018f0e2d47d8cbb004f",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NTiedLocTiedOfBuilt.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TypesOpenWithLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2633,
+      "sha256": "62f7ff93ee18ebef3fe9cdf255ca46eae7caeb5041816aad471641adda120bf7",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TypesOpenWithLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NRhoTiedWithLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8279,
+      "sha256": "085ed99b7179eabd8858dc3c2c63890f7db3881a5dc0be1c3781cb006893af0e",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NRhoTiedWithLoc.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTwOpenExpRelStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1555,
+      "sha256": "42f446dd2579b01537296f4ec08d1ab9c7608a31b49584012b8c5d32fb420d79",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTwOpenExpRelStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ThetaLocalInputs.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1472,
+      "sha256": "8ae0e2ac330ad131b5c7cd6a2166eb3e53d89a6e6f4e3f24993fbcdbd45f5d9f",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ThetaLocalInputs.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/WeightsConj.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7311,
+      "sha256": "f990fcf0264e72e3f449f7feaae03c3fcd9cb7680ad3b40edebb999bdd84f1df",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/WeightsConj.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeLAdicParameterAbove.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1779,
+      "sha256": "81025a1a4f850aa842b1c4894dbecfe8fac4f587a2642aa202a4e86548d868e1",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeLAdicParameterAbove.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SideRationalHeckeDataStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2273,
+      "sha256": "bc9bd31276f3447b67ac698cb5602715d4782430248f0608218ef8bc4914b7cf",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SideRationalHeckeDataStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocAllExists.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4042,
+      "sha256": "83b2ccb0cb8b592c429761a43666b2c664cc725dcb9972bf700b5effff9c6a68",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocAllExists.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/IsPolarizedTwistAbsPow.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 25080,
+      "sha256": "fd94bbd65206d0b7fcf399cebb6ff0ad5a13bef6b813b7751576af5561e795ea",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/IsPolarizedTwistAbsPow.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BlocksUnique.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4254,
+      "sha256": "f82a33f8a6fa08ac7bd3eeed8d3d7f639041b89f4620c1de1fad28bf7033410a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BlocksUnique.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/Langlands.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4779,
+      "sha256": "a82916d5e90fdedaac71437878b1189335039c2da98d1f8d2b110351f76f31b8",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/Langlands.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroTypeInertia.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2315,
+      "sha256": "edeef8be534f05b693450c70f5ca86be1a87ffd2667dda37b8816a5ed45e2c88",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroTypeInertia.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/AdmissibleDiscreteSeriesOfHasParam.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13691,
+      "sha256": "0d83eb8bf4740fa1e9015c12ce4253b6abb6d95f70a8318816a3fffa87166f45",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/AdmissibleDiscreteSeriesOfHasParam.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/HasDRepIffHasDerivAt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5908,
+      "sha256": "308895426314bd3f83f5d00d31d2ed07f460259a916e234e4effc6cb97d348b5",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/HasDRepIffHasDerivAt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/HarishChandraModulesOn.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11624,
+      "sha256": "79a7b9bde49ab7f8efd12e6c0c8456ccd08b2616ff82a9aea78e350531742fe5",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/HarishChandraModulesOn.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SecondGOfHalves.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 908,
+      "sha256": "1528a5869d5f43ccdffe4f6fab54f3ea2c61b5750e695231d66b3ddd9521cb5d",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SecondGOfHalves.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupTiedOfMuIsW.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2611,
+      "sha256": "ff895c163e8659e0a253636d2aad4850c1664fde5f3c5b1f1b5e1715c6e1a700",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupTiedOfMuIsW.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GensJAlgebraic.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13922,
+      "sha256": "8a8731e9a642572bf2caebc3f859381e4f60146bcd9f11433a9b40aeacce773e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GensJAlgebraic.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistedPlaceIndexMemFirstPairOfCompatibleChoice.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1305,
+      "sha256": "bb4d2dc1b9e20b065b525c448dc0635651dca3c537adaf7ddf841464efb44348",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistedPlaceIndexMemFirstPairOfCompatibleChoice.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ImportsBis.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 632,
+      "sha256": "f68142e9812e887d5ebd2bd48a107bbb764499549a87d20819a831dc09f18b7f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ImportsBis.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ConstructionStartingChoicesOfFineAdelicDataStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2959,
+      "sha256": "84cfad88846c706380d3707a5bfaf1a9b460a56e52bc35a68dd57922696ef638",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ConstructionStartingChoicesOfFineAdelicDataStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsExtTwistedPlaces.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8889,
+      "sha256": "9fdeae7598305e1240ab6c0a10010864df931bd238f87d4feb5ea987da95bd4b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsExtTwistedPlaces.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StandardReadingTransportAndExtensionTransStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3218,
+      "sha256": "41205d9124a8e972cdcb20ddc1b24bc62f68abd6d0952963e26bf7f4dce413ab",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StandardReadingTransportAndExtensionTransStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistDataAgreeAcrossCoefficientsSymm.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 17469,
+      "sha256": "abd53a3fece60d09fba937bbbc2f8fe46fcf94dffcdf928234005b7c937eb383",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistDataAgreeAcrossCoefficientsSymm.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ValPosIffMemExample.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7093,
+      "sha256": "56f113f9755a60e13480d08983cfaa6c4fd57327e38416328fa73495540a1abe",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ValPosIffMemExample.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RawPackEqPow.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7945,
+      "sha256": "f8e0c02e1e46697194b578dcd72bee51f9b331a9fe748d4048006d0bb83c1b30",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RawPackEqPow.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GoodTwistOfSeedCharacterPowersStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1830,
+      "sha256": "b9779619bdbed40390151c123d26a78f5ada17eca2aef3267a89dd06cf8ae7e9",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GoodTwistOfSeedCharacterPowersStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReadsAtOfPlUnder.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3217,
+      "sha256": "769af1f66e107db5ac2f1f77cb962187c102a9588ad95d1d85e5c0dfecf4061f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReadsAtOfPlUnder.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/BareStatementOfDiscreteSeriesStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1219,
+      "sha256": "90998c9ed8f27f5806eded4a9c87253417a9b78bba66df20bb020938fd60340e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/BareStatementOfDiscreteSeriesStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StatementAOfPhotonCompatStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1158,
+      "sha256": "36f8dff598119abc84c363c497dc885cd667e7745e5c0b84be6f985f26a0bdb8",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StatementAOfPhotonCompatStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StatementCOfCasselmanWallachStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1606,
+      "sha256": "d2a92e7e1feca69a48c922fe2dc5e7175519cc4dade3d82d161a2b8b99249536",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StatementCOfCasselmanWallachStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MotiveBoundOfSeriesStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1189,
+      "sha256": "5b9b96805e86d29f71c348fa0cd5dbbaa18be488f1ce2a5b71a3dae53e17e99a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MotiveBoundOfSeriesStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8544,
+      "sha256": "fe767704c5cbbeac034e64889b62432c4688d2a3cfee347ca6b69ca1ef397483",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/TwistDataAgreeAcrossCoefficients.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19789,
+      "sha256": "a9720ff5c95936dc6b8f6d7c07871615437947454bcd512d0525d6ed83b910ab",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/TwistDataAgreeAcrossCoefficients.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/Divisors/TwistedPlaceChoiceLiesOverPair.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 21542,
+      "sha256": "0e5eb9873ae432af71e39a54e7503e4185c7a515f8753215d43bf626011523ff",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/Divisors/TwistedPlaceChoiceLiesOverPair.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CoefAEqOfHeq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10208,
+      "sha256": "e253914d5c854a4a6f65a191b89f99df201deeaa67e5fe57475cece3add98084",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CoefAEqOfHeq.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NotMemSqOfRamificationIdx.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 26521,
+      "sha256": "22fd73eb579d88a58c637c2d4c7cd6f012125cba218aaf5b2d5638068f6e298f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NotMemSqOfRamificationIdx.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AllReductionStatementsHold.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4591,
+      "sha256": "3e3439bb30f8effb81f26360411b74d36915e2205188097e8e456955392ff76a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AllReductionStatementsHold.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/DiscreteSeriesUpqUniqueOfClassification.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1371,
+      "sha256": "3d8646a6428540a72a9b5d72cd10886790d516cec89f5ab6b9a5a1f9002b83f4",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/DiscreteSeriesUpqUniqueOfClassification.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MultW.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3834,
+      "sha256": "afb3528c9e4015435f3ed638e9fd4be2b765c5f1b099298383d9e6e8f9da4a03",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MultW.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MultiplicityOfPrimitiveStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1091,
+      "sha256": "663ab5cc5d5deb06775a08f02db02c61969839723559533083877a882bc71502",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/MultiplicityOfPrimitiveStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SRatOfIsotInternal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4179,
+      "sha256": "3ca812a5947cc820b5e6a573eeb604250dc6214375b90dd546f69b09c0570694",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SRatOfIsotInternal.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FormsCAtState.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1880,
+      "sha256": "43a2a8b0dc61ac3e016c3749fbed091d117e4d8bcee115a4685bd2d16493b68d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FormsCAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTheta.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7801,
+      "sha256": "691ff27705c1937987960e70daea4c0e53c67c78deea7e35aff597d9d7af1c9f",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsTheta.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeAtState.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3235,
+      "sha256": "128de93ea52c704b764c3c9a94e2b41e9a2c78bc555818d758eda0c8357b0b12",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IntCAtStateStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2538,
+      "sha256": "674750bcc948fdbae5d9cb72f4f0e76e6b72358b5974ca9057fd96f491fabd36",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/IntCAtStateStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EigenspaceSpanOfIsotypicInternal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3232,
+      "sha256": "8d938c0c082c6bf6e8c6c8240cb2e92a6aeabca8bcd089c1898d3302ae65309b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EigenspaceSpanOfIsotypicInternal.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/IsotOverRows.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4053,
+      "sha256": "09bcde80c52b4e45dbcab3ef930da24e625acb78fcdc54bede4bab754c4ee980",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/IsotOverRows.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/MultiplicityCoverHypotheses.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2178,
+      "sha256": "9ff121aced8e2ec883ea6253c9c94db55906b44856c30d36382bfdd5fb40b416",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/MultiplicityCoverHypotheses.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ParameterStatementAllStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1641,
+      "sha256": "439f53b702c1424ff515f09e6ce8044893b915e22e3333303e5f4c5182160fa1",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ParameterStatementAllStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ParLaws.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2697,
+      "sha256": "c1a00d61d94efcaacc8687a6d7083f02310e2a9d667875d69fe0607cddee1573",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ParLaws.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BaseChangeLocalCompatibleAllPlaces.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4363,
+      "sha256": "cf9473381b26dcc4b6cfeb6e6afe41d7a30011c6bea98b1f72f6f9012b0835b6",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BaseChangeLocalCompatibleAllPlaces.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SphericalLocalComponentAtSmallPlaces.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4837,
+      "sha256": "c8f3e9454e832241d0170725db9321232b4e1fcc23e228ac928f59a05a196450",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SphericalLocalComponentAtSmallPlaces.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NOProd.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5282,
+      "sha256": "c0e013adf97ac0ba3a728bbd04828dd396ef169123c334ce4c29c1f4364970c2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NOProd.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Auxiliary.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1833,
+      "sha256": "f053402b543d034e1193ffa794bce48fe4b5ba44680023207223c1f710d71683",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Auxiliary.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GoodRowCuspParamOfLiftStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1673,
+      "sha256": "f9947a962d1cbefd2cf7fad57494b61cac4effea41007be2ae0f4e9c70e25113",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GoodRowCuspParamOfLiftStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SEta.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3371,
+      "sha256": "7596ac7af1bd59793f5ca5f55d249aff69bfbfd6c22f2ddd1b9bb7515a2f84d2",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SEta.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NonGaloisEtaJMem.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7552,
+      "sha256": "612880e64ee874c6ea9dd6b59e0ca63bc6f231ebb37a4fa6a1ecef9e5e91344c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NonGaloisEtaJMem.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FixedFieldStarStableOfThirdJump.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2759,
+      "sha256": "ca53bddfe0ad6a0796fd7789640cac04e582827d3b7169612056916b06efeb5a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FixedFieldStarStableOfThirdJump.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RamificationIndexIntegralOfThirdJump.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2607,
+      "sha256": "77623a983b4cfeb865efffaf930c050d3a98a9c4a69e873b2c1b52af84f22267",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RamificationIndexIntegralOfThirdJump.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberAuxiliaryPrimeSplits.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2931,
+      "sha256": "528cc16351b4e1770a75aebb597c477bb3c66e9cf13c6677cd8d9819a47dc2d0",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberAuxiliaryPrimeSplits.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsSplitPlaceByChebotarevDensity.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2780,
+      "sha256": "93bc03fe2ed77477d996e2b7bca95c5bc087040029d758b289e749324e85820a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsSplitPlaceByChebotarevDensity.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsGaloisRepOfCuspidalAutomorphic.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3986,
+      "sha256": "a17cbf47c036700d5f1f1bae00da372d678c677fc61da3e0a419f437dfda9574",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsGaloisRepOfCuspidalAutomorphic.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOLaws.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3256,
+      "sha256": "60ce87db71232f6effc977f8df28882f66044dff4af9dc44bdd72eeaaa773746",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOLaws.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOLawsStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2563,
+      "sha256": "df8d331b28c67407d8cf5475fe2b53aeab405fe6a6ebae1564f12f708a4e5195",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOLawsStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOHypOStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2188,
+      "sha256": "e4873d1e7f3d4db6eac9f1be592ff841edbfa1e7e33d31d2a8ba1ac1ec90deb7",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOHypOStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBigOSplitStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2207,
+      "sha256": "a208850f9490f4239cde93352838f635b5d0e908e7ec7a3ff8ca877d45590c29",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBigOSplitStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOTakenAllStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2666,
+      "sha256": "b92a6dfe09016870a5b385c7ac02a7e932f980d2a289eb8cc94ed3c02a560e64",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvOTakenAllStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StepsPin.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2574,
+      "sha256": "013deea333f5dd65b7315a0cb90f28159b900f3c290705020e71f8175ac00a8a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/StepsPin.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionToLocalLanglandsAStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1195,
+      "sha256": "04f8894e7c73047b518715430747c31cd19eb745e7163cd2f5914008f1b8e57b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionToLocalLanglandsAStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RayPrimeHostIntegral.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4160,
+      "sha256": "f433a88524f8e8f4251c212ccf2ed7493ab748e6846cf1638d52370aa4257ef3",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RayPrimeHostIntegral.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowDepthOfPrimitive.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2850,
+      "sha256": "90be73512839f64e754e970589011c37194f34f4c4d1a8355520a2ce89dacd3c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowDepthOfPrimitive.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ConclOfGrpStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2994,
+      "sha256": "e4e932d370016d7c2a7e562ee1d5eafffb9119f1aa51a693b606e29188f500ae",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ConclOfGrpStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LowerLeftValuationEqZeroAllStages.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2130,
+      "sha256": "1d2fda54e85db7bf319a3fb5bfa03ae508abdebad715239ef75a5a09057f7e6c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LowerLeftValuationEqZeroAllStages.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsEigTrue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2138,
+      "sha256": "c5fb5fc3a0416679884c92ec314de42af5f7e0fb1b399751fae6a1f519ffc0ed",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsEigTrue.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalPolLiftsOfSplit.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5503,
+      "sha256": "80c6348d77c5969f2363e5f879a058fce7181469159851ce41f41ef92971c2f4",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalPolLiftsOfSplit.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionSeriesB0Statement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1131,
+      "sha256": "87a43ea7a8d9133ac4461acc74a97e80e055cd3d4ba037de4c23bddcbc270703",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionSeriesB0Statement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsGridAtMember.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3243,
+      "sha256": "ef2ba3c2d188d0bf67f6c860a5b717225c48f9832b01f162f338c40cb9e42427",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsGridAtMember.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalExOfCgTrue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1401,
+      "sha256": "b5e330e8c7fb31c02bddaa30c9358f1ced2357f8c36b086821f4058bea7e2810",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GalExOfCgTrue.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SecondStepStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2859,
+      "sha256": "40e48ca1823ae46189b79850f8fa47d2780448b0d0b442dbe33afa72302766f5",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SecondStepStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RestageStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2507,
+      "sha256": "d53a5645ad4cbfd993ff28a8ffcdbee199ebf63ca0cf691768743606c5392f21",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RestageStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SecondBoundOfPrimitiveStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1095,
+      "sha256": "82c50aa9657bfcc77f10e83b168784d0f05dead01ded1771459cf0ef97b3464e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SecondBoundOfPrimitiveStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemMatrixGroupIdentityFrame.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2269,
+      "sha256": "15a6949baa06055bbf1ca587280d980b6d83bdbe36bd19ab2b42224cdc6ab355",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemMatrixGroupIdentityFrame.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesCopyEmbeddingOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8236,
+      "sha256": "e693b43ea86e686da0d6108db073439b0aa4543a91f1fe41d15d4d5328078a18",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesCopyEmbeddingOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RestageCopyRealStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2527,
+      "sha256": "51c7fc872839ba56acb61eec2ca6496615052c4beb9d3ce60b012b68a7bf77dc",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RestageCopyRealStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionSeriesB2Statement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1096,
+      "sha256": "2ee770fa0fe9a984f29cf34aedaa6d17f4ff980243dd49d21f805c6be5039d6a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ReductionSeriesB2Statement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricHeckeLawsOfMultiplicityLowerBound.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4231,
+      "sha256": "a8330753306756aec239f48dae64312e91871e3098e0c7f797c26e59204b2014",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricHeckeLawsOfMultiplicityLowerBound.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Lb2OfThetaTwistStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2196,
+      "sha256": "08fa4e44e5fdb48cc1d366a09bab914073510e00862074460a80d6b3b9a287e6",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Lb2OfThetaTwistStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SeriesCoverOfPrimitiveStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1675,
+      "sha256": "ed9a81e54e4d9c745daecb0693840ea0b5a6eef0ce7cbdc0a5902397f0da02cd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SeriesCoverOfPrimitiveStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ScOfSck.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1771,
+      "sha256": "b9c1b4b66a71518ddada2076ada7273b04d2c572c18190710f020b5fd7703d4b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ScOfSck.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/MemLevelTypeFormsOfUniversalCoeffReading.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 29726,
+      "sha256": "f8e8081cd0dbe7126ce67177347bf7f243de684802577c735c1e773b0a65f897",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/MemLevelTypeFormsOfUniversalCoeffReading.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/IsPrincipalMapOfAlgHom.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5954,
+      "sha256": "04bcdb8b2d523db45511fe8d526ea81e815561093529c5cef73f244c6f571e25",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/IsPrincipalMapOfAlgHom.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/PublishedFoundations/NonemptyAlgHomOfIsRayOfDvd.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 17131,
+      "sha256": "26fa77c8ac30cdbab27c37462ea6dcadd22f00a354f6799d92da958881acb6a3",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/PublishedFoundations/NonemptyAlgHomOfIsRayOfDvd.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/ExistsUniqueHcharOfFiniteOrder.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 25179,
+      "sha256": "8297c5822c5dd0e82383f41c872a915a5ae4be81d89f3202aefcd2a19abf8d19",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂/ExistsUniqueHcharOfFiniteOrder.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/WeberRayClassFields/WeberRayFieldSt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 757,
+      "sha256": "216d1a7beb8bcf3fb82dc13b565fb94f19b64f3590d3710d8b237dae6a417e69",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/WeberRayClassFields/WeberRayFieldSt.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GlobalSchurBounds/ThickPlacesCorollaryOfAnyTranslate.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 121918,
+      "sha256": "e53a3678fb09fff3429bae30bfa65ac93b2c5ca36a1100bf8f0f1f8cc52e00fd",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/GlobalSchurBounds/ThickPlacesCorollaryOfAnyTranslate.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PositionMv.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1686,
+      "sha256": "a3ca3c7053de5872fcaad2f921b72f21ebf3e38160a7de77d01b28f266ecb08a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PositionMv.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1284,
+      "sha256": "54dbd62bbacc19db2294f1c41fd28663522acf498a732f9328ed2086b08b9e38",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/UpLReStage.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4325,
+      "sha256": "5678cffa17f99b673096b9aa430ba1d695e6805350029d5d6688eb42354b7022",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/UpLReStage.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GridStaircaseLatticeFirstColumnTransportStages.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10304,
+      "sha256": "9e2034605daeab76109dbcde7b9a343501a2521b3e715927c33e720a177e30e4",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GridStaircaseLatticeFirstColumnTransportStages.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsKeptChoiceUpperLatticeStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2820,
+      "sha256": "494d49f52eabac4fbac49914e079295d84c4c2f0c581092185c02e614eca7f2a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsKeptChoiceUpperLatticeStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AdelicRowsDivisionTransportSpectralStageLatticesStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2609,
+      "sha256": "3de096057ffa5cbe104af460de536f46162673b6477b578b7efe835db5a44fd9",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AdelicRowsDivisionTransportSpectralStageLatticesStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerUp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5405,
+      "sha256": "164aafd6864d39f9967edbde7c152725156a73b7449c53aa0fdf6a2b742c5044",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerUp.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/MinimalKtypeOfLocalComponents.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4494,
+      "sha256": "da1ff8f075fc8405435631e957f9bd6247485b3407949fe95b0e00d1dbd9c4a2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/MinimalKtypeOfLocalComponents.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityBoundTransferOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5883,
+      "sha256": "f62ad7c28bc47c7cdda202e9fa1252b6ba68df64f0eaf5ace98230759f57882e",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultiplicityBoundTransferOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PointsPreservedUnderLevelTransferOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4718,
+      "sha256": "6ec58d6cfb4963ef341554b3941b83b089018a0a1cbc52b7f37c1a2bfb2861b7",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PointsPreservedUnderLevelTransferOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NonGaloisExistsChoice.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5434,
+      "sha256": "9ad1e37ba18f3f28751488c6e6814d96156e7732c5d3c2e0b448df44396b8dae",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NonGaloisExistsChoice.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TypePlacesCoverStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1821,
+      "sha256": "afa3471272526a1c823616d448c518dfed41548573a9f8eb7e6a6762d094d58d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TypePlacesCoverStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BadPlacesSubsetRamifiedPlacesOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5835,
+      "sha256": "015a86479b00741012435744902c000c7610b4a05228f2ce4528113c554559bf",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BadPlacesSubsetRamifiedPlacesOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ParahoricShapeTransferOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7066,
+      "sha256": "446a2feb78c38857f4b2f96a2efb6c9b8d4225f00903c386c8d79fbb89b8fb90",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ParahoricShapeTransferOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelUniformityOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10362,
+      "sha256": "73fde324fa16a26818ab9cfc95a5f0feaaeeedfa8bd910e65851be8c2d9cfce0",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelUniformityOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsJointLevelOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6337,
+      "sha256": "bb5211b479fdc5351f285017b00c1564094a939234b0b77cef33940259db17f5",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsJointLevelOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CellWeightsAdmissibleOfCmDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9942,
+      "sha256": "bdc2aaca7d5d5cd91ba9ded71b7e668c19a84bd3e0a13cf781f75cfa221fc36e",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CellWeightsAdmissibleOfCmDatum.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GaloisRepOfTwistExistsWithProperties.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7599,
+      "sha256": "fb8cd8050b677264f1b59b6d5567363fcfbaa3bef5088e9c9346d8b640a50439",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GaloisRepOfTwistExistsWithProperties.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11268,
+      "sha256": "41563ec29f4fd3060f7f34377f50104b0694395d7cff3b48465010be6aebaccc",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/SplitRep.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 754,
+      "sha256": "d2ccca8514083aa0424b2c8a04968edebc70701326e2e479213a6c23e9fb7aa5",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/SplitRep.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/NormalizedHeckeFactors/EMtLevel.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4652,
+      "sha256": "5c07425366f08a2a2c06f388b66111ba83623be98324f6a722c49a30413b1e16",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/NormalizedHeckeFactors/EMtLevel.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/TensCastR.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2702,
+      "sha256": "342ef6cc2222dde5650f72a6f26a08f2486dd30bf704f7af5b3d653e4f14a21d",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/TensCastR.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/RatDatOfReal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9437,
+      "sha256": "0ade7e495e2c254a012e1fde80f6927db84242ad54319d3bfaeda319d4a47063",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/RatDatOfReal.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SubsetTwistExceptionalPlaces.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9388,
+      "sha256": "867e8e751d2b913906482749c1fec779e873d92814732c7c3bb56f2760ddc8dd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SubsetTwistExceptionalPlaces.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/NonemptyPtsOfReading.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 27627,
+      "sha256": "7b8a7bb1d2eb51bfce1c670f4eb01e9d3e6f4b82d07f088733566858a5949d52",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/NonemptyPtsOfReading.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsWildInertiaCyclotomicElement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9147,
+      "sha256": "fb66f6a210b370612588a33ede99943890eaa700a85b250fb79725010982dd54",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsWildInertiaCyclotomicElement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LabConj.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 946,
+      "sha256": "f72f95d5b9255e2649c1eec61b4ac90f25558d990ebcf060719e0be110c103a3",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LabConj.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CGTrue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1742,
+      "sha256": "6fedc7b3928ac9f755460ea987903a85bbd1e70f55da1f8de5794d3d3753c4aa",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CGTrue.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GeometricParameterUniformStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4091,
+      "sha256": "def19a22f8a61a7daf56cf9872c0d341cfe8a023186d7b7011e41771f4733773",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GeometricParameterUniformStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AutomorphyOfPublishedInputsStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4586,
+      "sha256": "cd059ce2f36dc08b8f5c77dfd51e1cff3fd970f57bdacb9d326d89e6185f345d",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AutomorphyOfPublishedInputsStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Lv3StageMovesSpectralStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2048,
+      "sha256": "896da9263f9d3eebab856fdc05be09924d1f67d58bed95cb2f32bc3fd0a8944a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/Lv3StageMovesSpectralStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusionStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5601,
+      "sha256": "78a9b2b02cf31a8e959d706bb8cc15925d0cda5252172ccb05f3f9430c4b6ef6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusionStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SlotStageMovesGeometricStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2009,
+      "sha256": "31bc547307511a0f8ce16df02d37cdde0976372373d4ee0c0f19fea4965c8dc2",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SlotStageMovesGeometricStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExtendsFineAdelicDatumLargerFieldOfPublishedStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2624,
+      "sha256": "a9dcbe27a82bcb7ff0e0d91949b40773ea22d791e45faf7d01742224320df2c0",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExtendsFineAdelicDatumLargerFieldOfPublishedStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/HoldsFromPrintedInputsStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2327,
+      "sha256": "7e64467d0f417e40aeb2cfee46af65a94c643cdf5a56bf41cba79bcdd9dece74",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/HoldsFromPrintedInputsStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsTypeGroupBlockLift.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8100,
+      "sha256": "865d9939a479410e363e182299f8befbfb8148adb178f6f2968fbd6ab241eae3",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsTypeGroupBlockLift.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OExt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1366,
+      "sha256": "1c248d5af9611e156d50f4b7e45bfd156d365e91c43deccb9c9d4a9b3fba6e6d",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OExt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/GoodIdempotentFixesOfOnlySeriesOfLabelActs.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11205,
+      "sha256": "685725fb015881805221d24ecae7693cfbfc58ac394a2eca521bdfb88f8329c1",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/GoodIdempotentFixesOfOnlySeriesOfLabelActs.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/CMTypeEmbeddings.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2663,
+      "sha256": "c03844dbfd70f5a2c94a31b76f2cf606d3e1456f17ae32792f4f8488b1d8b403",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/CMTypeEmbeddings.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/ExistsCellOfIsSubquotient.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19521,
+      "sha256": "b4c15a02799ec2356185bb053930eae9eb77d59357793cf9455a630a310a1d28",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/ExistsCellOfIsSubquotient.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/GreenCuspidalIff.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 305,
+      "sha256": "d0cfb1e30ec8d50ea9884149c674ad83875f89e75c638ba992ff68fa254ead8a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/GreenCuspidalIff.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LabelDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6059,
+      "sha256": "3ecda7efa98f4a1abae048b7262f22be37610901a9bcd987e7a3742b202f7cb6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LabelDatum.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroInertia.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1575,
+      "sha256": "fe469632a8b0280124cb2d112b77b9776e0c46a7de0e2c160d85a3ff12036e58",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroInertia.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ExistsIdealsPrimeToEqSpan.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 29166,
+      "sha256": "e619072e8c3392212e93df33150cac55743b5aa110b859dc4fc5ab2eac428a73",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/ExistsIdealsPrimeToEqSpan.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/BaseChangeDefiniteUnitary.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11412,
+      "sha256": "774fb0c3a831f1251bb1170b7c08352f5edfcf155796f4e41ff817ee410f765d",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/BaseChangeDefiniteUnitary.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/IsNormalisedOfIsDiscrete.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10172,
+      "sha256": "b0226bb72ffe8177e87ea3887a21f88b9036d16e7fdf952b19abc01866b009dd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/IsNormalisedOfIsDiscrete.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/IsComplementaryProductOfIsCuspidal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6557,
+      "sha256": "7e13b824bdf281b5560a5a956b01baaaec3905df71dc56301030af3630c49c69",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/IsComplementaryProductOfIsCuspidal.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/StandardCosocleGL.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 587,
+      "sha256": "b8db52942cb2e84b7369dc8e6800c9fde51fe46ada18a97b878d76b89d7acd18",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/StandardCosocleGL.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/GaloisSideTwistedSelmerAuxiliaryPrimes.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10798,
+      "sha256": "2b1cf8c071fe1e6b80e5f34d5d100542332b1761740b1970f5a1c3d64c72469c",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/GaloisSideTwistedSelmerAuxiliaryPrimes.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisGeometry₂/HoweUnram.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1312,
+      "sha256": "1fe2955eaa2bdd262ccd3601d7926965b778cd28eebcbccdaf939336325aa883",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisGeometry₂/HoweUnram.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/RationalRayLevels.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6901,
+      "sha256": "eb494c06ae68ad8e2a8c65959ce64e1084560cb7a2ec874617d32ac6016bed82",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/RationalRayLevels.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/TwistSeries.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7490,
+      "sha256": "510ed67da0026624abf978f58305799b881a88771452742919ccd18f914c01b9",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/TwistSeries.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/HeckeValueIntegrality.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4268,
+      "sha256": "59d50dd3383e561c34e9ac3f8369607faf1af695e02cf208ccce934e48cf424b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/HeckeValueIntegrality.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/SplitOffDetection.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4106,
+      "sha256": "03a9381d4bbc6b98cd2c2605da23d6af42a71be35a75d233b3794c79c6a697e3",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/SplitOffDetection.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Statements/HeckeThetaIntegrals/HkSupSizedOfHkSup.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7469,
+      "sha256": "827110ec34e63c24562937ae8f7915381057534dc645350824e1ae5189148408",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Statements/HeckeThetaIntegrals/HkSupSizedOfHkSup.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsValueTiedOfIsToricElt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6746,
+      "sha256": "256d31c7c17082bd81d9045352f0c901c28285edcc3164d78eab9d13dcee0105",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsValueTiedOfIsToricElt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/LFunctionPositiveConductorFourEight.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/ThetaMod.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/LevelLetterCocycles/SumRepresentations.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/TrivialLocalCondition.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/DistinctAbsIrredConstituents.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/StringRepresentations/AllCuspidalOpenBound.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/AutomorphicGaloisAdmissible.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    }
+  ],
+  "selection": {
+    "target_module_priority": [
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.FinitenessOfHyp",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsSeed",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SameGaloisLevelExists",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SettingsFormsExistList",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtensionWithOrigin",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.AllStagesAtMemberOfSpecializations",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SXdAll",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OrgOfKept"
+    ],
+    "direct_reference_modules_lexical": [
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AssembleLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.BaseDataEmbeddingConj",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CenUsedOfCenReal",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CmQuadraticFormEqAlternatingForm",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DsigEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FieldValuesMemFixedField",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsAbsIrrCharCompIff",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.JEvExists",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LatAtLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MovedReadingSameMapsBaseReadingAgrees",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimes",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimesLifts",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBaseCondFalse",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NuInRange",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OmPinsTr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PlaceModelImp",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ReadPk",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RealIoX",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RhoDetPrimeEqMuTildeMulChiPow",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingSpecNormalisedCharacterEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RootsOfUnityRingLeWittIntegers",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SettingsFormsExistList",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SubsetTwistExceptionalPlaces",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ThetaChr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TiedColumnData",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TrueColumnChoicesHeckeCharReferenceEqOne",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.UpLReStage",
+      "Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield",
+      "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AdmissibleIndexBoundAllPowers",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIsScalar",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GoodSetupCountEqZeroOffBadPlaces",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsSplitOfMemAdmissibleConjugatePairPlaces",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemLevelTypeFormsOfUniversalCoeffReading",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AdelicRowsDivisionTransportSpectralStageLatticesStatement",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsUnlocalizedSaturatedState",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GridStaircaseLatticeFirstColumnTransportStages",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqUniqueOfClassification",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DsExistsOfDiscreteSeriesExists",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.WeilRepresentationUnitaryPair",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn",
+      "Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.MultiplicityCoverHypotheses",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CoreAltAltBis",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtensionWithOrigin",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.FinitenessOfHyp",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HeckeOpen",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.IsotypicOverAllComponents",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LayerUpStatement",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LocalParameterStableAtUnramifiedPlace",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MultiplicityOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NormChoiceOfExtension",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OrgOfKept",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PublishedInputsThirdLayer",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionSeriesB0",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionSeriesB2",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionToLocalLanglandsA",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RingSpecNormalisedCharacterEq",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RootsOfUnityRingLeWittIntegers",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SCuspOfParSt",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SLarge",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SRatOfIsotInternal",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SXdAll",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SameGaloisLevelExists",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SecondBoundOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SeriesCoverOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SettingsFormsExistList",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.StepsPin",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ThetaDataExists",
+      "Formalism.LocalRingCardinality.DataArith",
+      "Formalism.LocalRingCardinality.DataHost",
+      "Formalism.LocalRingCardinality.DataNChTie",
+      "Formalism.LocalRingCardinality.DataNChoice",
+      "Formalism.LocalRingCardinality.DataParams₂",
+      "Formalism.LocalRingCardinality.DataRows",
+      "Formalism.LocalRingCardinality.DataSpaces",
+      "Formalism.LocalRingCardinality.DataTheta",
+      "Formalism.LocalRingCardinality.Params",
+      "Formalism.LocalRingCardinality.PrincipalHermitianLattice",
+      "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+      "Formalism.LocalToGlobal.BesselHermitianTheta.IsAutFunDef",
+      "Formalism.LocalToGlobal.Columns.AbelianHostFieldConditions",
+      "Formalism.LocalToGlobal.Columns.RowForms",
+      "Formalism.LocalToGlobal.Divisibility.DefGroup",
+      "Formalism.LocalToGlobal.Divisibility.HeckeRI",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Formalism.LocalToGlobal.IndefiniteReal.ConcretePkgSpec",
+      "Formalism.LocalToGlobal.IndefiniteReal.DoubleCosetOperators.RatDatOfReal",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksChar",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksDefs",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.ZeroPartEigenvalueConvention",
+      "Formalism.LocalToGlobal.ProjectiveLattices.CuspidalL2Subspace",
+      "Formalism.LocalToGlobal.ProjectiveLattices.EmbKCoe",
+      "Formalism.LocalToGlobal.ProjectiveLattices.FamilyUniformisationBasePointOrthogonalBis",
+      "Formalism.LocalToGlobal.ProjectiveLattices.PartitionExtendByZeroAntitone",
+      "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+      "Formalism.SharpRestriction.LevelLetterCocycles.IntegralHeckeForms",
+      "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+      "Init.Core",
+      "Init.Data.Rat.Basic",
+      "Init.Data.Zero",
+      "Init.Prelude",
+      "Mathlib.Algebra.Algebra.Rat",
+      "Mathlib.Algebra.Field.Defs",
+      "Mathlib.Algebra.Field.Rat",
+      "Mathlib.Algebra.Group.Basic",
+      "Mathlib.Algebra.Group.Defs",
+      "Mathlib.Algebra.Group.Hom.Defs",
+      "Mathlib.Algebra.Group.Nat.Defs",
+      "Mathlib.Algebra.Group.Pi.Basic",
+      "Mathlib.Algebra.Group.Subgroup.Defs",
+      "Mathlib.Algebra.Group.Units.Defs",
+      "Mathlib.Algebra.GroupWithZero.Action.Defs",
+      "Mathlib.Algebra.GroupWithZero.NonZeroDivisors",
+      "Mathlib.Algebra.Module.Defs",
+      "Mathlib.Algebra.Module.Equiv.Basic",
+      "Mathlib.Algebra.Module.Equiv.Defs",
+      "Mathlib.Algebra.Module.LinearMap.Defs",
+      "Mathlib.Algebra.Module.Pi",
+      "Mathlib.Algebra.Module.Submodule.Defs",
+      "Mathlib.Algebra.Module.Submodule.Ker",
+      "Mathlib.Algebra.Module.Submodule.Lattice",
+      "Mathlib.Algebra.Quotient",
+      "Mathlib.Algebra.Ring.CompTypeclasses",
+      "Mathlib.Algebra.Ring.Defs",
+      "Mathlib.Algebra.Ring.Hom.Defs",
+      "Mathlib.Data.Complex.Basic",
+      "Mathlib.Data.Finset.Defs",
+      "Mathlib.Data.Finset.Empty",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Data.FunLike.Basic",
+      "Mathlib.Data.FunLike.Equiv",
+      "Mathlib.Data.Matrix.Mul",
+      "Mathlib.Data.Nat.Basic",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Data.Set.Basic",
+      "Mathlib.Data.Set.Defs",
+      "Mathlib.Data.SetLike.Basic",
+      "Mathlib.Data.ZMod.Defs",
+      "Mathlib.FieldTheory.IntermediateField.Basic",
+      "Mathlib.GroupTheory.OreLocalization.Basic",
+      "Mathlib.GroupTheory.OreLocalization.OreSet",
+      "Mathlib.LinearAlgebra.DFinsupp",
+      "Mathlib.LinearAlgebra.Matrix.Defs",
+      "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs",
+      "Mathlib.Logic.Equiv.Defs",
+      "Mathlib.NumberTheory.NumberField.Basic",
+      "Mathlib.Order.Defs.PartialOrder",
+      "Mathlib.Order.Disjoint",
+      "Mathlib.Order.Interval.Finset.Defs",
+      "Mathlib.Order.Interval.Finset.Nat",
+      "Mathlib.Order.SetNotation",
+      "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas",
+      "Mathlib.RingTheory.Ideal.Defs",
+      "Mathlib.RingTheory.Ideal.Quotient.Defs",
+      "Mathlib.RingTheory.Localization.FractionRing",
+      "Mathlib.RingTheory.OreLocalization.Ring",
+      "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PushInvertible"
+    ],
+    "priority_module_fragments": [
+      "Finiteness",
+      "Extension",
+      "ThetaData",
+      "SXd",
+      "OrgOfKept",
+      "NormChoice"
+    ],
+    "prioritized_reference_modules": [
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtensionWithOrigin",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.FinitenessOfHyp",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NormChoiceOfExtension",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OrgOfKept",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SXdAll",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ThetaDataExists"
+    ],
+    "explicit_priority_source_roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FiniteLevelAndSecond.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OrgOfKept.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Has3NeoOfSteps.lean"
+    ],
+    "source_reference_mode": "priority-only",
+    "reference_modules_not_seeded": [
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AssembleLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.BaseDataEmbeddingConj",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CenUsedOfCenReal",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CmQuadraticFormEqAlternatingForm",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DsigEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FieldValuesMemFixedField",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsAbsIrrCharCompIff",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.JEvExists",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LatAtLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MovedReadingSameMapsBaseReadingAgrees",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimes",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimesLifts",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBaseCondFalse",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NuInRange",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OmPinsTr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PlaceModelImp",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ReadPk",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RealIoX",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RhoDetPrimeEqMuTildeMulChiPow",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingSpecNormalisedCharacterEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RootsOfUnityRingLeWittIntegers",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SettingsFormsExistList",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SubsetTwistExceptionalPlaces",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ThetaChr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TiedColumnData",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TrueColumnChoicesHeckeCharReferenceEqOne",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.UpLReStage",
+      "Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield",
+      "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AdmissibleIndexBoundAllPowers",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIsScalar",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GoodSetupCountEqZeroOffBadPlaces",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsSplitOfMemAdmissibleConjugatePairPlaces",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MemLevelTypeFormsOfUniversalCoeffReading",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AdelicRowsDivisionTransportSpectralStageLatticesStatement",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsUnlocalizedSaturatedState",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GridStaircaseLatticeFirstColumnTransportStages",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DiscreteSeriesUpqUniqueOfClassification",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.DsExistsOfDiscreteSeriesExists",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.WeilRepresentationUnitaryPair",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn",
+      "Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.MultiplicityCoverHypotheses",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CoreAltAltBis",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HeckeOpen",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.IsotypicOverAllComponents",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LayerUpStatement",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LocalParameterStableAtUnramifiedPlace",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MultiplicityOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PublishedInputsThirdLayer",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionSeriesB0",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionSeriesB2",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ReductionToLocalLanglandsA",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RingSpecNormalisedCharacterEq",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RootsOfUnityRingLeWittIntegers",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SCuspOfParSt",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SLarge",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SRatOfIsotInternal",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SecondBoundOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SeriesCoverOfPrimitive",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.StepsPin",
+      "Formalism.LocalRingCardinality.DataArith",
+      "Formalism.LocalRingCardinality.DataHost",
+      "Formalism.LocalRingCardinality.DataNChTie",
+      "Formalism.LocalRingCardinality.DataNChoice",
+      "Formalism.LocalRingCardinality.DataParams₂",
+      "Formalism.LocalRingCardinality.DataRows",
+      "Formalism.LocalRingCardinality.DataSpaces",
+      "Formalism.LocalRingCardinality.DataTheta",
+      "Formalism.LocalRingCardinality.Params",
+      "Formalism.LocalRingCardinality.PrincipalHermitianLattice",
+      "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+      "Formalism.LocalToGlobal.BesselHermitianTheta.IsAutFunDef",
+      "Formalism.LocalToGlobal.Columns.AbelianHostFieldConditions",
+      "Formalism.LocalToGlobal.Columns.RowForms",
+      "Formalism.LocalToGlobal.Divisibility.DefGroup",
+      "Formalism.LocalToGlobal.Divisibility.HeckeRI",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Formalism.LocalToGlobal.IndefiniteReal.ConcretePkgSpec",
+      "Formalism.LocalToGlobal.IndefiniteReal.DoubleCosetOperators.RatDatOfReal",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksChar",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksDefs",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.ZeroPartEigenvalueConvention",
+      "Formalism.LocalToGlobal.ProjectiveLattices.CuspidalL2Subspace",
+      "Formalism.LocalToGlobal.ProjectiveLattices.EmbKCoe",
+      "Formalism.LocalToGlobal.ProjectiveLattices.FamilyUniformisationBasePointOrthogonalBis",
+      "Formalism.LocalToGlobal.ProjectiveLattices.PartitionExtendByZeroAntitone",
+      "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+      "Formalism.SharpRestriction.LevelLetterCocycles.IntegralHeckeForms",
+      "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+      "Init.Core",
+      "Init.Data.Rat.Basic",
+      "Init.Data.Zero",
+      "Init.Prelude",
+      "Mathlib.Algebra.Algebra.Rat",
+      "Mathlib.Algebra.Field.Defs",
+      "Mathlib.Algebra.Field.Rat",
+      "Mathlib.Algebra.Group.Basic",
+      "Mathlib.Algebra.Group.Defs",
+      "Mathlib.Algebra.Group.Hom.Defs",
+      "Mathlib.Algebra.Group.Nat.Defs",
+      "Mathlib.Algebra.Group.Pi.Basic",
+      "Mathlib.Algebra.Group.Subgroup.Defs",
+      "Mathlib.Algebra.Group.Units.Defs",
+      "Mathlib.Algebra.GroupWithZero.Action.Defs",
+      "Mathlib.Algebra.GroupWithZero.NonZeroDivisors",
+      "Mathlib.Algebra.Module.Defs",
+      "Mathlib.Algebra.Module.Equiv.Basic",
+      "Mathlib.Algebra.Module.Equiv.Defs",
+      "Mathlib.Algebra.Module.LinearMap.Defs",
+      "Mathlib.Algebra.Module.Pi",
+      "Mathlib.Algebra.Module.Submodule.Defs",
+      "Mathlib.Algebra.Module.Submodule.Ker",
+      "Mathlib.Algebra.Module.Submodule.Lattice",
+      "Mathlib.Algebra.Quotient",
+      "Mathlib.Algebra.Ring.CompTypeclasses",
+      "Mathlib.Algebra.Ring.Defs",
+      "Mathlib.Algebra.Ring.Hom.Defs",
+      "Mathlib.Data.Complex.Basic",
+      "Mathlib.Data.Finset.Defs",
+      "Mathlib.Data.Finset.Empty",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Data.FunLike.Basic",
+      "Mathlib.Data.FunLike.Equiv",
+      "Mathlib.Data.Matrix.Mul",
+      "Mathlib.Data.Nat.Basic",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Data.Set.Basic",
+      "Mathlib.Data.Set.Defs",
+      "Mathlib.Data.SetLike.Basic",
+      "Mathlib.Data.ZMod.Defs",
+      "Mathlib.FieldTheory.IntermediateField.Basic",
+      "Mathlib.GroupTheory.OreLocalization.Basic",
+      "Mathlib.GroupTheory.OreLocalization.OreSet",
+      "Mathlib.LinearAlgebra.DFinsupp",
+      "Mathlib.LinearAlgebra.Matrix.Defs",
+      "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs",
+      "Mathlib.Logic.Equiv.Defs",
+      "Mathlib.NumberTheory.NumberField.Basic",
+      "Mathlib.Order.Defs.PartialOrder",
+      "Mathlib.Order.Disjoint",
+      "Mathlib.Order.Interval.Finset.Defs",
+      "Mathlib.Order.Interval.Finset.Nat",
+      "Mathlib.Order.SetNotation",
+      "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas",
+      "Mathlib.RingTheory.Ideal.Defs",
+      "Mathlib.RingTheory.Ideal.Quotient.Defs",
+      "Mathlib.RingTheory.Localization.FractionRing",
+      "Mathlib.RingTheory.OreLocalization.Ring",
+      "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PushInvertible"
+    ],
+    "skipped_modules": [],
+    "reference_lists_truncated": false
+  }
+}

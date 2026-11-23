@@ -1,0 +1,25 @@
+Stage 3 v0.7 packaging validation — 2026-11-23
+
+python3 -m unittest discover -s rh-audit-stage3-v0.7 -p 'test_*.py'
+Ran 51 tests. OK.
+46 inherited tests and 5 new extension-phase tests.
+
+New checks:
+- frozen 18 targets, 2 searches and declaration marker/config consistency;
+- byte-identical shared helper embedding;
+- mocked extension run stops before project import on failed search fixture;
+- explicit source priority precedes reference fillers at collection cap;
+- unsafe explicit source path rejected;
+- missing explicit source recorded, not treated as collected.
+(The first test covers multiple listed checks.)
+
+Python syntax compilation: audit_stage3.py and test_extensions.py passed.
+Package manifest and final ZIP validation are performed after documentation is finalized.
+
+No local Lean executable is available. Extensions.lean was NOT compiled here.
+The shared Lean helpers and fixture files are unchanged from the v0.6 package
+whose fixtures succeeded in Harry's uploaded run. v0.7 reruns those fixtures
+before importing Main. Synthetic Python tests do not validate the mathematical
+interpretation, target existence in the compiled project, or Lean proof bodies.
+
+No RH/GRH, necessity, independent-kernel, or Comparator-completion verdict.

@@ -1,0 +1,59 @@
+{
+  "meaning": "bounded source context, not a proof closure or use census",
+  "configuration": {
+    "roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+      "Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+      "Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+      "Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean"
+    ],
+    "import_depth": 0,
+    "max_files": 5,
+    "max_file_bytes": 2097152,
+    "max_total_bytes": 10485760
+  },
+  "total_bytes": 80556,
+  "files": [
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 10065,
+      "sha256": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2520,
+      "sha256": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 23123,
+      "sha256": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 40684,
+      "sha256": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridge.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4164,
+      "sha256": "e1000dd0beb873645560c4423423d8e1069c928dfa81a1c599080f87a50a15fd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean"
+    }
+  ]
+}

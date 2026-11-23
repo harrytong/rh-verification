@@ -1,0 +1,32 @@
+{
+  "started": "2026-11-22T18:24:36.278422-05:00",
+  "phase": "inspect",
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "main_olean_sha256": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+  "statements_olean_sha256": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+  "prior_records_sha256": "876b1c23275981b8abfa67a6734e8b04466e50f0e418bda76e504889e511da2c",
+  "prior_records_path": "/home/harry/rh-verification/critics-audit/proof-trace-8tnvwr47/records.jsonl",
+  "requested_edges": 66,
+  "cpus": 2,
+  "memory_gib": 100,
+  "lean_executable_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "driver_sha256": "c7a5763e6d1aa42c801516acc467b4fdfe9280f0343c58e318aeea89cd8c509e",
+  "tool_sha256": {
+    "CENSUS_PREREGISTRATION.md": "f99c238fee98c05f7be26d11464a178d409e2fbefee0d9e81a11a971aea10640",
+    "StatementCheck.lean": "56713841ab927e284af47e2b73c0436eee1c1d9e553562472a7e76a04a81e634",
+    "SemanticExtension.lean": "662c4bdc6d184835d3583306b97c0176120681fbf280506eb44d38f267fd8e5f",
+    "SemanticFixture.lean": "af9f67f00aea2bb9e8a20ae618c203a4130943dd1968fe348af4baec8d553ba6",
+    "SemanticAudit.lean": "c300ae6723651e8410c75b855e905755bbd24008b31b7b17bce5b77f19eaac65",
+    "Stage2Audit.lean": "f85db021cef40f7efa19e88b98080d6676ea92214c1cdb97a7c842e8ea13fb00",
+    "Stage2Fixture.lean": "8e0b27d77f45662655ea57fd6284198469cb55950b0d53d94c910b04bf188888",
+    "CHANGELOG.md": "6799a921124ebcde4cbd9fecdaf3207ececb061b68cd63f0ba3001ed71f6e5d4",
+    "stage2-plan.md": "6919885072ec9ed9b45d258f8aa76e0c808696de9d6a92288a6e20ccf9aa538a",
+    "README.md": "be2833a397e90ed64d42b0aba1dde938c23d4d5f4575aece5a71c99beaeed5cd",
+    "GeometryAbstraction.lean": "fd3ad98ac22029aed80b9984fc5776da0d01cce2e6c4d90b38b1bc9ca7b604a3"
+  },
+  "phase_completed": false,
+  "comparator_result": "not read or changed by this tool",
+  "failure": "Phase failed with exit 1. Preserve /home/harry/rh-verification/critics-audit-stage2/stage2-ixe9qs30/smoke.log; later phases were not started.",
+  "finished": "2026-11-22T18:24:44.455193-05:00"
+}

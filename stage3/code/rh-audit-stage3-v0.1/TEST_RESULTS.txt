@@ -1,0 +1,27 @@
+Stage 3.0 validation record
+UTC: 2026-11-23T07:04:42.306006+00:00
+
+test_capture_success_and_error (test_driver.DriverTests.test_capture_success_and_error) ... ok
+test_cleanup_requires_own_cid (test_driver.DriverTests.test_cleanup_requires_own_cid) ... ok
+test_fixture_has_no_project_access (test_driver.DriverTests.test_fixture_has_no_project_access) ... ok
+test_geometry_copy_only_adds_instrumentation (test_driver.DriverTests.test_geometry_copy_only_adds_instrumentation) ... ok
+test_geometry_explicit_occurrences_preserved (test_driver.DriverTests.test_geometry_explicit_occurrences_preserved) ... ok
+test_low_available_memory_blocks_project (test_driver.DriverTests.test_low_available_memory_blocks_project) ... ok
+test_low_disk_blocks (test_driver.DriverTests.test_low_disk_blocks) ... ok
+test_negative_accepts_only_expected_error (test_driver.DriverTests.test_negative_accepts_only_expected_error) ... ok
+test_no_sorry_success (test_driver.DriverTests.test_no_sorry_success) ... ok
+test_output_cannot_be_in_project (test_driver.DriverTests.test_output_cannot_be_in_project) ... ok
+test_output_guard_is_failure (test_driver.DriverTests.test_output_guard_is_failure) ... ok
+test_project_mount_readonly (test_driver.DriverTests.test_project_mount_readonly) ... ok
+test_snapshot_hashes (test_driver.DriverTests.test_snapshot_hashes) ... ok
+test_success_requires_exit_zero (test_driver.DriverTests.test_success_requires_exit_zero) ... ok
+test_success_requires_marker (test_driver.DriverTests.test_success_requires_marker) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.028s
+
+OK
+
+Lean compiler tests in authoring workspace: NOT RUN. Lean is not installed; release download was denied (HTTP 403).
+Server fixture/probe results: PENDING.
+Python tests do not validate Lean elaboration, mathematical semantics or an RH claim.

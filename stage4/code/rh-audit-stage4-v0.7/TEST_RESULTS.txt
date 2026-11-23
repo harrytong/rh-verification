@@ -1,0 +1,11 @@
+Stage 4 v0.7 authoring validation, 2026-11-23
+Command: python3 -m unittest discover -v
+Result: 67 Python tests passed.
+Includes real temporary Git-tree source collection and modified-source rejection,
+explicit helper owner tests, rejection of old-owner coverage, and separate
+pretty-printer elision reporting. Synthetic-record tests are not Lean proofs.
+The uploaded v0.6 comparison, argument and supplier fixture logs were re-parsed
+and accepted by the v0.7 validators. The Lean scanner helpers are unchanged.
+v0.6 coverage was recomputed as incomplete, and before/after input hashes match.
+No Lean binary is available in this authoring environment. v0.7 project targets
+have NOT been executed here. The runner repeats the server-side Lean fixtures.

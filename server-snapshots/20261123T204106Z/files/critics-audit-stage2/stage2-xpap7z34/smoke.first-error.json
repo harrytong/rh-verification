@@ -1,0 +1,6 @@
+{
+  "line": 6,
+  "context": "/audit/Stage2Audit.lean:411:9: error: Type mismatch\n  fun label => RHStage2.census env RHStage2.roots label\nhas type\n  String \u2192 IO Unit\nbut is expected to have type\n  IO Unit",
+  "provisional_category": "type-or-interface-mismatch; premise-status-unresolved",
+  "reviewed_classification": "pending human review"
+}

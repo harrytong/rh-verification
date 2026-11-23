@@ -1,0 +1,73 @@
+/- Syntactic occurrence counts in stored bodies; no reduction, unfolding,
+   type inference, proof minimization or declaration mutation. -/
+namespace RHStage3Uses
+open Lean
+structure Counts where
+  remaining : Nat := 100000
+  annotation : Nat := 0
+  other : Nat := 0
+  truncated : Bool := false
+partial def count (e : Expr) (k : Nat) (inAnnotation : Bool := false)
+    (depth : Nat := 0) (depthLimit : Nat := 600) : StateM Counts Unit := do
+  let st ← get
+  if st.remaining == 0 || depth > depthLimit then
+    modify fun s => { s with truncated := true }
+    return ()
+  modify fun s => { s with remaining := s.remaining - 1 }
+  match e with
+  | .bvar i =>
+    if i == k then
+      if inAnnotation then
+        modify fun s => { s with annotation := s.annotation + 1 }
+      else
+        modify fun s => { s with other := s.other + 1 }
+  | .app f a =>
+    count f k inAnnotation (depth + 1) depthLimit
+    count a k inAnnotation (depth + 1) depthLimit
+  | .lam _ t b _ | .forallE _ t b _ =>
+    count t k true (depth + 1) depthLimit
+    count b (k + 1) inAnnotation (depth + 1) depthLimit
+  | .letE _ t v b _ =>
+    count t k true (depth + 1) depthLimit
+    count v k inAnnotation (depth + 1) depthLimit
+    count b (k + 1) inAnnotation (depth + 1) depthLimit
+  | .mdata _ b | .proj _ _ b => count b k inAnnotation (depth + 1) depthLimit
+  | _ => pure ()
+def result (e : Expr) (fuel : Nat := 100000) (depthLimit : Nat := 600) : Counts :=
+  ((count e 0 false 0 depthLimit).run { remaining := fuel }).2
+def emit (fields : List (String × Json)) : IO Unit := do
+  IO.println ("RH_STAGE3_USES_JSON\t" ++ (Json.mkObj fields).compress)
+  (← IO.getStdout).flush
+partial def scan (target : String) (e : Expr) (ordinal : Nat := 0)
+    (outerFuel : Nat := 256) : IO Unit := do
+  if outerFuel == 0 then
+    emit [("event",toJson "end"),("target",toJson target),
+      ("binder_count",toJson ordinal),("stop",toJson "outer-step-cap")]
+    return ()
+  match e with
+  | .mdata _ b => scan target b ordinal (outerFuel - 1)
+  | .lam n _ b _ =>
+    if ordinal >= 128 then
+      emit [("event",toJson "end"),("target",toJson target),
+        ("binder_count",toJson ordinal),("stop",toJson "binder-cap")]
+      return ()
+    let st := result b
+    emit [("event",toJson "binder"),("target",toJson target),
+      ("ordinal",toJson ordinal),("name",toJson n.toString),
+      ("binder_or_let_type_position",toJson st.annotation),
+      ("other_expression_position",toJson st.other),
+      ("nodes_visited",toJson (100000 - st.remaining)),
+      ("node_limit",toJson (100000 : Nat)),("depth_limit",toJson (600 : Nat)),
+      ("truncated",toJson st.truncated)]
+    scan target b (ordinal + 1) (outerFuel - 1)
+  | _ =>
+    emit [("event",toJson "end"),("target",toJson target),
+      ("binder_count",toJson ordinal),("stop",toJson "non-lambda-head")]
+def inspect (env : Environment) (target : String) : IO Unit := do
+  match env.checked.get.find? (RHStage3Provenance.nameOf target) with
+  | none => throw (IO.userError ("Use target not found: " ++ target))
+  | some ci =>
+    match RHStage3Provenance.bodyOf ci with
+    | none => throw (IO.userError ("Use target has no stored body: " ++ target))
+    | some b => scan target b
+end RHStage3Uses

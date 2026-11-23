@@ -1,0 +1,41 @@
+{
+  "targets": [
+    "GlobalTheory.LiftUnfold.integral_theta",
+    "GlobalTheory.LiftClassSumTwist.thF_eq_princ",
+    "GlobalTheory.LiftClassSumTwist.thF_eq_classSum",
+    "GlobalTheory.Hk3.Core",
+    "GlobalTheory.Hk3.Core.thP",
+    "GlobalTheory.TwInputs.RealSide.char",
+    "Formalism.IndefR.Links.RealDat3.Char3",
+    "GlobalTheory.FlatVecExist.flatVec_existsUnique",
+    "GlobalTheory.FlatLift.flat_eq_unit_smul_om",
+    "GlobalTheory.T.weilRep_central_acts_by_dilation_unit",
+    "GlobalTheory.T.lift_vector_eq_unit_mul_dilated_flat_datum"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Theta",
+    "ThP",
+    "ThF",
+    "ConcretePkg",
+    "ZeroPart",
+    "Lift",
+    "Dilation",
+    "NormalFam",
+    "Links",
+    "Character"
+  ],
+  "priority_source_roots": [
+    "Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ThetaLiftTwistLevelFormEqUnitMulClassSum.lean",
+    "Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/UnivChar.lean",
+    "Development/AbelianVarietyTheory/Definitions/GaloisGeometry/NormalFam.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/ZeroPartEigenvalueConvention.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean",
+    "Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FlatVectorEqUnitMulCentralTranslateLiftVector.lean"
+  ]
+}

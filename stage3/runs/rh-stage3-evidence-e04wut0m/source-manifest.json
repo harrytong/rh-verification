@@ -1,0 +1,62 @@
+[
+  {
+    "project_path": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean",
+    "snapshot_path": "sources/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean",
+    "sha256": "b9ba78e313f6c7a601d87a1672429122d7f976a0afdd8bae8e4efed68a7215df"
+  },
+  {
+    "project_path": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean",
+    "snapshot_path": "sources/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean",
+    "sha256": "54dbd62bbacc19db2294f1c41fd28663522acf498a732f9328ed2086b08b9e38"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean",
+    "sha256": "e761e876e3236895eec1b67b5a2118846ddfcc6883eed367ac6cc78523da15f2"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean",
+    "sha256": "49644e6edf3cbd5bbb1cb0e7608c9e6c59e55f22452a1bb33aa2668947e619ed"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean",
+    "sha256": "66b53ba0f9a6f01367766db7fb04418907174a7464fe48ee01b78aa639e86829"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean",
+    "sha256": "38b99bb13cfbe01cb1752c03b08eed22db748be05a4f8f03dae70863eaecd467"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean",
+    "sha256": "80ebd1ee514d8a6a7967fe3e87c775148615416906038a046b27ea9436a2cc1f"
+  },
+  {
+    "project_path": "src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean",
+    "snapshot_path": "sources/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean",
+    "sha256": "52560bbc51e012b706fc6838bfa75eb15f2cf05f7e6f9ccde98d2d8b5c5c60df"
+  },
+  {
+    "project_path": "src/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean",
+    "snapshot_path": "sources/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean",
+    "sha256": "746e963b4c8c187041017a8e4c50978363efe65a6cbf691c39f7f455167422c4"
+  },
+  {
+    "project_path": "src/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean",
+    "snapshot_path": "sources/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean",
+    "sha256": "22fdce18696511899e2818b3ea8b2868f97cb810b02b8f9b1fc1cbbd98f120af"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean",
+    "sha256": "545f4dbcc8b67e0d001951fcad7abaa8250d335a64a6950adf5ce69fee5f30a0"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean",
+    "sha256": "7431256e8a6c407c4a9f42bde70edd2077884e8ee3af503b3eb01028f72f2bbf"
+  }
+]

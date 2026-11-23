@@ -1,0 +1,46 @@
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+def RiemannZetaZerosOnLine : Prop :=
+∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n, s = -2 * (↑n + 1)) → s ≠ 1 → s.re = 1 / 2
+def DirichletLNonvanishingRightOfHalf : Prop :=
+∀ (N : ℕ) [inst : NeZero N] (χ : DirichletCharacter ℂ N) (s : ℂ),
+  1 / 2 < s.re → χ ≠ 1 ∨ s ≠ 1 → DirichletCharacter.LFunction χ s ≠ 0
+def DirichletLZerosOnLine : Prop :=
+∀ (N : ℕ) [inst : NeZero N] (χ : DirichletCharacter ℂ N) (s : ℂ),
+  0 < s.re → s.re < 1 → DirichletCharacter.LFunction χ s = 0 → s.re = 1 / 2
+def PrimitiveDirichletLZerosOnLine : Prop :=
+∀ (N : ℕ) [inst : NeZero N] (χ : DirichletCharacter ℂ N),
+  χ.IsPrimitive → ∀ (s : ℂ), 0 < s.re → s.re < 1 → DirichletCharacter.LFunction χ s = 0 → s.re = 1 / 2
+riemannHypothesis : RiemannHypothesis
+riemannZeta_eq_zero_re : RiemannZetaZerosOnLine
+LFunction_ne_zero_of_half_lt_re : DirichletLNonvanishingRightOfHalf
+LFunction_eq_zero_re : DirichletLZerosOnLine
+LFunction_eq_zero_re_of_isPrimitive : PrimitiveDirichletLZerosOnLine
+'riemannHypothesis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'riemannZeta_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_ne_zero_of_half_lt_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_eq_zero_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LFunction_eq_zero_re_of_isPrimitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+	Command being timed: "lake env lean --tstack=400000 /audit/AuditMain.lean"
+	User time (seconds): 41.85
+	System time (seconds): 39.75
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52074292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1277562
+	Voluntary context switches: 12979
+	Involuntary context switches: 1772
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

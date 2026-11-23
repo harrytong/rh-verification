@@ -1,0 +1,35 @@
+START_UTC 2026-11-23T07:05:33.353594+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-e04wut0m/negative.cid", "--name", "rh-audit-stage3-e04wut0m-negativefixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-e04wut0m,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "120", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/NegativeFixture.lean"]
+/audit/NegativeFixture.lean:4:19: error: Type mismatch
+  True.intro
+has type
+  True
+but is expected to have type
+  False
+Command exited with non-zero status 1
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/NegativeFixture.lean"
+	User time (seconds): 0.72
+	System time (seconds): 0.39
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1597528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39609
+	Voluntary context switches: 41
+	Involuntary context switches: 74
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+
+PROCESS_EXIT_STATUS 1
+END_UTC 2026-11-23T07:05:34.778210+00:00

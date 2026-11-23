@@ -1,0 +1,124 @@
+Smoke test passed. Starting the pinned compiled-project audit.
+RH_AUDIT_PROGRESS	Loading Main compiled declarations; this stage may be quiet and memory intensive
+RH_AUDIT_PROGRESS	graph: 25000 expanded, 52257 discovered, 1112672 edges
+RH_AUDIT_PROGRESS	graph: 50000 expanded, 91634 discovered, 2764493 edges
+RH_AUDIT_PROGRESS	graph: 75000 expanded, 127668 discovered, 4612262 edges
+RH_AUDIT_PROGRESS	graph: 100000 expanded, 159633 discovered, 6553031 edges
+RH_AUDIT_PROGRESS	graph: 125000 expanded, 192385 discovered, 8722730 edges
+RH_AUDIT_PROGRESS	graph: 150000 expanded, 221837 discovered, 10798685 edges
+RH_AUDIT_PROGRESS	graph: 175000 expanded, 252050 discovered, 12948947 edges
+RH_AUDIT_PROGRESS	graph: 200000 expanded, 279109 discovered, 15521214 edges
+RH_AUDIT_PROGRESS	graph: 225000 expanded, 308068 discovered, 17681381 edges
+RH_AUDIT_PROGRESS	graph: 250000 expanded, 337247 discovered, 20028755 edges
+RH_AUDIT_PROGRESS	graph: 275000 expanded, 363140 discovered, 22561293 edges
+RH_AUDIT_PROGRESS	graph: 300000 expanded, 388273 discovered, 24828022 edges
+RH_AUDIT_PROGRESS	graph: 325000 expanded, 418017 discovered, 27393803 edges
+RH_AUDIT_PROGRESS	graph: 350000 expanded, 446740 discovered, 30162406 edges
+RH_AUDIT_PROGRESS	graph: 375000 expanded, 470976 discovered, 32655907 edges
+RH_AUDIT_PROGRESS	graph: 400000 expanded, 496912 discovered, 35243208 edges
+RH_AUDIT_PROGRESS	graph: 425000 expanded, 524587 discovered, 37946138 edges
+RH_AUDIT_PROGRESS	graph: 450000 expanded, 551677 discovered, 40614396 edges
+RH_AUDIT_PROGRESS	graph: 475000 expanded, 573977 discovered, 43116744 edges
+RH_AUDIT_PROGRESS	graph: 500000 expanded, 601332 discovered, 45918910 edges
+RH_AUDIT_PROGRESS	graph: 525000 expanded, 627365 discovered, 48753771 edges
+RH_AUDIT_PROGRESS	graph: 550000 expanded, 653756 discovered, 51431940 edges
+RH_AUDIT_PROGRESS	graph: 575000 expanded, 676030 discovered, 54012755 edges
+RH_AUDIT_PROGRESS	graph: 600000 expanded, 700857 discovered, 56791083 edges
+RH_AUDIT_PROGRESS	graph: 625000 expanded, 725100 discovered, 59588918 edges
+RH_AUDIT_PROGRESS	graph: 650000 expanded, 753014 discovered, 62455056 edges
+RH_AUDIT_PROGRESS	graph: 675000 expanded, 774675 discovered, 65076244 edges
+RH_AUDIT_PROGRESS	graph: 700000 expanded, 796872 discovered, 67864878 edges
+RH_AUDIT_PROGRESS	graph: 725000 expanded, 820259 discovered, 70682686 edges
+RH_AUDIT_PROGRESS	graph: 750000 expanded, 848053 discovered, 73656452 edges
+RH_AUDIT_PROGRESS	graph: 775000 expanded, 870373 discovered, 76414832 edges
+RH_AUDIT_PROGRESS	graph: 800000 expanded, 893247 discovered, 79133175 edges
+RH_AUDIT_PROGRESS	graph: 825000 expanded, 916770 discovered, 82158840 edges
+RH_AUDIT_PROGRESS	graph: 850000 expanded, 942903 discovered, 85076769 edges
+RH_AUDIT_PROGRESS	graph: 875000 expanded, 965556 discovered, 87895439 edges
+RH_AUDIT_PROGRESS	graph: 900000 expanded, 986739 discovered, 90516362 edges
+RH_AUDIT_PROGRESS	graph: 925000 expanded, 1011710 discovered, 93819611 edges
+RH_AUDIT_PROGRESS	graph: 950000 expanded, 1033796 discovered, 96609691 edges
+RH_AUDIT_PROGRESS	graph: 975000 expanded, 1055280 discovered, 99525414 edges
+RH_AUDIT_PROGRESS	graph: 1000000 expanded, 1076091 discovered, 102396144 edges
+RH_AUDIT_PROGRESS	graph: 1025000 expanded, 1101628 discovered, 105333178 edges
+RH_AUDIT_PROGRESS	graph: 1050000 expanded, 1122942 discovered, 108308900 edges
+RH_AUDIT_PROGRESS	graph: 1075000 expanded, 1143871 discovered, 111124439 edges
+RH_AUDIT_PROGRESS	graph: 1100000 expanded, 1168301 discovered, 114105842 edges
+RH_AUDIT_PROGRESS	graph: 1125000 expanded, 1189362 discovered, 117077584 edges
+RH_AUDIT_PROGRESS	graph: 1150000 expanded, 1210465 discovered, 119937711 edges
+RH_AUDIT_PROGRESS	graph: 1175000 expanded, 1231751 discovered, 122732210 edges
+RH_AUDIT_PROGRESS	graph: 1200000 expanded, 1252131 discovered, 125648833 edges
+RH_AUDIT_PROGRESS	graph: 1225000 expanded, 1273261 discovered, 128570462 edges
+RH_AUDIT_PROGRESS	graph: 1250000 expanded, 1292987 discovered, 131444596 edges
+RH_AUDIT_PROGRESS	graph: 1275000 expanded, 1313763 discovered, 134403261 edges
+RH_AUDIT_PROGRESS	graph: 1300000 expanded, 1334022 discovered, 137330786 edges
+RH_AUDIT_PROGRESS	graph: 1325000 expanded, 1355374 discovered, 140319317 edges
+RH_AUDIT_PROGRESS	graph: 1350000 expanded, 1374827 discovered, 143220093 edges
+RH_AUDIT_PROGRESS	graph: 1375000 expanded, 1395423 discovered, 146179222 edges
+RH_AUDIT_PROGRESS	graph: 1400000 expanded, 1416293 discovered, 149155085 edges
+RH_AUDIT_PROGRESS	graph: 1425000 expanded, 1436676 discovered, 152178247 edges
+RH_AUDIT_PROGRESS	graph: 1450000 expanded, 1456086 discovered, 155267732 edges
+RH_AUDIT_PROGRESS	graph: 1475000 expanded, 1476108 discovered, 158356191 edges
+{"declarations": 1478243, "edges": 158689342, "event": "graph-complete", "missing": [], "roots": ["riemannHypothesis", "riemannZeta_eq_zero_re", "LFunction_ne_zero_of_half_lt_re", "LFunction_eq_zero_re", "LFunction_eq_zero_re_of_isPrimitive"]}
+RH_AUDIT_PROGRESS	Starting reachability for riemannHypothesis; include extra edges=false
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=false, visited=250000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=false, visited=500000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=false, visited=750000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=false, visited=1000000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=false, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": false, "root": "riemannHypothesis", "visited": 1478198}
+RH_AUDIT_PROGRESS	Starting reachability for riemannHypothesis; include extra edges=true
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=true, visited=250000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=true, visited=500000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=true, visited=750000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=true, visited=1000000
+RH_AUDIT_PROGRESS	reachability: riemannHypothesis, extra=true, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": true, "root": "riemannHypothesis", "visited": 1478219}
+RH_AUDIT_PROGRESS	Starting reachability for riemannZeta_eq_zero_re; include extra edges=false
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=false, visited=250000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=false, visited=500000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=false, visited=750000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=false, visited=1000000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=false, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": false, "root": "riemannZeta_eq_zero_re", "visited": 1478200}
+RH_AUDIT_PROGRESS	Starting reachability for riemannZeta_eq_zero_re; include extra edges=true
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=true, visited=250000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=true, visited=500000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=true, visited=750000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=true, visited=1000000
+RH_AUDIT_PROGRESS	reachability: riemannZeta_eq_zero_re, extra=true, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": true, "root": "riemannZeta_eq_zero_re", "visited": 1478221}
+RH_AUDIT_PROGRESS	Starting reachability for LFunction_ne_zero_of_half_lt_re; include extra edges=false
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=false, visited=250000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=false, visited=500000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=false, visited=750000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=false, visited=1000000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=false, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": false, "root": "LFunction_ne_zero_of_half_lt_re", "visited": 1478190}
+RH_AUDIT_PROGRESS	Starting reachability for LFunction_ne_zero_of_half_lt_re; include extra edges=true
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=true, visited=250000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=true, visited=500000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=true, visited=750000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=true, visited=1000000
+RH_AUDIT_PROGRESS	reachability: LFunction_ne_zero_of_half_lt_re, extra=true, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": true, "root": "LFunction_ne_zero_of_half_lt_re", "visited": 1478211}
+RH_AUDIT_PROGRESS	Starting reachability for LFunction_eq_zero_re; include extra edges=false
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=false, visited=250000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=false, visited=500000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=false, visited=750000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=false, visited=1000000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=false, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": false, "root": "LFunction_eq_zero_re", "visited": 1478203}
+RH_AUDIT_PROGRESS	Starting reachability for LFunction_eq_zero_re; include extra edges=true
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=true, visited=250000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=true, visited=500000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=true, visited=750000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=true, visited=1000000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re, extra=true, visited=1250000
+{"axioms": ["propext", "Classical.choice", "Quot.sound"], "event": "root-summary", "include_structural_edges": true, "root": "LFunction_eq_zero_re", "visited": 1478224}
+RH_AUDIT_PROGRESS	Starting reachability for LFunction_eq_zero_re_of_isPrimitive; include extra edges=false
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re_of_isPrimitive, extra=false, visited=250000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re_of_isPrimitive, extra=false, visited=500000
+RH_AUDIT_PROGRESS	reachability: LFunction_eq_zero_re_of_isPrimitive, extra=false, visited=750000
+
+

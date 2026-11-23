@@ -1,0 +1,1774 @@
+{
+  "meaning": "Selected existing Stage 1 reference paths; not new Stage 3 use evidence",
+  "parent_records_sha256": "876b1c23275981b8abfa67a6734e8b04466e50f0e418bda76e504889e511da2c",
+  "records": [
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannHypothesis"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+            "name": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannHypothesis",
+      "target": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannHypothesis"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannHypothesis",
+      "target": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannHypothesis"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.ht"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannHypothesis",
+      "target": "GlobalTheory.EX.OB.LedPart.ht"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannHypothesis"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannHypothesis",
+      "target": "GlobalTheory.EX.OB.LedPart.pt"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannZeta_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+            "name": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannZeta_eq_zero_re",
+      "target": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannZeta_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannZeta_eq_zero_re",
+      "target": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannZeta_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.ht"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannZeta_eq_zero_re",
+      "target": "GlobalTheory.EX.OB.LedPart.ht"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "riemannZeta_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "rhOfAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "riemannZeta_eq_zero_re",
+      "target": "GlobalTheory.EX.OB.LedPart.pt"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_ne_zero_of_half_lt_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+            "name": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_ne_zero_of_half_lt_re",
+      "target": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_ne_zero_of_half_lt_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_ne_zero_of_half_lt_re",
+      "target": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_ne_zero_of_half_lt_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.ht"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_ne_zero_of_half_lt_re",
+      "target": "GlobalTheory.EX.OB.LedPart.ht"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_ne_zero_of_half_lt_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_ne_zero_of_half_lt_re",
+      "target": "GlobalTheory.EX.OB.LedPart.pt"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "claimAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+            "name": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re",
+      "target": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "claimAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re",
+      "target": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "claimAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.ht"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re",
+      "target": "GlobalTheory.EX.OB.LedPart.ht"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "claimAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re",
+      "target": "GlobalTheory.EX.OB.LedPart.pt"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re_of_isPrimitive"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "critAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+            "name": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re_of_isPrimitive",
+      "target": "GlobalTheory.Mem.Top.Bl.anyGeometry"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re_of_isPrimitive"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "critAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re_of_isPrimitive",
+      "target": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re_of_isPrimitive"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "critAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.ht"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re_of_isPrimitive",
+      "target": "GlobalTheory.EX.OB.LedPart.ht"
+    },
+    {
+      "event": "reachability",
+      "exists": true,
+      "include_structural_edges": false,
+      "path": [
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Main",
+            "name": "LFunction_eq_zero_re_of_isPrimitive"
+          },
+          "edge_from_parent": "root"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "critAll"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Supplements.Kernels.MainTheorems",
+            "name": "allChi"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+            "name": "UpperTheory.FinalTheorems.everyCharacter_of_row"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+            "name": "UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.every_character_of_theta_integrals_local_matching"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "theorem",
+            "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+            "name": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+          },
+          "edge_from_parent": "theorem-proof"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.LkT"
+          },
+          "edge_from_parent": "type"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+            "name": "GlobalTheory.Fc.BPt.D"
+          },
+          "edge_from_parent": "definition-value"
+        },
+        {
+          "declaration": {
+            "kind": "definition",
+            "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+            "name": "GlobalTheory.EX.OB.LedPart.pt"
+          },
+          "edge_from_parent": "definition-value"
+        }
+      ],
+      "reachable": true,
+      "root": "LFunction_eq_zero_re_of_isPrimitive",
+      "target": "GlobalTheory.EX.OB.LedPart.pt"
+    }
+  ]
+}

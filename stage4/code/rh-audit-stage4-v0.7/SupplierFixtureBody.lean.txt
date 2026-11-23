@@ -1,0 +1,17 @@
+namespace RHStage4SupplierFixture
+structure Package (a b : Nat) where
+  inp : a ≤ b
+  hTie : b = b
+  rhs : b ≤ b
+def make (a b : Nat) (h : a ≤ b) : Package a b where
+  inp := h
+  hTie := rfl
+  rhs := Nat.le_refl b
+end RHStage4SupplierFixture
+run_cmd do
+  let env ← getEnv
+  liftIO <| RHStage4.argumentCalls env "RHStage4SupplierFixture.make"
+    "RHStage4SupplierFixture.Package.mk" #["inp", "hTie", "rhs"] #["inp", "hTie", "rhs"]
+  liftIO <| RHStage4.supplierDeclaration env "RHStage4SupplierFixture.make"
+  liftIO <| RHStage4.supplierDeclaration env "RHStage4SupplierFixture.DeliberatelyAbsent"
+#eval IO.println "RH_STAGE4_SUPPLIER_FIXTURE_END"

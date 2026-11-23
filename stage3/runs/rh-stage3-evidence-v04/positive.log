@@ -1,0 +1,115 @@
+START_UTC 2026-11-23T07:58:51.778638+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-e6awxog_/positive.cid", "--name", "rh-audit-stage3-e6awxog_-fixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-e6awxog_,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "120", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/Fixture.lean"]
+RH_STAGE3_CONTEXT FIXTURE
+P : Nat → Prop
+h : ∀ (n : Nat), P n
+n : Nat
+⊢ P n
+def RHStage3Fixture.parameterUse : (P : Nat → Prop) → Nat → Prop :=
+fun (P : Nat → Prop) => P
+theorem RHStage3Fixture.witnessUse : ∀ (P : Nat → Prop) (n : Nat) (h : P n), P n :=
+fun (P : Nat → Prop) (n : Nat) (h : P n) => h
+theorem RHStage3Fixture.dataUse : ∀ (p : RHStage3Fixture.Payload),
+  @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+    (RHStage3Fixture.Payload.n p) :=
+fun (p : RHStage3Fixture.Payload) => RHStage3Fixture.Payload.positive p
+@[defeq] theorem RHStage3Fixture.assignedHeight : ∀ (d : RHStage3Fixture.Datum) (h : Nat),
+  @Eq.{1} Nat (RHStage3Fixture.Datum.height (RHStage3Fixture.assign d h)) h :=
+fun (d : RHStage3Fixture.Datum) (h : Nat) => @rfl.{1} Nat (RHStage3Fixture.Datum.height (RHStage3Fixture.assign d h))
+theorem RHStage3Fixture.universalTransport : ∀ (P : Nat → Prop) (h : ∀ (n : Nat), P n) (n : Nat), P n :=
+fun (P : Nat → Prop) (h : ∀ (n : Nat), P n) (n : Nat) => RHStage3Fixture.witnessUse P n (h n)
+'RHStage3Fixture.universalTransport' does not depend on any axioms
+theorem RHStage3Fixture.arbitraryRestricted : ∀ (P : Nat → Prop), RHStage3Fixture.restricted P :=
+fun (P : Nat → Prop) (x : Nat) (x_1 : P x) => @rfl.{1} Nat x
+theorem RHStage3Fixture.falseRestricted : RHStage3Fixture.restricted fun (x : Nat) => False :=
+RHStage3Fixture.arbitraryRestricted fun (x : Nat) => False
+theorem RHStage3Fixture.assignedPreserved : ∀ (d : RHStage3Fixture.Datum) (h : Nat)
+  (agree : @Eq.{1} Nat (RHStage3Fixture.Datum.height d) h),
+  @Eq.{1} Nat (RHStage3Fixture.Datum.height (RHStage3Fixture.assign d h)) (RHStage3Fixture.Datum.height d) :=
+fun (d : RHStage3Fixture.Datum) (h : Nat) (agree : @Eq.{1} Nat (RHStage3Fixture.Datum.height d) h) =>
+  @Eq.symm.{1} Nat (RHStage3Fixture.Datum.height d) h agree
+theorem RHStage3Fixture.scoped_iff : ∀ (P : Nat → Prop) (n : Nat),
+  Iff (Nonempty.{0} (RHStage3Fixture.Scoped P n))
+    (And (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)) :=
+fun (P : Nat → Prop) (n : Nat) =>
+  @Iff.intro (Nonempty.{0} (RHStage3Fixture.Scoped P n))
+    (And (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n))
+    (fun (h : Nonempty.{0} (RHStage3Fixture.Scoped P n)) =>
+      @Nonempty.casesOn.{0} (RHStage3Fixture.Scoped P n)
+        (fun (t : Nonempty.{0} (RHStage3Fixture.Scoped P n)) =>
+          ∀ (h : @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped P n)) h t),
+            And (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n))
+        h
+        (fun (o : RHStage3Fixture.Scoped P n)
+            (h :
+              @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped P n)) h
+                (@Nonempty.intro.{0} (RHStage3Fixture.Scoped P n) o)) =>
+          @And.intro (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+            (@RHStage3Fixture.Scoped.predicate P n o) (@RHStage3Fixture.Scoped.other P n o))
+        (@Eq.refl.{0} (Nonempty.{0} (RHStage3Fixture.Scoped P n)) h))
+    fun (h : And (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)) =>
+    @Nonempty.intro.{0} (RHStage3Fixture.Scoped P n)
+      (@RHStage3Fixture.Scoped.mk P n
+        (@And.left (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n) h)
+        (@And.right (P n) (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n) h))
+theorem RHStage3Fixture.scoped_false_empty : ∀ (n : Nat),
+  Not (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) :=
+fun (n : Nat) (h : Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) =>
+  @Nonempty.casesOn.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)
+    (fun (t : Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) =>
+      ∀ (h : @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) h t), False)
+    h
+    (fun (o : RHStage3Fixture.Scoped (fun (x : Nat) => False) n)
+        (h :
+          @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) h
+            (@Nonempty.intro.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n) o)) =>
+      @RHStage3Fixture.Scoped.predicate (fun (x : Nat) => False) n o)
+    (@Eq.refl.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => False) n)) h)
+theorem RHStage3Fixture.scoped_true_iff : ∀ (n : Nat),
+  Iff (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n))
+    (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n) :=
+fun (n : Nat) =>
+  @Iff.intro (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n))
+    (@LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+    (fun (h : Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)) =>
+      @Nonempty.casesOn.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)
+        (fun (t : Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)) =>
+          ∀ (h : @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)) h t),
+            @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n)
+        h
+        (fun (o : RHStage3Fixture.Scoped (fun (x : Nat) => True) n)
+            (h :
+              @Eq.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)) h
+                (@Nonempty.intro.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n) o)) =>
+          @RHStage3Fixture.Scoped.other (fun (x : Nat) => True) n o)
+        (@Eq.refl.{0} (Nonempty.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)) h))
+    fun (h : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n) =>
+    @Nonempty.intro.{0} (RHStage3Fixture.Scoped (fun (x : Nat) => True) n)
+      (@RHStage3Fixture.Scoped.mk (fun (x : Nat) => True) n True.intro h)
+RH_STAGE3_POSITIVE_FIXTURE_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/Fixture.lean"
+	User time (seconds): 0.83
+	System time (seconds): 0.42
+	Percent of CPU this job got: 108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1613548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39905
+	Voluntary context switches: 722
+	Involuntary context switches: 68
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T07:58:53.245495+00:00

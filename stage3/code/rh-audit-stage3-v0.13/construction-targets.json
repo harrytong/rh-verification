@@ -1,0 +1,39 @@
+{
+  "targets": [
+    "GlobalTheory.T.sFin_and_sFinl_of_archCmp_sEta_thetaData",
+    "GlobalTheory.HeightCounting.Up.sFino_of_alt",
+    "GlobalTheory.HeightCounting.Up.FinitenessStatement",
+    "GlobalTheory.HeightCounting.Up.FinitenessListStatement",
+    "GlobalTheory.HeightCounting.Up.SpectralFiniteness",
+    "GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt",
+    "GlobalTheory.HeightCounting.Up.sXd_all_alt",
+    "GlobalTheory.HeightCounting.Up.lv3Mv_extensionWithOrigin_and_nEog"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Finiteness",
+    "Extension",
+    "ThetaData",
+    "SXd",
+    "OrgOfKept",
+    "NormChoice"
+  ],
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FiniteLevelAndSecond.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OrgOfKept.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Has3NeoOfSteps.lean"
+  ]
+}

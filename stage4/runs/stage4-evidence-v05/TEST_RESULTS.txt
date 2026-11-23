@@ -1,0 +1,59 @@
+Stage 4 v0.5 authoring validation
+Command: python3 -m unittest -v test_driver test_arguments
+These are Python tests with synthetic records and container mocks, not Lean execution.
+Lean was not available locally; no local Lean compile success is claimed.
+The server runner requires the shared-helper Lean fixtures before project inspection.
+
+test_absent_control_cannot_invent_call (test_driver.Tests.test_absent_control_cannot_invent_call) ... ok
+test_absent_control_required (test_driver.Tests.test_absent_control_required) ... ok
+test_archive_excludes_itself (test_driver.Tests.test_archive_excludes_itself) ... ok
+test_assembly_shared_helper (test_driver.Tests.test_assembly_shared_helper) ... ok
+test_bad_record (test_driver.Tests.test_bad_record) ... ok
+test_capped_scan (test_driver.Tests.test_capped_scan) ... ok
+test_command_namespace_opened_after_helper (test_driver.Tests.test_command_namespace_opened_after_helper) ... ok
+test_container_isolation (test_driver.Tests.test_container_isolation) ... ok
+test_disk_guard (test_driver.Tests.test_disk_guard) ... ok
+test_exception (test_driver.Tests.test_exception) ... ok
+test_first_match_scope (test_driver.Tests.test_first_match_scope) ... ok
+test_first_match_without_comparison_not_complete (test_driver.Tests.test_first_match_without_comparison_not_complete) ... ok
+test_fixture_duplicate (test_driver.Tests.test_fixture_duplicate) ... ok
+test_fixture_missing (test_driver.Tests.test_fixture_missing) ... ok
+test_fixture_no_project_mount (test_driver.Tests.test_fixture_no_project_mount) ... ok
+test_fixture_success (test_driver.Tests.test_fixture_success) ... ok
+test_fixture_unknown (test_driver.Tests.test_fixture_unknown) ... ok
+test_fixture_wrong_answer (test_driver.Tests.test_fixture_wrong_answer) ... ok
+test_identical_sides_no_verdict (test_driver.Tests.test_identical_sides_no_verdict) ... ok
+test_marker_after_compile_error_is_not_success (test_driver.Tests.test_marker_after_compile_error_is_not_success) ... ok
+test_markers_required (test_driver.Tests.test_markers_required) ... ok
+test_memory_guard (test_driver.Tests.test_memory_guard) ... ok
+test_meta_lift_namespace_regression (test_driver.Tests.test_meta_lift_namespace_regression) ... ok
+test_missing_call (test_driver.Tests.test_missing_call) ... ok
+test_missing_generic (test_driver.Tests.test_missing_generic) ... ok
+test_negative_control_expected (test_driver.Tests.test_negative_control_expected) ... ok
+test_negative_control_not_timeout (test_driver.Tests.test_negative_control_not_timeout) ... ok
+test_no_proof_verdict (test_driver.Tests.test_no_proof_verdict) ... ok
+test_noncomparison (test_driver.Tests.test_noncomparison) ... ok
+test_only_owned_stop (test_driver.Tests.test_only_owned_stop) ... ok
+test_output_not_checkout (test_driver.Tests.test_output_not_checkout) ... ok
+test_record_parsing (test_driver.Tests.test_record_parsing) ... ok
+test_sorry_rejected (test_driver.Tests.test_sorry_rejected) ... ok
+test_cap_is_not_completion (test_arguments.ArgumentTests.test_cap_is_not_completion) ... ok
+test_comparison_must_match_argument_location (test_arguments.ArgumentTests.test_comparison_must_match_argument_location) ... ok
+test_duplicates_rejected (test_arguments.ArgumentTests.test_duplicates_rejected) ... ok
+test_exact_targets_in_project_probe (test_arguments.ArgumentTests.test_exact_targets_in_project_probe) ... ok
+test_expected_coverage (test_arguments.ArgumentTests.test_expected_coverage) ... ok
+test_fixture_failure_stops_project (test_arguments.ArgumentTests.test_fixture_failure_stops_project) ... ok
+test_missing_nonzero_premise_is_incomplete (test_arguments.ArgumentTests.test_missing_nonzero_premise_is_incomplete) ... ok
+test_missing_parameter (test_arguments.ArgumentTests.test_missing_parameter) ... ok
+test_missing_printed_type_fails (test_arguments.ArgumentTests.test_missing_printed_type_fails) ... ok
+test_missing_proof_record (test_arguments.ArgumentTests.test_missing_proof_record) ... ok
+test_noncomparison_is_unresolved (test_arguments.ArgumentTests.test_noncomparison_is_unresolved) ... ok
+test_reflexivity_does_not_invalidate_rh (test_arguments.ArgumentTests.test_reflexivity_does_not_invalidate_rh) ... ok
+test_same_helper_for_fixture_and_project (test_arguments.ArgumentTests.test_same_helper_for_fixture_and_project) ... ok
+test_truncation_is_reported (test_arguments.ArgumentTests.test_truncation_is_reported) ... ok
+test_unknown_is_not_completion (test_arguments.ArgumentTests.test_unknown_is_not_completion) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.007s
+
+OK

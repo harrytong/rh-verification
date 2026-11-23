@@ -1,0 +1,21 @@
+Stage 3 v0.8 packaging validation — 2026-11-23
+
+python3 -m unittest discover -s rh-audit-stage3-v0.8 -p 'test_*.py'
+Ran 58 tests. OK. 51 inherited tests plus 7 construction-phase tests.
+
+New tests cover:
+- eight frozen targets and exact reuse of the provenance helper;
+- focused owner/explicit/reference ordering with import traversal;
+- invalid source selection mode rejection;
+- lexical index comment inclusion, line length and hit count caps;
+- excluded sources skipped and unsafe evidence path rejected;
+- mocked successful construction phase writes expected outputs;
+- failed provenance fixture prevents project probe and retains failure evidence.
+
+Python syntax compilation passed. All shared Lean helpers and fixture files
+are byte-identical to v0.7. Final package manifest and ZIP contents validated.
+No local Lean executable is available. Construction.lean has NOT been compiled
+here. The server run must pass fixtures and the actual project inspection.
+Synthetic Python tests validate runner behavior, not mathematical conclusions.
+
+No RH/GRH, necessity, independent-kernel or Comparator-completion verdict.

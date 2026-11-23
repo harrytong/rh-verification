@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "direct",
+    "absent",
+    "shadowed",
+    "outer-binder",
+    "annotation-omitted",
+    "let-value",
+    "projection",
+    "metadata",
+    "capped",
+    "depth-cap-before-hit",
+    "application-context",
+    "function-context",
+    "stored theorem binder lookup"
+  ],
+  "meaning": "tool fixture only; no RH or necessity verdict"
+}

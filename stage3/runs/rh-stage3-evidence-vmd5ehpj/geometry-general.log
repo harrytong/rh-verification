@@ -1,0 +1,2357 @@
+START_UTC 2026-11-23T07:23:45.742737+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-vmd5ehpj/geometry-general.cid", "--name", "rh-audit-stage3-vmd5ehpj-geometrygeneral", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=100g", "--memory-swap=100g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-vmd5ehpj,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=/home/harry/rh-verification/riemann-hypothesis/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/Qq/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/aesop/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/batteries/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/importGraph/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/mathlib/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/plausible/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean", "--mount", "type=bind,src=/home/harry/rh-verification/riemann-hypothesis,dst=/home/harry/rh-verification/riemann-hypothesis,readonly", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "1800", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/GeometryGeneral.lean"]
+RHStage3Followup.stage3_open_supplier_baseline :
+  GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+    ∀ (hL : UpperTheory.Zero.LLC.RecTExists) (cDep : Real),
+      @GlobalTheory.Fc.S0.OpenParameterStatements hL (GlobalTheory.Mem.Top.Bl.parametersOfDependence hL cDep)
+RH_STAGE3_SUPPLIER_BASELINE_ACCEPTED
+theorem RHStage3Followup.stage3_open_supplier_arbitrary : ∀ (auditGamma : GlobalTheory.Mem.Top.Bl.GeoP),
+  GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+    ∀ (hL : UpperTheory.Zero.LLC.RecTExists) (cDep : Real),
+      @GlobalTheory.Fc.S0.OpenParameterStatements hL
+        (@GlobalTheory.Mem.Top.Bl.parametersOfExtension hL (GlobalTheory.HeightCounting.Up.extensionWithList hL cDep)
+          GlobalTheory.Mem.Top.Bl.SExt.none auditGamma) :=
+fun (auditGamma : ⋯) (P : ⋯) (hL : ⋯) (cDep : ⋯) =>
+  have hNE : ⋯ :=
+    fun (x : ⋯) (x_1 : ⋯) (x_2 : ⋯) (x_3 : ⋯) (x_4 : ⋯) (x_5 : ⋯) (x_6 : ⋯) (x_7 : ⋯) (x_8 : ⋯) (x_9 : ⋯) (x_10 : ⋯)
+      (x_11 : ⋯) (x_12 : ⋯) (x_13 : ⋯) =>
+    @Nonempty.intro.{2}
+      (GlobalTheory.HeightCounting.Up.extensionWithLaw hL x x_1 x_2 x_3 x_4 x_5 x_6 x_7 x_8 x_9 x_10 x_11 x_12)
+      (@Prod.fst.{1, 0}
+        (GlobalTheory.HeightCounting.Up.extensionWithLaw hL x x_1 x_2 x_3 x_4 x_5 x_6 x_7 x_8 x_9 x_10 x_11 x_12)
+        (PLift.{0}
+          (@GlobalTheory.HeightCounting.Up.ListPin
+            (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+            (@GlobalTheory.Mem.R3.TupU
+              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+              (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4) (@GlobalTheory.Mem.Top.Bl.ColW.I x_1 x_2 x_3 x_4)
+              (@GlobalTheory.Mem.R3.usedOf
+                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4) (@GlobalTheory.Mem.Top.Bl.ColW.I x_1 x_2 x_3 x_4) x_3
+                x_6))
+            (@Formalism.IndefR.Links.RealDat.toLevCh
+              (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+              (GlobalTheory.Mem.R3.Gc (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4))
+              (@Pi.group.{0, 0}
+                (@Subtype.{1}
+                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                    (@NumberField.RingOfIntegers.{0}
+                      (Formalism.L2.Col.Fields.E
+                        (GlobalTheory.Mem.Base.fields
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                      (Formalism.L2.Col.Fields.fieldE
+                        (GlobalTheory.Mem.Base.fields
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                    (@NumberField.instCommRingRingOfIntegers.{0}
+                      (Formalism.L2.Col.Fields.E
+                        (GlobalTheory.Mem.Base.fields
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                      (Formalism.L2.Col.Fields.fieldE
+                        (GlobalTheory.Mem.Base.fields
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                  fun
+                    (w :
+                      @IsDedekindDomain.HeightOneSpectrum.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                  @Membership.mem.{0, 0}
+                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                      (@NumberField.RingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@NumberField.instCommRingRingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (Finset.{0}
+                      (@IsDedekindDomain.HeightOneSpectrum.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                    (@SetLike.instMembership.{0, 0}
+                      (Finset.{0}
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                      (@IsDedekindDomain.HeightOneSpectrum.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@Finset.instSetLike.{0}
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                    (@Formalism.L2.Col.Primes.vGs
+                      (GlobalTheory.Mem.Base.fields
+                        (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                      (GlobalTheory.Mem.Base.primes
+                        (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                        (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                    w)
+                (fun
+                    (w :
+                      @Subtype.{1}
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        fun
+                          (w :
+                            @IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                        @Membership.mem.{0, 0}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                          (Finset.{0}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                          (@SetLike.instMembership.{0, 0}
+                            (Finset.{0}
+                              (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                (@NumberField.RingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                (@NumberField.instCommRingRingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (@Finset.instSetLike.{0}
+                              (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                (@NumberField.RingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                (@NumberField.instCommRingRingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                          (@Formalism.L2.Col.Primes.vGs
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                            (GlobalTheory.Mem.Base.primes
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                              (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                          w) =>
+                  @Matrix.GeneralLinearGroup.{0, 0}
+                    (Fin
+                      (Formalism.BasicNotions.Ranks.r
+                        (GlobalTheory.Mem.Pre.R
+                          (GlobalTheory.Mem.Base.toPre
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (@HasQuotient.Quotient.{0, 0}
+                      (@NumberField.RingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@Ideal.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@CommSemiring.toSemiring.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@CommRing.toCommSemiring.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                      (@Ideal.instHasQuotient_1.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Subtype.val.{1}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                          (fun
+                              (w :
+                                @IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                            @Membership.mem.{0, 0}
+                              (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                (@NumberField.RingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                (@NumberField.instCommRingRingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                              (Finset.{0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                              (@SetLike.instMembership.{0, 0}
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (@Finset.instSetLike.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                              (@Formalism.L2.Col.Primes.vGs
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                (GlobalTheory.Mem.Base.primes
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                  (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                              w)
+                          w)))
+                    (instDecidableEqFin
+                      (Formalism.BasicNotions.Ranks.r
+                        (GlobalTheory.Mem.Pre.R
+                          (GlobalTheory.Mem.Base.toPre
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (Fin.fintype
+                      (Formalism.BasicNotions.Ranks.r
+                        (GlobalTheory.Mem.Pre.R
+                          (GlobalTheory.Mem.Base.toPre
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (@Ideal.Quotient.semiring.{0}
+                      (@NumberField.RingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@NumberField.instCommRingRingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Subtype.val.{1}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                          (fun
+                              (w :
+                                @IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                            @Membership.mem.{0, 0}
+                              (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                (@NumberField.RingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                (@NumberField.instCommRingRingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                              (Finset.{0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                              (@SetLike.instMembership.{0, 0}
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (@Finset.instSetLike.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                              (@Formalism.L2.Col.Primes.vGs
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                (GlobalTheory.Mem.Base.primes
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                  (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                              w)
+                          w))))
+                fun
+                  (i :
+                    @Subtype.{1}
+                      (@IsDedekindDomain.HeightOneSpectrum.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      fun
+                        (w :
+                          @IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                      @Membership.mem.{0, 0}
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        (Finset.{0}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                        (@SetLike.instMembership.{0, 0}
+                          (Finset.{0}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                          (@Finset.instSetLike.{0}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                        (@Formalism.L2.Col.Primes.vGs
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                          (GlobalTheory.Mem.Base.primes
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                            (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                        w) =>
+                @Units.instGroup.{0}
+                  (Matrix.{0, 0, 0}
+                    (Fin
+                      (Formalism.BasicNotions.Ranks.r
+                        (GlobalTheory.Mem.Pre.R
+                          (GlobalTheory.Mem.Base.toPre
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (Fin
+                      (Formalism.BasicNotions.Ranks.r
+                        (GlobalTheory.Mem.Pre.R
+                          (GlobalTheory.Mem.Base.toPre
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    (@HasQuotient.Quotient.{0, 0}
+                      (@NumberField.RingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@Ideal.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@CommSemiring.toSemiring.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@CommRing.toCommSemiring.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                      (@Ideal.instHasQuotient_1.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Subtype.val.{1}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                          (fun
+                              (w :
+                                @IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                            @Membership.mem.{0, 0}
+                              (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                (@NumberField.RingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                (@NumberField.instCommRingRingOfIntegers.{0}
+                                  (Formalism.L2.Col.Fields.E
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                  (Formalism.L2.Col.Fields.fieldE
+                                    (GlobalTheory.Mem.Base.fields
+                                      (GlobalTheory.Mem.Stages.B
+                                        (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                              (Finset.{0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                              (@SetLike.instMembership.{0, 0}
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (@Finset.instSetLike.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                              (@Formalism.L2.Col.Primes.vGs
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                (GlobalTheory.Mem.Base.primes
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                  (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                              w)
+                          i))))
+                  (@Semiring.toMonoid.{0}
+                    (Matrix.{0, 0, 0}
+                      (Fin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (Fin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@HasQuotient.Quotient.{0, 0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Ideal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@CommSemiring.toSemiring.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@CommRing.toCommSemiring.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                        (@Ideal.instHasQuotient_1.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@Subtype.val.{1}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (fun
+                                (w :
+                                  @IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                              @Membership.mem.{0, 0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@SetLike.instMembership.{0, 0}
+                                  (Finset.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                  (@Finset.instSetLike.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                                (@Formalism.L2.Col.Primes.vGs
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                  (GlobalTheory.Mem.Base.primes
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                                w)
+                            i))))
+                    (@Matrix.semiring.{0, 0}
+                      (Fin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@HasQuotient.Quotient.{0, 0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Ideal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@CommSemiring.toSemiring.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@CommRing.toCommSemiring.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                        (@Ideal.instHasQuotient_1.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@Subtype.val.{1}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (fun
+                                (w :
+                                  @IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                              @Membership.mem.{0, 0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@SetLike.instMembership.{0, 0}
+                                  (Finset.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                  (@Finset.instSetLike.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                                (@Formalism.L2.Col.Primes.vGs
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                  (GlobalTheory.Mem.Base.primes
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                                w)
+                            i)))
+                      (@Ideal.Quotient.semiring.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (@Formalism.HC.HostRaw.instField
+                            (Formalism.BasicNotions.Ranks.toFrame
+                              (GlobalTheory.Mem.Pre.R
+                                (GlobalTheory.Mem.Base.toPre
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@Formalism.HC.HostAx.toHostRaw
+                              (Formalism.BasicNotions.Ranks.toFrame
+                                (GlobalTheory.Mem.Pre.R
+                                  (GlobalTheory.Mem.Base.toPre
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@Formalism.BasicNotions.Host.toHostAx
+                                (GlobalTheory.Mem.Pre.R
+                                  (GlobalTheory.Mem.Base.toPre
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (GlobalTheory.Mem.Pre.host
+                                  (GlobalTheory.Mem.Base.toPre
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                        (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@Subtype.val.{1}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (fun
+                                (w :
+                                  @IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                              @Membership.mem.{0, 0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@SetLike.instMembership.{0, 0}
+                                  (Finset.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                  (@Finset.instSetLike.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                                (@Formalism.L2.Col.Primes.vGs
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                  (GlobalTheory.Mem.Base.primes
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                                w)
+                            i)))
+                      (Fin.fintype
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (instDecidableEqFin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))))
+              (@Formalism.L2.Col.fintype_GLs
+                (Formalism.L2.Col.Fields.E
+                  (GlobalTheory.Mem.Base.fields
+                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                (Formalism.L2.Col.Fields.fieldE
+                  (GlobalTheory.Mem.Base.fields
+                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                (GlobalTheory.HeightCounting.Up.extensionWithList._proof_1 x_1 x_2 x_3 x_4 x_5)
+                (@Formalism.L2.Col.Primes.vGs
+                  (GlobalTheory.Mem.Base.fields
+                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                  (GlobalTheory.Mem.Base.primes
+                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                    (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                (Formalism.BasicNotions.Ranks.r
+                  (GlobalTheory.Mem.Pre.R
+                    (GlobalTheory.Mem.Base.toPre
+                      (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+              (GlobalTheory.Mem.R3.PlS
+                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4))
+              (@GlobalTheory.Mem.R3.TupU
+                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4) (@GlobalTheory.Mem.Top.Bl.ColW.I x_1 x_2 x_3 x_4)
+                (@GlobalTheory.Mem.R3.usedOf
+                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                  (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4) (@GlobalTheory.Mem.Top.Bl.ColW.I x_1 x_2 x_3 x_4)
+                  x_3 x_6))
+              (@Formalism.L2.DIV.FamIn3.A
+                (@Formalism.BasicNotions.Rows.Data.LL
+                  (Formalism.BasicNotions.D7.R
+                    (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                  (Formalism.BasicNotions.D7.what₂
+                    (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                (@Formalism.BasicNotions.Rows.Data.instLL
+                  (Formalism.BasicNotions.D7.R
+                    (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                  (Formalism.BasicNotions.D7.what₂
+                    (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                (GlobalTheory.HeightCounting.Up.extensionWithList._proof_2 x_1 x_2 x_3 x_4 x_5)
+                (Formalism.BasicNotions.D7.starLL
+                  (GlobalTheory.Mem.Stages.toD7 (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                (GlobalTheory.Mem.R3.Gc
+                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                  (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4))
+                (@Pi.group.{0, 0}
+                  (@Subtype.{1}
+                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                      (@NumberField.RingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                      (@NumberField.instCommRingRingOfIntegers.{0}
+                        (Formalism.L2.Col.Fields.E
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                        (Formalism.L2.Col.Fields.fieldE
+                          (GlobalTheory.Mem.Base.fields
+                            (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                    fun
+                      (w :
+                        @IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B
+                                  (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                    @Membership.mem.{0, 0}
+                      (@IsDedekindDomain.HeightOneSpectrum.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (Finset.{0}
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                      (@SetLike.instMembership.{0, 0}
+                        (Finset.{0}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                        (@IsDedekindDomain.HeightOneSpectrum.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        (@Finset.instSetLike.{0}
+                          (@IsDedekindDomain.HeightOneSpectrum.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@NumberField.instCommRingRingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                      (@Formalism.L2.Col.Primes.vGs
+                        (GlobalTheory.Mem.Base.fields
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                        (GlobalTheory.Mem.Base.primes
+                          (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                          (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                      w)
+                  (fun (w : ⋯) =>
+                    @Matrix.GeneralLinearGroup.{0, 0}
+                      (Fin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@HasQuotient.Quotient.{0, 0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@Ideal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@CommSemiring.toSemiring.{0}
+                            (@NumberField.RingOfIntegers.{0}
+                              (Formalism.L2.Col.Fields.E
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                              (Formalism.L2.Col.Fields.fieldE
+                                (GlobalTheory.Mem.Base.fields
+                                  (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                            (@CommRing.toCommSemiring.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                        (@Ideal.instHasQuotient_1.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                        (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@Subtype.val.{1}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (fun
+                                (w :
+                                  @IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))) =>
+                              @Membership.mem.{0, 0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                (Finset.{0}
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                (@SetLike.instMembership.{0, 0}
+                                  (Finset.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))))
+                                  (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                    (@NumberField.RingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                    (@NumberField.instCommRingRingOfIntegers.{0}
+                                      (Formalism.L2.Col.Fields.E
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                      (Formalism.L2.Col.Fields.fieldE
+                                        (GlobalTheory.Mem.Base.fields
+                                          (GlobalTheory.Mem.Stages.B
+                                            (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                  (@Finset.instSetLike.{0}
+                                    (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                      (@NumberField.RingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                      (@NumberField.instCommRingRingOfIntegers.{0}
+                                        (Formalism.L2.Col.Fields.E
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                        (Formalism.L2.Col.Fields.fieldE
+                                          (GlobalTheory.Mem.Base.fields
+                                            (GlobalTheory.Mem.Stages.B
+                                              (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))))
+                                (@Formalism.L2.Col.Primes.vGs
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))
+                                  (GlobalTheory.Mem.Base.primes
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))
+                                    (@GlobalTheory.Mem.Top.Bl.ColW.px x_1 x_2 x_3 x_4)))
+                                w)
+                            w)))
+                      (instDecidableEqFin
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (Fin.fintype
+                        (Formalism.BasicNotions.Ranks.r
+                          (GlobalTheory.Mem.Pre.R
+                            (GlobalTheory.Mem.Base.toPre
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                      (@Ideal.Quotient.semiring.{0}
+                        (@NumberField.RingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@NumberField.instCommRingRingOfIntegers.{0}
+                          (Formalism.L2.Col.Fields.E
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                          (Formalism.L2.Col.Fields.fieldE
+                            (GlobalTheory.Mem.Base.fields
+                              (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                        (@IsDedekindDomain.HeightOneSpectrum.asIdeal.{0}
+                          (@NumberField.RingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@NumberField.instCommRingRingOfIntegers.{0}
+                            (Formalism.L2.Col.Fields.E
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                            (Formalism.L2.Col.Fields.fieldE
+                              (GlobalTheory.Mem.Base.fields
+                                (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                          (@Subtype.val.{1}
+                            (@IsDedekindDomain.HeightOneSpectrum.{0}
+                              (@NumberField.RingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                              (@NumberField.instCommRingRingOfIntegers.{0}
+                                (Formalism.L2.Col.Fields.E
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                (Formalism.L2.Col.Fields.fieldE
+                                  (GlobalTheory.Mem.Base.fields
+                                    (GlobalTheory.Mem.Stages.B
+                                      (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                            (fun (w : ⋯) =>
+                              @Membership.mem.{0, 0}
+                                (@IsDedekindDomain.HeightOneSpectrum.{0}
+                                  (@NumberField.RingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5)))))
+                                  (@NumberField.instCommRingRingOfIntegers.{0}
+                                    (Formalism.L2.Col.Fields.E
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))
+                                    (Formalism.L2.Col.Fields.fieldE
+                                      (GlobalTheory.Mem.Base.fields
+                                        (GlobalTheory.Mem.Stages.B
+                                          (@GlobalTheory.Mem.Top.Bl.ColW.st x_1 x_2 x_3 x_4 x_5))))))
+                                ⋯ ⋯ ⋯ ⋯)
+                            ⋯))))
+                  ⋯)
+                ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯)
+              ⋯ ⋯ ⋯ ⋯ ⋯)
+            ⋯ ⋯))
+        ⋯);
+  ⋯
+'RHStage3Followup.stage3_open_supplier_arbitrary' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+RH_STAGE3_ARBITRARY_SUPPLIER_ACCEPTED
+theorem RHStage3Followup.stage3_open_supplier_false : GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+  ∀ (hL : UpperTheory.Zero.LLC.RecTExists) (cDep : Real),
+    @GlobalTheory.Fc.S0.OpenParameterStatements hL
+      (@GlobalTheory.Mem.Top.Bl.parametersOfExtension hL (GlobalTheory.HeightCounting.Up.extensionWithList hL cDep)
+        GlobalTheory.Mem.Top.Bl.SExt.none
+        fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) =>
+        False) :=
+RHStage3Followup.stage3_open_supplier_arbitrary
+  fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) => False
+'RHStage3Followup.stage3_open_supplier_false' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem RHStage3Followup.stage3_false_closure_empty : ∀ {D : Formalism.BasicNotions.D7} {J : Formalism.L2.Pj.Core D}
+  {X : Formalism.BasicNotions.DivX D},
+  Not
+    (GlobalTheory.Mem.Top.Bl.GeoCl
+      (fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) =>
+        False)
+      D J X) :=
+fun {D : Formalism.BasicNotions.D7} {J : Formalism.L2.Pj.Core D} {X : Formalism.BasicNotions.DivX D}
+    (h :
+      GlobalTheory.Mem.Top.Bl.GeoCl
+        (fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) =>
+          False)
+        D J X) =>
+  @GlobalTheory.Mem.Top.Bl.GeoCl.rec
+    (fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) => False)
+    (fun {D : Formalism.BasicNotions.D7} {J : Formalism.L2.Pj.Core D} {X : Formalism.BasicNotions.DivX D}
+        (h :
+          GlobalTheory.Mem.Top.Bl.GeoCl
+            (fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) =>
+              False)
+            D J X) =>
+      False)
+    (fun {D : Formalism.BasicNotions.D7} {J : Formalism.L2.Pj.Core D} {X : Formalism.BasicNotions.DivX D}
+        (hp : False) =>
+      hp)
+    (fun {D : Formalism.BasicNotions.D7}
+        (N :
+          (u :
+              @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D)) →
+            @Submodule.{0, 0}
+              (@NumberField.RingOfIntegers.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D)))
+              (@Formalism.BasicNotions.HLat.V
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.DivData.Nu
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                  (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+              (@CommSemiring.toSemiring.{0}
+                (@NumberField.RingOfIntegers.{0}
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D)))
+                (@CommRing.toCommSemiring.{0}
+                  (@NumberField.RingOfIntegers.{0}
+                    (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D)))
+                  (@NumberField.instCommRingRingOfIntegers.{0}
+                    (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D)))))
+              (@AddCommGroup.toAddCommMonoid.{0}
+                (@Formalism.BasicNotions.HLat.V
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                  (@Formalism.BasicNotions.DivData.Nu
+                    (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                    (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+                (@Formalism.BasicNotions.HLat.addV
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                  (@Formalism.BasicNotions.DivData.Nu
+                    (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                    (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)))
+              (@Formalism.BasicNotions.HLat.modOV
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.DivData.Nu
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                  (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)))
+        (h :
+          @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D) →
+            Real)
+        {J : Formalism.L2.Pj.Core D} {X : Formalism.BasicNotions.DivX D}
+        (previous :
+          GlobalTheory.Mem.Top.Bl.GeoCl
+            (fun (x : Formalism.BasicNotions.D7) (x_1 : Formalism.L2.Pj.Core x) (x_2 : Formalism.BasicNotions.DivX x) =>
+              False)
+            D J X)
+        (ih : False) =>
+      ih)
+    D J X h
+'RHStage3Followup.stage3_false_closure_empty' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+RH_STAGE3_GENERAL_SUPPLIER_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/GeometryGeneral.lean"
+	User time (seconds): 40.03
+	System time (seconds): 35.40
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:15.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52093272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1253955
+	Voluntary context switches: 2827
+	Involuntary context switches: 699
+	Swaps: 0
+	File system inputs: 768
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T07:25:01.256228+00:00

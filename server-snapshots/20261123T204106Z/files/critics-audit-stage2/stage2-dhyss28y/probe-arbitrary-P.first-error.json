@@ -1,0 +1,6 @@
+{
+  "line": 3,
+  "context": "/audit/AbstractionArbitraryP.lean:63:25: error: Application type mismatch: The argument\n  hOpen1\nhas type\n  S0.OpenParameterStatements (parametersOfDependence hL (max CF0 CF1))\nbut is expected to have type\n  S0.OpenParameterStatements\n    (parametersOfExtension (GlobalTheory.HeightCounting.Up.extensionWithList hL (max CF0 CF1)) SExt.none\n      (geoCl auditGamma))\nin the application\n  hMono.right hOpen1",
+  "provisional_category": "type-or-interface-mismatch; premise-status-unresolved",
+  "reviewed_classification": "pending human review"
+}

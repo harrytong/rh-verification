@@ -1,0 +1,41 @@
+STARTED 2026-11-22T18:33:07.396613-05:00
+COMMAND_JSON ["sudo", "docker", "run", "--rm", "--name", "rh-audit-stage2", "--log-driver=none", "--network", "none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=100g", "--memory-swap=100g", "--pids-limit=512", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=2g,mode=1777", "--mount", "type=bind,src=/home/harry/rh-verification/riemann-hypothesis,dst=/home/harry/rh-verification/riemann-hypothesis,readonly", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage2/stage2-dhyss28y,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=/tmp:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/Qq/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/aesop/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/batteries/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/importGraph/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/mathlib/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/plausible/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean", "rh-lean-check:1", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/GeometryAbstraction.lean"]
+RHStage2Abstraction.universalPredicate_suffices (P : GeoP)
+  (hP : ∀ (D : D7) (J : Formalism.L2.Pj.Core D) (X : DivX D), P D J X) (D : D7) (J : Formalism.L2.Pj.Core D)
+  (X : DivX D) : geoCl P D J X
+RHStage2Abstraction.closure_requires_a_seed (P : GeoP) {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D}
+  (h : GeoCl P D J X) : ∃ D₀ J₀ X₀, P D₀ J₀ X₀
+RHStage2Abstraction.falsePredicate_has_empty_closure {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D} :
+  ¬GeoCl (fun x x_1 x_2 => False) D J X
+RHStage2Abstraction.anyGeometry_has_universal_closure (D : D7) (J : Formalism.L2.Pj.Core D) (X : DivX D) :
+  geoCl anyGeometry D J X
+'RHStage2Abstraction.universalPredicate_suffices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.closure_requires_a_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.falsePredicate_has_empty_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.anyGeometry_has_universal_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/GeometryAbstraction.lean"
+	User time (seconds): 41.72
+	System time (seconds): 39.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51143332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 1248597
+	Voluntary context switches: 2648
+	Involuntary context switches: 14760
+	Swaps: 0
+	File system inputs: 816
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+FINISHED 2026-11-22T18:34:28.793842-05:00

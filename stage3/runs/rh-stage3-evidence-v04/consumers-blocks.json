@@ -1,0 +1,85 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.Fc.RL.at_tie_alt",
+      "begin_line": 6,
+      "end_line": 66,
+      "rendered_block_sha256": "16befdfb2b3a9b00d5e1ab7d66254dfc1abb83dbb30a26b09d7b5389b973adf6",
+      "rendered_block_utf8_bytes": 4652,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+      "begin_line": 70,
+      "end_line": 2158,
+      "rendered_block_sha256": "9bbf0e8287887fc32c68ba1b1faa042707bd93fee0e42970cb7c463af53f15bb",
+      "rendered_block_utf8_bytes": 158144,
+      "elision_indicators": {
+        "⋯": 62
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.eventually_onPt_of_pDiv_ties_and_onPt",
+      "begin_line": 2162,
+      "end_line": 2199,
+      "rendered_block_sha256": "34f51a87b7d397a4cbedaaa975deb8290579bde1e2716823cd65f2e651d98224",
+      "rendered_block_utf8_bytes": 2615,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.RowPointSummands",
+      "begin_line": 2203,
+      "end_line": 2212,
+      "rendered_block_sha256": "09a7675010c91299105808bb55391b0f3a40f0afe5589ada4c5c1fe2a041da5d",
+      "rendered_block_utf8_bytes": 739,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.FrameCmp.htCmp",
+      "begin_line": 2216,
+      "end_line": 3701,
+      "rendered_block_sha256": "c22701a6809a9ee8162ba1c12ad7a4b519c0dcc76fe2509798179782d54c10f9",
+      "rendered_block_utf8_bytes": 123357,
+      "elision_indicators": {
+        "⋯": 39
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.HTCmp",
+      "begin_line": 3705,
+      "end_line": 5477,
+      "rendered_block_sha256": "745f63bf6e95866556c093ce699ee81ece44225095677c953a8df9c3554fddac",
+      "rendered_block_utf8_bytes": 149215,
+      "elision_indicators": {
+        "⋯": 35
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.cover_height_comparison",
+      "begin_line": 5481,
+      "end_line": 5508,
+      "rendered_block_sha256": "1c300ea647c78134ffc0ffcf58503ff30cd18563746774fed649b0d148e88018",
+      "rendered_block_utf8_bytes": 1991,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.eventual_L3_of_covolume_alt",
+      "begin_line": 5512,
+      "end_line": 6438,
+      "rendered_block_sha256": "c22bce9df7d4bea801bfb44bca178451bd6f91e3973cd3bd3ce4d573b213129d",
+      "rendered_block_utf8_bytes": 82412,
+      "elision_indicators": {
+        "⋯": 44
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

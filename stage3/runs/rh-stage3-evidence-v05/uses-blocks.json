@@ -1,0 +1,109 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+      "begin_line": 28,
+      "end_line": 2116,
+      "rendered_block_sha256": "9bbf0e8287887fc32c68ba1b1faa042707bd93fee0e42970cb7c463af53f15bb",
+      "rendered_block_utf8_bytes": 158144,
+      "elision_indicators": {
+        "⋯": 62
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+      "begin_line": 2154,
+      "end_line": 4091,
+      "rendered_block_sha256": "0b273a6e32f41abcba76061d59a0a35e6cf2d8e0fb3d2981d17a186c662e02a6",
+      "rendered_block_utf8_bytes": 169617,
+      "elision_indicators": {
+        "⋯": 110
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.evWC_onPt_of_guarded_alt",
+      "begin_line": 4105,
+      "end_line": 5187,
+      "rendered_block_sha256": "a7c2d35813ab053bbb728c7ff11e3c2759e7b1059ff43dc730afb26c75d43768",
+      "rendered_block_utf8_bytes": 77479,
+      "elision_indicators": {
+        "⋯": 39
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.eventual_L3_of_covolume_alt",
+      "begin_line": 5198,
+      "end_line": 6124,
+      "rendered_block_sha256": "c22bce9df7d4bea801bfb44bca178451bd6f91e3973cd3bd3ce4d573b213129d",
+      "rendered_block_utf8_bytes": 82412,
+      "elision_indicators": {
+        "⋯": 44
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.TieOfLink.hasTie_of_linked",
+      "begin_line": 6132,
+      "end_line": 8859,
+      "rendered_block_sha256": "0f40af7134c8767f037ce253e75106b8f3c82522359bc38822a2678678c3d491",
+      "rendered_block_utf8_bytes": 243397,
+      "elision_indicators": {
+        "⋯": 33
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "SelfIntersectionVolumeEstimates.topCovolG_alt_alt",
+      "begin_line": 8871,
+      "end_line": 8917,
+      "rendered_block_sha256": "d3b85b2be970a3c8b5c80c48253039e16696a54aca2de0059f883aabbc54d5aa",
+      "rendered_block_utf8_bytes": 3776,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovTop.CovolumeBoundOfX",
+      "begin_line": 8922,
+      "end_line": 9744,
+      "rendered_block_sha256": "4045a7dc70271e1652b7dbd42549763e7a10d82bbe26d52280db6e260d6e6fbd",
+      "rendered_block_utf8_bytes": 78139,
+      "elision_indicators": {
+        "⋯": 25
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.FrameCmp.htCmp",
+      "begin_line": 9765,
+      "end_line": 11250,
+      "rendered_block_sha256": "c22701a6809a9ee8162ba1c12ad7a4b519c0dcc76fe2509798179782d54c10f9",
+      "rendered_block_utf8_bytes": 123357,
+      "elision_indicators": {
+        "⋯": 39
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CompHt.recVals",
+      "begin_line": 11264,
+      "end_line": 11583,
+      "rendered_block_sha256": "f82e1fe1cd6039f49513a5d01d83893366b7785dbadc2c2ce4645fb8f16f3eca",
+      "rendered_block_utf8_bytes": 24155,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CompHt.htVals",
+      "begin_line": 11597,
+      "end_line": 11915,
+      "rendered_block_sha256": "01db80511db0eefccbfb0f31229319aad002b7dba825a0fc1476b5d60670a408",
+      "rendered_block_utf8_bytes": 24093,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

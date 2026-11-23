@@ -1,0 +1,1443 @@
+[
+  {
+    "event": "generic-start",
+    "owner": "GlobalTheory.CovHt.HtTopG.slope_le_height"
+  },
+  {
+    "callee": "",
+    "event": "comparison",
+    "lhs": {
+      "text": "(1 - GlobalTheory.CompHt.rhoB (GlobalTheory.CovTop.dat p i) u1) * max 0 (s + cs)",
+      "truncated": false
+    },
+    "local_context": [
+      {
+        "let_value": null,
+        "name": "D",
+        "type": {
+          "text": "Formalism.BasicNotions.D7",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "L",
+        "type": {
+          "text": "Formalism.BasicNotions.SizeData₂ D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hT",
+        "type": {
+          "text": "Formalism.BasicNotions.GatTies D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Gi",
+        "type": {
+          "text": "Formalism.MainNotions.G.Inst D L",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Gl",
+        "type": {
+          "text": "Formalism.MainNotions.G.LatInst D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Kc",
+        "type": {
+          "text": "Formalism.MainNotions.G.Consts",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Y0",
+        "type": {
+          "text": "Formalism.BasicNotions.DivX D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "cX",
+        "type": {
+          "text": "Formalism.BasicNotions.ExtraC",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "ex",
+        "type": {
+          "text": "Formalism.BasicNotions.Extra D L hT Gi Gl Kc Y0 cX",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Csz",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "p",
+        "type": {
+          "text": "GlobalTheory.BigTop.PtAt ex Csz",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "i",
+        "type": {
+          "text": "Fin D.R.m",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Y",
+        "type": {
+          "text": "GlobalTheory.CovTop.Cov p i",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hPX",
+        "type": {
+          "text": "SelfIntersectionVolumeEstimates.VolumeEstimateHypotheses",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hP",
+        "type": {
+          "text": "GlobalTheory.CovTop.PublishedHodgeBundleTheorems",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "e",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "o",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hY",
+        "type": {
+          "text": "GlobalTheory.CovTop.Deep.Good Y e o",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hHT",
+        "type": {
+          "text": "GlobalTheory.CovHt.HTCmp Y.d.Xo₂ Y.d.c₂",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "u1",
+        "type": {
+          "text": "GlobalTheory.AllWt.Weight (GlobalTheory.CovTop.dat p i)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Z",
+        "type": {
+          "text": "Formalism.L2.Pj.Comp Y.d.Xo₂ Y.d.c₂",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "n",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "w",
+        "type": {
+          "text": "Fin n → ↥(GlobalTheory.AllWt.cuspOn Y.U Z (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0))",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "abelian₂",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hw",
+        "type": {
+          "text": "GlobalTheory.CompHt.IsShortGen\n  (GlobalTheory.AllWt.normOn Y.U (Formalism.L2.Pj.xiR D) (fun x => D.sp.W (↑i + 1)) Y.dict Z\n    (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0))\n  (GlobalTheory.AllWt.latOn Y.U Z (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0)) w abelian₂",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hGo",
+        "type": {
+          "text": "GlobalTheory.AllWt.GoodOn Y.U (Formalism.L2.Pj.xiR D) (fun x => D.sp.W (↑i + 1)) Y.dict Z\n  (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hBir",
+        "type": {
+          "text": "GlobalTheory.DegVal.BirOn Y.U Z (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hdel",
+        "type": {
+          "text": "(1 - GlobalTheory.CompHt.rhoB (GlobalTheory.CovTop.dat p i) u1) * GlobalTheory.CovTop.Deep.dg Y u1 Z ≤\n  GlobalTheory.CompHt.delPrime Y.U Z u1",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hρ",
+        "type": {
+          "text": "GlobalTheory.CompHt.rhoB (GlobalTheory.CovTop.dat p i) u1 < 1",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hd",
+        "type": {
+          "text": "0 < GlobalTheory.CovTop.Deep.dg Y u1 Z",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "cc",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "B",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "s",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "cs",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hM",
+        "type": {
+          "text": "GlobalTheory.CovHt.Mult Y.U (Formalism.L2.Pj.xiR D) (fun x => D.sp.W (↑i + 1)) Y.dict Z u1\n  (GlobalTheory.CompHt.uPrime (GlobalTheory.CovTop.dat p i) u1) cc",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hcc",
+        "type": {
+          "text": "0 ≤ cc",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hh",
+        "type": {
+          "text": "0 ≤\n  GlobalTheory.CovHt.htCost Y.d.l₂ B *\n    GlobalTheory.CovHt.l1 (GlobalTheory.CompHt.uPrime (GlobalTheory.CovTop.dat p i) u1)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hcs",
+        "type": {
+          "text": "Real.log abelian₂ ≤ cs",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hnn",
+        "type": {
+          "text": "0 ≤ GlobalTheory.CovTop.Deep.ht Y u1 Z + cs",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hs",
+        "type": {
+          "text": "↑s ≤\n  GlobalTheory.CompHt.compVolSlope Y.U (Formalism.L2.Pj.xiR D) 8 (GlobalTheory.CompHt.mixVals Y.d.Xo₂ Y.d.c₂ B) Z\n    (GlobalTheory.CompHt.uPrime (GlobalTheory.CovTop.dat p i) u1)",
+          "truncated": false
+        }
+      }
+    ],
+    "location": "generic-conclusion",
+    "meaning": "identity of sides only; not a necessity or RH verdict",
+    "owner": "GlobalTheory.CovHt.HtTopG.slope_le_height",
+    "relation": "LE.le",
+    "rhs": {
+      "text": "GlobalTheory.CovTop.Deep.ht Y u1 Z + cs +\n  (cc +\n    GlobalTheory.CovHt.htCost Y.d.l₂ B *\n      GlobalTheory.CovHt.l1 (GlobalTheory.CompHt.uPrime (GlobalTheory.CovTop.dat p i) u1))",
+      "truncated": false
+    },
+    "status": "not-definitionally-identical",
+    "transparency": "all"
+  },
+  {
+    "event": "generic-end",
+    "owner": "GlobalTheory.CovHt.HtTopG.slope_le_height",
+    "status": "completed"
+  },
+  {
+    "event": "generic-start",
+    "owner": "GlobalTheory.CovHt.HtTopG.height_add_log_nonneg"
+  },
+  {
+    "callee": "",
+    "event": "comparison",
+    "lhs": {
+      "text": "0",
+      "truncated": false
+    },
+    "local_context": [
+      {
+        "let_value": null,
+        "name": "D",
+        "type": {
+          "text": "Formalism.BasicNotions.D7",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "L",
+        "type": {
+          "text": "Formalism.BasicNotions.SizeData₂ D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hT",
+        "type": {
+          "text": "Formalism.BasicNotions.GatTies D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Gi",
+        "type": {
+          "text": "Formalism.MainNotions.G.Inst D L",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Gl",
+        "type": {
+          "text": "Formalism.MainNotions.G.LatInst D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Kc",
+        "type": {
+          "text": "Formalism.MainNotions.G.Consts",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Y0",
+        "type": {
+          "text": "Formalism.BasicNotions.DivX D",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "cX",
+        "type": {
+          "text": "Formalism.BasicNotions.ExtraC",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "ex",
+        "type": {
+          "text": "Formalism.BasicNotions.Extra D L hT Gi Gl Kc Y0 cX",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Csz",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "p",
+        "type": {
+          "text": "GlobalTheory.BigTop.PtAt ex Csz",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "i",
+        "type": {
+          "text": "Fin D.R.m",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Y",
+        "type": {
+          "text": "GlobalTheory.CovTop.Cov p i",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hP",
+        "type": {
+          "text": "GlobalTheory.CovTop.PublishedHodgeBundleTheorems",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "u1",
+        "type": {
+          "text": "GlobalTheory.AllWt.Weight (GlobalTheory.CovTop.dat p i)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Z",
+        "type": {
+          "text": "Formalism.L2.Pj.Comp Y.d.Xo₂ Y.d.c₂",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "n",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "w",
+        "type": {
+          "text": "Fin n → ↥(GlobalTheory.AllWt.cuspOn Y.U Z (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0))",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "abelian₂",
+        "type": {
+          "text": "ℝ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hw",
+        "type": {
+          "text": "GlobalTheory.CompHt.IsShortGen\n  (GlobalTheory.AllWt.normOn Y.U (Formalism.L2.Pj.xiR D) (fun x => D.sp.W (↑i + 1)) Y.dict Z\n    (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0))\n  (GlobalTheory.AllWt.latOn Y.U Z (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0)) w abelian₂",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hG",
+        "type": {
+          "text": "GlobalTheory.AllWt.GoodOn Y.U (Formalism.L2.Pj.xiR D) (fun x => D.sp.W (↑i + 1)) Y.dict Z\n  (GlobalTheory.AllWt.wtOf (GlobalTheory.CovTop.dat p i) u1 0)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hd",
+        "type": {
+          "text": "0 < GlobalTheory.CovTop.Deep.dg Y u1 Z",
+          "truncated": false
+        }
+      }
+    ],
+    "location": "generic-conclusion",
+    "meaning": "identity of sides only; not a necessity or RH verdict",
+    "owner": "GlobalTheory.CovHt.HtTopG.height_add_log_nonneg",
+    "relation": "LE.le",
+    "rhs": {
+      "text": "GlobalTheory.CovTop.Deep.ht Y u1 Z + Real.log abelian₂",
+      "truncated": false
+    },
+    "status": "not-definitionally-identical",
+    "transparency": "all"
+  },
+  {
+    "event": "generic-end",
+    "owner": "GlobalTheory.CovHt.HtTopG.height_add_log_nonneg",
+    "status": "completed"
+  },
+  {
+    "event": "generic-start",
+    "owner": "GlobalTheory.CovHt.FrameCmp.val_le"
+  },
+  {
+    "callee": "",
+    "event": "comparison",
+    "lhs": {
+      "text": "GlobalTheory.CompHt.val_vw la p v (Formalism.L2.Pj.evR Xo c f y)",
+      "truncated": false
+    },
+    "local_context": [
+      {
+        "let_value": null,
+        "name": "E",
+        "type": {
+          "text": "Type",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.3",
+        "type": {
+          "text": "Field E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.6",
+        "type": {
+          "text": "NumberField E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.9",
+        "type": {
+          "text": "NumberField.IsCMField E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "H",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Host E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Dw",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Datum H",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "l",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Level H",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Xo",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Moduli Dw l",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "c",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Coeff l",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "p",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.26",
+        "type": {
+          "text": "Fact (Nat.Prime p)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "C",
+        "type": {
+          "text": "Type",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.30",
+        "type": {
+          "text": "Field C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.33",
+        "type": {
+          "text": "IsAlgClosed C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.36",
+        "type": {
+          "text": "CharZero C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "v",
+        "type": {
+          "text": "Valuation C NNReal",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "O",
+        "type": {
+          "text": "Type",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.45",
+        "type": {
+          "text": "CommRing O",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.48",
+        "type": {
+          "text": "Algebra O C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.52",
+        "type": {
+          "text": "Algebra ℤ_[p] O",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.59",
+        "type": {
+          "text": "Algebra ℤ_[p] C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.66",
+        "type": {
+          "text": "IsScalarTower ℤ_[p] O C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.74",
+        "type": {
+          "text": "Algebra (↥c.F) C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.78",
+        "type": {
+          "text": "StarRing (NumberField.RingOfIntegers E)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.87",
+        "type": {
+          "text": "Fact ¬IsUnit ↑p",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.97",
+        "type": {
+          "text": "IsAdicComplete (Ideal.span {↑p}) O",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.4115974389._hygCtx._hyg.110",
+        "type": {
+          "text": "IsGalois ℚ E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "T",
+        "type": {
+          "text": "Formalism.L2.Pj.CDVR",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "io",
+        "type": {
+          "text": "↥c.F →+* T.Fr",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "y₀",
+        "type": {
+          "text": "Formalism.L2.Pj.IntFr Xo c T io",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hy",
+        "type": {
+          "text": "y₀.IsAlg",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "k",
+        "type": {
+          "text": "T.Fr →ₐ[↥c.F] C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "y",
+        "type": {
+          "text": "Formalism.L2.Pj.FrPt Xo c C",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h",
+        "type": {
+          "text": "GlobalTheory.CompHt.IsHTFrame p v O y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "la",
+        "type": {
+          "text": "IsDedekindDomain.HeightOneSpectrum (NumberField.RingOfIntegers ↥c.F)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "e",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "ho",
+        "type": {
+          "text": "Formalism.L2.Pj.OverLa la T.V io e",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "u",
+        "type": {
+          "text": "GlobalTheory.AllWt.Weight Dw",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "f",
+        "type": {
+          "text": "Formalism.L2.Pj.Rul Xo c",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hf",
+        "type": {
+          "text": "f ∈ GlobalTheory.AllWt.secZ Xo c (GlobalTheory.AllWt.exOf Dw u 0)",
+          "truncated": false
+        }
+      }
+    ],
+    "location": "generic-conclusion",
+    "meaning": "identity of sides only; not a necessity or RH verdict",
+    "owner": "GlobalTheory.CovHt.FrameCmp.val_le",
+    "relation": "LE.le",
+    "rhs": {
+      "text": "Formalism.L2.Pj.nval T.V e (Formalism.L2.Pj.evI y₀ f) +\n  ↑(↑(Formalism.L2.Pj.vLa la ↑p) * GlobalTheory.CovHt.htEx E p * GlobalTheory.CovHt.l1 u)",
+      "truncated": false
+    },
+    "status": "not-definitionally-identical",
+    "transparency": "all"
+  },
+  {
+    "event": "generic-end",
+    "owner": "GlobalTheory.CovHt.FrameCmp.val_le",
+    "status": "completed"
+  },
+  {
+    "event": "calls-start",
+    "owner": "GlobalTheory.CovHt.HtTopG.heightAt_eq_of_cover",
+    "watch": [
+      "GlobalTheory.CovHt.HtTopG.slope_le_height",
+      "le_refl",
+      "le_rfl"
+    ]
+  },
+  {
+    "event": "calls-end",
+    "hits": 0,
+    "owner": "GlobalTheory.CovHt.HtTopG.heightAt_eq_of_cover",
+    "status": "incomplete-cap",
+    "visited": 250000
+  },
+  {
+    "event": "calls-start",
+    "owner": "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "watch": [
+      "GlobalTheory.CovHt.FrameCmp.val_le"
+    ]
+  },
+  {
+    "callee": "GlobalTheory.CovHt.FrameCmp.val_le",
+    "event": "comparison",
+    "lhs": {
+      "text": "GlobalTheory.CompHt.val_vw la q Valued.v (Formalism.L2.Pj.evR Xo c f y)",
+      "truncated": false
+    },
+    "local_context": [
+      {
+        "let_value": null,
+        "name": "E",
+        "type": {
+          "text": "Type",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.3",
+        "type": {
+          "text": "Field E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.6",
+        "type": {
+          "text": "NumberField E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.9",
+        "type": {
+          "text": "NumberField.IsCMField E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "H",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Host E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Dw",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Datum H",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "l",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Level H",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "Xo",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Moduli Dw l",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "c",
+        "type": {
+          "text": "ReciprocityTheory.ChartRestriction.G.Geo.Tor.Coeff l",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.23",
+        "type": {
+          "text": "IsGalois ℚ E",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "p",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "la",
+        "type": {
+          "text": "IsDedekindDomain.HeightOneSpectrum (NumberField.RingOfIntegers ↥c.F)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hp",
+        "type": {
+          "text": "Nat.Prime p",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hla",
+        "type": {
+          "text": "↑p ∈ la.asIdeal",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "v._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.36",
+        "type": {
+          "text": "Formalism.L2.Pj.Rul Xo c → EReal",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "a._@._internal.0.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.37",
+        "type": {
+          "text": "v✝ ∈ ↑(GlobalTheory.CompHt.recVals Xo c) la",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "w._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.38",
+        "type": {
+          "text": "Formalism.L2.Pj.PtV Xo c (Formalism.L2.Pj.algCls Xo c) Unit (fun x x_1 x_2 x_3 => True) la",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV w✝¹ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "val._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.40",
+        "type": {
+          "text": "(Formalism.L2.Pj.Rul Xo c → EReal) × Unit",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "property._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.41",
+        "type": {
+          "text": "∃ T io e,\n  ∃ (_ : Formalism.L2.Pj.OverLa la T.V io e),\n    ∃ y,\n      ∃ (_ : Formalism.L2.Pj.algCls Xo c T io y),\n        ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, property✝⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "T",
+        "type": {
+          "text": "Formalism.L2.Pj.CDVR",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.42",
+        "type": {
+          "text": "∃ io e,\n  ∃ (_ : Formalism.L2.Pj.OverLa la T.V io e),\n    ∃ y,\n      ∃ (_ : Formalism.L2.Pj.algCls Xo c T io y),\n        ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "io",
+        "type": {
+          "text": "↥c.F →+* T.Fr",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.43",
+        "type": {
+          "text": "∃ e,\n  ∃ (_ : Formalism.L2.Pj.OverLa la T.V io e),\n    ∃ y,\n      ∃ (_ : Formalism.L2.Pj.algCls Xo c T io y),\n        ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "e",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.44",
+        "type": {
+          "text": "∃ (_ : Formalism.L2.Pj.OverLa la T.V io e),\n  ∃ y,\n    ∃ (_ : Formalism.L2.Pj.algCls Xo c T io y),\n      ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "ho",
+        "type": {
+          "text": "Formalism.L2.Pj.OverLa la T.V io e",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.45",
+        "type": {
+          "text": "∃ y,\n  ∃ (_ : Formalism.L2.Pj.algCls Xo c T io y),\n    ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "y₀",
+        "type": {
+          "text": "Formalism.L2.Pj.IntFr Xo c T io",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.46",
+        "type": {
+          "text": "∃ (_ : Formalism.L2.Pj.algCls Xo c T io y₀),\n  ∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y₀ eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y₀ eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hy",
+        "type": {
+          "text": "Formalism.L2.Pj.algCls Xo c T io y₀",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.47",
+        "type": {
+          "text": "∃ eta, ∃ (_ : (fun x x_1 x_2 x_3 => True) T io y₀ eta), val✝ = Formalism.L2.Pj.profI Xo c Unit e y₀ eta",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "η",
+        "type": {
+          "text": "Unit",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.48",
+        "type": {
+          "text": "∃ (_ : (fun x x_1 x_2 x_3 => True) T io y₀ η), val✝ = Formalism.L2.Pj.profI Xo c Unit e y₀ η",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "w._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.49",
+        "type": {
+          "text": "True",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.50",
+        "type": {
+          "text": "val✝ = Formalism.L2.Pj.profI Xo c Unit e y₀ η",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨val✝, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.39",
+        "type": {
+          "text": "Formalism.L2.Pj.vAtV ⟨Formalism.L2.Pj.profI Xo c Unit e y₀ η, ⋯⟩ = v✝",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "q",
+        "type": {
+          "text": "ℕ",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.56",
+        "type": {
+          "text": "∃ (x : Fact (Nat.Prime q)), ∃ x_1 k y, GlobalTheory.CompHt.IsHTFrameCp q y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hq",
+        "type": {
+          "text": "Fact (Nat.Prime q)",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.57",
+        "type": {
+          "text": "∃ x k y, GlobalTheory.CompHt.IsHTFrameCp q y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "inst",
+        "type": {
+          "text": "Algebra ↥c.F ℂ_[q]",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.58",
+        "type": {
+          "text": "∃ k y, GlobalTheory.CompHt.IsHTFrameCp q y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "k",
+        "type": {
+          "text": "T.Fr →ₐ[↥c.F] ℂ_[q]",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h._@.Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumAbsExOfLe.333421065._hygCtx._hyg.59",
+        "type": {
+          "text": "∃ y, GlobalTheory.CompHt.IsHTFrameCp q y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "y",
+        "type": {
+          "text": "Formalism.L2.Pj.FrPt Xo c ℂ_[q]",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "h",
+        "type": {
+          "text": "GlobalTheory.CompHt.IsHTFrameCp q y₀ k y",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hp",
+        "type": {
+          "text": "Nat.Prime q",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hla",
+        "type": {
+          "text": "↑q ∈ la.asIdeal",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "u",
+        "type": {
+          "text": "GlobalTheory.AllWt.Weight Dw",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "f",
+        "type": {
+          "text": "Formalism.L2.Pj.Rul Xo c",
+          "truncated": false
+        }
+      },
+      {
+        "let_value": null,
+        "name": "hf",
+        "type": {
+          "text": "f ∈ GlobalTheory.AllWt.secZ Xo c (GlobalTheory.AllWt.exOf Dw u 0)",
+          "truncated": false
+        }
+      }
+    ],
+    "location": "body/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/lambda/arg-4/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-4/lambda/lambda/lambda/arg-3/lambda/arg-3/arg-4/lambda/lambda/arg-4/lambda/lambda/arg-4/lambda/lambda/arg-4/lambda/lambda/arg-4/lambda/lambda/arg-3/lambda/lambda/arg-3/arg-3/lambda/lambda/lambda",
+    "meaning": "identity of sides only; not a necessity or RH verdict",
+    "owner": "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "relation": "LE.le",
+    "rhs": {
+      "text": "Formalism.L2.Pj.nval T.V e (Formalism.L2.Pj.evI y₀ f) +\n  ↑(↑(Formalism.L2.Pj.vLa la ↑q) * GlobalTheory.CovHt.htEx E q * GlobalTheory.CovHt.l1 u)",
+      "truncated": false
+    },
+    "status": "not-definitionally-identical",
+    "transparency": "all"
+  },
+  {
+    "event": "calls-end",
+    "hits": 1,
+    "owner": "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "status": "completed",
+    "visited": 49049
+  }
+]

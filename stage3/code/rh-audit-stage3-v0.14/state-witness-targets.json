@@ -1,0 +1,70 @@
+{
+  "targets": [
+    "GlobalTheory.Mem.R3.Rw.Moved",
+    "GlobalTheory.Mem.R3.Rw.Moved.mk",
+    "GlobalTheory.Mem.R3.Rw.Moved.intersectionNumber_baseChange",
+    "GlobalTheory.Mem.R3.Rw.Moved.exAt",
+    "GlobalTheory.Mem.R3.Rw.St",
+    "GlobalTheory.Mem.R3.Rw.St.mk",
+    "GlobalTheory.Mem.R3.Rw.HasBare",
+    "GlobalTheory.HeightCounting.Up.AllSt",
+    "GlobalTheory.Mem.Top.Bl.Start",
+    "GlobalTheory.Mem.Top.Bl.DatEx",
+    "GlobalTheory.Mem.Top.Bl.UnitaryCaseCondition",
+    "GlobalTheory.Mem.R3.Rw.WeightCaseCondition",
+    "GlobalTheory.T.exists_movedData_state_localisations",
+    "GlobalTheory.HeightCounting.Fin3.MvLoc.exists_moved_loc",
+    "GlobalTheory.TwInputs.RealSide.ofPins",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_1",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_2",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_3",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_4",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_5",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_6",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_7",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_8",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_9",
+    "GlobalTheory.TwInputs.RealSide.ofPins._proof_10"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 1,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Moved",
+    "Nonzero",
+    "ReadPk",
+    "StrictHenselian",
+    "FirstStep",
+    "Bare",
+    "Unitary",
+    "WeightCase"
+  ],
+  "priority_source_roots": [
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ReadPk.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean",
+    "Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsMovedDataStateLocalisations.lean",
+    "Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsMovedDataStateLocalisationsStatement.lean",
+    "Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean"
+  ],
+  "navigation": {
+    "groups": [
+      {
+        "label": "moved-fields-and-constructors",
+        "pattern": "intersectionNumber_baseChange[[:space:]]*:=|exAt[[:space:]]*:=|Moved[.]mk|exists_moved"
+      },
+      {
+        "label": "state-and-existence-obligations",
+        "pattern": "HasBare|DatEx|UnitaryCaseCondition|WeightCaseCondition"
+      }
+    ],
+    "per_group_file_limit": 60,
+    "timeout_seconds": 90,
+    "output_limit_bytes": 4194304,
+    "meaning": "Lexical navigation over pinned Git src/**/*.lean; not dependency membership or witness-discharge evidence."
+  }
+}

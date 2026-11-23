@@ -1,0 +1,91 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.T.thetaLift_twistLevelForm_eq_unit_mul_classSum",
+      "begin_line": 6,
+      "end_line": 2433,
+      "rendered_block_sha256": "692dda8d496a9aa910c40ff0e846cdf64efdbfb10573510aa29e9f8294695563",
+      "rendered_block_utf8_bytes": 222932,
+      "elision_indicators": {
+        "⋯": 49
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.chosenField_forms_proportional_of_readings",
+      "begin_line": 2437,
+      "end_line": 4841,
+      "rendered_block_sha256": "949dd46eacb3ccc5700c8a3022d9bd4777ec345b66dba35e8893b1904a84c6c5",
+      "rendered_block_utf8_bytes": 211131,
+      "elision_indicators": {
+        "⋯": 49
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.exists_integral_unit_of_isUnitAwayFromLevel_embedding",
+      "begin_line": 4845,
+      "end_line": 4955,
+      "rendered_block_sha256": "6cd69fd5ef8a03cbb19f34e536667378e4511fd48397ba46758e3ce1069cd411",
+      "rendered_block_utf8_bytes": 7147,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.PlaceRead.exists_local_component_at_place_alt",
+      "begin_line": 4959,
+      "end_line": 9631,
+      "rendered_block_sha256": "ab77ffc9845f9a5c6b2305de7c1378835986e560e5affe0682be0a047d603fbb",
+      "rendered_block_utf8_bytes": 371368,
+      "elision_indicators": {
+        "⋯": 78
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.PlaceRead.exists_basisAt_latAt_thetaAt_of_atPlace",
+      "begin_line": 9635,
+      "end_line": 12445,
+      "rendered_block_sha256": "7d3ddf1d80a214efbae7ae2e31653b585cd03f58cb07d9ed04de26676226743b",
+      "rendered_block_utf8_bytes": 237526,
+      "elision_indicators": {
+        "⋯": 60
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.PlaceRead.exists_local_map_at_place_alt",
+      "begin_line": 12449,
+      "end_line": 15576,
+      "rendered_block_sha256": "a0b45eb84794786ae06d27141aa45bcdff9ef3f8037e39d8ac6716efecbbaa67",
+      "rendered_block_utf8_bytes": 274007,
+      "elision_indicators": {
+        "⋯": 81
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ChoiceRead.ThetaAt",
+      "begin_line": 15580,
+      "end_line": 19443,
+      "rendered_block_sha256": "dbae47cfce017ab1e4ce436721475b1a0854e3d3ea78174b06765528ec1da900",
+      "rendered_block_utf8_bytes": 361574,
+      "elision_indicators": {
+        "⋯": 81
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.EMtTheta",
+      "begin_line": 19447,
+      "end_line": 23172,
+      "rendered_block_sha256": "b5558e2efa2b9d97cd3670c6336215a5ffcf66c646749a6a2321cb3d0557c956",
+      "rendered_block_utf8_bytes": 335861,
+      "elision_indicators": {
+        "⋯": 54
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

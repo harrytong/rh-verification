@@ -1,0 +1,27 @@
+namespace RHStage4ArgFixture
+theorem bounded (a b c : Nat) (hne : a ≠ 0)
+    (c2 : a ≠ 0 → a ≤ b) (c3 : b ≤ c) (tH : b = b) : a ≤ c :=
+  Nat.le_trans (c2 hne) c3
+theorem forwarded (a b c : Nat) (hne : a ≠ 0)
+    (lower : a ≠ 0 → a ≤ b) (upper : b ≤ c) : a ≤ c :=
+  bounded a b c hne lower upper rfl
+theorem same (a : Nat) (hne : a ≠ 0) : a ≤ a :=
+  bounded a a a hne (fun _ => Nat.le_refl a) (Nat.le_refl a) rfl
+def alias (a : Nat) : Nat := a
+theorem letSame (a : Nat) (hne : a ≠ 0) : a ≤ a :=
+  let b := alias a
+  bounded a b a hne (fun _ => Nat.le_refl a) (Nat.le_refl a) rfl
+theorem absent (a : Nat) : a ≤ a := Nat.le_refl a
+theorem missing (a : Nat) (hne : a ≠ 0) : a ≤ a :=
+  bounded a a a hne (fun _ => Nat.le_refl a) (Nat.le_refl a) rfl
+end RHStage4ArgFixture
+run_cmd do
+  let env ← getEnv
+  for owner in #["forwarded", "same", "letSame"] do
+    liftIO <| RHStage4.argumentCalls env ("RHStage4ArgFixture." ++ owner)
+      "RHStage4ArgFixture.bounded" #["c2", "c3", "tH"] #["c2", "c3", "tH"]
+  liftIO <| RHStage4.argumentCalls env "RHStage4ArgFixture.absent"
+    "RHStage4ArgFixture.bounded" #["c2"] #["c2"]
+  liftIO <| RHStage4.argumentCalls env "RHStage4ArgFixture.missing"
+    "RHStage4ArgFixture.bounded" #["not_a_parameter"] #[]
+#eval IO.println "RH_STAGE4_ARGUMENT_FIXTURE_END"

@@ -1,0 +1,63 @@
+{
+  "targets": [
+    "GlobalTheory.HeightCounting.EMtTheta",
+    "GlobalTheory.HeightCounting.RealExpansionExtraData",
+    "GlobalTheory.HeightCounting.RealExpansionExtraData.mk",
+    "GlobalTheory.HeightCounting.RealExpansionExtraData.th",
+    "GlobalTheory.HeightCounting.RealExpansionExtraData.geo",
+    "GlobalTheory.HeightCounting.defaultExtension",
+    "GlobalTheory.HeightCounting.Up.extensionWithLaw",
+    "GlobalTheory.HeightCounting.Up.extensionWithList",
+    "GlobalTheory.HeightCounting.Up.extensionWithOrigin",
+    "GlobalTheory.ClassSumPinLink.pIota_classSumPin_alt",
+    "GlobalTheory.ClassSumPinLink.classSumPin_of_read",
+    "GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt",
+    "GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt",
+    "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt",
+    "GlobalTheory.Mem.Top.Bl.has3_neo_of_localLanglands_alt",
+    "GlobalTheory.T.sFino_and_secondNo_of_sFinl'",
+    "GlobalTheory.T.all_stages_at_member_of_specializations_alt",
+    "GlobalTheory.T.lv3Mv_extensionWithOrigin_and_NEog"
+  ],
+  "searches": [
+    {
+      "target": "GlobalTheory.ClassSumPinLink.pIota_classSumPin_alt",
+      "binder": "hN"
+    },
+    {
+      "target": "GlobalTheory.ClassSumPinLink.classSumPin_of_read",
+      "binder": "hth"
+    }
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 1,
+  "max_source_files": 200,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "node_limit": 100000,
+  "depth_limit": 600,
+  "outer_step_limit": 256,
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithAtProperty.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ClassSumPinOfReadAt.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenOrbitOfUnramifiedExponents.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberBundlesLargeUnramifiedExponents.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBaseLatticeOfPrime.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ForcedByAutomorphicSemisimpleData.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean"
+  ],
+  "priority_module_fragments": [
+    "EMtTheta",
+    "Extension",
+    "ClassSum",
+    "Finiteness",
+    "Stages",
+    "Has3",
+    "BaseLattice",
+    "RootsOfUnity"
+  ]
+}

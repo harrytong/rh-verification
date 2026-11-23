@@ -1,0 +1,131 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.HeightCounting.HeightCountingCharacterData",
+      "begin_line": 5,
+      "end_line": 4664,
+      "rendered_block_sha256": "f35b1158cd73c0c89d9776df84f4ba185f4ec9338f2502f4b56bba427b023303",
+      "rendered_block_utf8_bytes": 364197,
+      "elision_indicators": {
+        "⋯": 449
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.StrictHenselianAcyclicLevelNonempty",
+      "begin_line": 4668,
+      "end_line": 5734,
+      "rendered_block_sha256": "febb535e2d92cc1d4314c7c7f8ad69c91586a0d111a41f2684d8515c1ce89b39",
+      "rendered_block_utf8_bytes": 81413,
+      "elision_indicators": {
+        "⋯": 45
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.stage_c_nonempty_of_prints_third_layer",
+      "begin_line": 5738,
+      "end_line": 5750,
+      "rendered_block_sha256": "f2d7c07c1d504018929d66f2f243ee037d2de75cd7260001c84ada40353cb86c",
+      "rendered_block_utf8_bytes": 668,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.ChoiceEx.stage_c_nonempty_of_published_inputs",
+      "begin_line": 5754,
+      "end_line": 5771,
+      "rendered_block_sha256": "dd6b98593092af45cd24c12614133891e4d8159e8acb2ac8e89ba91965c3393c",
+      "rendered_block_utf8_bytes": 1087,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.ChoiceEx.sc_of_sck_alt",
+      "begin_line": 5775,
+      "end_line": 6850,
+      "rendered_block_sha256": "38f4dada261f55304d830b486c0bb371e7de9543f876460fd077c0a960f02ab7",
+      "rendered_block_utf8_bytes": 93013,
+      "elision_indicators": {
+        "⋯": 69
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.stageCExists_of_casselmanWallach",
+      "begin_line": 6854,
+      "end_line": 6863,
+      "rendered_block_sha256": "8c0fcd894d89af6c4b9effa1f8701be62027dee95143270cd0fa91b757ce6f7c",
+      "rendered_block_utf8_bytes": 601,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.LevCmp.stageCExists_of_harishChandra_serN",
+      "begin_line": 6867,
+      "end_line": 7961,
+      "rendered_block_sha256": "bfe3cb80eff857bc15ee5d1b5d1db6cf0465672e5ba851611a9adff1fdd1748f",
+      "rendered_block_utf8_bytes": 103612,
+      "elision_indicators": {
+        "⋯": 79
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.nonGalois_exists_choice_alt",
+      "begin_line": 7965,
+      "end_line": 9050,
+      "rendered_block_sha256": "4aba8fef02409608cd57b1740e90c5a178e694a1ad243ac1db286a3c9e6350d1",
+      "rendered_block_utf8_bytes": 103066,
+      "elision_indicators": {
+        "⋯": 60
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ChoiceRead.exists_stC_choice_alt",
+      "begin_line": 9054,
+      "end_line": 11410,
+      "rendered_block_sha256": "b584e055ac60ee184cef041cfc00e40de4e12861341875fc16ab01b20106e7d8",
+      "rendered_block_utf8_bytes": 220011,
+      "elision_indicators": {
+        "⋯": 116
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.local_component_at_place_determined_alt",
+      "begin_line": 11414,
+      "end_line": 12717,
+      "rendered_block_sha256": "63216dc98038c447c7d7a964cfa347d3d3cd863ab364c80aa4964535c6237ac3",
+      "rendered_block_utf8_bytes": 121185,
+      "elision_indicators": {
+        "⋯": 39
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ChoiceRead.emtTheta_withE",
+      "begin_line": 12721,
+      "end_line": 15601,
+      "rendered_block_sha256": "a881a06be9985bf8a1814d98fc7b7349902bc9049c64e0b8c657b9e6ee673209",
+      "rendered_block_utf8_bytes": 249928,
+      "elision_indicators": {
+        "⋯": 94
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.emtTheta_L_alt",
+      "begin_line": 15605,
+      "end_line": 17487,
+      "rendered_block_sha256": "8f423464e9c72d9dd84bbea25ce819adf6b94f0172c8df0538a42a7bc8972183",
+      "rendered_block_utf8_bytes": 142604,
+      "elision_indicators": {
+        "⋯": 81
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

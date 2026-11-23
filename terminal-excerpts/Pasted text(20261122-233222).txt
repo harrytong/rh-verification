@@ -1,0 +1,176 @@
+harry@AI-Server:~$ (
+set -euo pipefail
+
+unzip -o "$HOME/Downloads/rh-audit-stage2-v1.1.zip" \
+    -d "$HOME/rh-verification/tools"
+
+python3 \
+    "$HOME/rh-verification/tools/rh-audit-stage2-v1/audit_stage2.py" \
+    --phase inspect
+)
+Archive:  /home/harry/Downloads/rh-audit-stage2-v1.1.zip
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/CENSUS_PREREGISTRATION.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/CHANGELOG.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/GeometryAbstraction.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/PLAN_FROM_STAGE1.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/README.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SHA256SUMS  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SemanticExtension.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SemanticFixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/Stage2Audit.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/Stage2Fixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/StatementCheck.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/TEST_RESULTS.txt  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/audit_stage2.py  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/records.jsonl  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/run-metadata.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test_driver.py  
+Stage 2 folder: /home/harry/rh-verification/critics-audit-stage2/stage2-ixe9qs30
+Phase: inspect; 66 distinct witness edges.
+Comparator is left untouched. Read-only phases use separate processes and a capped container.
+RH_STAGE2_PROGRESS	Importing Stage2Fixture; this stage may be quiet
+RH_STAGE2_ERROR: OfNat zero classifier failed
+Evidence: /home/harry/rh-verification/critics-audit-stage2/stage2-ixe9qs30/stage2-evidence.zip
+Evidence SHA-256: a733fbd6afd3f1ac1e9b254fe97ee40a782e85aa2cff1ce07289ad3227219e7c
+STAGE2_ERROR: Phase failed with exit 1. Preserve /home/harry/rh-verification/critics-audit-stage2/stage2-ixe9qs30/smoke.log; later phases were not started.
+harry@AI-Server:~$ (
+set -euo pipefail
+
+unzip -o "$HOME/Downloads/rh-audit-stage2-v1.2.zip" \
+    -d "$HOME/rh-verification/tools"
+
+python3 \
+    "$HOME/rh-verification/tools/rh-audit-stage2-v1/audit_stage2.py" \
+    --phase inspect
+)
+Archive:  /home/harry/Downloads/rh-audit-stage2-v1.2.zip
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/CENSUS_PREREGISTRATION.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/CHANGELOG.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/GeometryAbstraction.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/PLAN_FROM_STAGE1.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/README.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SHA256SUMS  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SemanticExtension.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/SemanticFixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/Stage2Audit.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/Stage2Fixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/StatementCheck.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/TEST_RESULTS.txt  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/audit_stage2.py  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/records.jsonl  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/run-metadata.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test-data/source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage2-v1/test_driver.py  
+Stage 2 folder: /home/harry/rh-verification/critics-audit-stage2/stage2-si8gb6fx
+Phase: inspect; 66 distinct witness edges.
+Comparator is left untouched. Read-only phases use separate processes and a capped container.
+RH_STAGE2_PROGRESS	Importing Stage2Fixture; this stage may be quiet
+{"event": "smoke-passed", "meaning": "Tool fixture only; not an RH check"}
+def RiemannHypothesis : Prop :=
+∀ (s : ℂ),
+  Eq.{1} (riemannZeta s) 0 →
+    (¬∃ n, Eq.{1} s (HMul.hMul.{0, 0, 0} (-2) (HAdd.hAdd.{0, 0, 0} (↑n) 1))) → Ne.{1} s 1 → Eq.{1} s.re (1 / 2)
+riemannHypothesis : RiemannHypothesis
+def RiemannZetaZerosOnLine : Prop :=
+∀ (s : ℂ),
+  Eq.{1} (riemannZeta s) 0 →
+    (¬∃ n, Eq.{1} s (HMul.hMul.{0, 0, 0} (-2) (HAdd.hAdd.{0, 0, 0} (↑n) 1))) → Ne.{1} s 1 → Eq.{1} s.re (1 / 2)
+def DirichletLNonvanishingRightOfHalf : Prop :=
+∀ (N : ℕ) [inst : NeZero.{0} N] (χ : DirichletCharacter.{0} ℂ N) (s : ℂ),
+  LT.lt.{0} (1 / 2) s.re → Ne.{1} χ 1 ∨ Ne.{1} s 1 → Ne.{1} (DirichletCharacter.LFunction χ s) 0
+def DirichletLZerosOnLine : Prop :=
+∀ (N : ℕ) [inst : NeZero.{0} N] (χ : DirichletCharacter.{0} ℂ N) (s : ℂ),
+  LT.lt.{0} 0 s.re → LT.lt.{0} s.re 1 → Eq.{1} (DirichletCharacter.LFunction χ s) 0 → Eq.{1} s.re (1 / 2)
+def PrimitiveDirichletLZerosOnLine : Prop :=
+∀ (N : ℕ) [inst : NeZero.{0} N] (χ : DirichletCharacter.{0} ℂ N),
+  DirichletCharacter.IsPrimitive.{0} χ →
+    ∀ (s : ℂ), LT.lt.{0} 0 s.re → LT.lt.{0} s.re 1 → Eq.{1} (DirichletCharacter.LFunction χ s) 0 → Eq.{1} s.re (1 / 2)
+'riemannHypothesis' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'riemannZeta_eq_zero_re' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'LFunction_ne_zero_of_half_lt_re' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'LFunction_eq_zero_re' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'LFunction_eq_zero_re_of_isPrimitive' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+RH_STAGE2_STATEMENT_COMMANDS_REACHED_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/StatementCheck.lean"
+	User time (seconds): 43.23
+	System time (seconds): 42.20
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:28.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51084872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 10547
+	Minor (reclaiming a frame) page faults: 1250580
+	Voluntary context switches: 30983
+	Involuntary context switches: 13637
+	Swaps: 0
+	File system inputs: 1434144
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+RH_STAGE2_PROGRESS	Importing Main; this stage may be quiet
+{"event": "stored-statement", "kind": "theorem", "module": "Main", "name": "riemannHypothesis", "raw_type_expr": "Lean.Expr.const `RiemannHypothesis []"}
+{"event": "stored-statement", "kind": "theorem", "module": "Main", "name": "riemannZeta_eq_zero_re", "raw_type_expr": "Lean.Expr.const `RiemannZetaZerosOnLine []"}
+{"event": "stored-statement", "kind": "theorem", "module": "Main", "name": "LFunction_ne_zero_of_half_lt_re", "raw_type_expr": "Lean.Expr.const `DirichletLNonvanishingRightOfHalf []"}
+{"event": "stored-statement", "kind": "theorem", "module": "Main", "name": "LFunction_eq_zero_re", "raw_type_expr": "Lean.Expr.const `DirichletLZerosOnLine []"}
+{"event": "stored-statement", "kind": "theorem", "module": "Main", "name": "LFunction_eq_zero_re_of_isPrimitive", "raw_type_expr": "Lean.Expr.const `PrimitiveDirichletLZerosOnLine []"}
+{"event": "stored-statement", "kind": "definition", "module": "Mathlib.NumberTheory.LSeries.RiemannZeta", "name": "RiemannHypothesis", "raw_type_expr": "Lean.Expr.sort (Lean.Level.zero)"}
+{"event": "stored-RiemannHypothesis-definition", "raw_value_expr": "Lean.Expr.forallE\n  `s\n  (Lean.Expr.const `Complex [])\n  (Lean.Expr.forallE\n    (Lean.Name.mkNum (Lean.Name.mkStr (Lean.Name.mkStr (Lean.Name.mkNum `x.«_@».Mathlib.NumberTheory.LSeries.RiemannZeta 1380004773) \"_hygCtx\") \"_hyg\") 8)\n    (Lean.Expr.app\n      (Lean.Expr.app\n        (Lean.Expr.app (Lean.Expr.const `Eq [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Complex []))\n        (Lean.Expr.app (Lean.Expr.const `riemannZeta []) (Lean.Expr.bvar 0)))\n      (Lean.Expr.app\n        (Lean.Expr.app\n          (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n          (Lean.Expr.lit (Lean.Literal.natVal 0)))\n        (Lean.Expr.app\n          (Lean.Expr.app (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n          (Lean.Expr.const `Complex.instZero []))))\n    (Lean.Expr.forallE\n      (Lean.Name.mkNum (Lean.Name.mkStr (Lean.Name.mkStr (Lean.Name.mkNum `x.«_@».Mathlib.NumberTheory.LSeries.RiemannZeta 1380004773) \"_hygCtx\") \"_hyg\") 15)\n      (Lean.Expr.app\n        (Lean.Expr.const `Not [])\n        (Lean.Expr.app\n          (Lean.Expr.app (Lean.Expr.const `Exists [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Nat []))\n          (Lean.Expr.lam\n            `n\n            (Lean.Expr.const `Nat [])\n            (Lean.Expr.app\n              (Lean.Expr.app\n                (Lean.Expr.app (Lean.Expr.const `Eq [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Complex []))\n                (Lean.Expr.bvar 2))\n              (Lean.Expr.app\n                (Lean.Expr.app\n                  (Lean.Expr.app\n                    (Lean.Expr.app\n                      (Lean.Expr.app\n                        (Lean.Expr.app\n                          (Lean.Expr.const `HMul.hMul [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])\n                          (Lean.Expr.const `Complex []))\n                        (Lean.Expr.const `Complex []))\n                      (Lean.Expr.const `Complex []))\n                    (Lean.Expr.app\n                      (Lean.Expr.app (Lean.Expr.const `instHMul [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                      (Lean.Expr.const `Complex.instMul [])))\n                  (Lean.Expr.app\n                    (Lean.Expr.app\n                      (Lean.Expr.app (Lean.Expr.const `Neg.neg [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                      (Lean.Expr.const `Complex.instNeg []))\n                    (Lean.Expr.app\n                      (Lean.Expr.app\n                        (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                        (Lean.Expr.lit (Lean.Literal.natVal 2)))\n                      (Lean.Expr.app\n                        (Lean.Expr.app\n                          (Lean.Expr.app\n                            (Lean.Expr.app\n                              (Lean.Expr.const `instOfNatAtLeastTwo [Lean.Level.zero])\n                              (Lean.Expr.const `Complex []))\n                            (Lean.Expr.lit (Lean.Literal.natVal 2)))\n                          (Lean.Expr.const `Complex.instNatCast []))\n                        (Lean.Expr.const `RiemannHypothesis._proof_1 [])))))\n                (Lean.Expr.app\n                  (Lean.Expr.app\n                    (Lean.Expr.app\n                      (Lean.Expr.app\n                        (Lean.Expr.app\n                          (Lean.Expr.app\n                            (Lean.Expr.const `HAdd.hAdd [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])\n                            (Lean.Expr.const `Complex []))\n                          (Lean.Expr.const `Complex []))\n                        (Lean.Expr.const `Complex []))\n                      (Lean.Expr.app\n                        (Lean.Expr.app (Lean.Expr.const `instHAdd [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                        (Lean.Expr.const `Complex.instAdd [])))\n                    (Lean.Expr.app\n                      (Lean.Expr.app\n                        (Lean.Expr.app (Lean.Expr.const `Nat.cast [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                        (Lean.Expr.const `Complex.instNatCast []))\n                      (Lean.Expr.bvar 0)))\n                  (Lean.Expr.app\n                    (Lean.Expr.app\n                      (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                      (Lean.Expr.lit (Lean.Literal.natVal 1)))\n                    (Lean.Expr.app\n                      (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n                      (Lean.Expr.const `Complex.instOne []))))))\n            (Lean.BinderInfo.default))))\n      (Lean.Expr.forallE\n        (Lean.Name.mkNum (Lean.Name.mkStr (Lean.Name.mkStr (Lean.Name.mkNum `x.«_@».Mathlib.NumberTheory.LSeries.RiemannZeta 1380004773) \"_hygCtx\") \"_hyg\") 39)\n        (Lean.Expr.app\n          (Lean.Expr.app\n            (Lean.Expr.app (Lean.Expr.const `Ne [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Complex []))\n            (Lean.Expr.bvar 2))\n          (Lean.Expr.app\n            (Lean.Expr.app\n              (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n              (Lean.Expr.lit (Lean.Literal.natVal 1)))\n            (Lean.Expr.app\n              (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Complex []))\n              (Lean.Expr.const `Complex.instOne []))))\n        (Lean.Expr.app\n          (Lean.Expr.app\n            (Lean.Expr.app (Lean.Expr.const `Eq [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Real []))\n            (Lean.Expr.app (Lean.Expr.const `Complex.re []) (Lean.Expr.bvar 3)))\n          (Lean.Expr.app\n            (Lean.Expr.app\n              (Lean.Expr.app\n                (Lean.Expr.app\n                  (Lean.Expr.app\n                    (Lean.Expr.app\n                      (Lean.Expr.const `HDiv.hDiv [Lean.Level.zero, Lean.Level.zero, Lean.Level.zero])\n                      (Lean.Expr.const `Real []))\n                    (Lean.Expr.const `Real []))\n                  (Lean.Expr.const `Real []))\n                (Lean.Expr.app\n                  (Lean.Expr.app (Lean.Expr.const `instHDiv [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                  (Lean.Expr.app\n                    (Lean.Expr.app (Lean.Expr.const `DivInvMonoid.toDiv [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                    (Lean.Expr.const `Real.instDivInvMonoid []))))\n              (Lean.Expr.app\n                (Lean.Expr.app\n                  (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                  (Lean.Expr.lit (Lean.Literal.natVal 1)))\n                (Lean.Expr.app\n                  (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                  (Lean.Expr.const `Real.instOne []))))\n            (Lean.Expr.app\n              (Lean.Expr.app\n                (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                (Lean.Expr.lit (Lean.Literal.natVal 2)))\n              (Lean.Expr.app\n                (Lean.Expr.app\n                  (Lean.Expr.app\n                    (Lean.Expr.app (Lean.Expr.const `instOfNatAtLeastTwo [Lean.Level.zero]) (Lean.Expr.const `Real []))\n                    (Lean.Expr.lit (Lean.Literal.natVal 2)))\n                  (Lean.Expr.const `Real.instNatCast []))\n                (Lean.Expr.const `RiemannHypothesis._proof_1 [])))))\n        (Lean.BinderInfo.default))\n      (Lean.BinderInfo.default))\n    (Lean.BinderInfo.default))\n  (Lean.BinderInfo.default)"}
+RH_STAGE2_PROGRESS	Classified 10 witness edges
+RH_STAGE2_PROGRESS	Classified 20 witness edges
+RH_STAGE2_PROGRESS	Classified 30 witness edges
+RH_STAGE2_PROGRESS	Classified 40 witness edges
+RH_STAGE2_PROGRESS	Classified 50 witness edges
+RH_STAGE2_PROGRESS	Classified 60 witness edges
+{"event": "edges-complete", "pairs": 66}
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 --run /audit/Stage2Audit.lean edges /audit/edge-requests.tsv"
+	User time (seconds): 42.50
+	System time (seconds): 41.71
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52406304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 1476316
+	Voluntary context switches: 1246
+	Involuntary context switches: 14558
+	Swaps: 0
+	File system inputs: 984
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+{
+  "requested_pairs": 66,
+  "classified_pairs": 66,
+  "body_references_removed_by_local_pruning": 0,
+  "sources_with_truncated_pruning": [
+    "GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt",
+    "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt",
+    "GlobalTheory.Mem.Top.Closing.divEx_geoCl",
+    "GlobalTheory.Mem.Top.DivRec.divEx_prov",
+    "GlobalTheory.Mem.Top.DivRec.exists_divT",
+    "GlobalTheory.Mem.Top.DivRec.geoOver_stages",
+    "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+  ],
+  "global_minimization_performed": false,
+  "necessity_verdict": "not established"
+}
+Evidence: /home/harry/rh-verification/critics-audit-stage2/stage2-si8gb6fx/stage2-evidence.zip
+Evidence SHA-256: e9cc6ccfc7a7be96ea90918fc5c1f5fa02d9b325f79d79cb4fbd41e1298c2042
+Requested phase completed. This is not a new independent kernel-check verdict.
+harry@AI-Server:~$ 
+

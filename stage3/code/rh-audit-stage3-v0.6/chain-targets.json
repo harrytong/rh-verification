@@ -1,0 +1,49 @@
+{
+  "witness-chain": [
+    "GlobalTheory.T.class_sum_divisor_all_alt",
+    "GlobalTheory.T.linkedAt_tie_of_nonempty_extensionWithLaw",
+    "GlobalTheory.Fc.GeoZeroAt.geometricWeakTies_of_linked_ties",
+    "GlobalTheory.Fc.Ind.evW_pRows_of_rows_alt",
+    "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+    "GlobalTheory.Fc.Ind.pRows_of_parts_alt"
+  ],
+  "height-chain": [
+    "GlobalTheory.CovHt.GeomBound.geometric_height_bound_at_place",
+    "GlobalTheory.CovHt.GeomBound.geom_of_prints_toroidal_deepGood_size",
+    "GlobalTheory.CovHt.HtTopG.height_of_meanAll_bound",
+    "GlobalTheory.CovHt.HtTopG.heightAt_eq_of_cover",
+    "GlobalTheory.CovHt.cover_height_comparison"
+  ],
+  "consumers": [
+    "GlobalTheory.Fc.RL.at_tie_alt",
+    "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+    "GlobalTheory.T.eventually_onPt_of_pDiv_ties_and_onPt",
+    "GlobalTheory.Fc.Ind.RowPointSummands",
+    "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "GlobalTheory.CovHt.HTCmp",
+    "GlobalTheory.CovHt.cover_height_comparison",
+    "GlobalTheory.Fc.Ind.eventual_L3_of_covolume_alt"
+  ],
+  "uses": [
+    "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+    "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+    "GlobalTheory.Fc.Ind.evWC_onPt_of_guarded_alt",
+    "GlobalTheory.Fc.Ind.eventual_L3_of_covolume_alt",
+    "GlobalTheory.Fc.TieOfLink.hasTie_of_linked",
+    "SelfIntersectionVolumeEstimates.topCovolG_alt_alt",
+    "GlobalTheory.CovTop.CovolumeBoundOfX",
+    "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "GlobalTheory.CompHt.recVals",
+    "GlobalTheory.CompHt.htVals"
+  ],
+  "providers": [
+    "GlobalTheory.GeoTies.linked_ties_alt",
+    "GlobalTheory.T.class_sum_divisibility_of_extensionWithLaw",
+    "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+    "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+    "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+    "GlobalTheory.ClassSumLift.at_index_alt",
+    "GlobalTheory.ExportPin.ClassSumPin",
+    "GlobalTheory.ExportPin.IndefiniteClassSumCondition"
+  ]
+}

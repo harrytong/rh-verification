@@ -1,0 +1,866 @@
+START_UTC 2026-11-23T07:06:53.397149+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-e04wut0m/height.cid", "--name", "rh-audit-stage3-e04wut0m-heightcontext", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=100g", "--memory-swap=100g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-e04wut0m,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=/home/harry/rh-verification/riemann-hypothesis/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/Qq/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/aesop/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/batteries/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/importGraph/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/mathlib/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/plausible/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean", "--mount", "type=bind,src=/home/harry/rh-verification/riemann-hypothesis,dst=/home/harry/rh-verification/riemann-hypothesis,readonly", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "1800", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/HeightContext.lean"]
+RH_STAGE3_DECL_BEGIN GlobalTheory.EX.OB.setDiv
+@[reducible] def GlobalTheory.EX.OB.setDiv : (D : Formalism.BasicNotions.D7) →
+  (N :
+      (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)) →
+        @Submodule.{0, 0}
+          (@NumberField.RingOfIntegers.{0}
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D)))
+          (@Formalism.BasicNotions.HLat.V
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.DivData.Nu
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+          (@CommSemiring.toSemiring.{0}
+            (@NumberField.RingOfIntegers.{0}
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D)))
+            (@CommRing.toCommSemiring.{0}
+              (@NumberField.RingOfIntegers.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D)))
+              (@NumberField.instCommRingRingOfIntegers.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D)))))
+          (@AddCommGroup.toAddCommMonoid.{0}
+            (@Formalism.BasicNotions.HLat.V
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.DivData.Nu
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+            (@Formalism.BasicNotions.HLat.addV
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.DivData.Nu
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)))
+          (@Formalism.BasicNotions.HLat.modOV
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.DivData.Nu
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))) →
+    (h :
+        @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D) →
+          Real) →
+      Formalism.BasicNotions.D7 :=
+fun (D : Formalism.BasicNotions.D7)
+    (N :
+      (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)) →
+        @Submodule.{0, 0}
+          (@NumberField.RingOfIntegers.{0}
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D)))
+          (@Formalism.BasicNotions.HLat.V
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.DivData.Nu
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+          (@CommSemiring.toSemiring.{0}
+            (@NumberField.RingOfIntegers.{0}
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D)))
+            (@CommRing.toCommSemiring.{0}
+              (@NumberField.RingOfIntegers.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D)))
+              (@NumberField.instCommRingRingOfIntegers.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D)))))
+          (@AddCommGroup.toAddCommMonoid.{0}
+            (@Formalism.BasicNotions.HLat.V
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.DivData.Nu
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u))
+            (@Formalism.BasicNotions.HLat.addV
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.DivData.Nu
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)))
+          (@Formalism.BasicNotions.HLat.modOV
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.DivData.Nu
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)))
+    (h :
+      @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D) →
+        Real) =>
+  @Formalism.BasicNotions.D7.mk (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.host D)
+    (Formalism.BasicNotions.D7.sp D) (Formalism.BasicNotions.D7.vol D) (Formalism.BasicNotions.D7.vol_pos D)
+    (Formalism.BasicNotions.D7.what₂ D) (Formalism.BasicNotions.D7.eTau D) (Formalism.BasicNotions.D7.hc D)
+    (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.u₀ D) (Formalism.BasicNotions.D7.hcW D)
+    (Formalism.BasicNotions.D7.hcW_base D) (Formalism.BasicNotions.D7.hcW_v D) (Formalism.BasicNotions.D7.hcW_b D)
+    (Formalism.BasicNotions.D7.hcW_e D) (Formalism.BasicNotions.D7.hcW_first D) (Formalism.BasicNotions.D7.hcW_last D)
+    (Formalism.BasicNotions.D7.mem D) (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+    (Formalism.BasicNotions.D7.tcLL D) (Formalism.BasicNotions.D7.galLL D) (Formalism.BasicNotions.D7.starLL_cx D)
+    (let __src :
+      @Formalism.BasicNotions.DivData
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) :=
+      Formalism.BasicNotions.D7.div D;
+    @Formalism.BasicNotions.DivData.mk
+      (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+      (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+      (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+      (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+      (Formalism.BasicNotions.D7.wordFin D)
+      (@Formalism.BasicNotions.DivData.RR
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) __src)
+      (fun
+          (u :
+            @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D)) =>
+        let __src :
+          @Formalism.BasicNotions.HLat
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) :=
+          @Formalism.BasicNotions.DivData.Nu
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u;
+        @Formalism.BasicNotions.HLat.mk
+          (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+          (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+          (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+          (@Formalism.BasicNotions.HLat.V
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.addV
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.modV
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.modOV
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (GlobalTheory.EX.OB.setDiv._proof_1 D u)
+          (@Formalism.BasicNotions.HLat.ι
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.finι
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.decι
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.b
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (@Formalism.BasicNotions.HLat.X
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+          (N u))
+      (@Formalism.BasicNotions.DivData.Bk
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) __src)
+      h
+      (@Max.max.{0} Real Real.instMax (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne))
+        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd)
+          (@Formalism.BasicNotions.sFrame
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.wordFin D)
+            (fun
+                (u :
+                  @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D)) =>
+              let __src :
+                @Formalism.BasicNotions.HLat
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) :=
+                @Formalism.BasicNotions.DivData.Nu
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                  (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u;
+              @Formalism.BasicNotions.HLat.mk
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+                (@Formalism.BasicNotions.HLat.V
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.addV
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.modV
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.modOV
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (GlobalTheory.EX.OB.setDiv._proof_1 D u)
+                (@Formalism.BasicNotions.HLat.ι
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.finι
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.decι
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.b
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (@Formalism.BasicNotions.HLat.X
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D) __src)
+                (N u))
+            h)
+          (@Formalism.BasicNotions.HLat.muMax
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.DivData.RR
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+              (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+                (Formalism.BasicNotions.D7.what₂ D))
+              (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D)))))
+      (GlobalTheory.EX.OB.setDiv._proof_2 D N h)
+      (@Formalism.BasicNotions.DivData.etaF
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) __src)
+      (@Formalism.BasicNotions.DivData.Dall
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) __src)
+      (@Formalism.BasicNotions.DivData.delP
+        (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.nfLL D) (Formalism.BasicNotions.D7.starLL D)
+        (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+        (Formalism.BasicNotions.D7.wordFin D) __src)
+      (GlobalTheory.EX.OB.setDiv._proof_3 D))
+    (Formalism.BasicNotions.D7.div_good D) (Formalism.BasicNotions.D7.embE D) (Formalism.BasicNotions.D7.embE_φ₀ D)
+    (Formalism.BasicNotions.D7.conjF D) (Formalism.BasicNotions.D7.conjF_eq D) (Formalism.BasicNotions.D7.embE_conj D)
+    (Formalism.BasicNotions.D7.LL0 D) (Formalism.BasicNotions.D7.hostField_le_fixedField D)
+    (Formalism.BasicNotions.D7.O_int D) (Formalism.BasicNotions.D7.O_contains D) (Formalism.BasicNotions.D7.plEq D)
+    (Formalism.BasicNotions.D7.val_eq D) (Formalism.BasicNotions.D7.ram_eq D) (Formalism.BasicNotions.D7.conj_val D)
+    (Formalism.BasicNotions.D7.T_level D) (Formalism.BasicNotions.D7.T_norm D) (Formalism.BasicNotions.D7.sp_T D)
+    (Formalism.BasicNotions.D7.cOf D) (Formalism.BasicNotions.D7.cOf_ne D) (Formalism.BasicNotions.D7.cOf_eq D)
+    (Formalism.BasicNotions.D7.T_win D) (Formalism.BasicNotions.D7.GamP_eq D) (Formalism.BasicNotions.D7.T_ne_pde D)
+    (Formalism.BasicNotions.D7.Dstar_eq D) (Formalism.BasicNotions.D7.clsLat D) (Formalism.BasicNotions.D7.clsLat_lat D)
+    (Formalism.BasicNotions.D7.eMu D) (Formalism.BasicNotions.D7.eMt D)
+    (Formalism.BasicNotions.D7.perCol_base_eq_PtilCol D) (Formalism.BasicNotions.D7.Bu_linL D)
+    (Formalism.BasicNotions.D7.Bu_linR D) (Formalism.BasicNotions.D7.chTw D)
+    (Formalism.BasicNotions.D7.memberColumns_twistedChain_base D) (Formalism.BasicNotions.D7.e0Tw D)
+    (Formalism.BasicNotions.D7.PTw D) (Formalism.BasicNotions.D7.eMtTw D) (Formalism.BasicNotions.D7.perCol_tie D)
+    (Formalism.BasicNotions.D7.jEE D) (Formalism.BasicNotions.D7.jEE_basis D) (Formalism.BasicNotions.D7.jN D)
+    (Formalism.BasicNotions.D7.jN_basis D) (Formalism.BasicNotions.D7.Dall_eq D) (Formalism.BasicNotions.D7.delP_eq D)
+    (Formalism.BasicNotions.D7.Dt D) (Formalism.BasicNotions.D7.instDt D) (Formalism.BasicNotions.D7.detCls D)
+    (Formalism.BasicNotions.D7.muTil D) (Formalism.BasicNotions.D7.chiD D) (Formalism.BasicNotions.D7.UO D)
+    (Formalism.BasicNotions.D7.chiD_UO D) (Formalism.BasicNotions.D7.e1Dt D)
+    (Formalism.BasicNotions.D7.rest_detCharacter_on_unitary_eq D) (Formalism.BasicNotions.D7.relDet D)
+    (Formalism.BasicNotions.D7.relDet_self D) (Formalism.BasicNotions.D7.relDet_mul D)
+    (Formalism.BasicNotions.D7.relDet_smul D) (Formalism.BasicNotions.D7.rhoDet_eq_inv_muTilde_chiD_pow D)
+    (Formalism.BasicNotions.D7.rhoDetPrime_eq_muTilde_mul_chi_pow D) (Formalism.BasicNotions.D7.dsig D)
+    (Formalism.BasicNotions.D7.dsig_pos D) (Formalism.BasicNotions.D7.s D) (Formalism.BasicNotions.D7.s_split D)
+    (Formalism.BasicNotions.D7.s_HH D) (Formalism.BasicNotions.D7.s_Cu D) (Formalism.BasicNotions.D7.s_PlF D)
+    (Formalism.BasicNotions.D7.loc D) (Formalism.BasicNotions.D7.locA D) (Formalism.BasicNotions.D7.locT D)
+    (Formalism.BasicNotions.D7.nd D) (Formalism.BasicNotions.D7.ntw D) (Formalism.BasicNotions.D7.naut D)
+    (Formalism.BasicNotions.D7.nbc D) (Formalism.BasicNotions.D7.nexp D) (Formalism.BasicNotions.D7.ntypes D)
+    (Formalism.BasicNotions.D7.nStage_trivialCharacter_compat D)
+    (Formalism.BasicNotions.D7.nStage_trivialCharacter_coeff_eq D) (Formalism.BasicNotions.D7.nth D)
+    (Formalism.BasicNotions.D7.nbr D) (Formalism.BasicNotions.D7.nbr_ind D) (Formalism.BasicNotions.D7.self_good D)
+    (Formalism.BasicNotions.D7.ntwbr D) (Formalism.BasicNotions.D7.ntwbr_ind D) (Formalism.BasicNotions.D7.loc_tie D)
+    (Formalism.BasicNotions.D7.bc_tie D) (Formalism.BasicNotions.D7.rbar_tie D) (Formalism.BasicNotions.D7.mtpar_tie D)
+    (Formalism.BasicNotions.D7.Z_tie D) (Formalism.BasicNotions.D7.Zgood_tie D) (Formalism.BasicNotions.D7.etaJ_tie D)
+    (Formalism.BasicNotions.D7.fm D) (Formalism.BasicNotions.D7.eMu_isom D) (Formalism.BasicNotions.D7.nuIn D)
+    (Formalism.BasicNotions.D7.nuIn_inj D) (Formalism.BasicNotions.D7.nuIn_range D)
+    (Formalism.BasicNotions.D7.nuIn_jN D) (Formalism.BasicNotions.D7.nuIn_norm D) (Formalism.BasicNotions.D7.jEE_norm D)
+    (Formalism.BasicNotions.D7.s_Cu_isom D) (Formalism.BasicNotions.D7.sEE D) (Formalism.BasicNotions.D7.cd D)
+    (Formalism.BasicNotions.D7.jet D) (Formalism.BasicNotions.D7.jetU D) (Formalism.BasicNotions.D7.jetL D)
+    (Formalism.BasicNotions.D7.jetL' D) (Formalism.BasicNotions.D7.jetW D) (Formalism.BasicNotions.D7.jetW_l D)
+    (Formalism.BasicNotions.D7.jetTau D) (Formalism.BasicNotions.D7.jetW1 D)
+    (Formalism.BasicNotions.D7.resChar_thetaJetPlaceDegOne D) (Formalism.BasicNotions.D7.jetTau1 D)
+    (Formalism.BasicNotions.D7.jetU1 D) (Formalism.BasicNotions.D7.jetL1 D) (Formalism.BasicNotions.D7.jetL1' D)
+    (Formalism.BasicNotions.D7.gx D) (Formalism.BasicNotions.D7.gat D) (Formalism.BasicNotions.D7.gat_d D)
+    (Formalism.BasicNotions.D7.Y_sigval D)
+RH_STAGE3_DECL_END GlobalTheory.EX.OB.setDiv
+RH_STAGE3_DECL_BEGIN Formalism.MainNotions.Inhab.ExtraAt
+structure Formalism.MainNotions.Inhab.ExtraAt (C : Formalism.MainNotions.Inhab.FC) {D : Formalism.BasicNotions.D7}
+  (L : Formalism.BasicNotions.SizeData₂ D) (gatT : Formalism.BasicNotions.GatTies D)
+  (Gx : Formalism.MainNotions.G.Inst D L) (Gy : Formalism.MainNotions.G.LatInst D) : Type 1
+number of parameters: 6
+fields:
+  Formalism.MainNotions.Inhab.ExtraAt.ties : Formalism.BasicNotions.Ties D
+  Formalism.MainNotions.Inhab.ExtraAt.X : Formalism.BasicNotions.DivX D
+  Formalism.MainNotions.Inhab.ExtraAt.nuDef : Formalism.BasicNotions.DV.NuDef D L
+  Formalism.MainNotions.Inhab.ExtraAt.nprimeDef : Formalism.BasicNotions.DV.NprimeDef D L
+  Formalism.MainNotions.Inhab.ExtraAt.rrDef : Formalism.BasicNotions.DV.RRDef D
+  Formalism.MainNotions.Inhab.ExtraAt.h_eq : ∀
+      (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)),
+      @Eq.{1} Real
+        (@Formalism.BasicNotions.DivData.h
+          (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+          (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+          ⋯ (Formalism.BasicNotions.D7.starLL D)
+          (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+          (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)
+        (Formalism.BasicNotions.DV.hExpl6 D L (@Formalism.MainNotions.Inhab.ExtraAt.X C D L gatT Gx Gy self)
+          (Formalism.MainNotions.Inhab.FC.Csz C) u)
+  Formalism.MainNotions.Inhab.ExtraAt.ex : Formalism.BasicNotions.Extra D L gatT Gx Gy
+      (Formalism.MainNotions.Inhab.FC.GK C) (@Formalism.MainNotions.Inhab.ExtraAt.X C D L gatT Gx Gy self)
+      (Formalism.MainNotions.Inhab.FC.cX C)
+constructor:
+  Formalism.MainNotions.Inhab.ExtraAt.mk {C : Formalism.MainNotions.Inhab.FC} {D : Formalism.BasicNotions.D7}
+    {L : Formalism.BasicNotions.SizeData₂ D} {gatT : Formalism.BasicNotions.GatTies D}
+    {Gx : Formalism.MainNotions.G.Inst D L} {Gy : Formalism.MainNotions.G.LatInst D}
+    (ties : Formalism.BasicNotions.Ties D) (X : Formalism.BasicNotions.DivX D)
+    (nuDef : Formalism.BasicNotions.DV.NuDef D L) (nprimeDef : Formalism.BasicNotions.DV.NprimeDef D L)
+    (rrDef : Formalism.BasicNotions.DV.RRDef D)
+    (h_eq :
+      ∀
+        (u :
+          @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)),
+        @Eq.{1} Real
+          (@Formalism.BasicNotions.DivData.h
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D))
+            ⋯ (Formalism.BasicNotions.D7.starLL D)
+            (@Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            (Formalism.BasicNotions.D7.wordFin D) (Formalism.BasicNotions.D7.div D) u)
+          (Formalism.BasicNotions.DV.hExpl6 D L X (Formalism.MainNotions.Inhab.FC.Csz C) u))
+    (ex :
+      Formalism.BasicNotions.Extra D L gatT Gx Gy (Formalism.MainNotions.Inhab.FC.GK C) X
+        (Formalism.MainNotions.Inhab.FC.cX C)) :
+    @Formalism.MainNotions.Inhab.ExtraAt C D L gatT Gx Gy
+RH_STAGE3_DECL_END Formalism.MainNotions.Inhab.ExtraAt
+RH_STAGE3_DECL_BEGIN GlobalTheory.EX.OB.LedPart.ht
+def GlobalTheory.EX.OB.LedPart.ht : {C : Formalism.MainNotions.Inhab.FC} →
+  {D : Formalism.BasicNotions.D7} →
+    {Y : GlobalTheory.EX.OB.Lay D} →
+      (p : @GlobalTheory.EX.OB.LedPart C D Y) →
+        @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D) →
+          Real :=
+fun {C : Formalism.MainNotions.Inhab.FC} {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D}
+    (p : @GlobalTheory.EX.OB.LedPart C D Y) =>
+  Formalism.BasicNotions.DV.hExpl6 D (@GlobalTheory.EX.OB.LedPart.L C D Y p) (@GlobalTheory.EX.OB.Lay.X D Y)
+    (Formalism.MainNotions.Inhab.FC.Csz C)
+RH_STAGE3_DECL_END GlobalTheory.EX.OB.LedPart.ht
+RH_STAGE3_DECL_BEGIN GlobalTheory.EX.OB.LedPart.pt
+def GlobalTheory.EX.OB.LedPart.pt : {C : Formalism.MainNotions.Inhab.FC} →
+  {D : Formalism.BasicNotions.D7} →
+    {Y : GlobalTheory.EX.OB.Lay D} → (p : @GlobalTheory.EX.OB.LedPart C D Y) → GlobalTheory.EX.Pt C :=
+fun {C : Formalism.MainNotions.Inhab.FC} {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D}
+    (p : @GlobalTheory.EX.OB.LedPart C D Y) =>
+  @GlobalTheory.EX.Pt.mk C
+    (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+      (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+    (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+      (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+    (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+      (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+    (@Formalism.MainNotions.Inhab.TiesAt.mk C
+      (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+      (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+      (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+      (@GlobalTheory.EX.OB.instTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+        (@Formalism.MainNotions.Inhab.TiesAt.Gx C D (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+          (@GlobalTheory.EX.OB.Lay.gatT D Y) (@GlobalTheory.EX.OB.LedPart.ta C D Y p)))
+      (@GlobalTheory.EX.OB.latTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.Gy D Y))
+      (@GlobalTheory.EX.OB.LedPart.pt._proof_1 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_2 C D Y p)
+      (@GlobalTheory.EX.OB.LedPart.pt._proof_3 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_4 C D Y p)
+      (@GlobalTheory.EX.OB.LedPart.pt._proof_5 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_6 C D Y p))
+    (@Formalism.MainNotions.Inhab.ExtraAt.mk C
+      (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+      (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+      (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+      (@Formalism.MainNotions.Inhab.TiesAt.Gx C
+        (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+        (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+        (@Formalism.MainNotions.Inhab.TiesAt.mk C
+          (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+          (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+          (@GlobalTheory.EX.OB.instTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+            (@Formalism.MainNotions.Inhab.TiesAt.Gx C D (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+              (@GlobalTheory.EX.OB.Lay.gatT D Y) (@GlobalTheory.EX.OB.LedPart.ta C D Y p)))
+          (@GlobalTheory.EX.OB.latTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.Gy D Y))
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_1 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_2 C D Y p)
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_3 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_4 C D Y p)
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_5 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_6 C D Y p)))
+      (@Formalism.MainNotions.Inhab.TiesAt.Gy C
+        (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+        (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+        (@Formalism.MainNotions.Inhab.TiesAt.mk C
+          (GlobalTheory.EX.OB.setDiv D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p))
+          (@GlobalTheory.EX.OB.ledTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+          (@GlobalTheory.EX.OB.gatTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.gatT D Y))
+          (@GlobalTheory.EX.OB.instTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+            (@Formalism.MainNotions.Inhab.TiesAt.Gx C D (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+              (@GlobalTheory.EX.OB.Lay.gatT D Y) (@GlobalTheory.EX.OB.LedPart.ta C D Y p)))
+          (@GlobalTheory.EX.OB.latTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+            (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.Gy D Y))
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_1 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_2 C D Y p)
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_3 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_4 C D Y p)
+          (@GlobalTheory.EX.OB.LedPart.pt._proof_5 C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_6 C D Y p)))
+      (@GlobalTheory.EX.OB.LedPart.pt._proof_7 C D Y p)
+      (@GlobalTheory.EX.OB.divTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.Lay.X D Y))
+      (@GlobalTheory.EX.OB.LedPart.nuDef C D Y p) (@GlobalTheory.EX.OB.LedPart.pt._proof_9 C D Y p)
+      (@GlobalTheory.EX.OB.Lay.rrDef D Y) (@GlobalTheory.EX.OB.LedPart.pt._proof_10 C D Y p)
+      (@GlobalTheory.EX.OB.extraTr D (@GlobalTheory.EX.OB.nPrime D (@GlobalTheory.EX.OB.LedPart.L C D Y p))
+        (@GlobalTheory.EX.OB.LedPart.ht C D Y p) (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+        (@GlobalTheory.EX.OB.Lay.gatT D Y)
+        (@Formalism.MainNotions.Inhab.TiesAt.Gx C D (@GlobalTheory.EX.OB.LedPart.L C D Y p)
+          (@GlobalTheory.EX.OB.Lay.gatT D Y) (@GlobalTheory.EX.OB.LedPart.ta C D Y p))
+        (@GlobalTheory.EX.OB.Lay.Gy D Y) (Formalism.MainNotions.Inhab.FC.GK C) (@GlobalTheory.EX.OB.Lay.X D Y)
+        (Formalism.MainNotions.Inhab.FC.cX C) (@GlobalTheory.EX.OB.LedPart.extra C D Y p)))
+RH_STAGE3_DECL_END GlobalTheory.EX.OB.LedPart.pt
+RH_STAGE3_DECL_BEGIN Formalism.BasicNotions.DV.hExpl6
+def Formalism.BasicNotions.DV.hExpl6 : (D : Formalism.BasicNotions.D7) →
+  (L : Formalism.BasicNotions.SizeData₂ D) →
+    (X : Formalism.BasicNotions.DivX D) →
+      (C : Real) →
+        (u :
+            @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D)
+              (Formalism.BasicNotions.D7.what₂ D)) →
+          Real :=
+fun (D : Formalism.BasicNotions.D7) (L : Formalism.BasicNotions.SizeData₂ D) (X : Formalism.BasicNotions.DivX D)
+    (C : Real)
+    (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)) =>
+  @HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+    (@HSub.hSub.{0, 0, 0} Real Real Real (@instHSub.{0} Real Real.instSub)
+      (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) (Formalism.BasicNotions.DV.SZbP D L C u)
+        (@Finset.sum.{0, 0} Nat Real Real.instAddCommMonoid (Formalism.BasicNotions.SizeData₂.lifts D) fun (j : Nat) =>
+          Formalism.BasicNotions.DV.kernelPlaceMeanBound D L C u j))
+      (@Finset.sum.{0, 0} Nat Real Real.instAddCommMonoid (Formalism.BasicNotions.SizeData₂.lifts D) fun (j : Nat) =>
+        Formalism.BasicNotions.DV.L6lo D L C j))
+    (Formalism.BasicNotions.DV.meanE D
+      fun
+        (e :
+          @RingHom.{0, 0}
+            (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+            Complex
+            (@Semiring.toNonAssocSemiring.{0}
+              (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D))
+              (@DivisionSemiring.toSemiring.{0}
+                (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                  (Formalism.BasicNotions.D7.what₂ D))
+                (@Semifield.toDivisionSemiring.{0}
+                  (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                    (Formalism.BasicNotions.D7.what₂ D))
+                  (@Field.toSemifield.{0}
+                    (@Formalism.BasicNotions.Rows.Data.LL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))
+                    (@Formalism.BasicNotions.Rows.Data.instLL (Formalism.BasicNotions.D7.R D)
+                      (Formalism.BasicNotions.D7.what₂ D))))))
+            (@Semiring.toNonAssocSemiring.{0} Complex Complex.instSemiring)) =>
+      Real.log (@Formalism.BasicNotions.DivX.kapR D X e))
+RH_STAGE3_DECL_END Formalism.BasicNotions.DV.hExpl6
+RH_STAGE3_DECL_BEGIN SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt
+theorem SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt : GlobalTheory.CompanionTheory.Hypotheses₂.ResolutionCharZero →
+  GlobalTheory.CompanionTheory.Hypotheses₂.PrincipalisationCharZero →
+    GlobalTheory.CompanionTheory.Hypotheses₂.PoincareLelongInv →
+      PositivityTheory.MbHsUse.HSUse →
+        ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.MoriwakiBigStatement →
+          GlobalTheory.CompanionTheory.Ar.HT.FarguesExact →
+            GlobalTheory.CompanionTheory.Ar.GR.ZarhinStatement →
+              GlobalTheory.CompanionTheory.Ar.Pub.NefRR →
+                GlobalTheory.Published.SiegelToroidalIntegral →
+                  GlobalTheory.Published.ToroidalForFanKS →
+                    GlobalTheory.Published.SemiAbelianLieSeminegative →
+                      GlobalTheory.Published.PointSeparationPair →
+                        GlobalTheory.Published.ArDegree →
+                          GlobalTheory.CovTop.PublishedHodgeBundleTheorems →
+                            GlobalTheory.Published.GrothendieckDeformation → GlobalTheory.CovTop.CovolumeBoundOfX :=
+fun (h₁ : GlobalTheory.CompanionTheory.Hypotheses₂.ResolutionCharZero)
+    (h₂ : GlobalTheory.CompanionTheory.Hypotheses₂.PrincipalisationCharZero)
+    (hPL : GlobalTheory.CompanionTheory.Hypotheses₂.PoincareLelongInv) (hU : PositivityTheory.MbHsUse.HSUse)
+    (hBig : ReciprocityTheory.ChartRestriction.G.ArakelovGeometry.MoriwakiBigStatement)
+    (hFar : GlobalTheory.CompanionTheory.Ar.HT.FarguesExact) (hZar : GlobalTheory.CompanionTheory.Ar.GR.ZarhinStatement)
+    (hRR : GlobalTheory.CompanionTheory.Ar.Pub.NefRR) (hS : GlobalTheory.Published.SiegelToroidalIntegral)
+    (hK : GlobalTheory.Published.ToroidalForFanKS) (hN : GlobalTheory.Published.SemiAbelianLieSeminegative)
+    (hSep : GlobalTheory.Published.PointSeparationPair) (hDeg : GlobalTheory.Published.ArDegree)
+    (hP : GlobalTheory.CovTop.PublishedHodgeBundleTheorems) (hGD : GlobalTheory.Published.GrothendieckDeformation) =>
+  have hX : GlobalTheory.CovTop.HypothesesX :=
+    GlobalTheory.CovTop.HypothesesX.mk hK hN
+      (GlobalTheory.GreenBridge.green_of_regular GlobalTheory.greenRegularCharacters_holds) hSep
+      (FubiniStudyChowHeightFormula₂.fubiniStudy_chowHeight_formula hP);
+  have hF : GlobalTheory.Published.ToroidalChartsForFan := PositivityTheory.Prw.toroidalChartsForFan_of hK;
+  have hH : GlobalTheory.CovHt.HypothesesH :=
+    GlobalTheory.CovHt.HypothesesH.mk hS hF (GlobalTheory.Published.toroidalCharts_of_siegel_of_forFan hS hF) hDeg;
+  SelfIntersectionVolumeEstimates.topCovolG_alt_alt
+    (@And.intro SelfIntersectionVolumeEstimates.SelfIntersectionBound
+      SelfIntersectionVolumeEstimates.SmallSectionsInject ChowFormHeightComparison₂.chow_form_height_comparison
+      (PositivityTheory.Xj7N.small_sections_injective
+        (GlobalTheory.CompanionTheory.Ar.Rec.exists_nonvanishing_of_toroidal (GlobalTheory.CovHt.HypothesesH.sieg hH)
+          (GlobalTheory.CovTop.HypothesesX.ks hX))))
+    hX hP hH hGD
+    (GlobalTheory.HSCore.Quoted.mk (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q6 hP)
+      (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q8 hP) (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q13 hP)
+      (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q7 hP) (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q10 hP)
+      GlobalTheory.Published.chowFormIntExists_holds ChowFormCompatibility.chow_form_hyperplane_section
+      (GlobalTheory.CovTop.PublishedHodgeBundleTheorems.q12 hP))
+    (PositivityTheory.HtPt.Ah.deep_slim_use h₁ h₂ hPL hU hBig hFar hZar hRR)
+RH_STAGE3_DECL_END SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt
+RH_STAGE3_CONTEXT H1_ASSIGNED_HEIGHT
+C : Formalism.MainNotions.Inhab.FC
+D : Formalism.BasicNotions.D7
+Y : GlobalTheory.EX.OB.Lay D
+p : @GlobalTheory.EX.OB.LedPart C D Y
+u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)
+⊢ @Eq.{1} Real
+    (@Formalism.BasicNotions.DivData.h
+      (@Formalism.BasicNotions.Rows.Data.LL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (@Formalism.BasicNotions.Rows.Data.instLL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.nfLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.starLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (@Formalism.BasicNotions.Rows.Data.Word
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.wordFin (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.div (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))) u)
+    (@GlobalTheory.EX.OB.LedPart.ht C D Y p u)
+/audit/HeightContext.lean:34:2: warning: Unused tactic linter: `trace "RH_STAGE3_CONTEXT H1_ASSIGNED_HEIGHT"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+RH_STAGE3_CONTEXT H2_CONSTRUCTED_CONTRACT
+C : Formalism.MainNotions.Inhab.FC
+D : Formalism.BasicNotions.D7
+Y : GlobalTheory.EX.OB.Lay D
+p : @GlobalTheory.EX.OB.LedPart C D Y
+u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)
+⊢ @Eq.{1} Real
+    (@Formalism.BasicNotions.DivData.h
+      (@Formalism.BasicNotions.Rows.Data.LL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (@Formalism.BasicNotions.Rows.Data.instLL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.nfLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.starLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (@Formalism.BasicNotions.Rows.Data.Word
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.wordFin (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.div (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))) u)
+    (Formalism.BasicNotions.DV.hExpl6 (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@Formalism.MainNotions.Inhab.ExtraAt.X C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@Formalism.MainNotions.Inhab.TiesAt.Gx C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (@Formalism.MainNotions.Inhab.TiesAt.Gy C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (@GlobalTheory.EX.Pt.xa C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.MainNotions.Inhab.FC.Csz C) u)
+/audit/HeightContext.lean:41:2: warning: Unused tactic linter: `trace "RH_STAGE3_CONTEXT H2_CONSTRUCTED_CONTRACT"` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+theorem GlobalTheory.EX.OB.LedPart.stage3_assigned_height : ∀ {C : Formalism.MainNotions.Inhab.FC}
+  {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D} (p : @GlobalTheory.EX.OB.LedPart C D Y)
+  (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)),
+  @Eq.{1} Real
+    (@Formalism.BasicNotions.DivData.h
+      (@Formalism.BasicNotions.Rows.Data.LL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (@Formalism.BasicNotions.Rows.Data.instLL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.nfLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.starLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (@Formalism.BasicNotions.Rows.Data.Word
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.wordFin (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.div (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))) u)
+    (@GlobalTheory.EX.OB.LedPart.ht C D Y p u) :=
+fun {C : Formalism.MainNotions.Inhab.FC} {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D}
+    (p : @GlobalTheory.EX.OB.LedPart C D Y)
+    (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)) =>
+  @Eq.refl.{1} Real
+    (@Formalism.BasicNotions.DivData.h
+      (@Formalism.BasicNotions.Rows.Data.LL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (@Formalism.BasicNotions.Rows.Data.instLL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.nfLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.starLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (@Formalism.BasicNotions.Rows.Data.Word
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.wordFin (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.div (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))) u)
+'GlobalTheory.EX.OB.LedPart.stage3_assigned_height' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+theorem GlobalTheory.EX.OB.LedPart.stage3_constructed_height_contract : ∀ {C : Formalism.MainNotions.Inhab.FC}
+  {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D} (p : @GlobalTheory.EX.OB.LedPart C D Y)
+  (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)),
+  @Eq.{1} Real
+    (@Formalism.BasicNotions.DivData.h
+      (@Formalism.BasicNotions.Rows.Data.LL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (@Formalism.BasicNotions.Rows.Data.instLL
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.nfLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.starLL (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (@Formalism.BasicNotions.Rows.Data.Word
+        (Formalism.BasicNotions.D7.R (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (Formalism.BasicNotions.D7.what₂ (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))))
+      (Formalism.BasicNotions.D7.wordFin (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.BasicNotions.D7.div (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))) u)
+    (Formalism.BasicNotions.DV.hExpl6 (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@Formalism.MainNotions.Inhab.ExtraAt.X C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+        (@Formalism.MainNotions.Inhab.TiesAt.Gx C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (@Formalism.MainNotions.Inhab.TiesAt.Gy C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+          (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+        (@GlobalTheory.EX.Pt.xa C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+      (Formalism.MainNotions.Inhab.FC.Csz C) u) :=
+fun {C : Formalism.MainNotions.Inhab.FC} {D : Formalism.BasicNotions.D7} {Y : GlobalTheory.EX.OB.Lay D}
+    (p : @GlobalTheory.EX.OB.LedPart C D Y)
+    (u : @Formalism.BasicNotions.Rows.Data.Word (Formalism.BasicNotions.D7.R D) (Formalism.BasicNotions.D7.what₂ D)) =>
+  @Formalism.MainNotions.Inhab.ExtraAt.h_eq C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+    (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+    (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+    (@Formalism.MainNotions.Inhab.TiesAt.Gx C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+    (@Formalism.MainNotions.Inhab.TiesAt.Gy C (@GlobalTheory.EX.Pt.D C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.L C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.gatT C (@GlobalTheory.EX.OB.LedPart.pt C D Y p))
+      (@GlobalTheory.EX.Pt.ta C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)))
+    (@GlobalTheory.EX.Pt.xa C (@GlobalTheory.EX.OB.LedPart.pt C D Y p)) u
+'GlobalTheory.EX.OB.LedPart.stage3_constructed_height_contract' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+RH_STAGE3_HEIGHT_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/HeightContext.lean"
+	User time (seconds): 40.49
+	System time (seconds): 36.25
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 52078244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1250807
+	Voluntary context switches: 692
+	Involuntary context switches: 703
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T07:08:10.054150+00:00

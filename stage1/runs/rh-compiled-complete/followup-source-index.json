@@ -1,0 +1,1765 @@
+{
+  "copied": [
+    {
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelPlusSubgroup",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/LevelPlusSubgroup.lean",
+      "sha256": "63d9a907b1a2aa53fb217467b74dc25f41c0efec75aae56fdff9cb30cc65a9d4"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTensorModels",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/WeilTensorModels.lean",
+      "sha256": "62209e957e734a32e4a85feb546cb2e8e7e087475d54fe5575b8fa7b4bd80197"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AmpleOnAbelianBase",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/AmpleOnAbelianBase.lean",
+      "sha256": "62312daac0dbbb9c5adc392a4f94d476d5516c5fa114170832930fed2e66d335"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AssembleLattice",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/AssembleLattice.lean",
+      "sha256": "02e36f171a1054d6abd30abbc8040886a3648dcbcd22f6233222cc3cad48f1bf"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.BaseDataEmbeddingConj",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/BaseDataEmbeddingConj.lean",
+      "sha256": "60814cde32a6b402bf995fff1aeef02046ef575856646d9fcab8a66c5fa17e3a"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CmQuadraticFormEqAlternatingForm",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CmQuadraticFormEqAlternatingForm.lean",
+      "sha256": "2f8d1ed9230443d1adeb5287ce74739fc7316dd6e7f6106d60c0150c342f5e11"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DsigEq",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/DsigEq.lean",
+      "sha256": "4cc7bad33f3ec7383c09fc368635e6261d9b89f1760237f15bf857a99e75c9eb"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FieldValuesMemFixedField",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FieldValuesMemFixedField.lean",
+      "sha256": "4b61b343c928abb6bdc634b394dd14ec82042b50a64c21939945a7d261863417"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GKeyFin",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GKeyFin.lean",
+      "sha256": "c4ae45f65319f09db7be3951bf28477832d343688e13809aaca3a78ee4dfad33"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GeoTiedPGraft",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GeoTiedPGraft.lean",
+      "sha256": "fd8ffe4dc4523cfaf349edd06275870a191c65f4a09239671b6957ef135d115c"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.HostPins",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/HostPins.lean",
+      "sha256": "6bbc672a818cb276eef8fedfa74f8be6da208dcfb28a3e1d210a4fb9850acd4d"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsAbsIrrCharCompIff",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsAbsIrrCharCompIff.lean",
+      "sha256": "a4e1fd7c93d8c83f69d46af85f8cd7105b722c323c1c75bcc67893666116a733"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LargeFor",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LargeFor.lean",
+      "sha256": "089549d7893cc91fd8ddb4c179fe873dbbb82fcc1a11be972135616e29ff9245"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MapSeqIndAll",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MapSeqIndAll.lean",
+      "sha256": "1bbc8e575e33b7644687bfd1f5a46378673404e92a8197c5db2b942765403f08"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MonodromyZeroOfWeilDeligneRepClassIff",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MonodromyZeroOfWeilDeligneRepClassIff.lean",
+      "sha256": "c9606fde496604088dc8667a8008980c0d8250f15f330cc18b3644767fd3d8f8"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MultW",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MultW.lean",
+      "sha256": "afb3528c9e4015435f3ed638e9fd4be2b765c5f1b099298383d9e6e8f9da4a03"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimes",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean",
+      "sha256": "41563ec29f4fd3060f7f34377f50104b0694395d7cff3b48465010be6aebaccc"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBaseCondFalse",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotBaseCondFalse.lean",
+      "sha256": "af2bc1481e38183e5e6ce30a49331eed1dd1f415bd1e16b553bf3246189fb4d5"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotGeoClFalse",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean",
+      "sha256": "54dbd62bbacc19db2294f1c41fd28663522acf498a732f9328ed2086b08b9e38"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotLamAreShift",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotLamAreShift.lean",
+      "sha256": "acc5c8c8ed2946c1d941a34b94cc04f900a1ec2ebdf4c430107b37073c82e914"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.OverIx",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean",
+      "sha256": "b9ba78e313f6c7a601d87a1672429122d7f976a0afdd8bae8e4efed68a7215df"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PointPropertyEqSizeFree",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PointPropertyEqSizeFree.lean",
+      "sha256": "540ead264ebfed8bdb71b2775c0802539cc5d1475d715c9bac76f9186745abf4"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PositionOfIntro.lean",
+      "sha256": "a482f53207751861c6e1f8f05a4d8c2b4eae5b1764b4539ec31b441e47deb4fd"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RatInEig",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RatInEig.lean",
+      "sha256": "25e0f83618725aefbb84f1afac87a4d301815a2b4a728cc70a3c9658ce0f22ae"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RationalRootsDef",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RationalRootsDef.lean",
+      "sha256": "dd47e469d0ab471076f02492c14d5f93a5007a9fbbf8cbcef55692f82767add8"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RhoDetPrimeEqMuTildeMulChiPow",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RhoDetPrimeEqMuTildeMulChiPow.lean",
+      "sha256": "281425a3d6ad54776c3aaec85db1c9d37555fad35cb1fcbdd6df39b3ced69efb"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SecondChernDegreeVanishesTrueSurfaces",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SecondChernDegreeVanishesTrueSurfaces.lean",
+      "sha256": "a7cfba998ae7e2ae1febd5751cfbbec7acd5e5d2b78cf51ed3d784d211ab50e2"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SettingsFormsExistList",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SettingsFormsExistList.lean",
+      "sha256": "f51835beabd0dd93d75a54a5a937e7f8d707a024febc76d720bbc8b0605775e6"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StdLvPr",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StdLvPr.lean",
+      "sha256": "28aba17c0375b9f04ded5e1d57581e9b49ad7c220953b8327d8e39d84bb87c61"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean",
+      "sha256": "8a04a9690a6f7021e7957fa027a4666aa17546333b41ca23857a4956c464cd57"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ThetaChr",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ThetaChr.lean",
+      "sha256": "5f3ceefcb362546e864206ccef7dc7489c95316c04dabe77b1c08caffcdda31e"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TiedColumnData",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TiedColumnData.lean",
+      "sha256": "1074541bb0a76862ffbbca64a3ac78a3e827f825af50cfe853a2ce1e46d0395c"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TrueColumnChoicesHeckeCharReferenceEqOne",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TrueColumnChoicesHeckeCharReferenceEqOne.lean",
+      "sha256": "6e40708bb9566fec4c482c6c0121078d598ef2b35e64712b1f96928d7f7d0e55"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.UpLReStage",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/UpLReStage.lean",
+      "sha256": "5678cffa17f99b673096b9aa430ba1d695e6805350029d5d6688eb42354b7022"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.CovolXOfCovol",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/CovolXOfCovol.lean",
+      "sha256": "f40c762ed8c2b18311d604540c15613e4a5969b1395dcab59b2854584fb6d3ae"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.DiscreteSeriesHermitianUnique",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/DiscreteSeriesHermitianUnique.lean",
+      "sha256": "4b1fec202abeafd28154ed5423ceb179235d7f84ab8cba559574af4c7a1e06fe"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.HypothesesX",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/HypothesesX.lean",
+      "sha256": "1c1230697ec3d5e2671223d5f8b2e317f05f903949a4edc5f1a39b154e56f791"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.HypothesisBundleConversions",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/HypothesisBundleConversions.lean",
+      "sha256": "636d41b60c451875db660edf375390186c9417c322fb6bc7e7fc1e8a79c3900d"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.SemiposAtOfPositive",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/SemiposAtOfPositive.lean",
+      "sha256": "7fc2c91a3f3d0bc130bb65b092eb1761feb10701036ee8dff304e5ee91e1cb2e"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.SlopeTestRemainingChoicesAlt",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/SlopeTestRemainingChoicesAlt.lean",
+      "sha256": "28f89c5b78fba8f5dfa1d0b55a3a29efe92548a393e13b9f1547bf1401f6d54e"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.TupleReadBaseTupleEqFamily",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/TupleReadBaseTupleEqFamily.lean",
+      "sha256": "f38a085287881a78542cb5e259dd391b6a82c5c08d549545011a5a6e321b2baf"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.TwistedPlaceChoiceLiesOverPair",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/TwistedPlaceChoiceLiesOverPair.lean",
+      "sha256": "0e5eb9873ae432af71e39a54e7503e4185c7a515f8753215d43bf626011523ff"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.WellChosen",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Divisors/WellChosen.lean",
+      "sha256": "d3338786bea3a686277764358ce56f87b52cff69692e96775df4b1e27e28c17d"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Foundations/CdScaleTieIff.lean",
+      "sha256": "6904f6d04eba9f6bebb717bc3aa157d672805bbaed2733fd100777b5b35fc660"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/Foundations/RootOfUnityEightQMemCoeffGaloisSubfield.lean",
+      "sha256": "6fe7a50680bd065519472080ef7e866828f64feed5d3314fd38f2674bb52937e"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.APerTw",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/APerTw.lean",
+      "sha256": "dfb4cb5771746446525133fecef22628a83929053134578cda051311a564488b"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ColumnCompatibleSelection",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/ColumnCompatibleSelection.lean",
+      "sha256": "6b07560d366efb13215b29351fdefb0308ad4627214d1124937d93a74917d605"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.CountsIrreducibilityConstants",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/CountsIrreducibilityConstants.lean",
+      "sha256": "831f134c03b0082ed2788ce798f9c1a0bd3d0a3259f26b6de60741082d7725cb"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DRS",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/DRS.lean",
+      "sha256": "8578cf95023a33fb51363b6ed360b1c0d8117acb73ecd3f52cde424b1fbf6dbe"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DisjointExceptional",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/DisjointExceptional.lean",
+      "sha256": "e1372a786266ccfcbcfc0c865377c65af592c0aebc8cfabafb583c93aecdcdf7"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.EventuallyAllScaleContextsAndOfBoth",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/EventuallyAllScaleContextsAndOfBoth.lean",
+      "sha256": "4aeb3af1e58eff15a6a362518bdeb083d6b69db4ab647aaa64efadfa9ef13771"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.GeometricWeakTiesOfStrong",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/GeometricWeakTiesOfStrong.lean",
+      "sha256": "d6a0375eae2128b0a5a1ea39a4f1af217752ccd32c18f77c9b4868add2deba1a"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.GoodReductionCondition",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/GoodReductionCondition.lean",
+      "sha256": "435d226f4d9aae11cc7e21d2e27e30f81a251b2bc1c504a10b9702ccba28b52a"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LFunctionPositiveConductorFourEight",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/LFunctionPositiveConductorFourEight.lean",
+      "sha256": "f16d3a2db8cfa26c05f6d2a2935db32f4318b8bb7dede13d825078fadcaca960"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean",
+      "sha256": "52560bbc51e012b706fc6838bfa75eb15f2cf05f7e6f9ccde98d2d8b5c5c60df"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/ValidForConstructedPointClassesEventuallyWorking.lean",
+      "sha256": "066219abb0caabf50a11fbe9f320ac8d5aa723adec2165a295b1323beb310910"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoAndThreeForFamily",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/BoundAtTwoAndThreeForFamily.lean",
+      "sha256": "6b83cc632a3b8fb2e0ae85b8fd8cf84de7ff1d04a7f66062cee41391177fd9d4"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LabelDatum",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LabelDatum.lean",
+      "sha256": "3ecda7efa98f4a1abae048b7262f22be37610901a9bcd987e7a3742b202f7cb6"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NonemptyEquivMultiProdOne",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/NonemptyEquivMultiProdOne.lean",
+      "sha256": "a25c4167d0d342508d3fde846dca96b02fbc316efb8186ac509c4c5069f42388"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChowFormIntExistsAndChowFormExists",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ChowFormIntExistsAndChowFormExists.lean",
+      "sha256": "db64698ca30d96eba04ed6ddd4d3bc5a58e05127b7260c9ea5e99b1df038a3df"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvLgGGridAOfJoin",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EvLgGGridAOfJoin.lean",
+      "sha256": "1f761a8a7670ec90d8e8cbaa00ded7f27db867ca6d6754572dc985fac09eb124"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.Fun0FitOfJoin",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/Fun0FitOfJoin.lean",
+      "sha256": "cec982fb0f886ed1b832687c5f60d32a47839a976fbb1ef6d96ba48cb9f0f18a"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyHypsOfPublishedUE",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NonemptyHypsOfPublishedUE.lean",
+      "sha256": "5e5b726c75a4cb71c8004b161839d4fc27972ff6aad6aaceebd534e28759e411"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OntoXAndLamLowOfPublishedUE",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OntoXAndLamLowOfPublishedUE.lean",
+      "sha256": "1e69ade4ea0438d04ea86a1fa8523dae565ca44582113be405f1ec524998d506"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenFirstParametersOfPrintsUEStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OpenFirstParametersOfPrintsUEStatement.lean",
+      "sha256": "23e3798f8f9f90c2a541f88e30187eef885c205a92bb53565c2461f4722304ab"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalityOfThetaHypothesesStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RationalityOfThetaHypothesesStatement.lean",
+      "sha256": "18c956453902026ef216b580ba232fdd968213d76fcd1d9f766ef476696f67a0"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ToroidalChartsOfSiegelOfForFan",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ToroidalChartsOfSiegelOfForFan.lean",
+      "sha256": "090020bef89e9d31ad1f606b1b0c3e12f08baeb811f9f5256fe8a84776c17ac5"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LargeFieldLinkedBundlesExist",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/LargeFieldLinkedBundlesExist.lean",
+      "sha256": "ceb642d0c0251e3f24605f3e2d50f5838db1b978b266d4934a4178ea079385c6"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LitThin",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/LitThin.lean",
+      "sha256": "a135fd9de91e2a9306f67e83ed1de431fa787b3c46e15df92db9fb191338671b"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.OpenAndLinkedMonoExtension",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/OpenAndLinkedMonoExtension.lean",
+      "sha256": "e8e4cab016dd66dbeb8d341a7bfaa4587c46533663fe8d61f0e0cdf529e3ea3f"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.OpenImpliesL3AtLinkedBundles",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/OpenImpliesL3AtLinkedBundles.lean",
+      "sha256": "32b2794a6f2e13b5bd70d7a8df44775c551abf5fa6a3d4003e37014d49a973ac"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GreenCuspidalCharsByRegularCharsProof",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/GreenCuspidalCharsByRegularCharsProof.lean",
+      "sha256": "9c900051d1d547b6a46835ee2cb5de818f06e4b84a1e6e731592743df41a6e99"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SumRangeEqRoots",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/SumRangeEqRoots.lean",
+      "sha256": "d4dcbccd896d31c0791d8ee32e245cb442302ca0a720e9acfd70cb67bd89cc17"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AmbExOfRx",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/AmbExOfRx.lean",
+      "sha256": "a40c16e63d5926ef447ff2391ede42749cb0d7e50154629d6ea7a6628fc01342"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CoeffZeroEqZeroIff",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CoeffZeroEqZeroIff.lean",
+      "sha256": "c59e7bc6a251e22fae7fd2686daa93e7095430a6a6e8944230d7d63cb8d9fdae"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemberOfConstructionStepsSecondPassStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsMemberOfConstructionStepsSecondPassStatement.lean",
+      "sha256": "af44ded1c1cca03c6dd5d2d4d5377710a04562426e68084386e9acec00e75aff"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsThetaDataTrueRowsColumnsAllCompatibleStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsThetaDataTrueRowsColumnsAllCompatibleStatement.lean",
+      "sha256": "f24905ac906413ec933e66e38f430a175cfe3bd945936a03f0ef739ead1e5926"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsUnlocalizedSaturatedState",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsUnlocalizedSaturatedState.lean",
+      "sha256": "69ba118065f9ece25bb7628dfd9d6816a5e34d0e580c31f993e713dc91d5e0ec"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PublishedInputsImplyConclusion",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusion.lean",
+      "sha256": "28da93a35d85267815f63777d2c1da18074723b9b671be259b59d01ab34f1777"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RamifiedRationalPrimesOfTupleBaseTupleEqEmpty",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RamifiedRationalPrimesOfTupleBaseTupleEqEmpty.lean",
+      "sha256": "bfcb892b376207783039b1771d607d2b6cb11dda96cfbbdcf13836b238b1fec0"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RowRatWOfRowTest",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RowRatWOfRowTest.lean",
+      "sha256": "d4e0f6900064fbe3698ae36bcf205ae2f48ba50fb1e8248b61f23f7c5434f0ca"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TupPinsOfMuIsW",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupPinsOfMuIsW.lean",
+      "sha256": "2680131c9999c7f44b5d30b410b7206e1d674f1b40165a7c58ec65700c708998"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValuationLtOneOfInvNotMem",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ValuationLtOneOfInvNotMem.lean",
+      "sha256": "06bfe57d2fed2dd09e7809e38ac71b5a2b73f77591d29c2df5801f77e7a55f06"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.RhoMemOfMkEq",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/SatakeParameters/RhoMemOfMkEq.lean",
+      "sha256": "5a5d960ffd3a47a04fe4a77bec41202cb31806b846260bc59185366425e0168b"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LocalMatchingOfHoweDualityStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/TwistedOperators/LocalMatchingOfHoweDualityStatement.lean",
+      "sha256": "3014da9b57d9b8c9c89867b350d7a41155d49eb656c072bd5fcde4c6204f147a"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ThetaIntegralsOfMinguezStatement",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ThetaIntegralsOfMinguezStatement.lean",
+      "sha256": "92780b02b32a89c084c5ef289edcb562bb0264e8e607fdb38bcc58ce6681c67f"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilConvergenceOfSiegelSet",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Proofs/TwistedOperators/WeilConvergenceOfSiegelSet.lean",
+      "sha256": "6cf442256612d784896aef106eafbb36bb58cb21d80957660109b795dd376652"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ArBirational",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ArBirational.lean",
+      "sha256": "bc75cf4b1349a3cd73c7c7e73e5367f793d3d2e9cd8cf2b99f8fea22d6367ba8"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.DiscreteSeriesUpqUniqueOfClassification",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/DiscreteSeriesUpqUniqueOfClassification.lean",
+      "sha256": "3d8646a6428540a72a9b5d72cd10886790d516cec89f5ab6b9a5a1f9002b83f4"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ExistsNormLeHeightPow",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ExistsNormLeHeightPow.lean",
+      "sha256": "989529f0c78ee871fe52db4fac9ef3f77e68975132577caab3ee5e7b9019f026"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.HarishChandraFinite",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/HarishChandraFinite.lean",
+      "sha256": "5e072fe8c42326f4445d5dcaf4b11be8ae312b466d5bd9455eed932afe3f18e2"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.HasDRepIffHasDerivAt",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/HasDRepIffHasDerivAt.lean",
+      "sha256": "308895426314bd3f83f5d00d31d2ed07f460259a916e234e4effc6cb97d348b5"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.IsPrincipalMapOfAlgHom",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/IsPrincipalMapOfAlgHom.lean",
+      "sha256": "04bcdb8b2d523db45511fe8d526ea81e815561093529c5cef73f244c6f571e25"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.LocalLanglandsGL",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/LocalLanglandsGL.lean",
+      "sha256": "85f160b86f6b67f6660b8a580e8cccadc0d70cda58a7c4db2c1d1325bd844ad8"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.SiegelToroidalIntegral",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/SiegelToroidalIntegral.lean",
+      "sha256": "3b9adf7118fe9487e8f858faeb5e4243a663f6fd9e48860926397f288e7cc6c5"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ToroidalChartsForFan",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ToroidalChartsForFan.lean",
+      "sha256": "1fa0f069899861da80b33316768fe4c7ec0e8961a3179d082a1fe1f65f18243b"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.WeilRepresentationUnitaryPair",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/WeilRepresentationUnitaryPair.lean",
+      "sha256": "1de1e534b167ce6ee7c65e25f96004f48bd30e7863485ba548308a7ff2ef2bf3"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.CmCurveGoodOutsidePrimePremises",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/Divisors\u2082/CmCurveGoodOutsidePrimePremises.lean",
+      "sha256": "659ddfb21de3a38310137afc386e5ba0e940ca53dd145010e0d6ee764f05eb99"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.GrothendieckDeformation",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/Divisors\u2082/GrothendieckDeformation.lean",
+      "sha256": "43243bb7b3a02a642b3f2f11590c1ef3fa9c211780405b7137ba28f1831f5c09"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.InterNumDetNonposSplitTorus",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/Divisors\u2082/InterNumDetNonposSplitTorus.lean",
+      "sha256": "9dab2d7c8cb69f5b98222823ebe210fbabebc2b40487cd78f246466cc2472997"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.PointSeparationPair",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/Divisors\u2082/PointSeparationPair.lean",
+      "sha256": "499d874eb801ed3a7d12fa9d65f640c20f4ed2592209a5383f6548b664b5e4b3"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.ToroidalCompactificationBis",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/Divisors\u2082/ToroidalCompactificationBis.lean",
+      "sha256": "ff79a80cf0d8be2a7e4735ebfce04c31c515a2c1d3dd4a586ee5badf3e133fc6"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/HarishChandraModulesOn.lean",
+      "sha256": "79a7b9bde49ab7f8efd12e6c0c8456ccd08b2616ff82a9aea78e350531742fe5"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Statements.CuspFrameWeights.DiscreteSpectrumKFiniteDecomposition",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Statements/CuspFrameWeights/DiscreteSpectrumKFiniteDecomposition.lean",
+      "sha256": "1d92be6bd7485239b9550cfd92f200f8c026d202f5e91aecc972dad697a596a2"
+    },
+    {
+      "module": "Development.AbelianVarietyTheory.Statements.PlaceShiftStatements.SingleIndexPlacesAreTwisted",
+      "path": "followup-source/project/Development/AbelianVarietyTheory/Statements/PlaceShiftStatements/SingleIndexPlacesAreTwisted.lean",
+      "sha256": "ebced8461bbe1ae4f1cfb1999b8e843e3ad8a11d030bff5bec9c58af61dc8c03"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/VwinOfRow.lean",
+      "sha256": "d2df45a5cf337190ae6f885e8e43056ae4e804ae8da250a2ab0abd64b1ca7080"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.CharacterBoxes.EveryCharacter",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/CharacterBoxes/EveryCharacter.lean",
+      "sha256": "31f6e49936226cfc3d71b15685347bd2874db0aef384e5cf4fea7d09ba68dc71"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.CharacterBoxes.ExistsPageN",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/CharacterBoxes/ExistsPageN.lean",
+      "sha256": "732c3347fb02e410cf9af8831afdbba1d230fc522c3dbbccdb4b708e5dde73db"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.CharacterBoxes.HalfPlane",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/CharacterBoxes/HalfPlane.lean",
+      "sha256": "6d03105a1174a42db5e15350f3def0fb5ea6fc98c24d19215bac05f4416346f7"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.CharacterBoxes.Imprimitive",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/CharacterBoxes/Imprimitive.lean",
+      "sha256": "8de85415d0d139f23b2b50ba56c18ab3b3e29740f41e2d86eaf99b95765f512e"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/CharacterBoxes/MainConclusion.lean",
+      "sha256": "a5f71e107087e37b2c598709795b0f56c0a6741cf1e8ab99ee1f97e2fce0fe34"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.RowSrc",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/IntegralStructures/RowSrc.lean",
+      "sha256": "0cfbca6cb7d1da543ee9d24c30faeeb3f68838f91c4f6c2c0e682e025c8b9a44"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TypeConditions.WeightsConjAlt",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/WeightsConjAlt.lean",
+      "sha256": "17249e993a0cfaa745b35b523cb92fae0dbc8ea8d8a7bdbde8b5bdc657848d81"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TypeConditions.WeightsConjBis",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/TypeConditions/WeightsConjBis.lean",
+      "sha256": "e3020031e884beef2eff18275019b7213a16f3c721242e9a79891b5396955719"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/Foundations/LocalLanglands/IsRecTOfIsRec.lean",
+      "sha256": "4054d69535a55b8df339dee1ed766d38cb271ae87ce6033a8e0195ac577d9931"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.LocalCentralUnits.RecTExists",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/Foundations/LocalLanglands/LocalCentralUnits/RecTExists.lean",
+      "sha256": "2411dd4cb455607d3f39761258ccde5c9e945443c421e69a626e4148a79824ab"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ResidueCharacters.ClosedOfAll",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ResidueCharacters/ClosedOfAll.lean",
+      "sha256": "f41a5005b7bd0beab0e8d614dd2f478d003064fb8d26c7f9659e9f4719eec0dd"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.FockModels.EveryCharacterE",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/FockModels/EveryCharacterE.lean",
+      "sha256": "87518b975cbf7675d19cc619bf7422c43d7e2f010f6769d2b8ec1b9e852ca6d1"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.FockModels.RealBranch",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/FockModels/RealBranch.lean",
+      "sha256": "9ae76d30f18bf5a84ff2794b3c5116dcacab335a3f00601fdb93afe9f2763b2e"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ChowFormHeightComparison",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/ChowFormHeightComparison.lean",
+      "sha256": "a3a74ae81a392a3a1157a3acee46f547f20e70a7a51bbe502be107f0c336b506"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.FubiniStudyChowHeightFormula",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/FubiniStudyChowHeightFormula.lean",
+      "sha256": "12df754f95ca559d827dab3fb055f6ceaa01d671aec83c0104d99552fbaec48a"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.SmallSectionsInjective",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/SmallSectionsInjective.lean",
+      "sha256": "b83b5954a3f280e16c6fc539f3ea671256c182c6792684e9fd94311c63b5652f"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.ToKnownTheoremsOf",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/ToKnownTheoremsOf.lean",
+      "sha256": "f56a93dc187c44ef4d3424a79a4c2d1f7942b1993d40912f89164ada600ea1a6"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.HodgeBundleWeights.VolumeEstimateHypotheses",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/VolumeEstimateHypotheses.lean",
+      "sha256": "83ebe746ecfa5c7411e8728e33c247cfdb783fa7bf02a011867fc1665e2ecc47"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.BernsteinUnitaryProductIrreducible",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/BernsteinUnitaryProductIrreducible.lean",
+      "sha256": "6d2351c8a5683d478cc805a1af4f2d9463efff46e56d712607d2d2cb25cac645"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.EvaluationGridOfJoin",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/EvaluationGridOfJoin.lean",
+      "sha256": "19afab8464c5823c489ac05c3b31350bb9fe8421e73f75e96968647f711f4794"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.FunctionalsSeparateOfHoweUnramOfSiegelWeil",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/FunctionalsSeparateOfHoweUnramOfSiegelWeil.lean",
+      "sha256": "e66efd1ce6a95fb25ebaa88f6bcadc531a377cc3805dc7607fdbea23395adb18"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.HypA",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/HypA.lean",
+      "sha256": "c63df656e6b4ec5ca67c2b3fcf0bdbf16d49a98107d5babaa28767b84ce8f58d"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.MultiplicityCoverHypotheses",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/MultiplicityCoverHypotheses.lean",
+      "sha256": "9ff121aced8e2ec883ea6253c9c94db55906b44856c30d36382bfdd5fb40b416"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TestVectorAtDatumOfJoin",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/TestVectorAtDatumOfJoin.lean",
+      "sha256": "9c12c41e02ca251d13be3b9d14742d8e901abc2c3ed919f3e64516b133d01a3e"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistedSquareLocalMatching",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/TwistedSquareLocalMatching.lean",
+      "sha256": "9f1c87d7552c3cfa63383cb6bc756c9fe32c7d39a8ee98ca360bda562637b1d2"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistedSquareThetaIntegralsEq",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/TwistedSquareThetaIntegralsEq.lean",
+      "sha256": "46ab513870a3412794c7277c0ef3017c40ea2116ead1b437a01cd8ade88bfb6a"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.LocalTypeDictionary.TwistedWeilRepresentationConvergence",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/TwistedWeilRepresentationConvergence.lean",
+      "sha256": "171335beebc9a6a8fa35b1386008a5605d5eb837f99d4eb9325cf37e3623caaf"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.At23OfAll",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/At23OfAll.lean",
+      "sha256": "dd8358fe7eae54e8029e7f0a990c3b8b3ad91c6fd31684581dbba64984770244"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.BernsteinUnitaryProductIrreducible",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BernsteinUnitaryProductIrreducible.lean",
+      "sha256": "066069ccb2552ad194dfaebcbe2e4e63ccde9013707f165c83c85834a7bd7bef"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.BoundAtTwoThreeFamilyFon",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/BoundAtTwoThreeFamilyFon.lean",
+      "sha256": "d7727aefd6cd01b68813e86b763e7393ae4712c97bb99df132264602e46f6fe5"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ColumnChoiceWithTies",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ColumnChoiceWithTies.lean",
+      "sha256": "ef10c2e85516c432c5adcd797ea68bd1c34ffed4f7e517e61f2b7793d84d16c0"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CoreAltAltBis",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean",
+      "sha256": "98b9e4db79d3c7e7b650dedb897a52f279392a03696134b104891137ffe674ae"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CountsIrreducibilityConstants",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CountsIrreducibilityConstants.lean",
+      "sha256": "c722a5169a64828429d36212426f6952b2f3548ce9fd10f3fe2baf37f8b9f64e"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.DefiniteSideCondition",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DefiniteSideCondition.lean",
+      "sha256": "4f1a7a434565fda3b4199f25bc0a4d932a6ecdc0dcb32250035c8731c3b693a4"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EveryCharacterOfLiteratureOfVWin.lean",
+      "sha256": "246b74eeb03dae250c45b46c155b3590cb53c2bac86f5e35f4b74338db487068"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsBaseLatticeOfPrime",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBaseLatticeOfPrime.lean",
+      "sha256": "c6351986c54fcaa4dd97d17778a509f06e2a3dfc644df181154db43d4be754e5"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExportSt",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExportSt.lean",
+      "sha256": "f86c58d3ac22903f6ebf53c69cebff1969cef1dc417c9c6d693fa12546e749ce"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtensionWithAtProperty",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithAtProperty.lean",
+      "sha256": "a2b3a5be0029041ded6bc905011a6677856474edd45000638793be7bc0f950b8"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExtensionWithOrigin",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExtensionWithOrigin.lean",
+      "sha256": "a207ffc7e0f6ab3d6c059f6a0b602ac78040c31495fee30af739f30df22dec48"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.FourierCoefficientFitOfJoin",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FourierCoefficientFitOfJoin.lean",
+      "sha256": "af345ed466e8a9d67270f89fc241848642f2eb3ac506ff6e485f9cbf59e0ca21"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.GeometricWeakTies",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean",
+      "sha256": "7431256e8a6c407c4a9f42bde70edd2077884e8ee3af503b3eb01028f72f2bbf"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.GoodEOfBuiltE",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GoodEOfBuiltE.lean",
+      "sha256": "e9ad523a8f01d8afe36797bd247b3497fd6797b39bc112b61e66648bb6f11dd4"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HypN",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypN.lean",
+      "sha256": "5924054daab6dc20dfac8701d30fb6d6204e968963e490d13359d775f4bdf3fa"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HypothesesNonemptyOfUnramifiedExponents",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean",
+      "sha256": "80ebd1ee514d8a6a7967fe3e87c775148615416906038a046b27ea9436a2cc1f"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.Hyps",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Hyps.lean",
+      "sha256": "7c2e3cf200c8adb32d232bf97122dca648fd4e19de132f6d1f07f620171fa8cb"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LeafInfinitePlaceBound",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LeafInfinitePlaceBound.lean",
+      "sha256": "6fda44ac739cc43e3e16635d10e286f47d4c55ec08e38884998410e8db9b947f"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelThreeToFour",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelThreeToFour.lean",
+      "sha256": "bf28d2e3d19f4b8403ea9237cbcb52963eec7eb6c7fec1f45634bffabf23f0b2"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LiftLambdaBound",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LiftLambdaBound.lean",
+      "sha256": "a73cbdc50b441874d719358771398f999f21e720ef899a99b66c09b9bf72272b"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LinkedBundlesL3OfOpen",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean",
+      "sha256": "38b99bb13cfbe01cb1752c03b08eed22db748be05a4f8f03dae70863eaecd467"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MemberBundlesLargeUnramifiedExponents",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberBundlesLargeUnramifiedExponents.lean",
+      "sha256": "8115bc1c4fc9df8eac928acb5f04bc966f0448f4619585d633cd5d1f1614786a"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MemberEClosing",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberEClosing.lean",
+      "sha256": "0e1ca0f4bb11d9c5ac9421148418e033727e3712ce53f87e1361c2e0a78f4ecc"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.MultQ",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MultQ.lean",
+      "sha256": "771c6ff6d443dcd8943c44097a5805ed842d6987589ee944a48e3b4bb923a956"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.NormChoiceOfExtension",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+      "sha256": "e58e8bd2d19935c944a331e638e9e08f0b7398444077e84f715db89496943b2b"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OpenAndLinkedOfStrongerExtension",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean",
+      "sha256": "49644e6edf3cbd5bbb1cb0e7608c9e6c59e55f22452a1bb33aa2668947e619ed"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OpenOrbitOfUnramifiedExponents",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenOrbitOfUnramifiedExponents.lean",
+      "sha256": "9fbeb6d441b9a2009da7a1d2cde62729378ede7308bffc0164e5a7de5a07b9e7"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.Prm1",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Prm1.lean",
+      "sha256": "c1d3ba89b86a5e8e29274a27baaa7766ad50e103e462d72b835d3c6615d6259e"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.Realised",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Realised.lean",
+      "sha256": "38101ca46dca11e504b5860fd5b8aa44333baa6003e36ef4a52c4dd6b592e99d"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RowFunAtGridA",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean",
+      "sha256": "66b53ba0f9a6f01367766db7fb04418907174a7464fe48ee01b78aa639e86829"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RowGood",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowGood.lean",
+      "sha256": "3353415da3436ea3eb58f886d64ba00b193ab9b56ed79afb5b3cdd3b73a43fc2"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SameGaloisLevelExists",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "sha256": "03b29295c4d0d7e2750eb3eef9672f8f3fd09540caffe2d05ba2f95b5fcb15a3"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SettingsFormsExistList",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SettingsFormsExistList.lean",
+      "sha256": "aa646ada796832425d544e34e116c0b75bf2544c18b3a91c94c9b454fd9523fe"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean",
+      "sha256": "e761e876e3236895eec1b67b5a2118846ddfcc6883eed367ac6cc78523da15f2"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SurjectiveAndLowWeightOfUnramifiedExponents",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SurjectiveAndLowWeightOfUnramifiedExponents.lean",
+      "sha256": "938c81d8b5b96a1b3155b02919c0e5fa41d79638b2350a9af41b426110758502"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TopCovolG",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolG.lean",
+      "sha256": "f29362501bf62b9b6a7eb933aa0bdf9065414ecca014cf4a9da2970d791b4928"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TopCovolSlim2Use",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean",
+      "sha256": "545f4dbcc8b67e0d001951fcad7abaa8250d335a64a6950adf5ce69fee5f30a0"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TopPlug",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopPlug.lean",
+      "sha256": "7d1d7972a4abe1284c5e4da9dd65a6eb605b06efb5e993b298fe5aaed88e9adf"
+    },
+    {
+      "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TwistedBundle",
+      "path": "followup-source/project/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TwistedBundle.lean",
+      "sha256": "1c7c5a900b4e99a7bdca29c08c126a6ba0be6d1db59479b8b8a783faa8483e0e"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsNonvanishingOfToroidal",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/Proofs/GeometryProofs/ExistsNonvanishingOfToroidal.lean",
+      "sha256": "c90b5b3eecf194bb98e1a940dc3ba3bf757c733a4d42b2192e2fe006bc0aedeb"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.ArithIntersectionSystemOfPoincareLelongStatement",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/Proofs/MetricProofs/ArithIntersectionSystemOfPoincareLelongStatement.lean",
+      "sha256": "00e9e215c80c7a6cba66e043a353f13e5967cd567d03b96dfd0f8f7891b93dc9"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Algebra\u2082.FarguesExact",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Algebra\u2082/FarguesExact.lean",
+      "sha256": "46fdc1b5c2517e3ae3d9191f96a04e83d3f0c078b29f2fde73d12ada9b06b27a"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Algebra\u2082.ZarhinStatement",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Algebra\u2082/ZarhinStatement.lean",
+      "sha256": "40a41d37bfca5007e7845d0f7cb678f775f909087f5274393030be67144daf01"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Geometry\u2082.ConclusionOfSmooth",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Geometry\u2082/ConclusionOfSmooth.lean",
+      "sha256": "0edcae8825bab8eb6aa132ab269f11fb619dbb3c1b562af0f164f6db131ec32a"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Geometry\u2082.NefRR",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Geometry\u2082/NefRR.lean",
+      "sha256": "f5deb872429a600dbaf173255adb4ba271a82c4af7b0a02a38f89e4a70c9ae36"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Geometry\u2082.NotSubsetOfDenseCompl",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Geometry\u2082/NotSubsetOfDenseCompl.lean",
+      "sha256": "e05c3e42e2ee78bc16a662be5c1e5edd5550a5979a2353496950d9ac8c95df03"
+    },
+    {
+      "module": "Development.AutomorphicSpectrum.PublishedTheorems.Metrics\u2082.PoincareLelongInv",
+      "path": "followup-source/project/Development/AutomorphicSpectrum/PublishedTheorems/Metrics\u2082/PoincareLelongInv.lean",
+      "sha256": "9ab9e727e4f23f465c18a76dff1bdb873eab9dda2d8d4f9833ba7e25ae55ad0c"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AbelianHeightsDuality.PublishedTheoremStatements.BridgesMore",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AbelianHeightsDuality/PublishedTheoremStatements/BridgesMore.lean",
+      "sha256": "d79175957589733c8766616e5babae65f307450b3460407bd41d7f1920465ddb"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.MoriwakiBigness.HilbertSamuelApplications.AhSlimU",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AutomorphicKernels/MoriwakiBigness/HilbertSamuelApplications/AhSlimU.lean",
+      "sha256": "623b38e8964c47b4788bfa6a4b127a53af5b650ff35075b9b60519083ace8dda"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.MoriwakiBigness.HilbertSamuelApplications.SmallGeneratedCountUpperOfUse",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AutomorphicKernels/MoriwakiBigness/HilbertSamuelApplications/SmallGeneratedCountUpperOfUse.lean",
+      "sha256": "53ebad8d2712a1af8ebfa8d7c3d8f5b13871008130cef98ce14e837c1a7546c6"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.MoriwakiBigness.MoriwakiBigTheorem.HSChain",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AutomorphicKernels/MoriwakiBigness/MoriwakiBigTheorem/HSChain.lean",
+      "sha256": "df35a13618566af092f1351fa6836815fcdfe6dd1d0f473ca474c6c5aeece622"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.MoriwakiBigness.MoriwakiBigTheorem.Outright",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AutomorphicKernels/MoriwakiBigness/MoriwakiBigTheorem/Outright.lean",
+      "sha256": "77ca33b2710f66cbde5c17f05ccb40ab31984a273f4f5d7495f91b3add9e5620"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.MoriwakiBigness.MoriwakiSymmetry.EqMapSymm",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/AutomorphicKernels/MoriwakiBigness/MoriwakiSymmetry/EqMapSymm.lean",
+      "sha256": "78f10dfa9da1543748a139fd494152b94723d7e6ce88b5ae1a0f28824ea9df44"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.NefModelVolumes.ChowFormHyperplaneSection",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/NefModelVolumes/ChowFormHyperplaneSection.lean",
+      "sha256": "453fa6163b2ed062f6974332a1b61b1197c91ec5fe3b5d4ef4b7b2f8fa7b786b"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.ResolutionCharZero.PlugResK",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/ResolutionCharZero/PlugResK.lean",
+      "sha256": "01f1b838a640ffaab660c4e4d6b3efeb003615e04e6bb46dc5f5455679ebcda3"
+    },
+    {
+      "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.PoincareLelong.PoincareLelongInv",
+      "path": "followup-source/project/Development/WeilBound/CoreStatements/TemperedRepresentationTheory/PoincareLelong/PoincareLelongInv.lean",
+      "sha256": "5f0f76b00197679cc79237495967c21dc08940e306cc49d2cea36ce5d6bb67da"
+    },
+    {
+      "module": "Formalism.ConjugateSelfDual.Statement",
+      "path": "followup-source/project/Formalism/ConjugateSelfDual/Statement.lean",
+      "sha256": "8d249d25b306976cf622c4c79137456f46ee90aac3271b3647ee7cb217219dae"
+    },
+    {
+      "module": "Formalism.DegreeFormula.FlagDegFormula",
+      "path": "followup-source/project/Formalism/DegreeFormula/FlagDegFormula.lean",
+      "sha256": "aaaf54513f25ac93916956f7ec953f2feb297088ae511aa4dcba796972881fea"
+    },
+    {
+      "module": "Formalism.FormalDegreeBessel.StatementDS",
+      "path": "followup-source/project/Formalism/FormalDegreeBessel/StatementDS.lean",
+      "sha256": "24533b31b98f17d6424ace602b738a58569ab2f08c0401fa0de38df0496e5738"
+    },
+    {
+      "module": "Formalism.GammaFactorNonvanishing.CritLine",
+      "path": "followup-source/project/Formalism/GammaFactorNonvanishing/CritLine.lean",
+      "sha256": "5b1552ac13442150f6900f37b9b44eff1491fad1bebe2ec07a959eecb9bcfe02"
+    },
+    {
+      "module": "Formalism.GammaFactorNonvanishing.RhOfRight",
+      "path": "followup-source/project/Formalism/GammaFactorNonvanishing/RhOfRight.lean",
+      "sha256": "7e2c0b519ee420192cad8fb281c2d2bfebae2ba553342fd579c81c2aa0bd3dc5"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataArith",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataArith.lean",
+      "sha256": "f9cd7b6481f0f48c1d914de7aa3cdb06e8d3548403e803d7f9a4d0e9a5b8e895"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataDIV",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataDIV.lean",
+      "sha256": "1ec315a1e0a2c4a9996b2f1a2c81cfe024b36863a493a97a52dfdc79b66c0daa"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataDIVDefs",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataDIVDefs.lean",
+      "sha256": "703fca7aec19ec11b05856833b497e27a3a2ee08f0c6df5d606c1ec43b5287c3"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataHost",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataHost.lean",
+      "sha256": "39252a17ac91969e59b2f1c89efe12b6ac0e7ea97bd462c1e250f8ea8b4c954f"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataKap",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataKap.lean",
+      "sha256": "18fdc81ff4f8d915d0fb1ef6056a728e4fd0e063badfc9bbc9f26695e56ef8da"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataNChTie",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataNChTie.lean",
+      "sha256": "5d85344b2f388835630a7120751b1dafdd943149dde47463ca591dc2fe806d14"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataNChoice",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataNChoice.lean",
+      "sha256": "8217cbd61565fb819ac1fcae505bc4c245aef5bc561f9168f4ead5ddbb05ef11"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataParams\u2082",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataParams\u2082.lean",
+      "sha256": "39d84d7e7db5196715f955ac44f45e61a23fcf4ebd5065ca41444f836efd3099"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataRows",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataRows.lean",
+      "sha256": "efb2802dd98b6df64e511bb301bb19c7f8353a38565309e936025c095313a4f7"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataSpaces",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataSpaces.lean",
+      "sha256": "4a2a530b7639a10052a905d17d27984a2a2765e2f9742112fa0c6901281ffa1b"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.DataTheta",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/DataTheta.lean",
+      "sha256": "9d8a58534206ed5adc7fc58b2fa6fba341be0bc66ec6b997c56c6d971079399a"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.KernelPlaceMeanBound",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean",
+      "sha256": "22fdce18696511899e2818b3ea8b2868f97cb810b02b8f9b1fc1cbbd98f120af"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.Params",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/Params.lean",
+      "sha256": "1de4e5a1230e9d93b5ace3e4f7e112f65e3d5264d75db227476986d179881e17"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.PrincipalHermitianLattice",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/PrincipalHermitianLattice.lean",
+      "sha256": "e08db2159644e77d6aa288f084c8a06389f531be7c6198453ef7bd458837b736"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean",
+      "sha256": "b31bcce565741e65c97db0341916d5fafcf416c19a1b02515143c9537ed11691"
+    },
+    {
+      "module": "Formalism.LocalRingCardinality.SpanPowerMembership.PlLBridge",
+      "path": "followup-source/project/Formalism/LocalRingCardinality/SpanPowerMembership/PlLBridge.lean",
+      "sha256": "634bdde60fb361ff21b0babcfc2dbf491b46ea03f015ffd834eda17435a267b0"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.BesselHermitianTheta.DefsReal",
+      "path": "followup-source/project/Formalism/LocalToGlobal/BesselHermitianTheta/DefsReal.lean",
+      "sha256": "e7b761b4f6adea8e9472b6f2bd5d730839d5d424784cfda978bf264482ac31a7"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.Columns.AbelianHostFieldConditions",
+      "path": "followup-source/project/Formalism/LocalToGlobal/Columns/AbelianHostFieldConditions.lean",
+      "sha256": "bc95dc2ecc2a553e31d2ba297693a552f90083dbc9f3e009d75470bafedd5a6e"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.Columns.RowForms",
+      "path": "followup-source/project/Formalism/LocalToGlobal/Columns/RowForms.lean",
+      "sha256": "8a2b41c9deefe341394e7db4dd1b34802250ebe78d7d4813e811c3d8ed8b795f"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.Divisibility.HeckeRI",
+      "path": "followup-source/project/Formalism/LocalToGlobal/Divisibility/HeckeRI.lean",
+      "sha256": "2f552388ddde27731d374f2d64644465eb9eb537fb75aaa73411207d17af53ed"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.Divisibility.QLocTied",
+      "path": "followup-source/project/Formalism/LocalToGlobal/Divisibility/QLocTied.lean",
+      "sha256": "e44a9a8167fd064c86eda71929a8627289b85ffd1f4e2bdf287e401b0ce2b2b0"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.IndefiniteReal.LinksDefs",
+      "path": "followup-source/project/Formalism/LocalToGlobal/IndefiniteReal/LinksDefs.lean",
+      "sha256": "bdae4db85b68e7a103437d8f31c38d8eacc2d3acd3e1271400ce311f6290861f"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.IndefiniteReal.ZeroPartEigenvalueConvention",
+      "path": "followup-source/project/Formalism/LocalToGlobal/IndefiniteReal/ZeroPartEigenvalueConvention.lean",
+      "sha256": "743df0ea8ad94fd75c8220c9d771ba52dd58e8a8c5ddd41613216cd2c2896500"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.AmpleOnAbelianBase",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/AmpleOnAbelianBase.lean",
+      "sha256": "b4ec51b0018454cf45e2fe27e99e473500bd32e3f6174376854259060b35e502"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.ArVolEqOfNef",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/ArVolEqOfNef.lean",
+      "sha256": "a5aec64ce14dd2fdf7daec22e247694b852647b7759856db5509682548029f11"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.CompNe",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/CompNe.lean",
+      "sha256": "02e46dabca29946311ba7dc1b3f45244029e3fcd3406f8a9ed3930b280bcf1a8"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.DegFlLApply",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/DegFlLApply.lean",
+      "sha256": "5c3de8e2b6b48f1b80d9f5f04482dfa160839d1fe15af8646a6a3d7789a0f89a"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.GeoTied",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/GeoTied.lean",
+      "sha256": "3584646f187d9a9c714d84b17381fc1fd930941dee41bdb3c944ddb582013e28"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.GeoTiedP",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean",
+      "sha256": "0a1ea1663240f2e7e3efa8c1ce5439e5c8327a220fd47b48582f4b832fe65cc2"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.InhabLoc",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/InhabLoc.lean",
+      "sha256": "c40d3db269f952dd0272959ab853fd6bad3254f1fb27d015bbce36eeaa7862e1"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.Inhabited",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean",
+      "sha256": "7a95297aa3205b6d5e033b4352eff0bb406b4cd11cb2e0fac5722c9b4aafde54"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.LevPrPrime",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/LevPrPrime.lean",
+      "sha256": "852eb057e87ef6ee08545c10357a278dade2d01c4040c0db1caa25187af73510"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.LatticeGeometry.ShimuraSheafOfIndefiniteSubspace",
+      "path": "followup-source/project/Formalism/LocalToGlobal/LatticeGeometry/ShimuraSheafOfIndefiniteSubspace.lean",
+      "sha256": "7d4fe31778649bd1487e35863f2f26ce21807ea57739cbb9e6b5f3273c42639f"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.ProjectiveLattices.CuspidalL2Subspace",
+      "path": "followup-source/project/Formalism/LocalToGlobal/ProjectiveLattices/CuspidalL2Subspace.lean",
+      "sha256": "d488efbc28c4bfe9cc7784d25bd9206e7764cc202504884dc360d9ee65b2e941"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.ProjectiveLattices.EmbKCoe",
+      "path": "followup-source/project/Formalism/LocalToGlobal/ProjectiveLattices/EmbKCoe.lean",
+      "sha256": "e986226fd1bfca169529b42b3faf4231baf37eb0e9ea00592aa4f63f12d93212"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.ProjectiveLattices.FamilyUniformisationBasePointOrthogonalBis",
+      "path": "followup-source/project/Formalism/LocalToGlobal/ProjectiveLattices/FamilyUniformisationBasePointOrthogonalBis.lean",
+      "sha256": "e08817f5645d7d603122ecfc068b7730cb4cc6299a60c3da5e0d56865211943a"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.ProjectiveLattices.PartitionExtendByZeroAntitone",
+      "path": "followup-source/project/Formalism/LocalToGlobal/ProjectiveLattices/PartitionExtendByZeroAntitone.lean",
+      "sha256": "a3f1d31310dd76386d216e8887d08d8e1359c33f7c8000c48a5a3a1939a022db"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.RowsDef",
+      "path": "followup-source/project/Formalism/LocalToGlobal/SiegelLatticeTheory/HaarTransversals/RowsDef.lean",
+      "sha256": "e47fe67410bc0d18972921e53a24ee04071cbb8903e4be83836695b10a82c8f1"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.UnitaryNorms.CharDiv",
+      "path": "followup-source/project/Formalism/LocalToGlobal/UnitaryNorms/CharDiv.lean",
+      "sha256": "83b1a2c6d53ebbea1be5860dcf8980db7c38f92485a95418dbb3b95d19c23efa"
+    },
+    {
+      "module": "Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf",
+      "path": "followup-source/project/Formalism/LocalToGlobal/UnitaryNorms/IsUnitaryNormOf.lean",
+      "sha256": "503df2de36607142871ffe2399c86c903953535658077b7e06b4f6ce593d6739"
+    },
+    {
+      "module": "Formalism.SharpRestriction.CuspSpanNormBounds.RelevantZeroGramTerms",
+      "path": "followup-source/project/Formalism/SharpRestriction/CuspSpanNormBounds/RelevantZeroGramTerms.lean",
+      "sha256": "3be6a65abf5c2a48523ea59af7fe7356bee69cf0246a60eaf0de2c360e053fed"
+    },
+    {
+      "module": "Formalism.SharpRestriction.Divisibility.ModuliIntegralCharts",
+      "path": "followup-source/project/Formalism/SharpRestriction/Divisibility/ModuliIntegralCharts.lean",
+      "sha256": "addab23c6c3075ee2a5950f2e85716d093cea7d69ac16784b50508295130d846"
+    },
+    {
+      "module": "Formalism.SharpRestriction.Divisibility.PlaceRankTwoOne",
+      "path": "followup-source/project/Formalism/SharpRestriction/Divisibility/PlaceRankTwoOne.lean",
+      "sha256": "b8b7203d9de3b51a96779c2a3970af6c589ce85387df26dbd13e9efc6d708329"
+    },
+    {
+      "module": "Formalism.SharpRestriction.GlobalSchurBounds.ShortIntervalPrimes",
+      "path": "followup-source/project/Formalism/SharpRestriction/GlobalSchurBounds/ShortIntervalPrimes.lean",
+      "sha256": "627459db88729992c7cdbbdf1dfd598b7a54597782aab4dc0f3b838c8806d3e0"
+    },
+    {
+      "module": "Formalism.SharpRestriction.GlobalSchurBounds.StandardLattice",
+      "path": "followup-source/project/Formalism/SharpRestriction/GlobalSchurBounds/StandardLattice.lean",
+      "sha256": "215a35253504ad71f5a74cddbfe80e0a088204a273c55627defc88bdc4d7dfc8"
+    },
+    {
+      "module": "Formalism.SharpRestriction.GlobalTheoremInputs",
+      "path": "followup-source/project/Formalism/SharpRestriction/GlobalTheoremInputs.lean",
+      "sha256": "4d51ccc0586441a159ad6d09ebc0a46b3c462e3c5b296d5a5bd7613266e17bfb"
+    },
+    {
+      "module": "Formalism.SharpRestriction.InertJacobiLevels.AsmIface",
+      "path": "followup-source/project/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean",
+      "sha256": "746e963b4c8c187041017a8e4c50978363efe65a6cbf691c39f7f455167422c4"
+    },
+    {
+      "module": "Formalism.SharpRestriction.ParConsts",
+      "path": "followup-source/project/Formalism/SharpRestriction/ParConsts.lean",
+      "sha256": "5527c6bf036e019f4649ca1862b323bdeab0f1b25c2b1475c375e58a0b2edb48"
+    },
+    {
+      "module": "Formalism.SharpRestriction.ParamsHeightRankConstant",
+      "path": "followup-source/project/Formalism/SharpRestriction/ParamsHeightRankConstant.lean",
+      "sha256": "444928b34f52db021ec70d340afcdee5d2478292b880d7a04d333ac6948b1416"
+    },
+    {
+      "module": "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+      "path": "followup-source/project/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ConjEMemHostFIff.lean",
+      "sha256": "db32b7af86f38a66881c2345572c33156fdf027b2f0b2d6c64a6775f8e970647"
+    },
+    {
+      "module": "Formalism.UnipotentAdelicQuotients.SiegelWeilUnitaryConvergent",
+      "path": "followup-source/project/Formalism/UnipotentAdelicQuotients/SiegelWeilUnitaryConvergent.lean",
+      "sha256": "3026e44b56da87b3204af26cf368689c4a6fa22c9f0cea6fe38c63f51cc5b4cb"
+    },
+    {
+      "module": "Main",
+      "path": "followup-source/project/Main.lean",
+      "sha256": "017645ca448f2fd1f6fd5c4c2cb2c6e96e472725be13f6e180ca6e1574360939"
+    },
+    {
+      "module": "Mathlib.Algebra.Algebra.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Algebra/Defs.lean",
+      "sha256": "57b1e15afacf8e7463f3fec312ef09dccf792b11a587ad6c2ac1459bd079ae00"
+    },
+    {
+      "module": "Mathlib.Algebra.Algebra.Hom",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Algebra/Hom.lean",
+      "sha256": "3ac7c54e7de0d30b2e4e48be3205de92469716226049b87c7135916360c2637c"
+    },
+    {
+      "module": "Mathlib.Algebra.Algebra.Rat",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Algebra/Rat.lean",
+      "sha256": "b5bde480c8895dc1d4d5fa46cc1de1d58979e636f7da5dba8eb3e72ad4a4eaee"
+    },
+    {
+      "module": "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/BigOperators/Group/Finset/Defs.lean",
+      "sha256": "2f39541f66288cb9ae9f77d97fd3656825a1dd1a4b5ca6a156f938d8fa1678a8"
+    },
+    {
+      "module": "Mathlib.Algebra.Field.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Field/Defs.lean",
+      "sha256": "dd76629c3d0e73c19ace31701313aa093d43e709c853f4384568588e9548e1a0"
+    },
+    {
+      "module": "Mathlib.Algebra.Field.Rat",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Field/Rat.lean",
+      "sha256": "4ce45b3b3bd7ddbab18b511e748778d8aca6b70ecca6078a0feee29ac2e9114f"
+    },
+    {
+      "module": "Mathlib.Algebra.Field.Subfield.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Field/Subfield/Basic.lean",
+      "sha256": "f690ef6b5dab8c6ac74f722abb09f98b364dc5d7c2ec703637269210fa02b630"
+    },
+    {
+      "module": "Mathlib.Algebra.Field.Subfield.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Field/Subfield/Defs.lean",
+      "sha256": "7e67874753b59ff0a1ec2af8dac65a2a9e7271372ff27ed626676b431e6f4095"
+    },
+    {
+      "module": "Mathlib.Algebra.Field.ZMod",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Field/ZMod.lean",
+      "sha256": "417e8776440d058896b5f05a65d534041a1b7f0b8adb90c011b75486f3e1de22"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Action.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Action/Defs.lean",
+      "sha256": "ea62dacd6b638bc45516f80e8261e3de5d92206ad5a17a51f366df26505e0322"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Basic.lean",
+      "sha256": "1ba194c84c72d56d485334bb05b2a943627c3a73de91a0b939ab6fd5ea17d1b1"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Defs.lean",
+      "sha256": "15119bf00cbb5e31beee450c4ee72967250387fd1532652041c971b304753def"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Hom.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Hom/Defs.lean",
+      "sha256": "5702d3d62c840521603b2ce46c270d3c0931581c4b5cd2f2c946702622623caa"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Int.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Int/Defs.lean",
+      "sha256": "d609e4c0120a329397c91ef3185ad35d83dba39d75987c39fb989bce338767ea"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Pi.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Pi/Basic.lean",
+      "sha256": "0bdb4578bf03c00e1a3ec8b2f8d6405565cf80a509470bb89294b9eb2e341f0e"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Subgroup.ZPowers.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Subgroup/ZPowers/Basic.lean",
+      "sha256": "103eeaf912d8747d6622fc60dffd3ca01862bc044cc3be355ab77f5c94ddbd65"
+    },
+    {
+      "module": "Mathlib.Algebra.Group.Units.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Group/Units/Defs.lean",
+      "sha256": "68658a8ea9fb312da1221654d6acb5e5b30bba815ab6fa6127de00886584a2c5"
+    },
+    {
+      "module": "Mathlib.Algebra.GroupWithZero.Action.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/GroupWithZero/Action/Defs.lean",
+      "sha256": "a93ae4530f70b40200c9c9f1aced293b3ceaacd73058887f0d4d7878489a5b24"
+    },
+    {
+      "module": "Mathlib.Algebra.GroupWithZero.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/GroupWithZero/Defs.lean",
+      "sha256": "ebd4c4b8ed5e63d9ab41920c182f9c3dde99f8c979b4da118544c73f22b30cc5"
+    },
+    {
+      "module": "Mathlib.Algebra.GroupWithZero.Nat",
+      "path": "followup-source/mathlib/Mathlib/Algebra/GroupWithZero/Nat.lean",
+      "sha256": "7a4334524be841e6e4885979c5912eb4a53e267e4156906b256b1e5e566c8c82"
+    },
+    {
+      "module": "Mathlib.Algebra.GroupWithZero.NonZeroDivisors",
+      "path": "followup-source/mathlib/Mathlib/Algebra/GroupWithZero/NonZeroDivisors.lean",
+      "sha256": "bd5e2b19a5ac602e7dadf43e6f0abb7ab9e999f07d84449634b3ce16cfd15584"
+    },
+    {
+      "module": "Mathlib.Algebra.Module.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Module/Defs.lean",
+      "sha256": "96d46d0159b89a95223868218da7958c045b9dda5140d8e91d60fcbc9fc26af3"
+    },
+    {
+      "module": "Mathlib.Algebra.Module.LinearMap.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Module/LinearMap/Defs.lean",
+      "sha256": "afb4c5b8cc61f9ca999071023a1fe400edf9976e8043fd6ca2bde99b536904b7"
+    },
+    {
+      "module": "Mathlib.Algebra.Module.Submodule.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Module/Submodule/Defs.lean",
+      "sha256": "4bd2649941ed3416a157134620a3c7869b361fe7a3b4891b2140e330208940de"
+    },
+    {
+      "module": "Mathlib.Algebra.Module.Submodule.Lattice",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Module/Submodule/Lattice.lean",
+      "sha256": "6d143772606afa67740f152df5cad2263a867ffb4a7314686c98cba5b9efb430"
+    },
+    {
+      "module": "Mathlib.Algebra.MonoidAlgebra.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/MonoidAlgebra/Defs.lean",
+      "sha256": "d9c703258172caf621110dc79c61330348890d6695d264b8a57ed2611f42a307"
+    },
+    {
+      "module": "Mathlib.Algebra.MvPolynomial.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/MvPolynomial/Basic.lean",
+      "sha256": "b884321f4a0efee82328e7026935d34a99d380dbb2507291eb4a8262028e0a5b"
+    },
+    {
+      "module": "Mathlib.Algebra.Notation.Pi.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Notation/Pi/Defs.lean",
+      "sha256": "79c1a26611ae1d19d22b47b0b109eb02ff5502545b55e7ad96b2a9164622a89c"
+    },
+    {
+      "module": "Mathlib.Algebra.Notation.Support",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Notation/Support.lean",
+      "sha256": "46042b6b4dc79797e9ac9c28cb8d794c4a1b1b6a59ae0062d2356c9c9e732c91"
+    },
+    {
+      "module": "Mathlib.Algebra.Quotient",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Quotient.lean",
+      "sha256": "605ea6d5764b388700c91bcea4ffdfb50e2c85f549267d287e026d89eb7ac0c0"
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.CompTypeclasses",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Ring/CompTypeclasses.lean",
+      "sha256": "902ae1b7d67b406ccfb84513f032ebede5a0eb2316fd24e4bb9d0174d50a980e"
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Ring/Defs.lean",
+      "sha256": "1855822f484b47ad4c31fbdd545f02041e80d19621f52645ef485ac3ac131d26"
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.Equiv",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Ring/Equiv.lean",
+      "sha256": "10819730b43ee3f89b8acecb485fb53eaee046fe0ba7bc0d65029ef7f396e904"
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.Hom.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Ring/Hom/Defs.lean",
+      "sha256": "bba086ba2835ef82c1df18017098005f3b1c7dcfd881b44c1d696ab906bf5f8a"
+    },
+    {
+      "module": "Mathlib.Algebra.Ring.Int.Defs",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Ring/Int/Defs.lean",
+      "sha256": "f363497ba585975055a545e863e6c6d1842855037b7ca4824220791116b52866"
+    },
+    {
+      "module": "Mathlib.Algebra.Star.Basic",
+      "path": "followup-source/mathlib/Mathlib/Algebra/Star/Basic.lean",
+      "sha256": "cdfcab3077ba3a210ef23a201906ab90fe738fc6d84724ce11f616b291a6ed4e"
+    },
+    {
+      "module": "Mathlib.Analysis.Complex.Basic",
+      "path": "followup-source/mathlib/Mathlib/Analysis/Complex/Basic.lean",
+      "sha256": "a3bcb36c68213d371e7a48bc84c2b70b6595fdf7de424fe1f84b98c95e2f39db"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.Defs",
+      "path": "followup-source/mathlib/Mathlib/Analysis/InnerProductSpace/Defs.lean",
+      "sha256": "a8e737e66df67ee0feeacd148cfebf78f1208dfd23c5e17f878d7ba72051e40f"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Field.Basic",
+      "path": "followup-source/mathlib/Mathlib/Analysis/Normed/Field/Basic.lean",
+      "sha256": "26727e95ad0114dc479d15f9361584c70f868da4ded1b13b7a4bb4f40cd7df53"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Group.Defs",
+      "path": "followup-source/mathlib/Mathlib/Analysis/Normed/Group/Defs.lean",
+      "sha256": "568080d96bf6036e3cd07f776561236a9ee6263b012844fbf46c70179c7a7835"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Module.Basic",
+      "path": "followup-source/mathlib/Mathlib/Analysis/Normed/Module/Basic.lean",
+      "sha256": "f74ee13de05e1692eef64cf489802f9ee696786258db220f49ac5a5707469170"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.LinearIsometry",
+      "path": "followup-source/mathlib/Mathlib/Analysis/Normed/Operator/LinearIsometry.lean",
+      "sha256": "6566005d3ebe700a953b7bb6bc3f453e735aaf5dc9ca450eaf0c4a6cd65bd052"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "path": "followup-source/mathlib/Mathlib/Analysis/SpecialFunctions/Log/Basic.lean",
+      "sha256": "1f36a9802233e878953d809b16e020beaf0ace5afd4c8279d47b52af6ee186bf"
+    },
+    {
+      "module": "Mathlib.Data.Complex.Basic",
+      "path": "followup-source/mathlib/Mathlib/Data/Complex/Basic.lean",
+      "sha256": "e279bd6369e83ebf6716e17a8f38c81c812020753472cac5e7ae2a501790b760"
+    },
+    {
+      "module": "Mathlib.Data.Finite.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Finite/Defs.lean",
+      "sha256": "9b96342c7cce18260a3982c7e1b147358ba70bd49e017da80744489b614e1b14"
+    },
+    {
+      "module": "Mathlib.Data.Finset.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Finset/Defs.lean",
+      "sha256": "07acf066602108961d74d40cef2947a2f6e6258624a00f56965912c7f897c9de"
+    },
+    {
+      "module": "Mathlib.Data.Finset.Image",
+      "path": "followup-source/mathlib/Mathlib/Data/Finset/Image.lean",
+      "sha256": "d7b7e2a714868a3998939bac8f909bbf5b6b0c6895a11fdb8891e39c3ebe326d"
+    },
+    {
+      "module": "Mathlib.Data.Finsupp.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Finsupp/Defs.lean",
+      "sha256": "00f9bf9f89209a6e317d3a6015313fbc1079e5863961c0c8c30128a265280542"
+    },
+    {
+      "module": "Mathlib.Data.Fintype.Basic",
+      "path": "followup-source/mathlib/Mathlib/Data/Fintype/Basic.lean",
+      "sha256": "c6a92133267056799173b5cada4edf8dce0733e7027db68bf2d9e0107ec2ad7a"
+    },
+    {
+      "module": "Mathlib.Data.Fintype.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Fintype/Defs.lean",
+      "sha256": "879110eb5e7729b034797ea9a3283751f25b26889324ab73c841055c3fc071dc"
+    },
+    {
+      "module": "Mathlib.Data.FunLike.Basic",
+      "path": "followup-source/mathlib/Mathlib/Data/FunLike/Basic.lean",
+      "sha256": "7f367dac477d9e0d2f1894913aeb621d2748d6793fab3cdf3e7cb277d6a2dfb8"
+    },
+    {
+      "module": "Mathlib.Data.FunLike.Equiv",
+      "path": "followup-source/mathlib/Mathlib/Data/FunLike/Equiv.lean",
+      "sha256": "2da59f21dc0089322712bcfc1f889077f3b78782772eea27ab27025eb316c8e9"
+    },
+    {
+      "module": "Mathlib.Data.Int.Cast.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Int/Cast/Defs.lean",
+      "sha256": "ce40bef707e1acb04778ee92908da4982d3671389eacfe7d5309b874323d17b9"
+    },
+    {
+      "module": "Mathlib.Data.Matrix.Mul",
+      "path": "followup-source/mathlib/Mathlib/Data/Matrix/Mul.lean",
+      "sha256": "9ce6ecd0751e977f58fc47d6f271dff381e59868474a6955730ff07a99aa0e6b"
+    },
+    {
+      "module": "Mathlib.Data.Nat.Cast.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Nat/Cast/Defs.lean",
+      "sha256": "563e61ca3bbd953da2dd5b6ab4c4b9740ba1ecf083878e6768e6fdaba39ac1ea"
+    },
+    {
+      "module": "Mathlib.Data.Nat.Init",
+      "path": "followup-source/mathlib/Mathlib/Data/Nat/Init.lean",
+      "sha256": "fb606fcc8ea476ac13f8a5d8770386b2134457c8e6fc77b46db10ab1dafc21fe"
+    },
+    {
+      "module": "Mathlib.Data.Nat.Prime.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Nat/Prime/Defs.lean",
+      "sha256": "617c1a2a927a2a282092f11c8d254036454e7ffa2eab12f8dd16880cf83d0d61"
+    },
+    {
+      "module": "Mathlib.Data.Real.Basic",
+      "path": "followup-source/mathlib/Mathlib/Data/Real/Basic.lean",
+      "sha256": "b1dde0e82be30e8a9ca87b23c46d04afc92be61818622ba6d4603daa4d4a9f70"
+    },
+    {
+      "module": "Mathlib.Data.Set.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/Set/Defs.lean",
+      "sha256": "64e15d6a08fd59321a056f4ed6abfa67bc9b3c8a15308c8463b321725184dec1"
+    },
+    {
+      "module": "Mathlib.Data.SetLike.Basic",
+      "path": "followup-source/mathlib/Mathlib/Data/SetLike/Basic.lean",
+      "sha256": "8df869938b6b4a6c3801933218bf5ec4383e38d9f95f201d6635e9ef5b1107fa"
+    },
+    {
+      "module": "Mathlib.Data.ZMod.Defs",
+      "path": "followup-source/mathlib/Mathlib/Data/ZMod/Defs.lean",
+      "sha256": "7c3719a4e2c38f9549f5f61a0882fa10e220505dc4b61968186d0a4d30f335f1"
+    },
+    {
+      "module": "Mathlib.FieldTheory.IntermediateField.Basic",
+      "path": "followup-source/mathlib/Mathlib/FieldTheory/IntermediateField/Basic.lean",
+      "sha256": "06d6e5eade4024874dd5a3954d9aacb18fa9e49f078ee84f35b8928695385bff"
+    },
+    {
+      "module": "Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure",
+      "path": "followup-source/mathlib/Mathlib/FieldTheory/IsAlgClosed/AlgebraicClosure.lean",
+      "sha256": "24456525f601d4007fde2057ca2a84d1134f6155a0782f6bb1e1d64090e63273"
+    },
+    {
+      "module": "Mathlib.FieldTheory.IsAlgClosed.Basic",
+      "path": "followup-source/mathlib/Mathlib/FieldTheory/IsAlgClosed/Basic.lean",
+      "sha256": "87c1116c746be4329038b669ca67118a9e008472fb44ca4cc2ff9e7c6347e3f1"
+    },
+    {
+      "module": "Mathlib.GroupTheory.OreLocalization.OreSet",
+      "path": "followup-source/mathlib/Mathlib/GroupTheory/OreLocalization/OreSet.lean",
+      "sha256": "917bb1fd4c78a510d66bb603ebfc9e4f8743d1b3bffee0890df26f2549c202f8"
+    },
+    {
+      "module": "Mathlib.GroupTheory.QuotientGroup.Defs",
+      "path": "followup-source/mathlib/Mathlib/GroupTheory/QuotientGroup/Defs.lean",
+      "sha256": "085788624b19d98e2783c523248bb7a3ea736e996daaf3f3a05567ac9519780c"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.Matrix.Defs",
+      "path": "followup-source/mathlib/Mathlib/LinearAlgebra/Matrix/Defs.lean",
+      "sha256": "d4e5b5a2762eb91e47bd4d913ed72cd3fac2f7ebf40b32ae4dc0db7f34332d54"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs",
+      "path": "followup-source/mathlib/Mathlib/LinearAlgebra/Matrix/GeneralLinearGroup/Defs.lean",
+      "sha256": "b22cc8e1b3a239d59c044cfe38bd52541bb07ecb1db58a349241d8120a0dd3d4"
+    },
+    {
+      "module": "Mathlib.Logic.Basic",
+      "path": "followup-source/mathlib/Mathlib/Logic/Basic.lean",
+      "sha256": "66c0e30dfa1f8fc942f048d4b5225249f193077df9130b3f2152778e0609b29a"
+    },
+    {
+      "module": "Mathlib.Logic.Equiv.Defs",
+      "path": "followup-source/mathlib/Mathlib/Logic/Equiv/Defs.lean",
+      "sha256": "6c741bd9c0b2f3dc1e5648eede1cce41f94598769844e7d5d32b0f2102afb0e0"
+    },
+    {
+      "module": "Mathlib.Logic.Nonempty",
+      "path": "followup-source/mathlib/Mathlib/Logic/Nonempty.lean",
+      "sha256": "a9e40f416b5612a106a36fb6c0a78d07067f20b8841a83b12daff491e546c502"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.MeasurableSpace.Defs",
+      "path": "followup-source/mathlib/Mathlib/MeasureTheory/MeasurableSpace/Defs.lean",
+      "sha256": "1e4a25333961163f3208e874c09a8b7ab1fab21fd9d1105f8f30666fbebb6086"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Measure.MeasureSpace",
+      "path": "followup-source/mathlib/Mathlib/MeasureTheory/Measure/MeasureSpace.lean",
+      "sha256": "6814399a7a4f2cdd9419bc33f0081e3694268e841d1e9817b30430a31434aa77"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Measure.MeasureSpaceDef",
+      "path": "followup-source/mathlib/Mathlib/MeasureTheory/Measure/MeasureSpaceDef.lean",
+      "sha256": "d12213c6a6b65c3c7f8086d2cde7e1d287696a0992954b02dc00650c25c5fff1"
+    },
+    {
+      "module": "Mathlib.NumberTheory.DirichletCharacter.Basic",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/DirichletCharacter/Basic.lean",
+      "sha256": "f004670a9bedc23c4dfaeb61b90d5e613a6b604f9486640eb1ce4ae3699ef64e"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.DirichletContinuation",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/LSeries/DirichletContinuation.lean",
+      "sha256": "86d3aaad83e64cb64a24167fd4ddb2eeec5ca4a19a9298459e87a57fec151040"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.HurwitzZetaEven",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/LSeries/HurwitzZetaEven.lean",
+      "sha256": "db0a44702615c879abb084e3d950085f0f9b3fd71fddbf57105ad4d9cfea92e8"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.RiemannZeta",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/LSeries/RiemannZeta.lean",
+      "sha256": "db9f37f08bcce379c502549f604c0e98bf4a39b3a3440606861bbac847f2a1a9"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.ZMod",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/LSeries/ZMod.lean",
+      "sha256": "8b65bc72be88177c735a919cc1deba62d62397796dfb9eae24e6609e24212ea3"
+    },
+    {
+      "module": "Mathlib.NumberTheory.MulChar.Basic",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/MulChar/Basic.lean",
+      "sha256": "67fcb540ce7bc5fd9bfafe1b6fc92ee5e4c6c96404e7baf9edbe1a24b030b9be"
+    },
+    {
+      "module": "Mathlib.NumberTheory.NumberField.Basic",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/NumberField/Basic.lean",
+      "sha256": "68833cc080857da33ed2661fac14c281651f140904af0fb587a447e23b81bac6"
+    },
+    {
+      "module": "Mathlib.NumberTheory.NumberField.InfinitePlace.Basic",
+      "path": "followup-source/mathlib/Mathlib/NumberTheory/NumberField/InfinitePlace/Basic.lean",
+      "sha256": "58a2b448c78accf9ca7dfe1490954e51ebf0b64e2f42f35adc71ebf91d309b87"
+    },
+    {
+      "module": "Mathlib.Order.BoundedOrder.Basic",
+      "path": "followup-source/mathlib/Mathlib/Order/BoundedOrder/Basic.lean",
+      "sha256": "e4716549f7191c991723564f80f0ba0c91e03e5adbbd63529351f412775f4c06"
+    },
+    {
+      "module": "Mathlib.Order.CompleteLattice.Defs",
+      "path": "followup-source/mathlib/Mathlib/Order/CompleteLattice/Defs.lean",
+      "sha256": "432f0c7b5d4d5319788da84ef8575b379ecba3ab7c48ae2c72e463194e8df4c3"
+    },
+    {
+      "module": "Mathlib.Order.Defs.LinearOrder",
+      "path": "followup-source/mathlib/Mathlib/Order/Defs/LinearOrder.lean",
+      "sha256": "837dba1e44eb02eb7837e8e7b72b59c277e85899454f45d3be66de44ecd98632"
+    },
+    {
+      "module": "Mathlib.Order.Defs.PartialOrder",
+      "path": "followup-source/mathlib/Mathlib/Order/Defs/PartialOrder.lean",
+      "sha256": "324e420cd942d09b60b6ac8d662b01e29f13f0cd60513e2c4750b3e5676dcf46"
+    },
+    {
+      "module": "Mathlib.Order.Lattice",
+      "path": "followup-source/mathlib/Mathlib/Order/Lattice.lean",
+      "sha256": "ffad8fdc60ff8baa3c11902d69a25d88d752071e3d02168a5b6fbfe803707f71"
+    },
+    {
+      "module": "Mathlib.Order.Notation",
+      "path": "followup-source/mathlib/Mathlib/Order/Notation.lean",
+      "sha256": "f5296bafbde5e559e3263ebadf68be88f02901f499ed5d8fcbfd202e54d08984"
+    },
+    {
+      "module": "Mathlib.RingTheory.DedekindDomain.AdicValuation",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/DedekindDomain/AdicValuation.lean",
+      "sha256": "7c685ebf1b1aa76fad4d082f17e15fae4dcb52f29814e30daa4cb17d29bb8037"
+    },
+    {
+      "module": "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/DedekindDomain/Ideal/Lemmas.lean",
+      "sha256": "4da6f1436d61a49f8c98f542deeb255708bbb75118da7d6b4c5ae0a7a6ffdb36"
+    },
+    {
+      "module": "Mathlib.RingTheory.Ideal.Defs",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/Ideal/Defs.lean",
+      "sha256": "dc1220176b8ab2c3b3d9cb49b8d64b564a21ded12c0a0752fcc66852132486cb"
+    },
+    {
+      "module": "Mathlib.RingTheory.Ideal.Quotient.Defs",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/Ideal/Quotient/Defs.lean",
+      "sha256": "f906662e22c49025984808feb489892afe51914ccc7a10b95d5f162ef4fbfe1d"
+    },
+    {
+      "module": "Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/MvPolynomial/IrreducibleQuadratic.lean",
+      "sha256": "90d8f9be86f6f3b03ad1369bebac036c3f3129b513c92507a10665ac5a509b52"
+    },
+    {
+      "module": "Mathlib.RingTheory.OreLocalization.Ring",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/OreLocalization/Ring.lean",
+      "sha256": "fa0de5dd6b362dd875354b83c39c8bfad9749a707efe900610fd7a1c4520f448"
+    },
+    {
+      "module": "Mathlib.RingTheory.Valuation.ValuationSubring",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/Valuation/ValuationSubring.lean",
+      "sha256": "efdc41f264bb6e4739411b1a22c186b1d7bb5dbee150f5802856853507402dbc"
+    },
+    {
+      "module": "Mathlib.RingTheory.WittVector.Basic",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/WittVector/Basic.lean",
+      "sha256": "dc9e2c2285cdfd4e72615841c22310a6312ac1385b0821b47dfa3acc05763045"
+    },
+    {
+      "module": "Mathlib.RingTheory.WittVector.Defs",
+      "path": "followup-source/mathlib/Mathlib/RingTheory/WittVector/Defs.lean",
+      "sha256": "85d3b2ce8581eff133e9f89fb1e450cb623ebd29fe13b95623e214459eff968d"
+    },
+    {
+      "module": "Mathlib.Topology.Algebra.Module.ContinuousLinearMap.Basic",
+      "path": "followup-source/mathlib/Mathlib/Topology/Algebra/Module/ContinuousLinearMap/Basic.lean",
+      "sha256": "db86568d3ba2332c8f5588c1ca7542312a57d3ec7912e63db3d14322c579b2d1"
+    },
+    {
+      "module": "Mathlib.Topology.Instances.AddCircle.Real",
+      "path": "followup-source/mathlib/Mathlib/Topology/Instances/AddCircle/Real.lean",
+      "sha256": "7fec0ee52acda634f28458e2aadda46873aa4b00e0d7b8b447fb1d7680a62b5f"
+    },
+    {
+      "module": "Mathlib.Topology.MetricSpace.Pseudo.Defs",
+      "path": "followup-source/mathlib/Mathlib/Topology/MetricSpace/Pseudo/Defs.lean",
+      "sha256": "7cbe6a3f08199e77596b05ae5e5215ce5dc1e5dc131d29ecde6e974c308aa374"
+    },
+    {
+      "module": "Mathlib.Topology.UniformSpace.Defs",
+      "path": "followup-source/mathlib/Mathlib/Topology/UniformSpace/Defs.lean",
+      "sha256": "a2ea01d1cc3ba5dffa1c668effaf40ff2e069d849b3411bcc3ee5aea0d481928"
+    },
+    {
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.MoriwakiSt",
+      "path": "followup-source/project/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovGeometry/MoriwakiSt.lean",
+      "sha256": "27872d1872a344f39647c98998c84154f350b58a2e87504616f1bdb6df28d23f"
+    },
+    {
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PushInvertible",
+      "path": "followup-source/project/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/PushInvertible.lean",
+      "sha256": "f3400474c76aa3eeaa0cb85edf2e9c549811616ee2d43fd74685088a42662554"
+    },
+    {
+      "module": "Statements",
+      "path": "followup-source/project/Statements.lean",
+      "sha256": "79ef7ca776e42abe1f46caee13ea09bd19f1e2d0b1620d8d5d200258f33b47bf"
+    },
+    {
+      "module": "Supplements.Kernels.MainTheorems",
+      "path": "followup-source/project/Supplements/Kernels/MainTheorems.lean",
+      "sha256": "1e734200b9b6a6d2a968743bd0c433d614bd6606cf538ac6d4f0ff70044dde53"
+    }
+  ],
+  "omitted": []
+}

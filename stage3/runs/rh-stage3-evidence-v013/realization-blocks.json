@@ -1,0 +1,180 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.PlaceRead.exists_local_map_at_place_alt",
+      "begin_line": 6,
+      "end_line": 3133,
+      "rendered_block_sha256": "a0b45eb84794786ae06d27141aa45bcdff9ef3f8037e39d8ac6716efecbbaa67",
+      "rendered_block_utf8_bytes": 274007,
+      "elision_indicators": {
+        "⋯": 81
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.TwInputs.RealSide.ofPins",
+      "begin_line": 3137,
+      "end_line": 7111,
+      "rendered_block_sha256": "91aff800cd69e763508bf04520cd789980ce705eb6a0b6b5ac3caee870de5e23",
+      "rendered_block_utf8_bytes": 341155,
+      "elision_indicators": {
+        "⋯": 48
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat3.characterisation_of_weak",
+      "begin_line": 7115,
+      "end_line": 7286,
+      "rendered_block_sha256": "5acf38b8377b17a1e68124d1085d3698698e38a97b5f8597211777a592e8ff18",
+      "rendered_block_utf8_bytes": 13055,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat.thP_of_weak",
+      "begin_line": 7290,
+      "end_line": 8215,
+      "rendered_block_sha256": "bc81e3cb7fcc0818616dce94fbe1643092107bf79d4c8ba84a0118463b1671bd",
+      "rendered_block_utf8_bytes": 77366,
+      "elision_indicators": {
+        "⋯": 43
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.OrZero",
+      "begin_line": 8219,
+      "end_line": 8225,
+      "rendered_block_sha256": "47243b8a14d7030cfdf3a0ef3578300b771156860ba643a3f9d515a998b49ec3",
+      "rendered_block_utf8_bytes": 407,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.orZero_exists",
+      "begin_line": 8229,
+      "end_line": 8261,
+      "rendered_block_sha256": "7082b81c1a8b91565a19d94c0ca76f5186df3200344128c63ea484aa75b8ca54",
+      "rendered_block_utf8_bytes": 2298,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat.IsThPW",
+      "begin_line": 8264,
+      "end_line": 8330,
+      "rendered_block_sha256": "850b4beb3247dd293d542d006cea52492606e957462f91cc8f31c5b4fdf1ae61",
+      "rendered_block_utf8_bytes": 5072,
+      "elision_indicators": {
+        "⋯": 2
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat.ExAt",
+      "begin_line": 8333,
+      "end_line": 8405,
+      "rendered_block_sha256": "aed87e5b3719a1456148d768adbb344ab3e555e284c742effd465e2d71617914",
+      "rendered_block_utf8_bytes": 5570,
+      "elision_indicators": {
+        "⋯": 2
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat.ExAt.thF",
+      "begin_line": 8409,
+      "end_line": 8457,
+      "rendered_block_sha256": "c992ab77365912ddb226b5ab3edf74e23bb6080c2903ee62773f5f3b3999a852",
+      "rendered_block_utf8_bytes": 3565,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat.PThF",
+      "begin_line": 8461,
+      "end_line": 12751,
+      "rendered_block_sha256": "4b1de09270231464fb4f0b7a74495924455adbd2a5c50df6171db537a061c368",
+      "rendered_block_utf8_bytes": 378587,
+      "elision_indicators": {
+        "⋯": 66
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.UnusedChoiceStatements",
+      "begin_line": 12754,
+      "end_line": 12875,
+      "rendered_block_sha256": "e4d507e14316e57e3c58c6a4fd872f9e7628dfb8a92a093d5006c011508890ff",
+      "rendered_block_utf8_bytes": 9547,
+      "elision_indicators": {
+        "⋯": 10
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.UnusedChoiceStatements.ex",
+      "begin_line": 12879,
+      "end_line": 12936,
+      "rendered_block_sha256": "9a3dbc806e838851ca97fb8e7f6b4b94d5327b8f5c91928999818b20f3c1377d",
+      "rendered_block_utf8_bytes": 4363,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mem.R3.Holds",
+      "begin_line": 12939,
+      "end_line": 13039,
+      "rendered_block_sha256": "c49d0d4cec7acecc19bcb507c9749575355c2574309e5f6c73bdab0dbc74e2eb",
+      "rendered_block_utf8_bytes": 7930,
+      "elision_indicators": {
+        "⋯": 10
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mem.R3.Holds.aux",
+      "begin_line": 13043,
+      "end_line": 13093,
+      "rendered_block_sha256": "a3ca2efb72413a5e9a243ba9b5c123f96122136ff3e3f47a65bc46cbf0cc7019",
+      "rendered_block_utf8_bytes": 3741,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mem.R3.Pins",
+      "begin_line": 13096,
+      "end_line": 15891,
+      "rendered_block_sha256": "535f46c596b294eb14ba931ad7416823407c2a57811ed9a637502c1533ab79f9",
+      "rendered_block_utf8_bytes": 206486,
+      "elision_indicators": {
+        "⋯": 164
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Lift.IsThetaP",
+      "begin_line": 15894,
+      "end_line": 16779,
+      "rendered_block_sha256": "cf0542944131c0441f627fe86c08ebeac08ae472370dac27addc7e119c16c3ad",
+      "rendered_block_utf8_bytes": 70067,
+      "elision_indicators": {
+        "⋯": 12
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mass.Levels.measure_comap_finE",
+      "begin_line": 16783,
+      "end_line": 20854,
+      "rendered_block_sha256": "64e6615a6deeba7c7c6c63ed55a79ddfe071e39b48e265f780d02b813b6fd050",
+      "rendered_block_utf8_bytes": 325379,
+      "elision_indicators": {
+        "⋯": 41
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

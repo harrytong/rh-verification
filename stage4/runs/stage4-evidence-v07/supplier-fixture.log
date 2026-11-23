@@ -1,0 +1,43 @@
+START_UTC 2026-11-23T20:07:22.632622+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage4/stage4-eh9vexxl/supplier-fixture.cid", "--name", "rh-audit-stage4-eh9vexxl-supplierfixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage4/stage4-eh9vexxl,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "180", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/SupplierFixture.lean"]
+/audit/SupplierFixture.lean:328:0: warning: Definition `RHStage4SupplierFixture.make` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","compared":["inp","hTie","rhs"],"event":"argument-calls-start","owner":"RHStage4SupplierFixture.make","selected":["inp","hTie","rhs"]}
+RH_STAGE4_JSON	{"argument":{"text":"h","truncated":false},"argument_index":2,"argument_shape":"local-reference","callee":"RHStage4SupplierFixture.Package.mk","comparison_requested":true,"event":"argument","expected_type":{"text":"a ≤ b","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-inp-2","owner":"RHStage4SupplierFixture.make","parameter":"inp","reference_count":0,"references":[],"references_truncated":false,"scope":"actual argument at this stored wrapper call; not a transitive headline specialization"}
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-inp-2","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4SupplierFixture.make","relation":"LE.le","rhs":{"text":"b","truncated":false},"status":"not-definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"argument":{"text":"rfl","truncated":false},"argument_index":3,"argument_shape":"application","callee":"RHStage4SupplierFixture.Package.mk","comparison_requested":true,"event":"argument","expected_type":{"text":"b = b","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-hTie-3","owner":"RHStage4SupplierFixture.make","parameter":"hTie","reference_count":2,"references":["rfl","Nat"],"references_truncated":false,"scope":"actual argument at this stored wrapper call; not a transitive headline specialization"}
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","event":"comparison","lhs":{"text":"b","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-hTie-3","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4SupplierFixture.make","relation":"Eq","rhs":{"text":"b","truncated":false},"status":"definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"argument":{"text":"Nat.le_refl b","truncated":false},"argument_index":4,"argument_shape":"application","callee":"RHStage4SupplierFixture.Package.mk","comparison_requested":true,"event":"argument","expected_type":{"text":"b ≤ b","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-rhs-4","owner":"RHStage4SupplierFixture.make","parameter":"rhs","reference_count":1,"references":["Nat.le_refl"],"references_truncated":false,"scope":"actual argument at this stored wrapper call; not a transitive headline specialization"}
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","event":"comparison","lhs":{"text":"b","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/parameter-rhs-4","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4SupplierFixture.make","relation":"LE.le","rhs":{"text":"b","truncated":false},"status":"definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","event":"arguments-end","found":["inp","hTie","rhs"],"location":"body/lambda/lambda/lambda","missing":[],"owner":"RHStage4SupplierFixture.make","selected":["inp","hTie","rhs"],"supplied_argument_count":5}
+RH_STAGE4_JSON	{"callee":"RHStage4SupplierFixture.Package.mk","event":"argument-calls-end","hits":1,"owner":"RHStage4SupplierFixture.make","pruned_subtrees":0,"scan_capped":false,"status":"first-match-observed","visited":4}
+RH_STAGE4_JSON	{"body":{"text":"fun a b h => { inp := h, hTie := rfl, rhs := Nat.le_refl b }","truncated":false},"body_reference_count":6,"body_references":["Nat","LE.le","instLENat","RHStage4SupplierFixture.Package.mk","rfl","Nat.le_refl"],"body_references_truncated":false,"event":"supplier-declaration","name":"RHStage4SupplierFixture.make","status":"recorded","type":{"text":"∀ (a b : Nat), a ≤ b → RHStage4SupplierFixture.Package a b","truncated":false}}
+RH_STAGE4_JSON	{"error":"Declaration not found","event":"supplier-declaration","name":"RHStage4SupplierFixture.DeliberatelyAbsent","status":"unknown"}
+RH_STAGE4_SUPPLIER_FIXTURE_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/SupplierFixture.lean"
+	User time (seconds): 2.29
+	System time (seconds): 0.40
+	Percent of CPU this job got: 121%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1647296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40678
+	Voluntary context switches: 1124
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T20:07:25.155751+00:00

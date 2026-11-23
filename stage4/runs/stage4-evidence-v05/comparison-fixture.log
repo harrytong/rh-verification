@@ -1,0 +1,57 @@
+START_UTC 2026-11-23T19:49:17.008654+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage4/stage4-ymp_5f2o/comparison-fixture.cid", "--name", "rh-audit-stage4-ymp_5f2o-comparisonfixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage4/stage4-ymp_5f2o,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "180", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/ComparisonFixture.lean"]
+RH_STAGE4_JSON	{"event":"generic-start","owner":"RHStage4Fixture.seed"}
+RH_STAGE4_JSON	{"callee":"","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"generic-conclusion","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.seed","relation":"LE.le","rhs":{"text":"b","truncated":false},"status":"not-definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"generic-end","owner":"RHStage4Fixture.seed","status":"completed"}
+RH_STAGE4_JSON	{"event":"generic-start","owner":"RHStage4Fixture.equalSides"}
+RH_STAGE4_JSON	{"callee":"","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}}],"location":"generic-conclusion","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.equalSides","relation":"Eq","rhs":{"text":"a","truncated":false},"status":"definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"generic-end","owner":"RHStage4Fixture.equalSides","status":"completed"}
+RH_STAGE4_JSON	{"event":"generic-start","owner":"RHStage4Fixture.equalByHypothesis"}
+RH_STAGE4_JSON	{"callee":"","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a = b","truncated":false}}],"location":"generic-conclusion","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.equalByHypothesis","relation":"Eq","rhs":{"text":"b","truncated":false},"status":"not-definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"generic-end","owner":"RHStage4Fixture.equalByHypothesis","status":"completed"}
+RH_STAGE4_JSON	{"event":"calls-start","first_match_only":false,"order":"last-argument-first; let-body-before-let-value","owner":"RHStage4Fixture.sameCall","watch":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"event":"body-references","owner":"RHStage4Fixture.sameCall","reference_count":3,"references":["Nat","RHStage4Fixture.seed","Nat.le_refl"],"references_truncated":false,"watched_present":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"callee":"RHStage4Fixture.seed","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}}],"location":"body/lambda","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.sameCall","relation":"LE.le","rhs":{"text":"a","truncated":false},"status":"definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"calls-end","hits":1,"owner":"RHStage4Fixture.sameCall","pruned_subtrees":3,"scan_capped":false,"status":"completed","visited":5}
+RH_STAGE4_JSON	{"event":"calls-start","first_match_only":false,"order":"last-argument-first; let-body-before-let-value","owner":"RHStage4Fixture.differentCall","watch":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"event":"body-references","owner":"RHStage4Fixture.differentCall","reference_count":4,"references":["Nat","LE.le","instLENat","RHStage4Fixture.seed"],"references_truncated":false,"watched_present":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"callee":"RHStage4Fixture.seed","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.differentCall","relation":"LE.le","rhs":{"text":"b","truncated":false},"status":"not-definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"calls-end","hits":1,"owner":"RHStage4Fixture.differentCall","pruned_subtrees":3,"scan_capped":false,"status":"completed","visited":7}
+RH_STAGE4_JSON	{"event":"calls-start","first_match_only":false,"order":"last-argument-first; let-body-before-let-value","owner":"RHStage4Fixture.letCall","watch":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"event":"body-references","owner":"RHStage4Fixture.letCall","reference_count":4,"references":["Nat","RHStage4Fixture.alias","RHStage4Fixture.seed","Nat.le_refl"],"references_truncated":false,"watched_present":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"callee":"RHStage4Fixture.seed","event":"comparison","lhs":{"text":"z","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":{"text":"RHStage4Fixture.alias a","truncated":false},"name":"z","type":{"text":"Nat","truncated":false}}],"location":"body/lambda/let-body","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.letCall","relation":"LE.le","rhs":{"text":"a","truncated":false},"status":"definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"calls-end","hits":1,"owner":"RHStage4Fixture.letCall","pruned_subtrees":4,"scan_capped":false,"status":"completed","visited":7}
+RH_STAGE4_JSON	{"event":"calls-start","first_match_only":true,"order":"last-argument-first; let-body-before-let-value","owner":"RHStage4Fixture.firstCall","watch":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"event":"body-references","owner":"RHStage4Fixture.firstCall","reference_count":6,"references":["Nat","LE.le","instLENat","And.intro","RHStage4Fixture.seed","Nat.le_refl"],"references_truncated":false,"watched_present":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"callee":"RHStage4Fixture.seed","event":"comparison","lhs":{"text":"a","truncated":false},"local_context":[{"let_value":null,"name":"a","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"b","type":{"text":"Nat","truncated":false}},{"let_value":null,"name":"h","type":{"text":"a ≤ b","truncated":false}}],"location":"body/lambda/lambda/lambda/arg-3","meaning":"identity of sides only; not a necessity or RH verdict","owner":"RHStage4Fixture.firstCall","relation":"LE.le","rhs":{"text":"b","truncated":false},"status":"not-definitionally-identical","transparency":"all"}
+RH_STAGE4_JSON	{"event":"calls-end","hits":1,"owner":"RHStage4Fixture.firstCall","pruned_subtrees":0,"scan_capped":false,"status":"first-match-observed","visited":5}
+RH_STAGE4_JSON	{"event":"calls-start","first_match_only":true,"order":"last-argument-first; let-body-before-let-value","owner":"RHStage4Fixture.noCall","watch":["RHStage4Fixture.seed"]}
+RH_STAGE4_JSON	{"event":"body-references","owner":"RHStage4Fixture.noCall","reference_count":2,"references":["Nat","Nat.le_refl"],"references_truncated":false,"watched_present":[]}
+RH_STAGE4_JSON	{"event":"calls-end","hits":0,"owner":"RHStage4Fixture.noCall","pruned_subtrees":1,"scan_capped":false,"status":"completed","visited":1}
+RH_STAGE4_FIXTURE_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/ComparisonFixture.lean"
+	User time (seconds): 1.76
+	System time (seconds): 0.39
+	Percent of CPU this job got: 116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1646656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40876
+	Voluntary context switches: 1203
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T19:49:19.175756+00:00

@@ -1,0 +1,35 @@
+Package v0.3 validation — 23 November 2026
+
+test_block_index_detects_elisions_without_claiming_completeness (__main__.DriverTests.test_block_index_detects_elisions_without_claiming_completeness) ... ok
+test_block_index_rejects_missing_duplicate_empty_and_out_of_order (__main__.DriverTests.test_block_index_rejects_missing_duplicate_empty_and_out_of_order) ... ok
+test_capture_success_and_error (__main__.DriverTests.test_capture_success_and_error) ... ok
+test_cleanup_requires_own_cid (__main__.DriverTests.test_cleanup_requires_own_cid) ... ok
+test_collected_source_must_match_git (__main__.DriverTests.test_collected_source_must_match_git) ... ok
+test_collection_caps_and_missing_are_explicit (__main__.DriverTests.test_collection_caps_and_missing_are_explicit) ... ok
+test_collection_rejects_path_traversal (__main__.DriverTests.test_collection_rejects_path_traversal) ... ok
+test_first_error_preserves_typed_error (__main__.DriverTests.test_first_error_preserves_typed_error) ... ok
+test_fixture_has_no_project_access (__main__.DriverTests.test_fixture_has_no_project_access) ... ok
+test_generalization_changes_only_declared_inputs (__main__.DriverTests.test_generalization_changes_only_declared_inputs) ... ok
+test_geometry_copy_only_adds_instrumentation (__main__.DriverTests.test_geometry_copy_only_adds_instrumentation) ... ok
+test_geometry_explicit_occurrences_preserved (__main__.DriverTests.test_geometry_explicit_occurrences_preserved) ... ok
+test_low_available_memory_blocks_project (__main__.DriverTests.test_low_available_memory_blocks_project) ... ok
+test_low_disk_blocks (__main__.DriverTests.test_low_disk_blocks) ... ok
+test_negative_accepts_only_expected_error (__main__.DriverTests.test_negative_accepts_only_expected_error) ... ok
+test_no_sorry_success (__main__.DriverTests.test_no_sorry_success) ... ok
+test_output_cannot_be_in_project (__main__.DriverTests.test_output_cannot_be_in_project) ... ok
+test_output_guard_is_failure (__main__.DriverTests.test_output_guard_is_failure) ... ok
+test_project_mount_readonly (__main__.DriverTests.test_project_mount_readonly) ... ok
+test_recorded_targets_have_matching_probe_commands (__main__.DriverTests.test_recorded_targets_have_matching_probe_commands) ... ok
+test_snapshot_hashes (__main__.DriverTests.test_snapshot_hashes) ... ok
+test_success_requires_exit_zero (__main__.DriverTests.test_success_requires_exit_zero) ... ok
+test_success_requires_marker (__main__.DriverTests.test_success_requires_marker) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.030s
+
+OK
+
+Python syntax compilation and CLI help checked.
+New Lean probes NOT compiled here: no Lean executable in the authoring environment.
+Prior successful v0.2 results do not validate these new propositions.
+Server fixtures and project compilation must still run.

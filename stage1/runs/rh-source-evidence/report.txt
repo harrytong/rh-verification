@@ -1,0 +1,141 @@
+RH CRITIQUE: SOURCE EVIDENCE ONLY
+
+This report does NOT establish compiled proof-term reachability or logical invalidity.
+An import/text occurrence is not a theorem dependency. A dependency is not proof of necessity.
+The original checkout, build outputs, exports, and Comparator processes are unchanged.
+
+Source: 753431bfe28701f6f3937f664fcaf08daa139c03
+Mathlib: 0df444a360eaa60ab8c11dca51a86af692955474
+Lean: leanprover/lean4:v4.33.1
+
+Exact-token textual counts (comments and strings, if any, also count):
+token	occurrences	files
+anyGeometry	162	24
+geoOf	16	10
+geoCl	163	29
+GeoCl	7	2
+geoDegenerate	11	2
+geoDegenerateNoTau	6	1
+algDegenerate	12	1
+algJunk	12	1
+padDegenerate	21	1
+padJunk	22	2
+mdlJunk	7	1
+hypsE	0	0
+plugAll	2	2
+geoOf_surf	1	1
+GeoTiedP	21	11
+geoTied	1	1
+formsTieX	1	1
+degree_value_of_determinant	1	1
+hExpl6	45	16
+every_character_of_literature_of_vWin	2	2
+every_character_of_theta_integrals_local_matching	2	2
+everyCharacter_of_row	2	1
+rhOfAll	3	2
+allChi	7	2
+claimAll	2	2
+critAll	2	2
+geoOver_stages	2	1
+divEx_prov	2	1
+divEx_geoCl	5	2
+memberE_closing_alt_alt	2	2
+member_exists_baseLattice_alt	2	2
+
+Key source locations (up to 4 lines per token):
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GKeyFin.lean:22:   prmR (NEa hL (GlobalTheory.HeightCounting.Up.NEl hL cDep) A) SExt.none (geoCl anyGeometry)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MultW.lean:45:   prmR (GlobalTheory.HeightCounting.Up.NEl hL cDep) SExt.none (geoCl anyGeometry)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotLamAreShift.lean:153:     ∃ l, Nonempty (OAt anyGeometry t ((GlobalTheory.ShFam.Pad.SurfSt.of X).put (setLam X l))) := by
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean:19: def anyGeometry : GeoP := fun _ _ _ => True
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FormsOver.lean:57:     AlgPkg (geoOf C K R) D.what₂.Tau N s.Comp where
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FormsOver.lean:94: def shimOf (w : Dat D (Lv A)) : ShimU D (geoOf C K R) jC ng w where
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FormsOver.lean:101:   FormsPkg D (geoOf C K R) (fun j => (datW D F.κg j).N) (fun j => (shimOf K R k (datW D F.κg j)).Comp)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FormsOver.lean:105: def famOf (hg : F.κg.primes = Finset.univ.image D.host.g) (P : FormsOver K R k) : ShimFam D (geoOf C K R) (Lv A) where
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GKeyFin.lean:22:   prmR (NEa hL (GlobalTheory.HeightCounting.Up.NEl hL cDep) A) SExt.none (geoCl anyGeometry)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MultW.lean:45:   prmR (GlobalTheory.HeightCounting.Up.NEl hL cDep) SExt.none (geoCl anyGeometry)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:26: def geoCl (Γ : GeoP) : GeoP := GeoCl Γ
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:28: theorem geoCl_of {Γ : GeoP} {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D} (h : Γ D J X) : geoCl Γ D J X := GeoCl.base h
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:21: inductive GeoCl (Γ : GeoP) : ∀ D : D7, Formalism.L2.Pj.Core D → DivX D → Prop
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:22:   | base {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D} : Γ D J X → GeoCl Γ D J X
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:24:       {J : Formalism.L2.Pj.Core D} {X : DivX D} : GeoCl Γ D J X → GeoCl Γ (setDiv D N h) (coreS N h J) (divTr N h X)
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean:26: def geoCl (Γ : GeoP) : GeoP := GeoCl Γ
+src/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean:154:     ShimFam D (geoDegenerate D.what₂.LL D.what₂.Tau) PUnit where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:241: @[reducible] def geoDegenerate (F : Type) [Field F] [NumberField F] [StarRing F] (Tau : Type) [Fintype Tau] : DV.Geo F where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:310:     (((geoDegenerate F Tau).inter N (fun _ => lam) : ℤ) : ℝ) =
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:390: def algDegenerate (N : ℕ) : AlgPkg (geoDegenerate D.what₂.LL D.what₂.Tau) D.what₂.Tau N PUnit where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:14: def geoDegenerateNoTau (F : Type) [Field F] [NumberField F] [StarRing F] : DV.Geo F where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:104: def algJunk (N : ℕ) : AlgPkg (geoDegenerateNoTau D.what₂.LL) D.what₂.Tau N PUnit where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:112:   degA_ofW := fun _ _ _ _ => by simp [geoDegenerateNoTau]
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:200:     ShimU D (geoDegenerateNoTau D.what₂.LL) jC ngJunk w where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:390: def algDegenerate (N : ℕ) : AlgPkg (geoDegenerate D.what₂.LL D.what₂.Tau) D.what₂.Tau N PUnit where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:408:   alg := algDegenerate D w.N
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:802:   ALB := (algDegenerate D N).ALB
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:803:   arSelf := fun L => ∑ c, (algDegenerate D N).arSelfC L c
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:104: def algJunk (N : ℕ) : AlgPkg (geoDegenerateNoTau D.what₂.LL) D.what₂.Tau N PUnit where
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:203:   alg := algJunk D w.N
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:634:   ALB := (algJunk D N).ALB
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:635:   arSelf := fun L => ∑ c, (algJunk D N).arSelfC L c
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:352: def padDegenerate (N j : ℕ) (hj : j ≤ N) (jC : ∀ (p : ℕ) [Fact p.Prime], PlL D p → (DV.KW p →+* ℂ)) :
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:409:   pad := padDegenerate D w.N w.j w.j_le jC
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:773:   arDeg := (padDegenerate D N j h2.le jC).arDeg
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:774:   arDeg_homog := (padDegenerate D N j h2.le jC).arDeg_homog
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/EmbeddingCompatHeq.lean:206:   { padJunk D N j hj jC with
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:161: def padJunk (N j : ℕ) (hj : j ≤ N) (jC : ∀ (p : ℕ) [Fact p.Prime], PlL D p → (DV.KW p →+* ℂ)) :
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:204:   pad := padJunk D w.N w.j w.j_le jC
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:605:   arDeg := (padJunk D N j h2.le jC).arDeg
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:147: def mdlJunk (p : ℕ) [Fact p.Prime] (jc : DV.KW p →+* ℂ) (N j : ℕ) (hj : j ≤ N) :
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:180:   md := fun p _ la _ => mdlJunk D p (jC p la) N j hj
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:371:   md := fun p _ la _ => mdlJunk D p (jC p la) N j hj
+src/Formalism/LocalToGlobal/LatticeGeometry/Inhabited.lean:695:     md := fun S _ p _ la _ => mdlJunk D p (jC p la) (recN D S) (recJ D S) (recJ_lt D S).le
+src/Development/AutomorphicArithmetic/CharacterBoxes/EveryCharacter.lean:16: theorem UpperTheory.Top.plugAll (hG : GlobalTheory.GLq.Green) (hV : UpperTheory.Top.VWin)
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/FockModels/EveryCharacterE.lean:70:   plugAll (GlobalTheory.GreenBridge.green_of_regular P.greenRegularCharacters) hV
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotLamAreShift.lean:30: theorem geoOf_surf {Q : ∀ D : D7, GlobalTheory.ShFam.KitClass D} {D : D7} {J} {X : DivX D} (h : geoOf Q D J X) :
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GeoTiedPGraft.lean:2: import Formalism.LocalToGlobal.LatticeGeometry.GeoTiedP
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/GeoTiedPGraft.lean:46:   ∃ (X : DivX D) (inK : X.Lev → ℕ → Prop), Keeps X X₀ ∧ GeoTiedP X inK ∧ Q X
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LargeFor.lean:7: import Formalism.LocalToGlobal.LatticeGeometry.GeoTiedP
+src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TiedColumnData.lean:16: import Formalism.LocalToGlobal.LatticeGeometry.GeoTiedP
+src/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean:136: theorem GeoTiedP.geoTied {X : DivX D} {inK : X.Lev → ℕ → Prop} (h : GeoTiedP X inK) : GeoTied X := by
+src/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean:140: theorem GeoTiedP.formsTieX {X : DivX D} {inK : X.Lev → ℕ → Prop} (h : GeoTiedP X inK) :
+src/Formalism/SharpRestriction/Divisibility/PlaceRankTwoOne.lean:349: theorem degree_value_of_determinant {D : D7} {large₂ : SizeData₂ D} {X : DivX D} {Lc : Loc D X} (h : PointsLemma D large₂ X Lc) : FrobeniusOrbitPlaceCount D large₂ X := by
+src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean:379: def ht : D.what₂.Word → ℝ := DV.hExpl6 D p.L Y.X C.Csz
+src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/RealTiedSetDiv.lean:15:       (∀ u, D.div.h u = DV.hExpl6 D O.L O.X κ.C.Csz u) ∧ Nonempty (Formalism.L2.Theta.RealTied D) ∧
+src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/RealTiedSetDiv.lean:18:       O.L.sc.eps = κ.eps ∧ (∀ u, D.div.h u = DV.hExpl6 D O.L O.X κ.C.Csz u) ∧ Nonempty (Formalism.L2.Theta.RealTied D) ∧
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DIVRecBridgeSel.lean:134:     (hh : ∀ u, D.div.h u = hExpl6 D L Z Ch u)
+src/Development/AutomorphicArithmetic/CharacterBoxes/MainConclusion.lean:8:   UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin ⟨h, UpperTheory.Zero.LLC.recTExists, h⟩ (UpperTheory.One.vwin_of_row h)
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EveryCharacterOfLiteratureOfVWin.lean:810: theorem UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin (O : _root_.UpperTheory.LiteratureTheorems.OpenLiteratureStatements) (hV : UpperTheory.Top.VWin) : UpperTheory.EveryCharacter :=
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EveryCharacterOfLiteratureOfVWin.lean:811:   _root_.UpperTheory.Lit.every_character_of_theta_integrals_local_matching (_root_.UpperTheory.LiteratureTheorems.published_results_eigen O) (_root_.UpperTheory.LiteratureTheorems.published_results_first O) (_root_.UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean:69: theorem every_character_of_theta_integrals_local_matching (P : _root_.GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses) (F : _root_.GlobalTheory.FunPr.ThetaLocalInputs) (hA : GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.ThetaIntegralsAgree)
+src/Development/AutomorphicArithmetic/CharacterBoxes/MainConclusion.lean:7: theorem UpperTheory.FinalTheorems.everyCharacter_of_row (h : UpperTheory.GalStar.Row0b fun h rc => UpperTheory.Zero.LLC.IsRecT h rc) : UpperTheory.EveryCharacter :=
+src/Development/AutomorphicArithmetic/CharacterBoxes/MainConclusion.lean:11:   UpperTheory.FinalTheorems.everyCharacter_of_row UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter
+src/Main.lean:4: theorem riemannHypothesis : RiemannHypothesis := rhOfAll
+src/Main.lean:6: theorem riemannZeta_eq_zero_re : RiemannZetaZerosOnLine := rhOfAll
+src/Supplements/Kernels/MainTheorems.lean:9: theorem rhOfAll : RiemannHypothesis := Formalism.VW.rh_of_every allChi
+src/Main.lean:8: theorem LFunction_ne_zero_of_half_lt_re : DirichletLNonvanishingRightOfHalf := allChi
+src/Supplements/Kernels/MainTheorems.lean:7: theorem allChi : UpperTheory.EveryCharacter := UpperTheory.FinalTheorems.everyCharacter
+src/Supplements/Kernels/MainTheorems.lean:9: theorem rhOfAll : RiemannHypothesis := Formalism.VW.rh_of_every allChi
+src/Supplements/Kernels/MainTheorems.lean:13:   Formalism.VW.critLine allChi N χ hχ s h0 h1 hz
+src/Main.lean:10: theorem LFunction_eq_zero_re : DirichletLZerosOnLine := claimAll.2.1
+src/Supplements/Kernels/MainTheorems.lean:15: theorem claimAll : Claim.HalfPlane ∧ Claim.Strip ∧ Claim.Zeta :=
+src/Main.lean:12: theorem LFunction_eq_zero_re_of_isPrimitive : PrimitiveDirichletLZerosOnLine := critAll
+src/Supplements/Kernels/MainTheorems.lean:11: theorem critAll (N : ℕ) [NeZero N] (χ : DirichletCharacter ℂ N) (hχ : χ.IsPrimitive) (s : ℂ)
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupPinsOfMuIsW.lean:155: theorem geoOver_stages (X : Stages) (X₀ : DivX X.toD7) : GeoOver (fun _ => True) X₀ := by
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupPinsOfMuIsW.lean:184:   obtain ⟨X, inK, ⟨Xg, iM, hiM, rfl⟩, hG, -⟩ := geoOver_stages (w.st Z) X₂
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupPinsOfMuIsW.lean:204: theorem divEx_prov (𝒮 : Slots) (hOx : 𝒮.Ox = OX anyGeometry) : DivEx 𝒮 :=
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TupPinsOfMuIsW.lean:213:   fun _ _ _ 𝒮 hOx => divEx_prov 𝒮 hOx
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusion.lean:39: theorem divEx_geoCl (h1 : GlobalTheory.NT.RayField) (h2 : GlobalTheory.Published.PrincipalIdealSt) (h3 : GlobalTheory.Published.CMCurveGoodOutsidePrimeSt)
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusion.lean:78:     (GlobalTheory.AmbCrd.ambEx_of_rx _ rfl) (divEx_geoCl p1 p2 p3 _ _ _)
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/PublishedInputsImplyConclusion.lean:81:     (GlobalTheory.AmbCrd.ambEx_of_rx _ rfl) (divEx_geoCl p1 p2 p3 _ _ _)
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberEClosing.lean:21:     (GlobalTheory.AmbCrd.ambEx_of_rx _ rfl) (divEx_geoCl p1 p2 p3 _ _ _)
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBaseLatticeOfPrime.lean:53:   · exact _root_.GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt hA.a1 hA.a2 hA.a3 hA.a11 hA.a10 hA.a6 hA.a12 hA.a13 hA.a14 hA.a16 hA.a17 hA.a18 hA.a8 hA.a6 hA.a7
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberEClosing.lean:17: theorem memberE_closing_alt_alt : GlobalTheory.NT.RayField → GlobalTheory.Published.PrincipalIdealSt → GlobalTheory.Published.CMCurveGoodOutsidePrimeSt → GlobalTheory.Dec.DSInfChar → GlobalTheory.Published.HarishChandraFinite → GlobalTheory.Published.CuspRapidDecay → GlobalTheory.Published.DiscreteS
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsBaseLatticeOfPrime.lean:80: theorem _root_.GlobalTheory.T.member_exists_baseLattice_alt : _root_.GlobalTheory.Mem.Top.Bl.HypAAlt → _root_.GlobalTheory.Mem.Top.Bl.EllipticHypothesis → _root_.GlobalTheory.Mem.Top.Bl.MultiplicityCoverHypotheses → ExistsUnlocalizedSaturatedState → ∀ hL : _root_.UpperTheory.Zero.LLC.RecTExists, _ro
+src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/MemberBundlesLargeUnramifiedExponents.lean:61:     _root_.GlobalTheory.T.memberE_extensionWithAtProperty_of_evLgG hL _ _ _ A hEv (_root_.GlobalTheory.T.member_exists_baseLattice_alt hA hE hH hW hL hN cDep hM).1,
+
+Full source files copied: 113
+Mathlib source files copied: 16
+Mathlib source files omitted by cap: 0
+Source files omitted by size/count cap: 0
+Missing Lean API source: Lean/Util/CollectConstants.lean
+
+Next: inspect exact declarations, then trace their types and proof bodies in the compiled environment.
+No conclusion about Nielsen's or Chu's mathematical claims is implied by this collection.

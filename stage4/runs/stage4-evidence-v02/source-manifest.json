@@ -1,0 +1,17 @@
+[
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "sha256": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "sha256": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd"
+  },
+  {
+    "project_path": "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+    "snapshot_path": "sources/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+    "sha256": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936"
+  }
+]

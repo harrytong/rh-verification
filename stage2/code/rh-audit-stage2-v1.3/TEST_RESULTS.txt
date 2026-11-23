@@ -1,0 +1,29 @@
+Version 1.3 Python driver tests only; new transport Lean proofs still need server compilation.
+Shared Stage2Audit.lean is byte-identical to the server-tested version 1.2.
+
+test_abstraction_generation_changes_only_three_arguments (__main__.DriverTests.test_abstraction_generation_changes_only_three_arguments) ... ok
+test_container_readonly_caps (__main__.DriverTests.test_container_readonly_caps) ... ok
+test_error_parser_uses_first_error (__main__.DriverTests.test_error_parser_uses_first_error) ... ok
+test_evidence_excludes_experiment_and_itself (__main__.DriverTests.test_evidence_excludes_experiment_and_itself) ... ok
+test_exact_mutation_guard (__main__.DriverTests.test_exact_mutation_guard) ... ok
+test_failed_subprocess_preserves_log (__main__.DriverTests.test_failed_subprocess_preserves_log) ... ok
+test_generated_semantic_program_has_one_main (__main__.DriverTests.test_generated_semantic_program_has_one_main) ... ok
+test_inspect_orchestration_simulated (__main__.DriverTests.test_inspect_orchestration_simulated) ... ok
+test_malformed_path_rejected (__main__.DriverTests.test_malformed_path_rejected) ... ok
+test_missing_prior_completion_rejected (__main__.DriverTests.test_missing_prior_completion_rejected) ... ok
+test_missing_prior_metadata_rejected (__main__.DriverTests.test_missing_prior_metadata_rejected) ... ok
+test_mutation_never_starts_with_comparator (__main__.DriverTests.test_mutation_never_starts_with_comparator) ... ok
+test_mutation_never_starts_without_space (__main__.DriverTests.test_mutation_never_starts_without_space) ... ok
+test_output_paths_protect_checkout (__main__.DriverTests.test_output_paths_protect_checkout) ... ok
+test_pin_mismatch_rejected (__main__.DriverTests.test_pin_mismatch_rejected) ... ok
+test_prior_complete_66_pairs (__main__.DriverTests.test_prior_complete_66_pairs) ... ok
+test_smoke_success_required (__main__.DriverTests.test_smoke_success_required) ... ok
+test_transport_changes_only_scoped_interfaces (__main__.DriverTests.test_transport_changes_only_scoped_interfaces) ... ok
+test_transport_reports_failures_without_calling_them_proofs (__main__.DriverTests.test_transport_reports_failures_without_calling_them_proofs) ... ok
+test_transport_requires_completed_prior (__main__.DriverTests.test_transport_requires_completed_prior) ... ok
+test_transport_reuses_exact_baseline (__main__.DriverTests.test_transport_reuses_exact_baseline) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.263s
+
+OK

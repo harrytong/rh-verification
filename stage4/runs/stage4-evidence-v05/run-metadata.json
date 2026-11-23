@@ -1,0 +1,85 @@
+{
+  "started_utc": "2026-11-23T19:49:11.811978+00:00",
+  "method": "stage4-0.5",
+  "phase": "wordfacts",
+  "protocol_sha256": "d04fe60b3dcf71130135579ece9f72693e437edf0d5371c78420a221c3dccf5f",
+  "followup_protocol_sha256": "7e6b956e6d9e7558d6547f14dac807e3e471507d78714b221fe071b30ac2a98b",
+  "reference_filter_protocol_sha256": "7cf6144d55a872b0f5e1cbd54565d5527927f413e93a39202ab088a0f5067699",
+  "argument_protocol_sha256": "700f57e8c4156f99287a977974924bdd075455d6427b80fbf30a6a17db3547a6",
+  "package_manifest_sha256": "c45d3a9fd093190f0488925dbd931662335c38539c3c26807daf4e7b173c6095",
+  "input_hashes_before": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b"
+  },
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "phase_completed": true,
+  "steps": [
+    {
+      "name": "negative",
+      "started_utc": "2026-11-23T19:49:15.434393+00:00",
+      "completed": true,
+      "exit_status": 1,
+      "first_error": {
+        "classification": "unclassified; manual review required",
+        "excerpt": "/audit/NegativeFixture.lean:4:19: error: Type mismatch\n  True.intro\nhas type\n  True\nbut is expected to have type\n  False\nCommand exited with non-zero status 1\n\tCommand being timed: \"/opt/lean/bin/lean --tstack=400000 /audit/NegativeFixture.lean\"\n\tUser time (seconds): 0.82\n\tSystem time (seconds): 0.42\n\tPercent of CPU this job got: 100%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 1596388\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 0\n\tMinor (reclaiming a frame) page faults: 39621\n\tVoluntary context switches: 38\n\tInvoluntary context switches: 73\n\tSwaps: 0\n\tFile system inputs: 0\n\tFile system outputs: 0\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 1\n\nPROCESS_EXIT_STATUS 1\nEND_UTC 2026-11-23T19:49:17.006675+00:00"
+      },
+      "ended_utc": "2026-11-23T19:49:17.007907+00:00"
+    },
+    {
+      "name": "comparison-fixture",
+      "started_utc": "2026-11-23T19:49:17.008166+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T19:49:19.178055+00:00"
+    },
+    {
+      "name": "argument-fixture",
+      "started_utc": "2026-11-23T19:49:19.178452+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T19:49:21.733167+00:00"
+    },
+    {
+      "name": "wordfacts",
+      "started_utc": "2026-11-23T19:49:21.734170+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T19:50:39.057503+00:00"
+    }
+  ],
+  "limits": {
+    "cpus": 2,
+    "project_memory_gib": 100,
+    "project_wall_seconds": 1800,
+    "per_action_raw_heartbeats": 10000000,
+    "nodes_per_body": 250000,
+    "depth": 600,
+    "hits_per_body": 64
+  },
+  "comparator": "not inspected or controlled",
+  "resources_before": {
+    "disk_free_bytes": 68551905280,
+    "mem_available_bytes": 167516356608
+  },
+  "docker_image_id": "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4",
+  "coverage_complete": true,
+  "input_hashes_after": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b"
+  },
+  "ended_utc": "2026-11-23T19:50:39.382988+00:00"
+}

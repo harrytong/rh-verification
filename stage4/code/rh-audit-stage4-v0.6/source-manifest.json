@@ -1,0 +1,42 @@
+[
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "sha256": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "sha256": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd"
+  },
+  {
+    "project_path": "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+    "snapshot_path": "sources/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+    "sha256": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936"
+  },
+  {
+    "project_path": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "snapshot_path": "sources/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "sha256": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b"
+  },
+  {
+    "project_path": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+    "snapshot_path": "sources/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+    "sha256": "96f33bffcc1a9841f460b04e015ae70d8876ff83b2f6f54364d6e8f94e61fb41"
+  },
+  {
+    "project_path": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "snapshot_path": "sources/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "sha256": "762f44709bd2ff068a2ab3734819dfd9c333a59d71152d7b40a320f9e4ec5abc"
+  },
+  {
+    "project_path": "src/Formalism/LocalToGlobal/PtKOfReal.lean",
+    "snapshot_path": "sources/Formalism/LocalToGlobal/PtKOfReal.lean",
+    "sha256": "3d253bc6599f44d2fbab0b762a344f5ab0707fcaf33afe92b554d65c9cfd8bd7"
+  },
+  {
+    "project_path": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "snapshot_path": "sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "sha256": "29747d9769df72dba7797154ceb5794e087b89ec0b05c9b5bfb354ff067955c6"
+  }
+]

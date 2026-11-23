@@ -1,0 +1,40 @@
+{
+  "method": "bounded argument-first first occurrence in annotation-omitting projection",
+  "not_established": [
+    "full-body absence",
+    "necessity",
+    "hypothesis discharge",
+    "headline validity"
+  ],
+  "any_search_truncated": true,
+  "records": [
+    {
+      "application": null,
+      "binder": "hN",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 24,
+      "ordinal": 4,
+      "path": "",
+      "status": "not-found-in-projection",
+      "target": "GlobalTheory.ClassSumPinLink.pIota_classSumPin_alt",
+      "truncated": true,
+      "visited": 100000
+    },
+    {
+      "application": null,
+      "binder": "hth",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 103,
+      "ordinal": 13,
+      "path": "",
+      "status": "not-found-in-projection",
+      "target": "GlobalTheory.ClassSumPinLink.classSumPin_of_read",
+      "truncated": true,
+      "visited": 100000
+    }
+  ]
+}

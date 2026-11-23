@@ -1,0 +1,24 @@
+example : RiemannHypothesis := riemannHypothesis
+#print axioms riemannHypothesis
+#eval IO.println "RH_STAGE4_SUPPLIER_STATEMENT_ACCEPTED"
+run_cmd do
+  let env ← getEnv
+  -- Inspect the package's actual constructor arguments, not a fresh variable P.
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.DivisionPackageFace.ofOpen"
+    "Formalism.L2.DIV.DivisionPackageFace.mk" #["R", "inp", "hTie", "rhs"] #["hTie", "rhs"]
+  -- Inspect helpers observed in the v0.6 compiled constructor. Names are revision-specific.
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.DivisionPackageFace.ofOpen._proof_7"
+    "Formalism.L2.DIV.hTie_of" #["hk", "hnum", "hh"] #["hnum", "hh"]
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.DivisionPackageFace.ofOpen._proof_10"
+    "Formalism.L2.DIV.rhs_le_record" #["H", "t", "hC0", "hC1", "hC2", "hCabs", "hLa"]
+    #["hC0", "hC1", "hC2", "hCabs", "hLa"]
+  for target in #["Formalism.L2.DIV.DivInputs0R", "Formalism.L2.DIV.DivInputs0R.mk",
+      "Formalism.L2.DIV.DivInputsR", "Formalism.L2.DIV.DivInputsR.mk",
+      "Formalism.L2.DIV.DivClausesR", "Formalism.L2.DIV.divClausesR_of",
+      "Formalism.L2.DIV.linkDIV_L2R_clauses", "Formalism.L2.DIV.linkDIV_L2R_face",
+      "Formalism.L2.DIV.RecNums.ofNum", "Formalism.L2.DIV.hTie_of",
+      "Formalism.L2.DIV.rhs_le_record",
+      "Formalism.L2.DIV.DivisionPackageFace.ofOpen._proof_7",
+      "Formalism.L2.DIV.DivisionPackageFace.ofOpen._proof_10"] do
+    liftIO <| RHStage4.supplierDeclaration env target
+#eval IO.println "RH_STAGE4_SUPPLIER_END"

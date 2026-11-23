@@ -1,0 +1,49 @@
+{
+  "targets": [
+    "GlobalTheory.PlaceRead.exists_local_map_at_place_alt",
+    "GlobalTheory.TwInputs.RealSide.ofPins",
+    "Formalism.IndefR.Links.RealDat3.characterisation_of_weak",
+    "Formalism.IndefR.Links.RealDat.thP_of_weak",
+    "Formalism.IndefR.Links.OrZero",
+    "Formalism.IndefR.Links.orZero_exists",
+    "Formalism.IndefR.Links.RealDat.IsThPW",
+    "Formalism.IndefR.Links.RealDat.ExAt",
+    "Formalism.IndefR.Links.RealDat.ExAt.thF",
+    "Formalism.IndefR.Links.RealDat.PThF",
+    "Formalism.IndefR.Links.UnusedChoiceStatements",
+    "Formalism.IndefR.Links.UnusedChoiceStatements.ex",
+    "GlobalTheory.Mem.R3.Holds",
+    "GlobalTheory.Mem.R3.Holds.aux",
+    "GlobalTheory.Mem.R3.Pins",
+    "Formalism.IndefR.Lift.IsThetaP",
+    "GlobalTheory.Mass.Levels.measure_comap_finE"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Primitive",
+    "LinksW",
+    "Measure",
+    "Meas",
+    "ExAt",
+    "FirstStep",
+    "NonzeroPlaces",
+    "Theta",
+    "Holds"
+  ],
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+    "Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StableIffCarrierEq.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/LinksW.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/BaseLiftsPackageOfPrimitiveLinks.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean",
+    "Formalism/LocalToGlobal/IndefiniteReal/OrthogonalComplementCharacterisation.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+    "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TwArgs.lean"
+  ]
+}

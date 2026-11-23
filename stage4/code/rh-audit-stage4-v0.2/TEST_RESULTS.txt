@@ -1,0 +1,40 @@
+Stage 4 v0.2 validation
+
+test_archive_excludes_itself (test_driver.Tests.test_archive_excludes_itself) ... ok
+test_assembly_shared_helper (test_driver.Tests.test_assembly_shared_helper) ... ok
+test_bad_record (test_driver.Tests.test_bad_record) ... ok
+test_capped_scan (test_driver.Tests.test_capped_scan) ... ok
+test_command_namespace_opened_after_helper (test_driver.Tests.test_command_namespace_opened_after_helper) ... ok
+test_container_isolation (test_driver.Tests.test_container_isolation) ... ok
+test_disk_guard (test_driver.Tests.test_disk_guard) ... ok
+test_exception (test_driver.Tests.test_exception) ... ok
+test_fixture_duplicate (test_driver.Tests.test_fixture_duplicate) ... ok
+test_fixture_missing (test_driver.Tests.test_fixture_missing) ... ok
+test_fixture_no_project_mount (test_driver.Tests.test_fixture_no_project_mount) ... ok
+test_fixture_success (test_driver.Tests.test_fixture_success) ... ok
+test_fixture_unknown (test_driver.Tests.test_fixture_unknown) ... ok
+test_fixture_wrong_answer (test_driver.Tests.test_fixture_wrong_answer) ... ok
+test_identical_sides_no_verdict (test_driver.Tests.test_identical_sides_no_verdict) ... ok
+test_marker_after_compile_error_is_not_success (test_driver.Tests.test_marker_after_compile_error_is_not_success) ... ok
+test_markers_required (test_driver.Tests.test_markers_required) ... ok
+test_memory_guard (test_driver.Tests.test_memory_guard) ... ok
+test_meta_lift_namespace_regression (test_driver.Tests.test_meta_lift_namespace_regression) ... ok
+test_missing_call (test_driver.Tests.test_missing_call) ... ok
+test_missing_generic (test_driver.Tests.test_missing_generic) ... ok
+test_negative_control_expected (test_driver.Tests.test_negative_control_expected) ... ok
+test_negative_control_not_timeout (test_driver.Tests.test_negative_control_not_timeout) ... ok
+test_no_proof_verdict (test_driver.Tests.test_no_proof_verdict) ... ok
+test_noncomparison (test_driver.Tests.test_noncomparison) ... ok
+test_only_owned_stop (test_driver.Tests.test_only_owned_stop) ... ok
+test_output_not_checkout (test_driver.Tests.test_output_not_checkout) ... ok
+test_record_parsing (test_driver.Tests.test_record_parsing) ... ok
+test_sorry_rejected (test_driver.Tests.test_sorry_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.005s
+
+OK
+
+Corrected Lean helper: not compiled in authoring environment.
+All 27 input evidence checksum entries verified.
+Original protocol unchanged. Server-side controls remain mandatory.

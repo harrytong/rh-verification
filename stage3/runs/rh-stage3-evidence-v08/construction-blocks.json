@@ -1,0 +1,89 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.T.sFin_and_sFinl_of_archCmp_sEta_thetaData",
+      "begin_line": 6,
+      "end_line": 20,
+      "rendered_block_sha256": "e43cda7a1ea01b5c7115220bb1470b6e38d96ea69519badff0a1a0d5913e6367",
+      "rendered_block_utf8_bytes": 858,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.sFino_of_alt",
+      "begin_line": 24,
+      "end_line": 1098,
+      "rendered_block_sha256": "396641968b37a2292b89e5f2d40bfd1637131582545a26ba31c8014ee44e4009",
+      "rendered_block_utf8_bytes": 95809,
+      "elision_indicators": {
+        "⋯": 67
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.FinitenessStatement",
+      "begin_line": 1102,
+      "end_line": 2165,
+      "rendered_block_sha256": "c382b2a1dfaa42fc8299a377b6abe1fa318a129dbfe05765255d107b56ad24fa",
+      "rendered_block_utf8_bytes": 84896,
+      "elision_indicators": {
+        "⋯": 43
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.FinitenessListStatement",
+      "begin_line": 2169,
+      "end_line": 3237,
+      "rendered_block_sha256": "9ea1ec65e7af0b4b623fccc05a4fc17c8becdf46846219e7eb9dac234cbd15fe",
+      "rendered_block_utf8_bytes": 86964,
+      "elision_indicators": {
+        "⋯": 44
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.SpectralFiniteness",
+      "begin_line": 3241,
+      "end_line": 4306,
+      "rendered_block_sha256": "f8019b5f3ad094e7a82bff12601369aca077b7b271a87f19ae64790adeb80040",
+      "rendered_block_utf8_bytes": 86956,
+      "elision_indicators": {
+        "⋯": 44
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt",
+      "begin_line": 4310,
+      "end_line": 4716,
+      "rendered_block_sha256": "5ffca7458b500611dffc7342240b616ef6bb26a3b8bdeb1ff7e8ea857b7f5637",
+      "rendered_block_utf8_bytes": 34137,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.sXd_all_alt",
+      "begin_line": 4720,
+      "end_line": 5677,
+      "rendered_block_sha256": "b6a81176d0fdbe3c11197d5f068ba3804886b4e19ea8352ca9954d0b4fa0ee63",
+      "rendered_block_utf8_bytes": 71006,
+      "elision_indicators": {
+        "⋯": 35
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.lv3Mv_extensionWithOrigin_and_nEog",
+      "begin_line": 5681,
+      "end_line": 7443,
+      "rendered_block_sha256": "ecc2222172a5a4627b188d28918071dbb8873a51ce6bba9fed536ea9dd66031a",
+      "rendered_block_utf8_bytes": 131767,
+      "elision_indicators": {
+        "⋯": 44
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

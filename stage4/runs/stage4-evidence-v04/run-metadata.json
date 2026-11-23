@@ -1,0 +1,74 @@
+{
+  "started_utc": "2026-11-23T19:28:23.389961+00:00",
+  "method": "stage4-0.4",
+  "phase": "height",
+  "protocol_sha256": "d04fe60b3dcf71130135579ece9f72693e437edf0d5371c78420a221c3dccf5f",
+  "followup_protocol_sha256": "7e6b956e6d9e7558d6547f14dac807e3e471507d78714b221fe071b30ac2a98b",
+  "reference_filter_protocol_sha256": "7cf6144d55a872b0f5e1cbd54565d5527927f413e93a39202ab088a0f5067699",
+  "package_manifest_sha256": "d92b713a02b50ef384e975dacc686a6b56dbdf83b3c0f26ce849349187f2e970",
+  "input_hashes_before": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936"
+  },
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "phase_completed": true,
+  "steps": [
+    {
+      "name": "negative",
+      "started_utc": "2026-11-23T19:28:23.483054+00:00",
+      "completed": true,
+      "exit_status": 1,
+      "first_error": {
+        "classification": "unclassified; manual review required",
+        "excerpt": "/audit/NegativeFixture.lean:4:19: error: Type mismatch\n  True.intro\nhas type\n  True\nbut is expected to have type\n  False\nCommand exited with non-zero status 1\n\tCommand being timed: \"/opt/lean/bin/lean --tstack=400000 /audit/NegativeFixture.lean\"\n\tUser time (seconds): 0.73\n\tSystem time (seconds): 0.36\n\tPercent of CPU this job got: 100%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 0:01.09\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 1596976\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 0\n\tMinor (reclaiming a frame) page faults: 39604\n\tVoluntary context switches: 40\n\tInvoluntary context switches: 66\n\tSwaps: 0\n\tFile system inputs: 0\n\tFile system outputs: 0\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 1\n\nPROCESS_EXIT_STATUS 1\nEND_UTC 2026-11-23T19:28:24.890246+00:00"
+      },
+      "ended_utc": "2026-11-23T19:28:24.891677+00:00"
+    },
+    {
+      "name": "comparison-fixture",
+      "started_utc": "2026-11-23T19:28:24.892034+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T19:28:27.106924+00:00"
+    },
+    {
+      "name": "height",
+      "started_utc": "2026-11-23T19:28:27.108489+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T19:29:44.591614+00:00"
+    }
+  ],
+  "limits": {
+    "cpus": 2,
+    "project_memory_gib": 100,
+    "project_wall_seconds": 1800,
+    "per_action_raw_heartbeats": 10000000,
+    "nodes_per_body": 250000,
+    "depth": 600,
+    "hits_per_body": 64
+  },
+  "comparator": "not inspected or controlled",
+  "resources_before": {
+    "disk_free_bytes": 68569042944,
+    "mem_available_bytes": 167614898176
+  },
+  "docker_image_id": "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4",
+  "coverage_complete": true,
+  "input_hashes_after": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936"
+  },
+  "ended_utc": "2026-11-23T19:29:44.915911+00:00"
+}

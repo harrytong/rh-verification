@@ -1,0 +1,32 @@
+-- Statement/type check: no extra assumptions on the example.
+example : RiemannHypothesis := riemannHypothesis
+#check riemannHypothesis
+#print RiemannHypothesis
+#print axioms riemannHypothesis
+#eval IO.println "RH_STAGE4_STATEMENT_ACCEPTED"
+
+noncomputable section
+namespace RHStage4Boundary
+open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.Inhab
+open GlobalTheory.EX GlobalTheory.EX.OB
+-- Positive control: a new object's assigned height really is reflexive.
+theorem assigned_height {C : FC} {D : D7} {Y : Lay D}
+    (p : LedPart C Y) (u : D.what₂.Word) : p.pt.D.div.h u = p.ht u := by
+  rfl
+#print axioms assigned_height
+#eval IO.println "RH_STAGE4_ASSIGNED_HEIGHT_RFL_ACCEPTED"
+end RHStage4Boundary
+end
+
+run_cmd do
+  let env ← getEnv
+  for target in #[
+      "GlobalTheory.CovHt.HtTopG.slope_le_height",
+      "GlobalTheory.CovHt.HtTopG.height_add_log_nonneg",
+      "GlobalTheory.CovHt.FrameCmp.val_le"] do
+    liftIO <| RHStage4.generic env target
+  liftIO <| RHStage4.calls env "GlobalTheory.CovHt.HtTopG.heightAt_eq_of_cover"
+    #["GlobalTheory.CovHt.HtTopG.slope_le_height"] true
+  liftIO <| RHStage4.calls env "GlobalTheory.CovHt.FrameCmp.htCmp"
+    #["GlobalTheory.CovHt.FrameCmp.val_le"] true
+#eval IO.println "RH_STAGE4_PROJECT_END"

@@ -1,0 +1,24 @@
+-- Generated probe imports Main but neither modifies nor rebuilds it.
+example : RiemannHypothesis := riemannHypothesis
+#print axioms riemannHypothesis
+#eval IO.println "RH_STAGE4_WORDFacts_STATEMENT_ACCEPTED"
+#print Formalism.L2.DIV.WordFacts
+#check Formalism.L2.DIV.wordFacts_of
+#check Formalism.L2.DIV.wordFacts_of_clauses
+#check Formalism.L2.DIV.wordFacts_of_face
+#check Formalism.L2.DIV.wordFacts_of_tied
+#check Formalism.L2.DIV.DivisionPackage.wordFacts
+#check Formalism.L2.DIV.DivisionPackageFace.wordFacts
+run_cmd do
+  let env ← getEnv
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.wordFacts_of_clauses"
+    "Formalism.L2.DIV.wordFacts_of" #["c2", "c3", "tH", "tR"] #["c2", "c3", "tH", "tR"]
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.wordFacts_of_face"
+    "Formalism.L2.DIV.wordFacts_of_clauses" #["hcl", "tH", "tR"] #["tH", "tR"]
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.wordFacts_of_tied"
+    "Formalism.L2.DIV.wordFacts_of_face" #["hcl", "tH", "tR"] #["tH", "tR"]
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.DivisionPackage.wordFacts"
+    "Formalism.L2.DIV.wordFacts_of_tied" #["hcl", "tH", "tR"] #["tH", "tR"]
+  liftIO <| RHStage4.argumentCalls env "Formalism.L2.DIV.DivisionPackageFace.wordFacts"
+    "Formalism.L2.DIV.wordFacts_of_face" #["hcl", "tH", "tR"] #["tH", "tR"]
+#eval IO.println "RH_STAGE4_WORDFacts_END"

@@ -1,0 +1,47 @@
+{
+  "targets": [
+    "GlobalTheory.GeoTies.linked_ties_alt",
+    "GlobalTheory.T.class_sum_divisibility_of_extensionWithLaw",
+    "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+    "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+    "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+    "GlobalTheory.ClassSumLift.at_index_alt",
+    "GlobalTheory.ExportPin.ClassSumPin",
+    "GlobalTheory.ExportPin.IndefiniteClassSumCondition"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 1,
+  "max_source_files": 160,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "searches": [
+    {
+      "target": "GlobalTheory.GeoTies.linked_ties_alt",
+      "binder": "\u0393"
+    },
+    {
+      "target": "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+      "binder": "hpin"
+    },
+    {
+      "target": "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+      "binder": "hPin"
+    },
+    {
+      "target": "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+      "binder": "hP"
+    },
+    {
+      "target": "GlobalTheory.ClassSumLift.at_index_alt",
+      "binder": "hP"
+    }
+  ],
+  "node_limit": 100000,
+  "depth_limit": 600,
+  "outer_step_limit": 256,
+  "priority_module_fragments": [
+    "ClassSumPin",
+    "LinkedTies",
+    "EMEqThPe"
+  ]
+}

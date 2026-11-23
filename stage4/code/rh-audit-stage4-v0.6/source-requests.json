@@ -1,0 +1,13 @@
+{
+  "roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+    "Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean"
+  ],
+  "import_depth": 0,
+  "max_files": 5,
+  "max_file_bytes": 2097152,
+  "max_total_bytes": 10485760
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "probe": "universal-P-transport",
+    "source": "AbstractionUniversalPTransport.lean",
+    "source_sha256": "5d0eff4531e1acf7c93c5582c8d4cce76d0c19af6348adc945481c428922e086",
+    "compiled_without_reported_sorryAx": true,
+    "process_succeeded": true,
+    "reported_sorryAx": false,
+    "failure": null,
+    "first_error": {
+      "line": null,
+      "context": "",
+      "provisional_category": "no-elaboration-error-found",
+      "reviewed_classification": "not applicable or process-level failure; inspect full log"
+    },
+    "global_parameterization": false,
+    "independent_kernel_check_performed": false
+  },
+  {
+    "probe": "universal-closure-transport",
+    "source": "AbstractionUniversalClosureTransport.lean",
+    "source_sha256": "1e2e4d80429b593af4fa52809626379106cc696643fcebe79d991bb08ae13cdd",
+    "compiled_without_reported_sorryAx": true,
+    "process_succeeded": true,
+    "reported_sorryAx": false,
+    "failure": null,
+    "first_error": {
+      "line": null,
+      "context": "",
+      "provisional_category": "no-elaboration-error-found",
+      "reviewed_classification": "not applicable or process-level failure; inspect full log"
+    },
+    "global_parameterization": false,
+    "independent_kernel_check_performed": false
+  }
+]

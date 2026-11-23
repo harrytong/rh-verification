@@ -1,0 +1,6 @@
+{
+  "line": 3,
+  "context": "/audit/SemanticAudit.lean:481:67: error: unexpected identifier; expected '}'",
+  "provisional_category": "manual-review-required",
+  "reviewed_classification": "pending human review"
+}

@@ -1,0 +1,104 @@
+{
+  "started_utc": "2026-11-23T20:07:14.207291+00:00",
+  "method": "stage4-0.7",
+  "phase": "suppliers",
+  "protocol_sha256": "d04fe60b3dcf71130135579ece9f72693e437edf0d5371c78420a221c3dccf5f",
+  "followup_protocol_sha256": "7e6b956e6d9e7558d6547f14dac807e3e471507d78714b221fe071b30ac2a98b",
+  "reference_filter_protocol_sha256": "7cf6144d55a872b0f5e1cbd54565d5527927f413e93a39202ab088a0f5067699",
+  "argument_protocol_sha256": "700f57e8c4156f99287a977974924bdd075455d6427b80fbf30a6a17db3547a6",
+  "supplier_protocol_sha256": "67fbea57c508d4d40a12432ec6676dbce5d142d32b4caecdac6ded3cc395a682",
+  "helper_followup_protocol_sha256": "2df7b1eb1548af281d2f825bf2aab3cb83f8b1d0ef7b68560e2fbf5df361070a",
+  "package_manifest_sha256": "1d59e5b873cd1115ca3065891071fa363976e6d0ac9a7d24818688666c8e9321",
+  "input_hashes_before": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean": "96f33bffcc1a9841f460b04e015ae70d8876ff83b2f6f54364d6e8f94e61fb41",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean": "762f44709bd2ff068a2ab3734819dfd9c333a59d71152d7b40a320f9e4ec5abc",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/PtKOfReal.lean": "3d253bc6599f44d2fbab0b762a344f5ab0707fcaf33afe92b554d65c9cfd8bd7",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean": "29747d9769df72dba7797154ceb5794e087b89ec0b05c9b5bfb354ff067955c6"
+  },
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "phase_completed": true,
+  "steps": [
+    {
+      "name": "negative",
+      "started_utc": "2026-11-23T20:07:16.476536+00:00",
+      "completed": true,
+      "exit_status": 1,
+      "first_error": {
+        "classification": "unclassified; manual review required",
+        "excerpt": "/audit/NegativeFixture.lean:4:19: error: Type mismatch\n  True.intro\nhas type\n  True\nbut is expected to have type\n  False\nCommand exited with non-zero status 1\n\tCommand being timed: \"/opt/lean/bin/lean --tstack=400000 /audit/NegativeFixture.lean\"\n\tUser time (seconds): 0.73\n\tSystem time (seconds): 0.43\n\tPercent of CPU this job got: 100%\n\tElapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16\n\tAverage shared text size (kbytes): 0\n\tAverage unshared data size (kbytes): 0\n\tAverage stack size (kbytes): 0\n\tAverage total size (kbytes): 0\n\tMaximum resident set size (kbytes): 1599028\n\tAverage resident set size (kbytes): 0\n\tMajor (requiring I/O) page faults: 0\n\tMinor (reclaiming a frame) page faults: 39606\n\tVoluntary context switches: 44\n\tInvoluntary context switches: 90\n\tSwaps: 0\n\tFile system inputs: 0\n\tFile system outputs: 0\n\tSocket messages sent: 0\n\tSocket messages received: 0\n\tSignals delivered: 0\n\tPage size (bytes): 4096\n\tExit status: 1\n\nPROCESS_EXIT_STATUS 1\nEND_UTC 2026-11-23T20:07:17.972565+00:00"
+      },
+      "ended_utc": "2026-11-23T20:07:17.974016+00:00"
+    },
+    {
+      "name": "comparison-fixture",
+      "started_utc": "2026-11-23T20:07:17.974400+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T20:07:20.152576+00:00"
+    },
+    {
+      "name": "argument-fixture",
+      "started_utc": "2026-11-23T20:07:20.152933+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T20:07:22.631334+00:00"
+    },
+    {
+      "name": "supplier-fixture",
+      "started_utc": "2026-11-23T20:07:22.631716+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T20:07:25.156983+00:00"
+    },
+    {
+      "name": "suppliers",
+      "started_utc": "2026-11-23T20:07:25.158024+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "first_error": null,
+      "ended_utc": "2026-11-23T20:08:43.947933+00:00"
+    }
+  ],
+  "limits": {
+    "cpus": 2,
+    "project_memory_gib": 100,
+    "project_wall_seconds": 1800,
+    "per_action_raw_heartbeats": 10000000,
+    "nodes_per_body": 250000,
+    "depth": 600,
+    "hits_per_body": 64
+  },
+  "comparator": "not inspected or controlled",
+  "resources_before": {
+    "disk_free_bytes": 68538814464,
+    "mem_available_bytes": 167332089856
+  },
+  "supplier_source_collection_complete": true,
+  "docker_image_id": "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4",
+  "coverage_complete": true,
+  "input_hashes_after": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean": "96f33bffcc1a9841f460b04e015ae70d8876ff83b2f6f54364d6e8f94e61fb41",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean": "762f44709bd2ff068a2ab3734819dfd9c333a59d71152d7b40a320f9e4ec5abc",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalToGlobal/PtKOfReal.lean": "3d253bc6599f44d2fbab0b762a344f5ab0707fcaf33afe92b554d65c9cfd8bd7",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean": "29747d9769df72dba7797154ceb5794e087b89ec0b05c9b5bfb354ff067955c6"
+  },
+  "ended_utc": "2026-11-23T20:08:44.272168+00:00"
+}

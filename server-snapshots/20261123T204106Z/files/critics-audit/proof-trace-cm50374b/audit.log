@@ -1,0 +1,7 @@
+/audit/RHCriticsFixture.lean:9:0: warning: Definition `hiddenDef` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+/audit/RHCriticsTrace.lean:256:37: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  ToJson Prop
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.

@@ -1,0 +1,93 @@
+harry@AI-Server:~$ (
+set -euo pipefail
+
+unzip "$HOME/Downloads/rh-audit-stage3-v0.3.zip" \
+    -d "$HOME/rh-verification/tools"
+
+python3 \
+    "$HOME/rh-verification/tools/rh-audit-stage3-v0.3/audit_stage3.py" \
+    --phase obligations
+)
+Archive:  /home/harry/Downloads/rh-audit-stage3-v0.3.zip
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/CHANGELOG.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/DOMAIN_PROTOCOL.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/DomainBoundary.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/FOLLOWUP_PROTOCOL.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/Fixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/GeometryBaseline.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/GeometryContext.diff  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/GeometryContext.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/GeometryDeclarations.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/GeometryGeneral.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/HeightBoundary.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/HeightChain.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/HeightContext.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/NegativeFixture.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/OBLIGATION_SOURCE_REVIEW.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/PARENT_PLAN.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/PROTOCOL.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/README.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/SOURCE_REVIEW.md  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/SupplierBaseline.body.txt  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/SupplierDetails.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/SupplierGeneralization.diff  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/TEST_RESULTS.txt  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/WitnessChain.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/audit_stage3.py  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/chain-targets.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/prior-reference-paths.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/source-manifest.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/source-requests.json  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/ValidForConstructedPointClassesEventuallyWorking.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AbelianVarietyTheory/Statements/PlaceShiftStatements/SingleIndexPlacesAreTwisted.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightLowerBoundGeneral.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvWPRowsOfRows.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricOfHyp.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeightLowerBoundGeneral.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeightOfSteps.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LiftLambdaBound.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenOrbitOfUnramifiedExponents.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PNmjOfPDivOfClassSumPinStatement.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PRowsOfPartsStatement.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Prm1.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Realised.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowGeo0At.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowGeoAtGridA.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowGood.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolG.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/sources/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/test_driver.py  
+  inflating: /home/harry/rh-verification/tools/rh-audit-stage3-v0.3/SHA256SUMS  
+Stage 3 folder: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg
+Phase: obligations
+Comparator is left untouched.
+[sudo] password for harry: 
+STAGE3_START positive; full output: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/positive.log
+STAGE3_STEP_COMPLETED positive: requested Lean commands completed
+STAGE3_START negative; full output: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/negative.log
+STAGE3_STEP_COMPLETED negative: expected type error observed
+STAGE3_START domains; full output: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/domains.log
+STAGE3_PROGRESS domains: 60s; 0 log bytes
+STAGE3_STEP_COMPLETED domains: requested Lean commands completed
+STAGE3_START witness-chain; full output: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/witness-chain.log
+STAGE3_PROGRESS witness-chain: 60s; 0 log bytes
+STAGE3_STEP_COMPLETED witness-chain: requested Lean commands completed
+STAGE3_START height-chain; full output: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/height-chain.log
+STAGE3_PROGRESS height-chain: 60s; 0 log bytes
+STAGE3_STEP_COMPLETED height-chain: requested Lean commands completed
+Evidence: /home/harry/rh-verification/critics-audit-stage3/stage3-ffpn8emg/stage3-evidence.zip
+SHA-256: 36257f9ba12cdea1666f6f7192db608808b21aa737b9e274481251a3f62946c6
+Requested collection completed. No new RH/GRH verdict or necessity verdict is asserted.
+harry@AI-Server:~$ 

@@ -1,0 +1,191 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.HeightCounting.EMtTheta",
+      "begin_line": 6,
+      "end_line": 3731,
+      "rendered_block_sha256": "b5558e2efa2b9d97cd3670c6336215a5ffcf66c646749a6a2321cb3d0557c956",
+      "rendered_block_utf8_bytes": 335861,
+      "elision_indicators": {
+        "⋯": 54
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.RealExpansionExtraData",
+      "begin_line": 3734,
+      "end_line": 13119,
+      "rendered_block_sha256": "38b4e02dc9370c26050dc0799042fa784c51e7fddaaa7a0412afa92a087c254c",
+      "rendered_block_utf8_bytes": 747046,
+      "elision_indicators": {
+        "⋯": 897
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.RealExpansionExtraData.mk",
+      "begin_line": 13122,
+      "end_line": 15720,
+      "rendered_block_sha256": "6f2ec4ead697a9a66e5c2ef6b0c7f73411ef324870e8937e2e1ae2d2e3682617",
+      "rendered_block_utf8_bytes": 312611,
+      "elision_indicators": {
+        "⋯": 48
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.RealExpansionExtraData.th",
+      "begin_line": 15724,
+      "end_line": 19224,
+      "rendered_block_sha256": "7139556f942fe0b67d81f11971e6dece39502b9828bb52ae3bcc08eaafb4eb98",
+      "rendered_block_utf8_bytes": 285400,
+      "elision_indicators": {
+        "⋯": 59
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.RealExpansionExtraData.geo",
+      "begin_line": 19228,
+      "end_line": 22644,
+      "rendered_block_sha256": "cfa3aa19d322d915df9745921f93f8f1d7e51e39beb1649439b248ca5590ffad",
+      "rendered_block_utf8_bytes": 278812,
+      "elision_indicators": {
+        "⋯": 52
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.defaultExtension",
+      "begin_line": 22648,
+      "end_line": 24314,
+      "rendered_block_sha256": "c374ef28a9832de1a2f5ec8a7834807c7ba8804df52f50fca98b2fd18f2868bf",
+      "rendered_block_utf8_bytes": 111641,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.extensionWithLaw",
+      "begin_line": 24318,
+      "end_line": 24337,
+      "rendered_block_sha256": "31e73bc3a3abac0af5f19c0302c72691eb7849f41b3303127db05f777dfebf24",
+      "rendered_block_utf8_bytes": 1391,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.extensionWithList",
+      "begin_line": 24341,
+      "end_line": 26296,
+      "rendered_block_sha256": "7e6c2f9e86f246f96fb745e40e036c2329a25eb67d2a3471d7ee220762cfb777",
+      "rendered_block_utf8_bytes": 137130,
+      "elision_indicators": {
+        "⋯": 40
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Up.extensionWithOrigin",
+      "begin_line": 26300,
+      "end_line": 26320,
+      "rendered_block_sha256": "3cf5e6bebc5a4572509f860731b9af7809d7c9e4426a0b720c1107ca02755223",
+      "rendered_block_utf8_bytes": 1483,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ClassSumPinLink.pIota_classSumPin_alt",
+      "begin_line": 26324,
+      "end_line": 28543,
+      "rendered_block_sha256": "225a1a706c749ab4e7bd18c403ca2fc3602f94f5ee1cf662509b0fa69b7d0dd6",
+      "rendered_block_utf8_bytes": 136781,
+      "elision_indicators": {
+        "⋯": 26
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ClassSumPinLink.classSumPin_of_read",
+      "begin_line": 28547,
+      "end_line": 30086,
+      "rendered_block_sha256": "a2fd8a4376efcafa294c8a1aec759ac41ec8534e2d6e81de8fb10c914ac92e1c",
+      "rendered_block_utf8_bytes": 120623,
+      "elision_indicators": {
+        "⋯": 114
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt",
+      "begin_line": 30090,
+      "end_line": 32275,
+      "rendered_block_sha256": "88c839719401cba361f92f2c5c63118c58c8635afdab1d87cb44922f547bbcb7",
+      "rendered_block_utf8_bytes": 159022,
+      "elision_indicators": {
+        "⋯": 42
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt",
+      "begin_line": 32279,
+      "end_line": 34749,
+      "rendered_block_sha256": "03c0ca55b07eb668f328c592791665eb8c6e774f542f409a253ee733a94e5495",
+      "rendered_block_utf8_bytes": 198892,
+      "elision_indicators": {
+        "⋯": 60
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt",
+      "begin_line": 34753,
+      "end_line": 37268,
+      "rendered_block_sha256": "43ba06e0c1c55d1a0f04286cdcc0b87d94489ac913324fa94a405446a2ef269c",
+      "rendered_block_utf8_bytes": 217142,
+      "elision_indicators": {
+        "⋯": 74
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Mem.Top.Bl.has3_neo_of_localLanglands_alt",
+      "begin_line": 37272,
+      "end_line": 38317,
+      "rendered_block_sha256": "721135f15ef5918c3aca26110b57f95dd1a4457b56465862fab963d322b2f1ad",
+      "rendered_block_utf8_bytes": 89621,
+      "elision_indicators": {
+        "⋯": 72
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.sFino_and_secondNo_of_sFinl'",
+      "begin_line": 38321,
+      "end_line": 38341,
+      "rendered_block_sha256": "47ec1693fe77a34a09d120315df98786055445831bd9ca25f4cf9d3edaccfa9a",
+      "rendered_block_utf8_bytes": 1341,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.all_stages_at_member_of_specializations_alt",
+      "begin_line": 38345,
+      "end_line": 38376,
+      "rendered_block_sha256": "c674c7ef04afe11d22b8ca8ed54aa3a015512f01a74aa46fd207cc9757d17b3c",
+      "rendered_block_utf8_bytes": 2362,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.lv3Mv_extensionWithOrigin_and_NEog",
+      "begin_line": 38380,
+      "end_line": 38394,
+      "rendered_block_sha256": "98ae951f18d9321a9abbc25957efb99b1852ad333067ce513221c45a1ac5c771",
+      "rendered_block_utf8_bytes": 852,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

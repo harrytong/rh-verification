@@ -1,0 +1,233 @@
+harry@AI-Server:~$ python3 \
+    "$HOME/rh-verification/tools/rh-audit-stage2-v1/audit_stage2.py" \
+    --phase abstraction
+Stage 2 folder: /home/harry/rh-verification/critics-audit-stage2/stage2-dhyss28y
+Phase: abstraction; 66 distinct witness edges.
+Comparator is left untouched. Read-only phases use separate processes and a capped container.
+RH_STAGE2_PROGRESS	Importing Stage2Fixture; this stage may be quiet
+{"event": "smoke-passed", "meaning": "Tool fixture only; not an RH check"}
+RHStage2Abstraction.universalPredicate_suffices (P : GeoP)
+  (hP : ∀ (D : D7) (J : Formalism.L2.Pj.Core D) (X : DivX D), P D J X) (D : D7) (J : Formalism.L2.Pj.Core D)
+  (X : DivX D) : geoCl P D J X
+RHStage2Abstraction.closure_requires_a_seed (P : GeoP) {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D}
+  (h : GeoCl P D J X) : ∃ D₀ J₀ X₀, P D₀ J₀ X₀
+RHStage2Abstraction.falsePredicate_has_empty_closure {D : D7} {J : Formalism.L2.Pj.Core D} {X : DivX D} :
+  ¬GeoCl (fun x x_1 x_2 => False) D J X
+RHStage2Abstraction.anyGeometry_has_universal_closure (D : D7) (J : Formalism.L2.Pj.Core D) (X : DivX D) :
+  geoCl anyGeometry D J X
+'RHStage2Abstraction.universalPredicate_suffices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.closure_requires_a_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.falsePredicate_has_empty_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHStage2Abstraction.anyGeometry_has_universal_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/GeometryAbstraction.lean"
+	User time (seconds): 41.72
+	System time (seconds): 39.29
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51143332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 7
+	Minor (reclaiming a frame) page faults: 1248597
+	Voluntary context switches: 2648
+	Involuntary context switches: 14760
+	Swaps: 0
+	File system inputs: 816
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_baseline :
+  GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+    GlobalTheory.FunPr.ThetaLocalInputs →
+      GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.ThetaIntegralsAgree →
+        GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.LocalMatching →
+          GlobalTheory.CovTop.CovolumeBoundOfX →
+            ∀ (hL : UpperTheory.Zero.LLC.RecTExists),
+              (∀ (cDep : ℝ),
+                  GlobalTheory.Fc.RL.LinkedAt (GlobalTheory.Mem.Top.Bl.parametersOfDependence hL cDep) fun Q L =>
+                    GlobalTheory.Fc.R1.SlotNormCondition Q L fun 𝒞 =>
+                      Formalism.MainNotions.Closed (fun {eps} => 𝒞) fun {eps} Fm x =>
+                        GlobalTheory.NLink.BoundAtTwoThreeFamilyFonAlt Fm) →
+                Nonempty (GlobalTheory.Fc.HypsAlt GlobalTheory.Fc.S0.NL GlobalTheory.Fc.DefiniteSideCondition)
+'UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_baseline' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/AbstractionBaseline.lean"
+	User time (seconds): 42.18
+	System time (seconds): 39.87
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51151780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 17
+	Minor (reclaiming a frame) page faults: 1249721
+	Voluntary context switches: 4194
+	Involuntary context switches: 15179
+	Swaps: 0
+	File system inputs: 1576
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+/audit/AbstractionArbitraryP.lean:63:25: error: Application type mismatch: The argument
+  hOpen1
+has type
+  S0.OpenParameterStatements (parametersOfDependence hL (max CF0 CF1))
+but is expected to have type
+  S0.OpenParameterStatements
+    (parametersOfExtension (GlobalTheory.HeightCounting.Up.extensionWithList hL (max CF0 CF1)) SExt.none
+      (geoCl auditGamma))
+in the application
+  hMono.right hOpen1
+/audit/AbstractionArbitraryP.lean:69:158: error: Application type mismatch: The argument
+  hFun
+has type
+  RL.LinkedAt
+    (parametersOfExtension
+      (extensionWithAtProperty hL (GlobalTheory.HeightCounting.Up.extensionWithOrigin hL (max CF0 CF1))
+        (GridA (max CF0 CF1)))
+      SExt.none (geoCl auditGamma))
+    S0.FunctionalCondition
+but is expected to have type
+  RL.LinkedAt
+    (parametersOfExtension
+      (extensionWithAtProperty hL (GlobalTheory.HeightCounting.Up.extensionWithOrigin hL (max CF0 CF1))
+        (GridA (max CF0 CF1)))
+      SExt.none (geoCl anyGeometry))
+    S0.FunctionalCondition
+in the application
+  S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt P hRat hL (max CF0 CF1) (GridA (max CF0 CF1)) hEv
+    (hN (max CF0 CF1)) hFun
+UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_arbitrary_P
+  (auditGamma : GlobalTheory.Mem.Top.Bl.GeoP) :
+  GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+    GlobalTheory.FunPr.ThetaLocalInputs →
+      GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.ThetaIntegralsAgree →
+        GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.LocalMatching →
+          GlobalTheory.CovTop.CovolumeBoundOfX →
+            ∀ (hL : UpperTheory.Zero.LLC.RecTExists),
+              (∀ (cDep : ℝ),
+                  GlobalTheory.Fc.RL.LinkedAt (GlobalTheory.Mem.Top.Bl.parametersOfDependence hL cDep) fun Q L =>
+                    GlobalTheory.Fc.R1.SlotNormCondition Q L fun 𝒞 =>
+                      Formalism.MainNotions.Closed (fun {eps} => 𝒞) fun {eps} Fm x =>
+                        GlobalTheory.NLink.BoundAtTwoThreeFamilyFonAlt Fm) →
+                Nonempty (GlobalTheory.Fc.HypsAlt GlobalTheory.Fc.S0.NL GlobalTheory.Fc.DefiniteSideCondition)
+'UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_arbitrary_P' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+Command exited with non-zero status 1
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/AbstractionArbitraryP.lean"
+	User time (seconds): 42.88
+	System time (seconds): 40.65
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51153324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 1249335
+	Voluntary context switches: 4224
+	Involuntary context switches: 15370
+	Swaps: 0
+	File system inputs: 1008
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+/audit/AbstractionUniversalP.lean:63:25: error: Application type mismatch: The argument
+  hOpen1
+has type
+  S0.OpenParameterStatements (parametersOfDependence hL (max CF0 CF1))
+but is expected to have type
+  S0.OpenParameterStatements
+    (parametersOfExtension (GlobalTheory.HeightCounting.Up.extensionWithList hL (max CF0 CF1)) SExt.none
+      (geoCl auditGamma))
+in the application
+  hMono.right hOpen1
+/audit/AbstractionUniversalP.lean:69:158: error: Application type mismatch: The argument
+  hFun
+has type
+  RL.LinkedAt
+    (parametersOfExtension
+      (extensionWithAtProperty hL (GlobalTheory.HeightCounting.Up.extensionWithOrigin hL (max CF0 CF1))
+        (GridA (max CF0 CF1)))
+      SExt.none (geoCl auditGamma))
+    S0.FunctionalCondition
+but is expected to have type
+  RL.LinkedAt
+    (parametersOfExtension
+      (extensionWithAtProperty hL (GlobalTheory.HeightCounting.Up.extensionWithOrigin hL (max CF0 CF1))
+        (GridA (max CF0 CF1)))
+      SExt.none (geoCl anyGeometry))
+    S0.FunctionalCondition
+in the application
+  S0.StageU.hypotheses_nonempty_of_unramified_exponents_alt P hRat hL (max CF0 CF1) (GridA (max CF0 CF1)) hEv
+    (hN (max CF0 CF1)) hFun
+UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_universal_P
+  (auditGamma : GlobalTheory.Mem.Top.Bl.GeoP)
+  (auditAll :
+    ∀ (D : Formalism.BasicNotions.D7) (J : Formalism.L2.Pj.Core D) (X : Formalism.BasicNotions.DivX D),
+      auditGamma D J X) :
+  GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses →
+    GlobalTheory.FunPr.ThetaLocalInputs →
+      GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.ThetaIntegralsAgree →
+        GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.LocalMatching →
+          GlobalTheory.CovTop.CovolumeBoundOfX →
+            ∀ (hL : UpperTheory.Zero.LLC.RecTExists),
+              (∀ (cDep : ℝ),
+                  GlobalTheory.Fc.RL.LinkedAt (GlobalTheory.Mem.Top.Bl.parametersOfDependence hL cDep) fun Q L =>
+                    GlobalTheory.Fc.R1.SlotNormCondition Q L fun 𝒞 =>
+                      Formalism.MainNotions.Closed (fun {eps} => 𝒞) fun {eps} Fm x =>
+                        GlobalTheory.NLink.BoundAtTwoThreeFamilyFonAlt Fm) →
+                Nonempty (GlobalTheory.Fc.HypsAlt GlobalTheory.Fc.S0.NL GlobalTheory.Fc.DefiniteSideCondition)
+'UpperTheory.Lit.stage2_nonempty_hyps_definite_side_of_closed_bound_universal_P' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+Command exited with non-zero status 1
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/AbstractionUniversalP.lean"
+	User time (seconds): 42.40
+	System time (seconds): 39.85
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51193668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1041769
+	Voluntary context switches: 3110
+	Involuntary context switches: 14759
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1
+Evidence: /home/harry/rh-verification/critics-audit-stage2/stage2-dhyss28y/stage2-evidence.zip
+Evidence SHA-256: 0b07731c27a3ebd865764985be82bbf97a888c796779ec4aa6093e870a5d77f0
+Requested phase completed. This is not a new independent kernel-check verdict.
+harry@AI-Server:~$ 
+

@@ -1,0 +1,16 @@
+{
+  "requested_pairs": 66,
+  "classified_pairs": 66,
+  "body_references_removed_by_local_pruning": 0,
+  "sources_with_truncated_pruning": [
+    "GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt",
+    "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt",
+    "GlobalTheory.Mem.Top.Closing.divEx_geoCl",
+    "GlobalTheory.Mem.Top.DivRec.divEx_prov",
+    "GlobalTheory.Mem.Top.DivRec.exists_divT",
+    "GlobalTheory.Mem.Top.DivRec.geoOver_stages",
+    "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound"
+  ],
+  "global_minimization_performed": false,
+  "necessity_verdict": "not established"
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+    "line": 15,
+    "patterns": [
+      "DivisionPackageFace.ofOpen"
+    ],
+    "text": "def DivisionPackageFace.ofOpen {D : D7} {L : SizeData₂ D} (Rw : DivisionRowsFace L) (C Cabs : ℝ)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+    "line": 30,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    (inp : ∀ u, DivInputs0R Pk.core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+    "line": 26,
+    "patterns": [
+      "structure DivInputs0R",
+      "DivInputs0R"
+    ],
+    "text": "structure DivInputs0R {Pl : Type} [Fintype Pl] [DecidableEq Pl] (P : IndefCoreR Df0 Df1 Dc Sp N) (R : RecNums Bs.J Pl)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+    "line": 106,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    (u : Dc.Mem) (Nu : Submodule (𝓞 K) (Fin (Dc.a u) → K)) (sg : HeightOneSpectrum (𝓞 K) → ℝ) extends DivInputs0R P R u Nu sg where",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+    "line": 184,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "theorem divClausesR_of [IsTotallyComplex K] {Pl : Type} [Fintype Pl] [DecidableEq Pl] (wf0 : Df0.WF) (wf1 : Df1.WF)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+    "line": 273,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  divClausesR_of (A.side_WF hOk P0 ψ0 Pk.Zs Pk.stable Pk.inBlock hsep)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+    "line": 315,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  ⟨divClausesR_of (A.side_WF hOk P0 ψ0 Pk.Zs Pk.stable Pk.inBlock hsep)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "line": 75,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    (inp : ∀ u, DivInputs0R Pk.core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "line": 85,
+    "patterns": [
+      "DivisionPackageFace.ofOpen"
+    ],
+    "text": "  toDivisionPackageFace := DivisionPackageFace.ofOpen (DivisionRowsColumns.split_model_to_place_model (L := L) P hr X e c Sp Zsc).toF C Cabs Cp CHp cf Pk hZs hRows I.wU I.eNu I.eRR NuC",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "line": 140,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      ∃ inp : ∀ u, DivInputs0R Pk.core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+    "line": 303,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      ∃ inp : ∀ u, DivInputs0R Pk.core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/PtKOfReal.lean",
+    "line": 77,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      ∃ inp : ∀ u, DivInputs0R (pkOf Q hOk hsep Cl CHl hP hI).core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "line": 26,
+    "patterns": [
+      "InpAtAlt"
+    ],
+    "text": "def InpAtAlt [IsTotallyComplex D.what₂.LL] {Rc : _root_.Formalism.L2.RecTAlt ex} {P : RowSideFamily ex} {X : Formalism.L2.Col.Fields}",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "line": 42,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      ∃ inp : ∀ u, DivInputs0R (_root_.Formalism.L2.RowDataTransport.packageOfPrimitiveLinks Q hOk hsep Cl CHl hP hI).core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "line": 46,
+    "patterns": [
+      "ptK_of_real_alt"
+    ],
+    "text": "theorem ptK_of_real_alt [IsTotallyComplex D.what₂.LL] (Rc : _root_.Formalism.L2.RecTAlt ex) (R : _root_.Formalism.L2.DIV.DivisionKernelData ex) (hT : R.T = Rc.T)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+    "line": 55,
+    "patterns": [
+      "InpAtAlt"
+    ],
+    "text": "    (hInp : _root_.Formalism.L2.RowDataTransport.InpAtAlt R.c Q R.ok1 hsep Cl CHl hP hI Del h0 lam0 C0 ce Ch Sw C1 eJ H)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DIVRecBridgeSel.lean",
+    "line": 128,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      ∃ inp : ∀ u, DivInputs0R Pk.core",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/InpAtOf.lean",
+    "line": 46,
+    "patterns": [
+      "InpAtAlt"
+    ],
+    "text": "    _root_.Formalism.L2.RowDataTransport.InpAtAlt c Q hOk hsep Cl CHl hP hI Del h0 lam0 C0 ce Ch Sw C1 eJ H := by",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/InpAtOf.lean",
+    "line": 55,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (X0 u) (hX0 u) (ch u) (hn u) (hnP u) (cb u) (hrest2 u).1 h11 dg hdg hdvd (hA u)).toDef hN).toDivInputs0R hOk hsep,",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Wire4F.lean",
+    "line": 83,
+    "patterns": [
+      "ptK_of_real_alt"
+    ],
+    "text": "  exact _root_.Formalism.L2.RowDataTransport.ptK_of_real_alt ((sel Fm (d3_a hc)).2 x hx h i) ((_root_.Formalism.L2.Top4.RankOfDivisionKernel sel selS selP selDH selC selK selI hPA Fm hc).2 x hx h i) rfl",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+    "line": 24,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  divClausesR_of wf0 wf1 Pk.core R u Nu sg I",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+    "line": 40,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  divClausesR_of (A3.side_well_formed hOk P0 ψ0 Pk.Zs Pk.stable Pk.inBlock hsep)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+    "line": 67,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  divClausesR_of (colSide3_WF W Ch sel hX v0 TU Xg S0 xiVal trIv hH hI P0 Pk.Zs Pk.stable Pk.inBlock)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Rec.lean",
+    "line": 51,
+    "patterns": [
+      "divClausesR_of"
+    ],
+    "text": "  ⟨divClausesR_of (A3.side_well_formed hOk P0 ψ0 Pk.Zs Pk.stable Pk.inBlock hsep)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "line": 419,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "  inp : ∀ u, DivInputs0R Pk.core (R u) (I.wU u) (Nu u) (sgRec L u)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "line": 474,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (P.Nu u) (sgRec L u) { toDivInputs0R := P.inp u, val2 := P.val2 h2 hcut hN u })",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "line": 624,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "  inp : ∀ u, DivInputs0R Pk.core (R u) (wU u) (Nu u) (sgRec L u)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+    "line": 638,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      { toDivInputs0R := P.inp u,",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean",
+    "line": 142,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "  { toDivInputs0R := P.inp u,",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 247,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "def DivInputsDef3.toDivInputs0R [IsTotallyComplex K] (hOk : A3.fam3.Ok3 s) (hsep : A3.fam3.TypesSep3)",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 248,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    (I : DivInputsDef3 A3 s P0 ψ0 P1 ψ1 Dc Sp Zsc cf C CH Pk R u Nu sg) : DivInputs0R Pk.core R u Nu sg where",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 290,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    (I.toDivInputs0R hOk hsep).eb = ebOf (A3.side3 P0 ψ0 Pk.Zs) ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 291,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).Sy = SyOf (A3.side3 P0 ψ0 Pk.Zs) Pk.core.base.toIndefData ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 292,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).gy = (fun y => (vw y ((Fintype.card G * s : ℕ) : K) : ℝ)) ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 293,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).LG = R.lam0 + Real.log (s : ℝ) ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 294,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).ηy = etaYOf A3.A P0 ψ0 (A3.fam3.toSub2 Pk.Zs) s Pk.core.base.μ Pk.core.base.D ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 295,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).E2 = (fun j => I.bd j + Real.log (I.dg : ℝ) + Real.log (s : ℝ)) ∧",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 296,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (I.toDivInputs0R hOk hsep).E3 = 1 :=",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+    "line": 367,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "    { toDivInputs0R := I.toDivInputs0R hOk hsep, val2 := val2 } hQ h0",
+    "text_truncated": false
+  },
+  {
+    "source": "src/Formalism/LocalToGlobal/InpAtOf.lean",
+    "line": 52,
+    "patterns": [
+      "DivInputs0R"
+    ],
+    "text": "      (X0 u) (hX0 u) (ch u) (hn u) (hnP u) (cb u) (hrest2 u).1 h11 dg hdg hdvd (hA u)).toDef hN).toDivInputs0R hOk hsep,",
+    "text_truncated": false
+  }
+]

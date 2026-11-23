@@ -1,0 +1,17 @@
+Stage 3 v0.9 packaging validation — 2026-11-23
+
+python3 -m unittest discover -s rh-audit-stage3-v0.9 -p 'test_*.py'
+Ran 62 tests. OK. 58 inherited tests plus 4 theta-phase tests.
+
+New coverage: ten-target/marker/helper contract, mocked success outputs and
+protocol hashes, fixture failure stops before Main, and project failure retains
+failure status/evidence. These are runner tests, not mathematical verification.
+
+Python syntax compilation passed. Shared Lean helper/fixture bytes are unchanged
+from v0.8. Final package manifest and ZIP contents validated.
+
+No local Lean executable is available. ThetaIdentity.lean has NOT been compiled
+here. Its helper passed Harry's v0.8 fixture run and will be checked again before
+this project probe. Actual target lookup and printing must pass on the server.
+
+No new RH/GRH, necessity, independent-kernel or Comparator-completion verdict.

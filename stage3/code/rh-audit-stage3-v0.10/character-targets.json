@@ -1,0 +1,43 @@
+{
+  "targets": [
+    "GlobalTheory.HeightCounting.HeightCountingCharacterData",
+    "GlobalTheory.HeightCounting.Up.StrictHenselianAcyclicLevelNonempty",
+    "GlobalTheory.T.stage_c_nonempty_of_prints_third_layer",
+    "GlobalTheory.HeightCounting.Up.ChoiceEx.stage_c_nonempty_of_published_inputs",
+    "GlobalTheory.HeightCounting.Up.ChoiceEx.sc_of_sck_alt",
+    "GlobalTheory.T.stageCExists_of_casselmanWallach",
+    "GlobalTheory.LevCmp.stageCExists_of_harishChandra_serN",
+    "GlobalTheory.T.nonGalois_exists_choice_alt",
+    "GlobalTheory.ChoiceRead.exists_stC_choice_alt",
+    "GlobalTheory.T.local_component_at_place_determined_alt",
+    "GlobalTheory.ChoiceRead.emtTheta_withE",
+    "GlobalTheory.HeightCounting.Fin3.emtTheta_L_alt"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Choice",
+    "Theta",
+    "LocalComponent",
+    "SeriesCover",
+    "ScOfSck",
+    "Character",
+    "LevelComparison"
+  ],
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NonGaloisExistsChoice.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SeriesCoverOfPrimitive.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ScOfSck.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelComparisonChoicesExistAtAllPlaces.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaL.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean"
+  ]
+}

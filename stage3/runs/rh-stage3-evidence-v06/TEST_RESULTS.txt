@@ -1,0 +1,27 @@
+Stage 3 v0.6 validation, 2026-11-23
+
+LOCAL EXECUTED:
+python3 -m unittest discover -s rh-audit-stage3-v0.6 -p 'test_*.py'
+46 distinct tests passed (38 inherited + 8 new), exit 0.
+Python compilation checks passed for the runner and new test module.
+
+New tests cover positive application context and interpretation limits,
+annotation omission and truncated negatives, positive hits with earlier
+truncation, malformed/missing/duplicate records and budgets, stored theorem
+fixture validation, byte-identical shared helpers and frozen targets,
+fail-closed fixture sequencing with retained failure archive, and explicit
+provider source priority under collection caps. Mocked tests do not run Lean.
+
+NEW LEAN CODE NOT EXECUTED LOCALLY:
+There is no Lean executable in this workspace. The new search helper, fixture
+and project probe have NOT been compiled here. Mandatory server fixtures
+are the next executable validation gate. Synthetic AST cases test traversal,
+not mathematical validity. The server gate includes binding, annotation
+omission, node/depth limits, function and argument contexts and a real stored
+identity theorem. Python test success is not a Lean audit result.
+
+PRIOR EVIDENCE:
+v0.5 server evidence compiled and ran its different argument counter, and
+v0.4/v0.5 ran the reused provenance helper. Those results do not validate this
+new first-occurrence search. No RH/GRH or necessity verdict is asserted.
+Comparator is neither inspected nor controlled by the package.

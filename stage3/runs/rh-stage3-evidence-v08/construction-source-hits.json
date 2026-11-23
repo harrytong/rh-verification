@@ -1,0 +1,154 @@
+{
+  "method": "lexical source navigation, comments included; not proof-use evidence",
+  "patterns": {
+    "record-type-or-constructor": "\\bRealExpansionExtraData(?:\\.mk)?\\b",
+    "theta-obligation": "\\bEMtTheta\\b",
+    "th-field-assignment": "\\bth\\s*:=",
+    "finiteness-supplier": "\\bsFin_and_sFinl_of_archCmp_sEta_thetaData\\b"
+  },
+  "limit": 2000,
+  "truncated": false,
+  "records": [
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+      "line": 102,
+      "labels": [
+        "finiteness-supplier"
+      ],
+      "text": "theorem _root_.GlobalTheory.T.sFin_and_sFinl_of_archCmp_sEta_thetaData : GlobalTheory.Published.WeilRepresentationUnitaryPair → GlobalTheory.Published.DiscreteSeriesExists → _root_.GlobalTheory.HeightCounting.Up.PublishedInputsThirdLayerAlt → ∀ hL : _root_.UpperTheory.Zero.LLC.RecTExists, _root_.GlobalTheory.HeightCounting.ArchimedeanComparison' hL → _root_.GlobalTheory.HeightCounting.Up.EtaStatement' hL → _root_.GlobalTheory.HeightCounting.Up.ThetaDataExists hL → _root_.GlobalTheory.HeightCounting.Up.FinitenessStatement hL ∧ ∀ cDep : ℝ, _root_.GlobalTheory.HeightCounting.Up.FinitenessListStatement hL cDep := by",
+      "text_truncated": false,
+      "source_sha256": "6f169d9ffa0441883cb42cc48c734206385b0faa203b04edaa67947775e84d0d"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/AllStagesAtMemberOfSpecializations.lean",
+      "line": 42,
+      "labels": [
+        "finiteness-supplier"
+      ],
+      "text": "  have hFin := _root_.GlobalTheory.T.sFin_and_sFinl_of_archCmp_sEta_thetaData hW hD hP hL hA hEta (_root_.GlobalTheory.HeightCounting.Up.sXd_all_alt hL)",
+      "text_truncated": false,
+      "source_sha256": "20a8b06eed100a4f20c6741cb84221f371c9e1dc20ef10416ba1ad55fefb57c2"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 75,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "  th : EMtTheta Y b.YS ch",
+      "text_truncated": false,
+      "source_sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 76,
+      "labels": [
+        "record-type-or-constructor"
+      ],
+      "text": "structure RealExpansionExtraData {nch : NChoice D} {tp : TupTied D cf nch} {a : _root_.GlobalTheory.Mem.Top.Bl.NAtData hL D cf nch tp} (r : _root_.GlobalTheory.Mem.Top.Bl.NormRealisationData a R F cG Y)",
+      "text_truncated": false,
+      "source_sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 87,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "  th : EMtTheta Y r.nexp nch",
+      "text_truncated": false,
+      "source_sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 97,
+      "labels": [
+        "record-type-or-constructor"
+      ],
+      "text": "  _root_.GlobalTheory.HeightCounting.RealExpansionExtraData (D := (w.st Z).toD7) c.row t.r.z.geo xd",
+      "text_truncated": false,
+      "source_sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowsAtStart.lean",
+      "line": 95,
+      "labels": [
+        "record-type-or-constructor"
+      ],
+      "text": "theorem nonempty_nMore_of_xdAll {xd : ThData (Dof x)} (hxd : XdAll xd) : Nonempty (_root_.GlobalTheory.HeightCounting.RealExpansionExtraData (_root_.GlobalTheory.HeightCounting.Fin3.normalizedRowDatum l Sp Au ss al hLg Y hY) (datL x L).geo (xdD L xd)) := by",
+      "text_truncated": false,
+      "source_sha256": "5040c3ec21a5f46d73850c9dd56e0b3af917d3b34610ce763f5d27ade9edeee3"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowsAtStart.lean",
+      "line": 113,
+      "labels": [
+        "th-field-assignment"
+      ],
+      "text": "           th := _root_.GlobalTheory.T.emtTheta_of_yRel L l Y hY",
+      "text_truncated": false,
+      "source_sha256": "5040c3ec21a5f46d73850c9dd56e0b3af917d3b34610ce763f5d27ade9edeee3"
+    },
+    {
+      "file": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 116,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "  th : EMtTheta Y b.YS ch",
+      "text_truncated": false,
+      "source_sha256": "f9596e85c42411193ee6c1a86ef19ea1c6c1eef6decb6f3e52dd3ead03a13e01"
+    },
+    {
+      "file": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean",
+      "line": 129,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "  th : EMtTheta Y r.nexp nch",
+      "text_truncated": false,
+      "source_sha256": "f9596e85c42411193ee6c1a86ef19ea1c6c1eef6decb6f3e52dd3ead03a13e01"
+    },
+    {
+      "file": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FinitenessOfHyp.lean",
+      "line": 158,
+      "labels": [
+        "th-field-assignment"
+      ],
+      "text": "           th := GlobalTheory.T.motive_theta_of_read_relation L l Y hY",
+      "text_truncated": false,
+      "source_sha256": "4d06530d75984501e5cae355cc704ca4f8d1c52779b077a883d8399b9d86e5c4"
+    },
+    {
+      "file": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaLStatement.lean",
+      "line": 14,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "theorem _root_.GlobalTheory.T.emtTheta_of_yRel : ∀ {hL : _root_.UpperTheory.Zero.LLC.RecTExists} {K : Ctx} {B : Base} {f : Fr B.toPre} {T : TwDat B} {w : ColW B f T} {P : Pre2 K w} {x : St P} (L : LocAll (lay0 (Dof x))) (l : _root_.GlobalTheory.HeightCounting.Up.StrictHenselianAcyclicLevel hL x) {p0 : BaseLevelRowSide (w.D (oL x L).Z)} (Y : YT x L p0), YRel L Y → EMtTheta Y (_root_.GlobalTheory.HeightCounting.Fin3.yStructureLocal L l) (_root_.GlobalTheory.HeightCounting.Fin3.characterChoiceLocal L l) := by",
+      "text_truncated": false,
+      "source_sha256": "be1bbb201014c914c7f50784b9d07db105f6dc2be476315caa5fe11703c2fa8a"
+    },
+    {
+      "file": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SubsetTwistExceptionalPlaces.lean",
+      "line": 136,
+      "labels": [
+        "theta-obligation"
+      ],
+      "text": "def EMtTheta (Y : R3.Read (A3 := A3) R.toRealDat F.lv2 X0) (YS : NExpRealS R cG S) (c : NChoice D) : Prop :=",
+      "text_truncated": false,
+      "source_sha256": "867e8e751d2b913906482749c1fec779e873d92814732c7c3bb56f2760ddc8dd"
+    },
+    {
+      "file": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsValueTiedOfIsToricElt.lean",
+      "line": 32,
+      "labels": [
+        "th-field-assignment"
+      ],
+      "text": "  { X with th := th }",
+      "text_truncated": false,
+      "source_sha256": "256d31c7c17082bd81d9045352f0c901c28285edcc3164d78eab9d13dcee0105"
+    }
+  ],
+  "scope": "only collected source files; absent matches are not absence from the proof"
+}

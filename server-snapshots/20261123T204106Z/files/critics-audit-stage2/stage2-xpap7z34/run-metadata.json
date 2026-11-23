@@ -1,0 +1,31 @@
+{
+  "started": "2026-11-22T18:21:54.930640-05:00",
+  "phase": "inspect",
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "main_olean_sha256": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+  "statements_olean_sha256": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+  "prior_records_sha256": "876b1c23275981b8abfa67a6734e8b04466e50f0e418bda76e504889e511da2c",
+  "prior_records_path": "/home/harry/rh-verification/critics-audit/proof-trace-8tnvwr47/records.jsonl",
+  "requested_edges": 66,
+  "cpus": 2,
+  "memory_gib": 100,
+  "lean_executable_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "driver_sha256": "124a3c5838512d06183f5dba7aa564f4ba315545e6ea0894b52b8a3c55600605",
+  "tool_sha256": {
+    "CENSUS_PREREGISTRATION.md": "f99c238fee98c05f7be26d11464a178d409e2fbefee0d9e81a11a971aea10640",
+    "StatementCheck.lean": "56713841ab927e284af47e2b73c0436eee1c1d9e553562472a7e76a04a81e634",
+    "SemanticExtension.lean": "662c4bdc6d184835d3583306b97c0176120681fbf280506eb44d38f267fd8e5f",
+    "SemanticFixture.lean": "af9f67f00aea2bb9e8a20ae618c203a4130943dd1968fe348af4baec8d553ba6",
+    "SemanticAudit.lean": "c1dbb0c515542a66ddbe8f9452a7047ef1a4991dc0507473cc1b2aa3f0d49a3f",
+    "Stage2Audit.lean": "d60f68fcb6bbda826c68c92b570ed4d06bfe89db8a24a86a356c9a61559f234c",
+    "Stage2Fixture.lean": "8e0b27d77f45662655ea57fd6284198469cb55950b0d53d94c910b04bf188888",
+    "stage2-plan.md": "6919885072ec9ed9b45d258f8aa76e0c808696de9d6a92288a6e20ccf9aa538a",
+    "README.md": "a37e4d422c3ab0ba9d6976ec9d520d51012072b796416638e30317edd06659c8",
+    "GeometryAbstraction.lean": "fd3ad98ac22029aed80b9984fc5776da0d01cce2e6c4d90b38b1bc9ca7b604a3"
+  },
+  "phase_completed": false,
+  "comparator_result": "not read or changed by this tool",
+  "failure": "Phase failed with exit 1. Preserve /home/harry/rh-verification/critics-audit-stage2/stage2-xpap7z34/smoke.log; later phases were not started.",
+  "finished": "2026-11-22T18:22:04.407361-05:00"
+}

@@ -1,0 +1,208 @@
+file	line	tokens	source_text
+Mathlib/AlgebraicGeometry/EllipticCurve/LFunction.lean	10	LFunction	public import Mathlib.NumberTheory.ArithmeticFunction.LFunction
+Mathlib/AlgebraicGeometry/EllipticCurve/LFunction.lean	22	LFunction	* `WeierstrassCurve.LFunction`: the L-function of a Weierstrass equation.
+Mathlib/AlgebraicGeometry/EllipticCurve/LFunction.lean	79	LFunction	noncomputable def LFunction : ArithmeticFunction ℤ :=
+Mathlib/AlgebraicGeometry/EllipticCurve/LFunction.lean	85	LFunction	  LSeries ((↑) ∘ W.LFunction) s
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	66	riemannZeta	    ∑' (n : ℕ), riemannZetaSummandHom (ne_zero_of_one_lt_re hs) n = riemannZeta s := by
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	90	riemannZeta	    HasProd (fun p : Primes ↦ (1 - (p : ℂ) ^ (-s))⁻¹) (riemannZeta s) := by
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	97	riemannZeta	    ∏' p : Primes, (1 - (p : ℂ) ^ (-s))⁻¹ = riemannZeta s :=
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	104	riemannZeta	      (𝓝 (riemannZeta s)) := by
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	161	riemannZeta	    exp (∑' p : Nat.Primes, -Complex.log (1 - p ^ (-s))) = riemannZeta s :=
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	263	riemannZeta	    exp (LSeries (fun (n : ℕ) ↦ Λ n / Real.log n) s) = riemannZeta s := by
+Mathlib/NumberTheory/EulerProduct/DirichletLSeries.lean	272	riemannZeta	    Real.log (riemannZeta (s : ℂ)).re = ∑' n, Λ n / (n ^ s * Real.log n) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	27	riemannZeta	* Representation of `riemannZeta s` as `(s-1)⁻¹ + riemannZeta₀ s` or `(s-1)⁻¹ * riemannZeta₁ s`
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	29	riemannZeta	* Asymptotics for `deriv riemannZeta s`, `log (riemannZeta s)`,
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	30	riemannZeta	  `(deriv riemannZeta s) / (riemannZeta s)` and `(riemannZeta s)⁻¹` as `s → 1`.
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	317	riemannZeta	    Tendsto (fun s : ℝ ↦ riemannZeta s - 1 / (s - 1)) (𝓝[>] 1) (𝓝 γ) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	343	riemannZeta	    Tendsto (fun s : ℂ ↦ riemannZeta s - 1 / (s - 1)) (𝓝[≠] 1) (𝓝 γ) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	346	riemannZeta	  let f (s : ℂ) := riemannZeta s - 1 / (s - 1)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	376	riemannZeta	    (fun s : ℂ ↦ riemannZeta s - 1 / (s - 1)) =O[𝓝 1] (fun _ ↦ 1 : ℂ → F) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	402	riemannZeta	    Tendsto (fun s ↦ riemannZeta s - 1 / Gammaℝ s / (s - 1)) (𝓝[≠] 1)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	418	riemannZeta	lemma riemannZeta_one : riemannZeta 1 = (γ - log (4 * π)) / 2 := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	441	riemannZeta	lemma riemannZeta_one_ne_zero : riemannZeta 1 ≠ 0 := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	458	riemannZeta	theorem riemannZeta_conj (s : ℂ) : riemannZeta (conj s) = conj (riemannZeta s) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	460	riemannZeta	  · have h : riemannZeta 1 = ((γ - Real.log (4 * π)) / 2 : ℝ) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	466	riemannZeta	    have hg_an : AnalyticOnNhd ℂ (fun z ↦ conj (riemannZeta (conj z))) {1}ᶜ :=
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	471	riemannZeta	    have hgz (z : ℂ) (hz : 1 < z.re) : conj (riemannZeta (conj z)) = riemannZeta z := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	476	riemannZeta	    have heq : EqOn (fun z ↦ conj (riemannZeta (conj z))) riemannZeta {1}ᶜ :=
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	484	riemannZeta	lemma riemannZeta_eventually_ne_zero_nhds_one : ∀ᶠ s in 𝓝 1, riemannZeta s ≠ 0 := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	492	riemannZeta	/-- The derivative of `riemannZeta` at `s = 0` equals `-log(2π) / 2`. -/
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	494	riemannZeta	    deriv riemannZeta 0 = -log (2 * π) / 2 := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	524	riemannZeta	To facilitate the analysis of `riemannZeta` near `s = 1`, we write `riemannZeta s` additively as
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	531	riemannZeta	/-- `riemannZeta₀ s` is the completion of `riemannZeta s - (s-1)⁻¹` at `s = 1`. -/
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	533	riemannZeta	  if s = 1 then γ else riemannZeta s - (s-1)⁻¹
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	535	riemannZeta	/-- `riemannZeta₁ s` is the completion of `(s-1) * riemannZeta s` at `s = 1`. -/
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	545	riemannZeta	    riemannZeta s = (s - 1)⁻¹ + riemannZeta₀ s := by simp [riemannZeta₀, hs]
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	548	riemannZeta	    riemannZeta s = (s - 1)⁻¹ * riemannZeta₁ s := by grind [riemannZeta₁, riemannZeta₀]
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	555	riemannZeta	  · refine .congr (f := fun s ↦ riemannZeta s - (s - 1)⁻¹) ?_ (by simp +contextual [riemannZeta₀])
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	575	riemannZeta	    deriv riemannZeta s = - ((s - 1)⁻¹) ^ 2 + deriv riemannZeta₀ s := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	583	riemannZeta	    deriv riemannZeta s =
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	592	riemannZeta	    (fun s ↦ deriv riemannZeta s + ((s - 1)⁻¹) ^ 2) =O[𝓝[≠] 1] (fun _ ↦ (1 : ℂ)) :=
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	598	riemannZeta	    (riemannZeta s).re.log = - (s - 1).log + (riemannZeta₁ s).re.log := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	599	riemannZeta	  have : (riemannZeta s).re = (s - 1)⁻¹ * (riemannZeta₁ s).re := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	605	riemannZeta	    (fun (s : ℝ) ↦ (riemannZeta s).re.log + (s - 1).log) =O[𝓝[>] 1] (· - 1) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	616	riemannZeta	    (fun (s : ℝ) ↦ (riemannZeta s).re.log + (s - 1).log) =o[𝓝[>] (1 : ℝ)] (fun _ ↦ (1 : ℝ)) :=
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	621	riemannZeta	    ∀ᶠ s in 𝓝[≠] 1, (deriv riemannZeta s) / (riemannZeta s)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	628	riemannZeta	    (fun s ↦ (deriv riemannZeta s) / (riemannZeta s) + (s - 1)⁻¹ - γ)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	639	riemannZeta	    (fun s ↦ (deriv riemannZeta s) / (riemannZeta s) + (s - 1)⁻¹ - γ)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	645	riemannZeta	    (fun s ↦ (deriv riemannZeta s) / (riemannZeta s) + (s - 1)⁻¹)
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	650	riemannZeta	    ∀ᶠ s in 𝓝[≠] 1, (riemannZeta s)⁻¹ = (s - 1) * (riemannZeta₁ s)⁻¹ := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	656	riemannZeta	    (fun s ↦ (riemannZeta s)⁻¹ - (s - 1)) =O[𝓝[≠] 1] (fun s ↦ (s - 1) ^ 2) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	666	riemannZeta	    (fun s ↦ (riemannZeta s)⁻¹ - (s - 1)) =o[𝓝[≠] 1] (· - 1) := by
+Mathlib/NumberTheory/Harmonic/ZetaAsymp.lean	673	riemannZeta	    (fun s ↦ (riemannZeta s)⁻¹) =O[𝓝[≠] 1] (· - 1) :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	280	riemannZeta	lemma LSeries_zeta_eq_riemannZeta {s : ℂ} (hs : 1 < s.re) : L ↗ζ s = riemannZeta s := by
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	289	riemannZeta	lemma LSeriesHasSum_zeta {s : ℂ} (hs : 1 < s.re) : LSeriesHasSum ↗ζ s (riemannZeta s) :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	309	riemannZeta	lemma LSeries_one_eq_riemannZeta {s : ℂ} (hs : 1 < s.re) : L 1 s = riemannZeta s :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	314	riemannZeta	lemma LSeriesHasSum_one {s : ℂ} (hs : 1 < s.re) : LSeriesHasSum 1 s (riemannZeta s) :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	328	riemannZeta	lemma riemannZeta_ne_zero_of_one_lt_re {s : ℂ} (hs : 1 < s.re) : riemannZeta s ≠ 0 :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	337	riemannZeta	both `(riemannZeta x).re > 0` and `(riemannZeta x).im = 0`. -/
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	338	riemannZeta	lemma riemannZeta_pos_of_one_lt {x : ℝ} (hx : 1 < x) : 0 < riemannZeta x := by
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	345	riemannZeta	lemma riemannZeta_re_pos_of_one_lt {x : ℝ} (hx : 1 < x) : 0 < (riemannZeta x).re :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	349	riemannZeta	lemma riemannZeta_im_eq_zero_of_one_lt {x : ℝ} (hx : 1 < x) : (riemannZeta x).im = 0 :=
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	437	riemannZeta	    L ↗Λ s = - deriv riemannZeta s / riemannZeta s := by
+Mathlib/NumberTheory/LSeries/Dirichlet.lean	438	riemannZeta	  suffices deriv (L 1) s = deriv riemannZeta s by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	23	LFunction	* `LFunction χ s`: the L-function, defined as a linear combination of Hurwitz zeta functions.
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	25	LFunction	  `LFunction χ s * gammaFactor χ s` where `gammaFactor χ s` is the archimedean Gamma-factor.
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	30	LFunction	* `LFunction_eq_LSeries`: if `1 < re s` then the `LFunction` coincides with the naive `LSeries`.
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	31	LFunction	* `differentiable_LFunction`: if `χ` is nontrivial then `LFunction χ s` is differentiable
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	34	LFunction	  `LFunction χ s = completedLFunction χ s / gammaFactor χ s`, unless `s = 0` and `χ` is the trivial
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	61	LFunction	noncomputable def LFunction (χ : DirichletCharacter ℂ N) (s : ℂ) : ℂ := ZMod.LFunction χ s
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	68	LFunction,riemannZeta	    LFunction χ = riemannZeta := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	69	LFunction	  ext; rw [LFunction, ZMod.LFunction_modOne_eq, (by rfl : (0 : ZMod 1) = 1), map_one, one_mul]
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	76	LFunction	    LFunction χ s = LSeries (χ ·) s :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	80	LFunction	    deriv (LFunction χ) s = deriv (LSeries (χ ·)) s := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	93	LFunction	    DifferentiableAt ℂ (LFunction χ) s :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	99	LFunction	    Differentiable ℂ (LFunction χ) :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	105	LFunction	    LFunction χ (-(2 * (n + 1))) = 0 :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	111	LFunction	    LFunction χ (-(2 * n)) = 0 := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	118	LFunction	    LFunction χ (-(2 * n) - 1) = 0 :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	127	LFunction	    LFunction (changeLevel hMN χ) s =
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	128	LFunction	      LFunction χ s * ∏ p ∈ N.primeFactors, (1 - χ p * p ^ (-s)) := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	134	LFunction	    (g := fun s ↦ LFunction χ s * ∏ p ∈ N.primeFactors, (1 - χ p * p ^ (-s))) ?_ ?_ hpc hne ?_ hs
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	152	LFunction	    LFunction (changeLevel hMN χ) s =
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	153	LFunction	      LFunction χ s * ∏ p ∈ N.primeFactors, (1 - χ p * p ^ (-s)) := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	156	LFunction	    have h' : Continuous fun s ↦ LFunction χ s * ∏ p ∈ N.primeFactors, (1 - χ p * ↑p ^ (-s)) :=
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	170	LFunction	  (1 : DirichletCharacter ℂ N).LFunction
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	175	riemannZeta	    LFunctionTrivChar N s = (∏ p ∈ N.primeFactors, (1 - (p : ℂ) ^ (-s))) * riemannZeta s := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	186	riemannZeta	        fun s ↦ (∏ p ∈ N.primeFactors, (1 - (p : ℂ) ^ (-s))) * ((s - 1) * riemannZeta s) := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	222	LFunction	`LFunction χ s * gammaFactor χ s`.
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	260	LFunction	    (h : s ≠ 0 ∨ N ≠ 1) : LFunction χ s = completedLFunction χ s / gammaFactor χ s := by
+Mathlib/NumberTheory/LSeries/DirichletContinuation.lean	390	LFunction	    ContinuousOn (fun s ↦ -deriv (LFunction χ) s / LFunction χ s) {s | LFunction χ s ≠ 0} := by
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	28	riemannZeta	  `riemannZeta (-k) = (-1) ^ k * bernoulli (k + 1) / (k + 1)`
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	207	riemannZeta	    riemannZeta (2 * k) = (-1) ^ (k + 1) * (2 : ℂ) ^ (2 * k - 1)
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	218	riemannZeta	    riemannZeta (2 * k) = (-1) ^ (k + 1) * (2 : ℂ) ^ (2 * k - 1 : ℤ)
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	226	riemannZeta	theorem riemannZeta_two : riemannZeta 2 = (π : ℂ) ^ 2 / 6 := by
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	232	riemannZeta	theorem riemannZeta_four : riemannZeta 4 = π ^ 4 / 90 := by
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	241	riemannZeta	    riemannZeta (-k) = -bernoulli' (k + 1) / (k + 1) := by
+Mathlib/NumberTheory/LSeries/HurwitzZetaValues.lean	252	riemannZeta	    riemannZeta (-k) = (-1 : ℂ) ^ k * bernoulli (k + 1) / (k + 1) := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	131	LFunction	  hχ : χ.LFunction 1 = 0
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	142	LFunction,riemannZeta	  Function.update (fun s : ℂ ↦ riemannZeta s * LFunction B.χ s) 1 (deriv (LFunction B.χ) 1)
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	174	riemannZeta	  let G := Function.update (fun s ↦ (s - 1) * riemannZeta s) 1 1
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	175	LFunction	  let H := Function.update (fun s ↦ (B.χ.LFunction s - B.χ.LFunction 1) / (s - 1)) 1
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	176	LFunction	    (deriv B.χ.LFunction 1)
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	181	riemannZeta	    · simp only [F, G, H, Function.update_of_ne ht, mul_comm _ (riemannZeta _), B.hχ, sub_zero,
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	202	LFunction	    χ.LFunction 1 ≠ 0 := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	309	LFunction	    ‖LFunctionTrivChar N (1 + x) ^ 3 * LFunction χ (1 + x + I * y) ^ 4 *
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	310	LFunction	      LFunction (χ ^ 2) (1 + x + 2 * I * y)‖ ≥ 1 := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	335	LFunction	    (fun x : ℝ ↦ LFunction χ (1 + x + I * y)) =O[𝓝[>] 0] fun _ ↦ (1 : ℂ) := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	343	LFunction	    (h : LFunction χ (1 + I * y) = 0) :
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	344	LFunction	    (fun x : ℝ ↦ LFunction χ (1 + x + I * y)) =O[𝓝[>] 0] fun x : ℝ ↦ (x : ℂ) := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	354	LFunction	    LFunction χ (1 + I * t) ≠ 0 := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	369	LFunction	      fun x ↦ LFunctionTrivChar N (1 + x) ^ 3 * LFunction χ (1 + x + I * t) ^ 4 *
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	370	LFunction	                   LFunction (χ ^ 2) (1 + x + 2 * I * t) :=
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	386	LFunction	    LFunction χ s ≠ 0 := by
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	399	LFunction	    LFunction χ s ≠ 0 :=
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	406	LFunction	theorem LFunction_apply_one_ne_zero (hχ : χ ≠ 1) : LFunction χ 1 ≠ 0 :=
+Mathlib/NumberTheory/LSeries/Nonvanishing.lean	412	riemannZeta	    riemannZeta s ≠ 0 := by
+Mathlib/NumberTheory/LSeries/PrimesInAP.lean	241	LFunction	        (deriv (LFunction χ) s / LFunction χ s) := by
+Mathlib/NumberTheory/LSeries/PrimesInAP.lean	262	LFunction	    ∑ χ ∈ ({1}ᶜ : Finset (DirichletCharacter ℂ q)), χ a⁻¹ * deriv (LFunction χ) s / LFunction χ s)
+Mathlib/NumberTheory/LSeries/PrimesInAP.lean	268	LFunction	      {s | s = 1 ∨ ∀ χ : DirichletCharacter ℂ q, LFunction χ s ≠ 0} := by
+Mathlib/NumberTheory/LSeries/PrimesInAP.lean	324	LFunction	  conv_lhs => enter [2, 1]; rw [← mul_one (LFunction ..)]
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	17	riemannZeta	* `riemannZeta`: the Riemann zeta function `ζ : ℂ → ℂ`.
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	121	riemannZeta	def riemannZeta := hurwitzZetaEven 0
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	123	riemannZeta	lemma HurwitzZeta.hurwitzZetaEven_zero : hurwitzZetaEven 0 = riemannZeta := rfl
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	125	riemannZeta	lemma HurwitzZeta.cosZeta_zero : cosZeta 0 = riemannZeta := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	126	riemannZeta	  simp_rw [cosZeta, riemannZeta, hurwitzZetaEven, if_true, completedHurwitzZetaEven_zero,
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	129	riemannZeta	lemma HurwitzZeta.hurwitzZeta_zero : hurwitzZeta 0 = riemannZeta := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	133	riemannZeta	lemma HurwitzZeta.expZeta_zero : expZeta 0 = riemannZeta := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	139	riemannZeta	theorem differentiableAt_riemannZeta {s : ℂ} (hs' : s ≠ 1) : DifferentiableAt ℂ riemannZeta s :=
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	143	riemannZeta	    DifferentiableOn ℂ riemannZeta {1}ᶜ :=
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	147	riemannZeta	    AnalyticOnNhd ℂ riemannZeta {1}ᶜ :=
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	151	riemannZeta	theorem riemannZeta_zero : riemannZeta 0 = -1 / 2 := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	152	riemannZeta	  simp_rw [riemannZeta, hurwitzZetaEven, Function.update_self, if_true]
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	155	riemannZeta	    riemannZeta s = completedRiemannZeta s / Gammaℝ s := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	156	riemannZeta	  rw [riemannZeta, hurwitzZetaEven, Function.update_of_ne hs, completedHurwitzZetaEven_zero]
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	159	riemannZeta	lemma riemannZeta_eq_completedRiemannZeta₀ {s : ℂ} (hs : s ≠ 0) : riemannZeta s =
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	165	riemannZeta	    riemannZeta s = (s * completedRiemannZeta₀ s - 1 - s / (1 - s)) /
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	173	riemannZeta	theorem riemannZeta_neg_two_mul_nat_add_one (n : ℕ) : riemannZeta (-2 * (n + 1)) = 0 :=
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	179	riemannZeta	    riemannZeta (1 - s) = 2 * (2 * π) ^ (-s) * Gamma s * cos (π * s / 2) * riemannZeta s := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	180	riemannZeta	  rw [riemannZeta, hurwitzZetaEven_one_sub 0 hs (Or.inr hs'), cosZeta_zero, hurwitzZetaEven_zero]
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	185	RiemannHypothesis	def RiemannHypothesis : Prop :=
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	186	riemannZeta	  ∀ (s : ℂ) (_ : riemannZeta s = 0) (_ : ¬∃ n : ℕ, s = -2 * (n + 1)) (_ : s ≠ 1), s.re = 1 / 2
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	208	riemannZeta	    riemannZeta s = ∑' n : ℕ, 1 / (n : ℂ) ^ s := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	215	riemannZeta	    riemannZeta s = ∑' n : ℕ, 1 / (n + 1 : ℂ) ^ s := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	224	riemannZeta	    riemannZeta k = ∑' n : ℕ, 1 / (n : ℂ) ^ k := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	230	riemannZeta	    2 * riemannZeta k = ∑' (n : ℤ), ((n : ℂ) ^ k)⁻¹ := by
+Mathlib/NumberTheory/LSeries/RiemannZeta.lean	242	riemannZeta	lemma riemannZeta_residue_one : Tendsto (fun s ↦ (s - 1) * riemannZeta s) (𝓝[≠] 1) (𝓝 1) := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	27	LFunction	* `ZMod.LFunction Φ s`: the meromorphic continuation of the function `∑ n : ℕ, Φ n * n ^ (-s)`.
+Mathlib/NumberTheory/LSeries/ZMod.lean	29	LFunction	  `LFunction Φ s` multiplied by an Archimedean Gamma-factor.
+Mathlib/NumberTheory/LSeries/ZMod.lean	39	LFunction	* `ZMod.LFunction_eq_LSeries`: if `1 < re s` then the `LFunction` coincides with the naive
+Mathlib/NumberTheory/LSeries/ZMod.lean	41	LFunction	* `ZMod.differentiableAt_LFunction`: `ZMod.LFunction Φ` is differentiable at `s ∈ ℂ` if either
+Mathlib/NumberTheory/LSeries/ZMod.lean	43	LFunction	* `ZMod.LFunction_one_sub`: the functional equation relating `LFunction Φ (1 - s)` to
+Mathlib/NumberTheory/LSeries/ZMod.lean	44	LFunction	  `LFunction (𝓕 Φ) s`, where `𝓕` is the Fourier transform.
+Mathlib/NumberTheory/LSeries/ZMod.lean	50	LFunction	  `LFunction Φ s = completedLFunction Φ s / Gammaℝ s` for `Φ` even, and
+Mathlib/NumberTheory/LSeries/ZMod.lean	51	LFunction	  `LFunction Φ s = completedLFunction Φ s / Gammaℝ (s + 1)` for `Φ` odd. (We formulate it this way
+Mathlib/NumberTheory/LSeries/ZMod.lean	83	LFunction	noncomputable def LFunction (Φ : ZMod N → ℂ) (s : ℂ) : ℂ :=
+Mathlib/NumberTheory/LSeries/ZMod.lean	88	LFunction,riemannZeta	    LFunction Φ s = Φ 0 * riemannZeta s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	89	LFunction	  simp only [LFunction, Nat.cast_one, one_cpow, ← singleton_eq_univ (0 : ZMod 1), sum_singleton,
+Mathlib/NumberTheory/LSeries/ZMod.lean	94	LFunction	    LFunction Φ s = LSeries (Φ ·) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	95	LFunction	  rw [LFunction, LSeries, mul_sum, Nat.sumByResidueClasses (LSeriesSummable_of_one_lt_re Φ hs) N]
+Mathlib/NumberTheory/LSeries/ZMod.lean	123	LFunction	    DifferentiableAt ℂ (LFunction Φ) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	132	LFunction	    Differentiable ℂ (LFunction Φ) :=
+Mathlib/NumberTheory/LSeries/ZMod.lean	137	LFunction	    Tendsto (fun s ↦ (s - 1) * LFunction Φ s) (𝓝[≠] 1) (𝓝 (∑ j, Φ j / N)) := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	138	LFunction	  simp only [LFunction, mul_sum]
+Mathlib/NumberTheory/LSeries/ZMod.lean	149	LFunction	The `LFunction` of the function `x ↦ e (j * x)`, where `e : ZMod N → ℂ` is the standard additive
+Mathlib/NumberTheory/LSeries/ZMod.lean	154	LFunction	    LFunction (fun k ↦ 𝕖 (j * k)) s = expZeta (ZMod.toAddCircle j) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	165	LFunction	The `LFunction` of the function `x ↦ e (j * x)`, where `e : ZMod N → ℂ` is the standard additive
+Mathlib/NumberTheory/LSeries/ZMod.lean	172	LFunction	    LFunction (fun k ↦ 𝕖 (j * k)) s = expZeta (ZMod.toAddCircle j) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	179	LFunction	  let f := LFunction (fun k ↦ stdAddChar (j * k))
+Mathlib/NumberTheory/LSeries/ZMod.lean	207	LFunction	    LFunction (𝓕 Φ) s = ∑ j : ZMod N, Φ j * expZeta (toAddCircle (-j)) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	208	LFunction	  have (j : ZMod N) : Φ j * LFunction (fun k ↦ 𝕖 (-j * k)) s =
+Mathlib/NumberTheory/LSeries/ZMod.lean	214	LFunction	  simp only [LFunction, ← this, mul_sum]
+Mathlib/NumberTheory/LSeries/ZMod.lean	224	LFunction	    LFunction Φ (1 - s) = N ^ (s - 1) * (2 * π) ^ (-s) * Gamma s *
+Mathlib/NumberTheory/LSeries/ZMod.lean	225	LFunction	      (cexp (π * I * s / 2) * LFunction (𝓕 Φ) s
+Mathlib/NumberTheory/LSeries/ZMod.lean	226	LFunction	       + cexp (-π * I * s / 2) * LFunction (𝓕 fun x ↦ Φ (-x)) s) := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	227	LFunction	  rw [LFunction]
+Mathlib/NumberTheory/LSeries/ZMod.lean	253	LFunction	    LFunction Φ s = N ^ (-s) * ∑ j : ZMod N, Φ j * hurwitzZetaEven (toAddCircle j) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	254	LFunction	  simp only [LFunction, hurwitzZeta, mul_add (Φ _), sum_add_distrib]
+Mathlib/NumberTheory/LSeries/ZMod.lean	261	LFunction	    LFunction Φ s = N ^ (-s) * ∑ j : ZMod N, Φ j * hurwitzZetaOdd (toAddCircle j) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	262	LFunction	  simp only [LFunction, hurwitzZeta, mul_add (Φ _), sum_add_distrib]
+Mathlib/NumberTheory/LSeries/ZMod.lean	268	LFunction	/-- Explicit formula for `LFunction Φ 0` when `Φ` is even. -/
+Mathlib/NumberTheory/LSeries/ZMod.lean	270	LFunction	    LFunction Φ 0 = -Φ 0 / 2 := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	277	LFunction	    LFunction Φ (-(2 * (n + 1))) = 0 := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	283	LFunction	    LFunction Φ (-(2 * n) - 1) = 0 := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	385	LFunction	    LFunction Φ s = completedLFunction Φ s / Gammaℝ s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	399	LFunction	    LFunction Φ s = completedLFunction Φ s / Gammaℝ (s + 1) := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	417	LFunction	  suffices ∑ x, Φ x * cosZeta (toAddCircle x) s = LFunction (𝓕 Φ) s by
+Mathlib/NumberTheory/LSeries/ZMod.lean	421	LFunction	  -- expand out `LFunction (𝓕 Φ)` and use parity:
+Mathlib/NumberTheory/LSeries/ZMod.lean	439	LFunction	  suffices ∑ x, Φ x * sinZeta (toAddCircle x) s = I * LFunction (𝓕 Φ) s by
+Mathlib/NumberTheory/LSeries/ZMod.lean	451	LFunction	  _ = -I⁻¹ * LFunction (𝓕 Φ) s := by
+Mathlib/NumberTheory/LSeries/ZMod.lean	454	LFunction	  _ = I * LFunction (𝓕 Φ) s := by rw [inv_I, neg_neg]
+Mathlib/NumberTheory/LSeries/ZetaZeros.lean	35	riemannZeta	noncomputable def riemannZetaZeros : Set ℂ := riemannZeta ⁻¹' {0}
+Mathlib/NumberTheory/LSeries/ZetaZeros.lean	38	riemannZeta	    z ∈ riemannZetaZeros ↔ riemannZeta z = 0 := .rfl
+Mathlib/NumberTheory/LSeries/ZetaZeros.lean	40	riemannZeta	/-- The complement of the zero set of `riemannZeta` is codiscrete within `{1}ᶜ`. -/
+Mathlib/NumberTheory/LSeries/ZetaZeros.lean	47	riemannZeta	/-- The complement of the zero set of `riemannZeta` is codiscrete. -/
+Mathlib/NumberTheory/ModularForms/Derivative.lean	238	riemannZeta	      EisensteinSeries.E2 z - 1 / (2 * riemannZeta 2) * EisensteinSeries.D2 γ z := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Defs.lean	40	riemannZeta	lemma e2Summand_zero_eq_two_riemannZeta_two (z : ℍ) : e2Summand 0 z = 2 * riemannZeta 2 := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Defs.lean	60	riemannZeta	def E2 : ℍ → ℂ := (1 / (2 * riemannZeta 2)) • G2
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Summable.lean	57	riemannZeta	    2 * riemannZeta 2 + ∑ m ∈ range N, -8 * π ^ 2 *
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Summable.lean	90	riemannZeta	    (2 * riemannZeta 2 - 8 * π ^ 2 * ∑' n : ℕ+, σ 1 n * 𝕢 z ^ (n : ℕ)) (symmetricIcc ℤ) := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Summable.lean	97	riemannZeta	lemma G2_eq_tsum_cexp : G2 z = 2 * riemannZeta 2 - 8 * π ^ 2 * ∑' n : ℕ+, σ 1 n * 𝕢 z ^ (n : ℕ) :=
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Summable.lean	127	riemannZeta	    (2 * riemannZeta 2 - 8 * π ^ 2 * ∑' n : ℕ+, σ 1 n * 𝕢 z ^ (n : ℕ)) (symmetricIco ℤ) := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/E2/Transform.lean	225	riemannZeta	lemma E2_slash_action (γ : SL(2, ℤ)) : E2 ∣[(2 : ℤ)] γ = E2 - (1 / (2 * riemannZeta 2)) • D2 γ := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	221	riemannZeta	    ∑' v, eisSummand k v z = 2 * riemannZeta k + 2 * ((-2 * π * I) ^ k / (k - 1)!) *
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	250	riemannZeta	    ∑' v : Fin 2 → ℤ, eisSummand k v z = riemannZeta k * eisensteinSeries (N := 1) 0 k z := by
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	274	riemannZeta	/-- The q-Expansion of normalised Eisenstein series of level one with `riemannZeta` term. -/
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	276	riemannZeta	    E hk z = 1 + (riemannZeta k)⁻¹ * (-2 * π * I) ^ k / (k - 1)! *
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	282	riemannZeta	  have z2 : riemannZeta k ≠ 0 := riemannZeta_ne_zero_of_one_lt_re <| by norm_cast; grind
+Mathlib/NumberTheory/ModularForms/EisensteinSeries/QExpansion.lean	287	riemannZeta	    (riemannZeta k)⁻¹ * (-2 * π * I) ^ k / (k - 1)! = -(2 * k / bernoulli k) := by

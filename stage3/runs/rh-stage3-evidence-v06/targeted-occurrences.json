@@ -1,0 +1,112 @@
+{
+  "method": "bounded argument-first first occurrence in annotation-omitting projection",
+  "not_established": [
+    "full-body absence",
+    "necessity",
+    "hypothesis discharge",
+    "headline validity"
+  ],
+  "any_search_truncated": true,
+  "records": [
+    {
+      "application": {
+        "application_path": "root/binder.body/binder.body/let.body/let.body/let.body/let.body/let.body/let.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/app.arg/app.arg/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.fn/app.fn/app.arg/app.fn/app.fn/app.arg/app.fn/app.fn/app.fn/app.fn/app.fn/app.arg/app.arg",
+        "function": {
+          "head": "GlobalTheory.Mem.Top.Bl.parametersOfExtension",
+          "head_kind": "constant",
+          "preceding_arguments": 3,
+          "spine_truncated": false
+        },
+        "occurrence_branch": "argument",
+        "selected_child_is_bvar": true
+      },
+      "binder": "Γ",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 61,
+      "ordinal": 4,
+      "path": "root/binder.body/binder.body/let.body/let.body/let.body/let.body/let.body/let.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/app.arg/app.arg/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.arg/binder.body/binder.body/app.fn/app.fn/app.arg/app.fn/app.fn/app.arg/app.fn/app.fn/app.fn/app.fn/app.fn/app.arg/app.arg/app.arg",
+      "status": "found",
+      "target": "GlobalTheory.GeoTies.linked_ties_alt",
+      "truncated": false,
+      "visited": 517
+    },
+    {
+      "application": {
+        "application_path": "root",
+        "function": {
+          "head": "GlobalTheory.T.lattice_family_adoption_fourth_alt",
+          "head_kind": "constant",
+          "preceding_arguments": 20,
+          "spine_truncated": false
+        },
+        "occurrence_branch": "argument",
+        "selected_child_is_bvar": true
+      },
+      "binder": "hpin",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 0,
+      "ordinal": 5,
+      "path": "root/app.arg",
+      "status": "found",
+      "target": "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+      "truncated": false,
+      "visited": 2
+    },
+    {
+      "application": null,
+      "binder": "hPin",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 153,
+      "ordinal": 20,
+      "path": "",
+      "status": "not-found-in-projection",
+      "target": "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+      "truncated": true,
+      "visited": 100000
+    },
+    {
+      "application": {
+        "application_path": "root/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.arg/binder.body/binder.body/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.arg/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn",
+        "function": {
+          "head": "GlobalTheory.ClassSumLift.at_index_alt",
+          "head_kind": "constant",
+          "preceding_arguments": 17,
+          "spine_truncated": false
+        },
+        "occurrence_branch": "argument",
+        "selected_child_is_bvar": true
+      },
+      "binder": "hP",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 38,
+      "ordinal": 21,
+      "path": "root/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.arg/binder.body/binder.body/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.arg/binder.body/binder.body/binder.body/binder.body/binder.body/binder.body/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.fn/app.arg",
+      "status": "found",
+      "target": "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+      "truncated": false,
+      "visited": 43832
+    },
+    {
+      "application": null,
+      "binder": "hP",
+      "depth_limit": 600,
+      "event": "search",
+      "node_limit": 100000,
+      "omitted_annotation_roots": 97,
+      "ordinal": 17,
+      "path": "",
+      "status": "not-found-in-projection",
+      "target": "GlobalTheory.ClassSumLift.at_index_alt",
+      "truncated": true,
+      "visited": 100000
+    }
+  ]
+}

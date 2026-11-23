@@ -1,0 +1,11 @@
+{
+  "roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+    "Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean"
+  ],
+  "import_depth": 0,
+  "max_files": 3,
+  "max_file_bytes": 2097152,
+  "max_total_bytes": 6291456
+}

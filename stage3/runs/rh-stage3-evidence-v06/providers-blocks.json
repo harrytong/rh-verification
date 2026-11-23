@@ -1,0 +1,89 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.GeoTies.linked_ties_alt",
+      "begin_line": 6,
+      "end_line": 1946,
+      "rendered_block_sha256": "dde0c4d5ab1a24a54fdcd4d4fdfa0ecfdd08a0a8025567d1179f0c1ac7a00657",
+      "rendered_block_utf8_bytes": 122317,
+      "elision_indicators": {
+        "⋯": 41
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.class_sum_divisibility_of_extensionWithLaw",
+      "begin_line": 1950,
+      "end_line": 2307,
+      "rendered_block_sha256": "1ead685a52661005dd1fe48d86d67b6b26394b4343172323b2a288c934ea685b",
+      "rendered_block_utf8_bytes": 22229,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+      "begin_line": 2311,
+      "end_line": 2701,
+      "rendered_block_sha256": "25239816644639000993ea53056d240b3525e8ee7509f31d579285938a64b1c3",
+      "rendered_block_utf8_bytes": 30600,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+      "begin_line": 2705,
+      "end_line": 4793,
+      "rendered_block_sha256": "9bbf0e8287887fc32c68ba1b1faa042707bd93fee0e42970cb7c463af53f15bb",
+      "rendered_block_utf8_bytes": 158144,
+      "elision_indicators": {
+        "⋯": 62
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+      "begin_line": 4797,
+      "end_line": 6734,
+      "rendered_block_sha256": "0b273a6e32f41abcba76061d59a0a35e6cf2d8e0fb3d2981d17a186c662e02a6",
+      "rendered_block_utf8_bytes": 169617,
+      "elision_indicators": {
+        "⋯": 110
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ClassSumLift.at_index_alt",
+      "begin_line": 6738,
+      "end_line": 8478,
+      "rendered_block_sha256": "948b734e1d389627af58c4dbfe8425ecd96ccbb9f12ebaed19b830adf27a285f",
+      "rendered_block_utf8_bytes": 139288,
+      "elision_indicators": {
+        "⋯": 121
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ExportPin.ClassSumPin",
+      "begin_line": 8482,
+      "end_line": 9647,
+      "rendered_block_sha256": "6b4933df10b3f297dd48c27a526ab2e1a7ea21f7b190c52aa3043912c0ba59fa",
+      "rendered_block_utf8_bytes": 99801,
+      "elision_indicators": {
+        "⋯": 56
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.ExportPin.IndefiniteClassSumCondition",
+      "begin_line": 9651,
+      "end_line": 11169,
+      "rendered_block_sha256": "31e27de38caf251243d63aed3a00645681d5072c8f1cbc9a2aa3a604e9014be1",
+      "rendered_block_utf8_bytes": 133172,
+      "elision_indicators": {
+        "⋯": 65
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

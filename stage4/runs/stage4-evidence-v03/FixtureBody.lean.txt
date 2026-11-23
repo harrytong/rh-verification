@@ -1,0 +1,25 @@
+namespace RHStage4Fixture
+theorem seed (a b : Nat) (h : a ≤ b) : a ≤ b := h
+theorem equalSides (a : Nat) : a = a := rfl
+theorem equalByHypothesis (a b : Nat) (h : a = b) : a = b := h
+theorem sameCall (a : Nat) : a ≤ a := seed a a (Nat.le_refl a)
+theorem differentCall (a b : Nat) (h : a ≤ b) : a ≤ b := seed a b h
+def alias (a : Nat) : Nat := a
+theorem letCall (a : Nat) : a ≤ a :=
+  let z := alias a
+  seed z a (Nat.le_refl a)
+-- Two watched applications: last-argument-first must select the different-sided
+-- second conjunct, and first-match mode must not also report the first conjunct.
+theorem firstCall (a b : Nat) (h : a ≤ b) : (a ≤ a) ∧ (a ≤ b) :=
+  ⟨seed a a (Nat.le_refl a), seed a b h⟩
+end RHStage4Fixture
+run_cmd do
+  let env ← getEnv
+  liftIO <| RHStage4.generic env "RHStage4Fixture.seed"
+  liftIO <| RHStage4.generic env "RHStage4Fixture.equalSides"
+  liftIO <| RHStage4.generic env "RHStage4Fixture.equalByHypothesis"
+  liftIO <| RHStage4.calls env "RHStage4Fixture.sameCall" #["RHStage4Fixture.seed"]
+  liftIO <| RHStage4.calls env "RHStage4Fixture.differentCall" #["RHStage4Fixture.seed"]
+  liftIO <| RHStage4.calls env "RHStage4Fixture.letCall" #["RHStage4Fixture.seed"]
+  liftIO <| RHStage4.calls env "RHStage4Fixture.firstCall" #["RHStage4Fixture.seed"] true
+#eval IO.println "RH_STAGE4_FIXTURE_END"

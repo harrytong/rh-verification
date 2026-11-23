@@ -1,0 +1,330 @@
+STARTED 2026-11-22T18:59:53.753374-05:00
+COMMAND_JSON ["sudo", "docker", "run", "--rm", "--name", "rh-audit-stage2", "--log-driver=none", "--network", "none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=100g", "--memory-swap=100g", "--pids-limit=512", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=2g,mode=1777", "--mount", "type=bind,src=/home/harry/rh-verification/riemann-hypothesis,dst=/home/harry/rh-verification/riemann-hypothesis,readonly", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage2/stage2-_cqpxeyf,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=/tmp:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/Qq/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/aesop/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/batteries/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/importGraph/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/mathlib/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/plausible/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean", "rh-lean-check:1", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "--run", "/audit/SemanticAudit.lean", "semantic-main"]
+RH_STAGE2_PROGRESS	Semantic import Main; environment extensions are loaded for instance/structure metadata
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 5000 declarations; 1624 completed definitions; 0 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 10000 declarations; 3314 completed definitions; 4 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 15000 declarations; 4708 completed definitions; 4 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 20000 declarations; 6704 completed definitions; 11 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 25000 declarations; 8177 completed definitions; 14 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 30000 declarations; 9262 completed definitions; 14 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 35000 declarations; 11274 completed definitions; 25 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 40000 declarations; 12888 completed definitions; 28 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 45000 declarations; 14313 completed definitions; 30 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 50000 declarations; 15352 completed definitions; 32 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 55000 declarations; 16539 completed definitions; 34 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 60000 declarations; 17830 completed definitions; 34 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 65000 declarations; 19725 completed definitions; 42 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 70000 declarations; 20861 completed definitions; 44 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 75000 declarations; 22036 completed definitions; 46 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 80000 declarations; 23144 completed definitions; 46 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 85000 declarations; 23981 completed definitions; 46 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 90000 declarations; 24874 completed definitions; 55 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 95000 declarations; 26261 completed definitions; 57 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 100000 declarations; 27008 completed definitions; 58 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 105000 declarations; 28599 completed definitions; 64 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 110000 declarations; 30352 completed definitions; 76 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 115000 declarations; 31476 completed definitions; 76 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 120000 declarations; 32520 completed definitions; 80 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 125000 declarations; 33284 completed definitions; 80 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 130000 declarations; 34285 completed definitions; 86 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 135000 declarations; 35203 completed definitions; 87 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 140000 declarations; 35969 completed definitions; 87 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 145000 declarations; 36794 completed definitions; 94 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 150000 declarations; 37729 completed definitions; 94 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 155000 declarations; 38950 completed definitions; 96 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 160000 declarations; 39889 completed definitions; 98 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 165000 declarations; 41433 completed definitions; 100 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 170000 declarations; 42596 completed definitions; 105 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 175000 declarations; 43822 completed definitions; 106 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 180000 declarations; 44732 completed definitions; 108 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 185000 declarations; 45618 completed definitions; 108 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 190000 declarations; 46266 completed definitions; 111 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 195000 declarations; 47056 completed definitions; 114 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 200000 declarations; 47873 completed definitions; 114 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 205000 declarations; 48728 completed definitions; 114 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 210000 declarations; 49487 completed definitions; 117 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 215000 declarations; 50456 completed definitions; 126 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 220000 declarations; 51504 completed definitions; 126 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 225000 declarations; 52448 completed definitions; 126 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 230000 declarations; 53380 completed definitions; 127 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 235000 declarations; 54640 completed definitions; 127 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 240000 declarations; 55792 completed definitions; 131 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 245000 declarations; 56593 completed definitions; 137 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 250000 declarations; 57864 completed definitions; 140 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 255000 declarations; 58544 completed definitions; 140 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 260000 declarations; 59244 completed definitions; 140 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 265000 declarations; 59944 completed definitions; 142 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 270000 declarations; 60547 completed definitions; 143 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 275000 declarations; 61339 completed definitions; 143 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 280000 declarations; 62120 completed definitions; 145 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 285000 declarations; 62979 completed definitions; 145 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 290000 declarations; 63770 completed definitions; 146 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 295000 declarations; 64571 completed definitions; 152 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 300000 declarations; 65603 completed definitions; 153 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 305000 declarations; 66352 completed definitions; 153 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 310000 declarations; 67386 completed definitions; 154 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 315000 declarations; 68192 completed definitions; 154 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 320000 declarations; 69306 completed definitions; 154 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 325000 declarations; 70145 completed definitions; 160 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 330000 declarations; 70997 completed definitions; 162 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 335000 declarations; 72144 completed definitions; 166 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 340000 declarations; 72980 completed definitions; 166 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 345000 declarations; 73571 completed definitions; 167 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 350000 declarations; 74177 completed definitions; 167 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 355000 declarations; 74826 completed definitions; 167 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 360000 declarations; 75454 completed definitions; 167 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 365000 declarations; 76205 completed definitions; 167 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 370000 declarations; 76970 completed definitions; 169 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 375000 declarations; 77583 completed definitions; 169 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 380000 declarations; 78466 completed definitions; 173 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 385000 declarations; 79370 completed definitions; 175 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 390000 declarations; 80244 completed definitions; 175 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 395000 declarations; 81050 completed definitions; 176 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 400000 declarations; 82131 completed definitions; 178 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 405000 declarations; 82846 completed definitions; 179 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 410000 declarations; 83903 completed definitions; 179 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 415000 declarations; 84597 completed definitions; 181 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 420000 declarations; 85318 completed definitions; 181 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 425000 declarations; 86020 completed definitions; 183 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 430000 declarations; 87164 completed definitions; 189 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 435000 declarations; 88030 completed definitions; 189 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 440000 declarations; 88670 completed definitions; 192 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 445000 declarations; 89227 completed definitions; 192 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 450000 declarations; 89784 completed definitions; 192 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 455000 declarations; 90416 completed definitions; 192 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 460000 declarations; 91184 completed definitions; 192 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 465000 declarations; 92000 completed definitions; 194 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 470000 declarations; 92768 completed definitions; 194 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 475000 declarations; 93501 completed definitions; 194 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 480000 declarations; 94504 completed definitions; 196 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 485000 declarations; 95296 completed definitions; 196 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 490000 declarations; 96012 completed definitions; 196 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 495000 declarations; 96664 completed definitions; 196 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 500000 declarations; 97830 completed definitions; 196 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 505000 declarations; 98528 completed definitions; 197 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 510000 declarations; 99601 completed definitions; 197 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 515000 declarations; 100220 completed definitions; 199 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 520000 declarations; 100909 completed definitions; 204 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 525000 declarations; 101605 completed definitions; 206 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 530000 declarations; 102832 completed definitions; 209 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 535000 declarations; 103632 completed definitions; 210 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 540000 declarations; 104423 completed definitions; 210 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 545000 declarations; 104964 completed definitions; 210 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 550000 declarations; 105526 completed definitions; 210 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 555000 declarations; 106107 completed definitions; 211 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 560000 declarations; 106706 completed definitions; 211 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 565000 declarations; 107370 completed definitions; 213 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 570000 declarations; 108130 completed definitions; 213 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 575000 declarations; 108766 completed definitions; 213 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 580000 declarations; 109737 completed definitions; 214 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 585000 declarations; 110471 completed definitions; 214 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 590000 declarations; 111137 completed definitions; 214 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 595000 declarations; 111822 completed definitions; 214 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 600000 declarations; 112744 completed definitions; 216 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 605000 declarations; 113514 completed definitions; 219 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 610000 declarations; 114297 completed definitions; 221 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 615000 declarations; 115071 completed definitions; 224 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 620000 declarations; 115687 completed definitions; 229 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 625000 declarations; 116268 completed definitions; 231 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 630000 declarations; 117089 completed definitions; 241 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 635000 declarations; 118476 completed definitions; 241 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 640000 declarations; 119134 completed definitions; 242 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 645000 declarations; 119789 completed definitions; 242 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 650000 declarations; 120308 completed definitions; 242 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 655000 declarations; 120874 completed definitions; 243 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 660000 declarations; 121401 completed definitions; 243 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 665000 declarations; 122021 completed definitions; 243 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 670000 declarations; 122829 completed definitions; 245 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 675000 declarations; 123418 completed definitions; 245 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 680000 declarations; 124088 completed definitions; 245 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 685000 declarations; 124850 completed definitions; 245 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 690000 declarations; 125572 completed definitions; 246 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 695000 declarations; 126100 completed definitions; 246 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 700000 declarations; 126877 completed definitions; 248 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 705000 declarations; 127724 completed definitions; 253 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 710000 declarations; 128307 completed definitions; 255 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 715000 declarations; 129011 completed definitions; 255 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 720000 declarations; 129520 completed definitions; 255 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 725000 declarations; 130205 completed definitions; 258 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 730000 declarations; 130931 completed definitions; 271 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 735000 declarations; 131891 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 740000 declarations; 132864 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 745000 declarations; 133411 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 750000 declarations; 134010 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 755000 declarations; 134445 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 760000 declarations; 135055 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 765000 declarations; 135715 completed definitions; 272 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 770000 declarations; 136420 completed definitions; 273 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 775000 declarations; 137012 completed definitions; 273 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 780000 declarations; 137624 completed definitions; 273 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 785000 declarations; 138249 completed definitions; 273 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 790000 declarations; 138899 completed definitions; 274 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 795000 declarations; 139393 completed definitions; 275 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 800000 declarations; 140307 completed definitions; 278 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 805000 declarations; 140874 completed definitions; 282 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 810000 declarations; 141504 completed definitions; 283 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 815000 declarations; 141967 completed definitions; 283 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 820000 declarations; 142622 completed definitions; 287 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 825000 declarations; 143262 completed definitions; 291 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 830000 declarations; 144056 completed definitions; 302 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 835000 declarations; 144881 completed definitions; 302 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 840000 declarations; 145538 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 845000 declarations; 145991 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 850000 declarations; 146596 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 855000 declarations; 147085 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 860000 declarations; 147622 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 865000 declarations; 148270 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 870000 declarations; 148899 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 875000 declarations; 149433 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 880000 declarations; 150026 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 885000 declarations; 150746 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 890000 declarations; 151363 completed definitions; 303 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 895000 declarations; 152097 completed definitions; 305 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 900000 declarations; 152731 completed definitions; 305 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 905000 declarations; 153253 completed definitions; 308 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 910000 declarations; 153883 completed definitions; 308 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 915000 declarations; 154424 completed definitions; 310 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 920000 declarations; 155046 completed definitions; 316 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 925000 declarations; 155736 completed definitions; 316 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 930000 declarations; 156507 completed definitions; 316 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 935000 declarations; 157034 completed definitions; 316 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 940000 declarations; 157526 completed definitions; 317 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 945000 declarations; 158155 completed definitions; 318 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 950000 declarations; 158645 completed definitions; 318 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 955000 declarations; 159232 completed definitions; 318 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 960000 declarations; 159850 completed definitions; 318 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 965000 declarations; 160417 completed definitions; 318 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 970000 declarations; 160900 completed definitions; 319 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 975000 declarations; 161454 completed definitions; 323 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 980000 declarations; 162214 completed definitions; 327 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 985000 declarations; 162841 completed definitions; 330 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 990000 declarations; 163272 completed definitions; 330 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 995000 declarations; 163842 completed definitions; 331 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1000000 declarations; 164437 completed definitions; 336 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1005000 declarations; 165024 completed definitions; 342 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1010000 declarations; 165723 completed definitions; 346 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1015000 declarations; 166416 completed definitions; 346 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1020000 declarations; 167183 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1025000 declarations; 167547 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1030000 declarations; 168083 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1035000 declarations; 168676 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1040000 declarations; 169196 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1045000 declarations; 169726 completed definitions; 348 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1050000 declarations; 170174 completed definitions; 349 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1055000 declarations; 170682 completed definitions; 349 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1060000 declarations; 171397 completed definitions; 350 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1065000 declarations; 171993 completed definitions; 352 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1070000 declarations; 172404 completed definitions; 353 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1075000 declarations; 172995 completed definitions; 353 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1080000 declarations; 173552 completed definitions; 353 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1085000 declarations; 174301 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1090000 declarations; 174796 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1095000 declarations; 175505 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1100000 declarations; 176029 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1105000 declarations; 176546 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1110000 declarations; 177026 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1115000 declarations; 177502 completed definitions; 355 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1120000 declarations; 177994 completed definitions; 356 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1125000 declarations; 178495 completed definitions; 358 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1130000 declarations; 179060 completed definitions; 358 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1135000 declarations; 179635 completed definitions; 361 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1140000 declarations; 180104 completed definitions; 363 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1145000 declarations; 180868 completed definitions; 365 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1150000 declarations; 181450 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1155000 declarations; 182132 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1160000 declarations; 182777 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1165000 declarations; 183382 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1170000 declarations; 183885 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1175000 declarations; 184370 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1180000 declarations; 184868 completed definitions; 371 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1185000 declarations; 185486 completed definitions; 372 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1190000 declarations; 185948 completed definitions; 374 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1195000 declarations; 186515 completed definitions; 378 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1200000 declarations; 186993 completed definitions; 381 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1205000 declarations; 187600 completed definitions; 383 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1210000 declarations; 188323 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1215000 declarations; 188940 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1220000 declarations; 189475 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1225000 declarations; 190105 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1230000 declarations; 190464 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1235000 declarations; 191008 completed definitions; 388 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1240000 declarations; 191565 completed definitions; 389 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1245000 declarations; 191997 completed definitions; 389 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1250000 declarations; 192593 completed definitions; 393 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1255000 declarations; 193030 completed definitions; 393 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1260000 declarations; 193764 completed definitions; 394 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1265000 declarations; 194348 completed definitions; 394 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1270000 declarations; 194889 completed definitions; 394 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1275000 declarations; 195426 completed definitions; 394 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1280000 declarations; 195863 completed definitions; 396 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1285000 declarations; 196346 completed definitions; 396 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1290000 declarations; 196790 completed definitions; 396 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1295000 declarations; 197232 completed definitions; 397 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1300000 declarations; 197756 completed definitions; 397 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1305000 declarations; 198359 completed definitions; 398 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1310000 declarations; 198905 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1315000 declarations; 199379 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1320000 declarations; 199845 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1325000 declarations; 200336 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1330000 declarations; 200813 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1335000 declarations; 201297 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1340000 declarations; 201867 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1345000 declarations; 202529 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1350000 declarations; 202931 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1355000 declarations; 203416 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1360000 declarations; 203921 completed definitions; 399 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1365000 declarations; 204393 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1370000 declarations; 204778 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1375000 declarations; 205246 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1380000 declarations; 205758 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1385000 declarations; 206179 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1390000 declarations; 206590 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1395000 declarations; 207036 completed definitions; 400 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1400000 declarations; 207533 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1405000 declarations; 207967 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1410000 declarations; 208390 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1415000 declarations; 208848 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1420000 declarations; 209198 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1425000 declarations; 209607 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1430000 declarations; 210031 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1435000 declarations; 210364 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1440000 declarations; 210784 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1445000 declarations; 211115 completed definitions; 401 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1450000 declarations; 211509 completed definitions; 402 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1455000 declarations; 211892 completed definitions; 403 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1460000 declarations; 212307 completed definitions; 403 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1465000 declarations; 212736 completed definitions; 403 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1470000 declarations; 213117 completed definitions; 403 unknown
+RH_STAGE2_PROGRESS	Semantic five-headline-reference-union: 1475000 declarations; 213622 completed definitions; 403 unknown
+RH_STAGE2_JSON	{"bucket":"definitions/at-least-one-hit","category_labels":["Prop-valued-definition-definitionally-True","unit-typed-constructor-field","definitionally-zero-linear-map","definitionally-zero-measure","unit-valued-definition-auxiliary","unit-type-family-value-auxiliary","reserved"],"cohort":"five-headline-reference-union","counts":[294,600,130,9,12,131,0],"denominator":213831,"event":"semantic-bucket","samples":[["Set.univ","TwoSidedIdeal.instTop","Submodule.instTop","Submodule.instOrderTop","Set.instBooleanAlgebra","Subring.instTop","TopologicalSpace.instCompleteLattice","Filter.instBot","GlobalTheory.Mem.Top.Bl.anyGeometry","GlobalTheory.Published.UnusedSlot72","TopologicalSpace.Opens.instCompleteLattice","Subgroup.instTop"],["CategoryTheory.Over.pullback","CategoryTheory.Over.mk","ReciprocityTheory.ChartRestriction.G.Semi.G3","PUnit.instUnique","Formalism.L2.Pj.overAt","ReciprocityTheory.ChartRestriction.G.Out.baseOver","Equiv.equivPUnit","Equiv.punitProd","Equiv.prodPUnit","instInhabitedPUnit","GlobalTheory.SmGL.points","CategoryTheory.Limits.pullbackConeEquivBinaryFan"],["Module.End.instSemiring","GlobalTheory.WeilDeligne.WDRep.ofChars","LinearMap.addCommGroup","LinearMap.addCommMonoid","LinearMap.instZero","LinearMap.addMonoid","GlobalTheory.WeilDeligne.WDRep.diag","ContinuousLinearMap.zero","ContinuousLinearMap.addCommMonoid","Module.subsingletonEquiv","Module.End.instRing","ContinuousLinearMap.semiring"],["MeasureTheory.Measure.instZero","MeasureTheory.Measure.instAddCommMonoid","MeasureTheory.Measure.instCompleteLattice","MeasureTheory.Measure.instInhabited","Formalism.L2.Geo.divXFl","Formalism.L2.Geo.geoDegenerate","GlobalTheory.Mem.R3.RsA.newR","ProbabilityTheory.Kernel.instZero","ProbabilityTheory.Kernel.instAddCommMonoid"],["Unit.unit","AlgebraicGeometry.Scheme.Cover.instUniqueI₀Sigma._aux_1","CategoryTheory.SingleObj.star","AlgebraicGeometry.instUniqueI₀SchemeCover._aux_1","Quiver.SingleObj.star","Quiver.instUniqueSingleObj._aux_1","CategoryTheory.PreOneHypercover.instUniqueLMulticospanShapeSigmaOfIsColimit._aux_1","CategoryTheory.WithTerminal.homFrom","GlobalTheory.CechPoset.i0","CategoryTheory.WithInitial.homTo","GlobalTheory.ZM.DimZero.zeroSieg._aux_2","Formalism.MainNotions.G.CmpJ.chU"],["Unit","GlobalTheory.Mem.Top.Bl.parametersOfDependence","GlobalTheory.Mem.Top.Bl.SExt.none","ReciprocityTheory.ChartRestriction.G.Semi.LB.triv","GlobalTheory.HermLB.triv","GlobalTheory.ArInt.fnB","AlgebraicGeometry.Scheme.coverOfIsIso","GlobalTheory.Mem.Col2.TC.perIn","GlobalTheory.Fc.Bd0","AlgebraicGeometry.Scheme.Hom.cover","GlobalTheory.LB.generatorsOfIso","GlobalTheory.CxCoh.Cx.single"],[]]}
+RH_STAGE2_JSON	{"bucket":"origin/Mathlib/definitions","category_labels":["Prop-valued-definition-definitionally-True","unit-typed-constructor-field","definitionally-zero-linear-map","definitionally-zero-measure","unit-valued-definition-auxiliary","unit-type-family-value-auxiliary","reserved"],"cohort":"five-headline-reference-union","counts":[127,141,46,6,8,17,0],"denominator":32959,"event":"semantic-bucket","samples":[["Set.univ","TwoSidedIdeal.instTop","Submodule.instTop","Submodule.instOrderTop","Set.instBooleanAlgebra","Subring.instTop","TopologicalSpace.instCompleteLattice","Filter.instBot","TopologicalSpace.Opens.instCompleteLattice","Subgroup.instTop","AddSubmonoid.instTop","AddSubgroup.instTop"],["CategoryTheory.Over.pullback","CategoryTheory.Over.mk","PUnit.instUnique","Equiv.equivPUnit","Equiv.punitProd","Equiv.prodPUnit","CategoryTheory.Limits.pullbackConeEquivBinaryFan","CategoryTheory.CostructuredArrow.mk","PUnit.instLinearOrderedAddCommMonoidWithTop","PUnit.module","PUnit.addCommGroup","FundamentalGroupoid.punitEquivDiscretePUnit"],["Module.End.instSemiring","LinearMap.addCommGroup","LinearMap.addCommMonoid","LinearMap.instZero","LinearMap.addMonoid","ContinuousLinearMap.zero","ContinuousLinearMap.addCommMonoid","Module.subsingletonEquiv","Module.End.instRing","ContinuousLinearMap.semiring","Derivation.instAddCommMonoid","Representation.IntertwiningMap.instAddCommMonoid"],["MeasureTheory.Measure.instZero","MeasureTheory.Measure.instAddCommMonoid","MeasureTheory.Measure.instCompleteLattice","MeasureTheory.Measure.instInhabited","ProbabilityTheory.Kernel.instZero","ProbabilityTheory.Kernel.instAddCommMonoid"],["AlgebraicGeometry.Scheme.Cover.instUniqueI₀Sigma._aux_1","CategoryTheory.SingleObj.star","AlgebraicGeometry.instUniqueI₀SchemeCover._aux_1","Quiver.SingleObj.star","Quiver.instUniqueSingleObj._aux_1","CategoryTheory.PreOneHypercover.instUniqueLMulticospanShapeSigmaOfIsColimit._aux_1","CategoryTheory.WithTerminal.homFrom","CategoryTheory.WithInitial.homTo"],["AlgebraicGeometry.Scheme.coverOfIsIso","AlgebraicGeometry.Scheme.Hom.cover","CategoryTheory.Precoverage.ZeroHypercover.singleton","CategoryTheory.SingleObj","CategoryTheory.PreZeroHypercover.singleton","AlgebraicGeometry.Scheme.Cover.sigma","CategoryTheory.Limits.Types.coneOfSection","Quiver.SingleObj","AlgebraicGeometry.LocallyRingedSpace.empty","CategoryTheory.PreZeroHypercover.sigmaOfIsColimit","CategoryTheory.PreZeroHypercover.toPreOneHypercover","CategoryTheory.PreOneHypercover.sigmaOfIsColimit"],[]]}
+RH_STAGE2_JSON	{"bucket":"origin/other-project-or-package/definitions","category_labels":["Prop-valued-definition-definitionally-True","unit-typed-constructor-field","definitionally-zero-linear-map","definitionally-zero-measure","unit-valued-definition-auxiliary","unit-type-family-value-auxiliary","reserved"],"cohort":"five-headline-reference-union","counts":[166,458,84,3,3,113,0],"denominator":178039,"event":"semantic-bucket","samples":[["GlobalTheory.Mem.Top.Bl.anyGeometry","GlobalTheory.Published.UnusedSlot72","ReciprocityTheory.Gal.instTopologicalSpaceTDual","ReciprocityTheory.ChartRestriction.G.Semi.LB.triv","GlobalTheory.HermLB.triv","GroundTheory.Global.Modulus.one","GlobalTheory.WeilM.sbClass","GlobalTheory.ArInt.fnB","GlobalTheory.AnPer.fibFam","Formalism.GaloisCohomology.instTopologicalSpaceQZ","GlobalTheory.BigTop.Fun.trivialTieCondition","Formalism.MainNotions.N.instTopologicalSpaceKOG"],["ReciprocityTheory.ChartRestriction.G.Semi.G3","Formalism.L2.Pj.overAt","ReciprocityTheory.ChartRestriction.G.Out.baseOver","GlobalTheory.SmGL.points","ReciprocityTheory.ChartRestriction.G.Semi.G2","Formalism.L2.Pj.tEpsG","ReciprocityTheory.ChartRestriction.G.Chart.sp","ReciprocityTheory.ChartRestriction.G.Geo.Tor.epsR","ReciprocityTheory.ChartRestriction.G.Semi.G4","ReciprocityTheory.ChartRestriction.G.Semi.splitTorus","ReciprocityTheory.ChartRestriction.G.Geo.Tor.ptOver","ReciprocityTheory.ChartRestriction.G.Out.TK"],["GlobalTheory.WeilDeligne.WDRep.ofChars","GlobalTheory.WeilDeligne.WDRep.diag","ReciprocityTheory.Gal.instAddCommGroupTDual","ReciprocityTheory.Gal.instAddCommGroupTDual._aux_4","GlobalTheory.Core.Rk.SWLaw.zeroSp","GlobalTheory.RealPar.Cover.trivZero","CompanionTheory.RgExh.triv","GlobalTheory.Mem.R3.LedRec.bare","Formalism.L2.Ker.zeroKer","GlobalTheory.Mem.GaloisStage.adapt","GlobalTheory.OnTies.blankObj","PositivityTheory.RgUd.Prod.Asm.zeroH"],["Formalism.L2.Geo.divXFl","Formalism.L2.Geo.geoDegenerate","GlobalTheory.Mem.R3.RsA.newR"],["GlobalTheory.CechPoset.i0","GlobalTheory.ZM.DimZero.zeroSieg._aux_2","Formalism.MainNotions.G.CmpJ.chU"],["GlobalTheory.Mem.Top.Bl.parametersOfDependence","GlobalTheory.Mem.Top.Bl.SExt.none","ReciprocityTheory.ChartRestriction.G.Semi.LB.triv","GlobalTheory.HermLB.triv","GlobalTheory.ArInt.fnB","GlobalTheory.Mem.Col2.TC.perIn","GlobalTheory.Fc.Bd0","GlobalTheory.LB.generatorsOfIso","GlobalTheory.CxCoh.Cx.single","CrystallineSemistableComparison.dat","GlobalTheory.Mem.Col2.stepX","GlobalTheory.PeriodOnStep.perOn"],[]]}
+RH_STAGE2_JSON	{"bucket":"origin/Lean-core/definitions","category_labels":["Prop-valued-definition-definitionally-True","unit-typed-constructor-field","definitionally-zero-linear-map","definitionally-zero-measure","unit-valued-definition-auxiliary","unit-type-family-value-auxiliary","reserved"],"cohort":"five-headline-reference-union","counts":[1,1,0,0,1,1,0],"denominator":2833,"event":"semantic-bucket","samples":[["instInhabitedProp"],["instInhabitedPUnit"],[],[],["Unit.unit"],["Unit"],[]]}
+RH_STAGE2_JSON	{"bucket":"classified-sites/overlapping-categories","category_labels":["Prop-valued-definition-definitionally-True","unit-typed-constructor-field","definitionally-zero-linear-map","definitionally-zero-measure","unit-valued-definition-auxiliary","unit-type-family-value-auxiliary","reserved"],"cohort":"five-headline-reference-union","counts":[566,1079,267,13,12,401,0],"denominator":2338,"event":"semantic-bucket","samples":[["Set.univ.«definition-value»","TwoSidedIdeal.instTop.«definition-value/constructor:Top.mk/arg:1/constructor:TwoSidedIdeal.ofRingCon/arg:2/constructor:RingCon.mk/arg:3/constructor:Con.mk/arg:2/constructor:Setoid.mk/arg:1»","Submodule.instTop.«definition-value/constructor:Top.mk/arg:1/constructor:Submodule.mk/arg:5/constructor:AddSubmonoid.mk/arg:2/constructor:AddSubsemigroup.mk/arg:2»","Submodule.instOrderTop.«definition-value/constructor:OrderTop.mk/arg:2/constructor:Top.mk/arg:1/constructor:Submodule.mk/arg:5/constructor:AddSubmonoid.mk/arg:2/constructor:AddSubsemigroup.mk/arg:2»","Set.instBooleanAlgebra.«definition-value/constructor:BooleanAlgebra.mk/arg:5/constructor:Top.mk/arg:1»","Subring.instTop.«definition-value/constructor:Top.mk/arg:1/constructor:Subring.mk/arg:2/constructor:Subsemiring.mk/arg:2/constructor:Submonoid.mk/arg:2/constructor:Subsemigroup.mk/arg:2»","TopologicalSpace.instCompleteLattice.«definition-value/constructor:CompleteLattice.mk/arg:6/constructor:BoundedOrder.mk/arg:3/constructor:OrderBot.mk/arg:2/constructor:Bot.mk/arg:1/constructor:TopologicalSpace.mk/arg:1»","Filter.instBot.«definition-value/constructor:Bot.mk/arg:1/constructor:Filter.mk/arg:1»","GlobalTheory.Mem.Top.Bl.anyGeometry.«definition-value»","GlobalTheory.Published.UnusedSlot72.«definition-value»","TopologicalSpace.Opens.instCompleteLattice.«definition-value/constructor:CompleteLattice.mk/arg:6/constructor:BoundedOrder.mk/arg:2/constructor:OrderTop.mk/arg:2/constructor:Top.mk/arg:1/constructor:TopologicalSpace.Opens.mk/arg:2»","Subgroup.instTop.«definition-value/constructor:Top.mk/arg:1/constructor:Subgroup.mk/arg:2/constructor:Submonoid.mk/arg:2/constructor:Subsemigroup.mk/arg:2»"],["CategoryTheory.Over.pullback.«definition-value/constructor:CategoryTheory.Functor.mk/arg:4/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»","CategoryTheory.Over.mk.«definition-value/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»","ReciprocityTheory.ChartRestriction.G.Semi.G3.«definition-value/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»","PUnit.instUnique.«definition-value/constructor:Unique.mk/arg:1/constructor:Inhabited.mk/arg:1»","Formalism.L2.Pj.overAt.«definition-value/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»","ReciprocityTheory.ChartRestriction.G.Out.baseOver.«definition-value/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»","Equiv.equivPUnit.«definition-value/constructor:Equiv.mk/arg:2»","Equiv.punitProd.«definition-value/constructor:Equiv.mk/arg:3/constructor:Prod.mk/arg:2»","Equiv.prodPUnit.«definition-value/constructor:Equiv.mk/arg:3/constructor:Prod.mk/arg:3»","instInhabitedPUnit.«definition-value/constructor:Inhabited.mk/arg:1»","GlobalTheory.SmGL.points.«definition-value/constructor:Equiv.mk/arg:3/constructor:Sigma.mk/arg:3»","CategoryTheory.Limits.pullbackConeEquivBinaryFan.«definition-value/constructor:CategoryTheory.Equivalence.mk'/arg:4/constructor:CategoryTheory.Functor.mk/arg:4/constructor:CategoryTheory.Limits.Cone.mk/arg:5/constructor:CategoryTheory.Comma.mk/arg:9/constructor:CategoryTheory.Discrete.mk/arg:1»"],["Module.End.instSemiring.«definition-value/constructor:Semiring.mk/arg:1/constructor:AddCommMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","GlobalTheory.WeilDeligne.WDRep.ofChars.«definition-value/constructor:GlobalTheory.WeilDeligne.WDRep.mk/arg:15»","LinearMap.addCommGroup.«definition-value/constructor:AddCommGroup.mk/arg:1/constructor:AddGroup.mk/arg:1/constructor:SubNegMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","LinearMap.addCommMonoid.«definition-value/constructor:AddCommMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","LinearMap.instZero.«definition-value/constructor:Zero.mk/arg:1»","LinearMap.addMonoid.«definition-value/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","GlobalTheory.WeilDeligne.WDRep.diag.«definition-value/constructor:GlobalTheory.WeilDeligne.WDRep.mk/arg:15»","ContinuousLinearMap.zero.«definition-value/constructor:Zero.mk/arg:1»","ContinuousLinearMap.zero.«definition-value/constructor:Zero.mk/arg:1/constructor:ContinuousLinearMap.mk/arg:13»","ContinuousLinearMap.addCommMonoid.«definition-value/constructor:AddCommMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","ContinuousLinearMap.addCommMonoid.«definition-value/constructor:AddCommMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1/constructor:ContinuousLinearMap.mk/arg:13»","Module.subsingletonEquiv.«definition-value/constructor:LinearEquiv.mk/arg:14»"],["MeasureTheory.Measure.instZero.«definition-value/constructor:Zero.mk/arg:1»","MeasureTheory.Measure.instAddCommMonoid.«definition-value/constructor:AddCommMonoid.mk/arg:1/constructor:AddMonoid.mk/arg:2/constructor:Zero.mk/arg:1»","MeasureTheory.Measure.instCompleteLattice.«definition-value/constructor:CompleteLattice.mk/arg:6/constructor:BoundedOrder.mk/arg:3/constructor:OrderBot.mk/arg:2/constructor:Bot.mk/arg:1»","MeasureTheory.Measure.instInhabited.«definition-value/constructor:Inhabited.mk/arg:1»","Formalism.L2.Geo.divXFl.«definition-value/constructor:Formalism.BasicNotions.DivX.mk/arg:1/constructor:Formalism.BasicNotions.DV.Geo.mk/arg:33»","Formalism.L2.Geo.geoDegenerate.«definition-value/constructor:Formalism.BasicNotions.DV.Geo.mk/arg:33»","GlobalTheory.Mem.R3.RsA.newR.«definition-value/constructor:Formalism.IndefR.Links.RealDat3.mk/arg:12/constructor:Formalism.IndefR.Links.RealDat.mk/arg:33»","GlobalTheory.Mem.R3.RsA.newR.«definition-value/constructor:Formalism.IndefR.Links.RealDat3.mk/arg:12/constructor:Formalism.IndefR.Links.RealDat.mk/arg:35»","GlobalTheory.Mem.R3.RsA.newR.«definition-value/constructor:Formalism.IndefR.Links.RealDat3.mk/arg:12/constructor:Formalism.IndefR.Links.RealDat.mk/arg:37»","GlobalTheory.Mem.R3.RsA.newR.«definition-value/constructor:Formalism.IndefR.Links.RealDat3.mk/arg:12/constructor:Formalism.IndefR.Links.RealDat.mk/arg:39»","GlobalTheory.Mem.R3.RsA.newR.«definition-value/constructor:Formalism.IndefR.Links.RealDat3.mk/arg:12/constructor:Formalism.IndefR.Links.RealDat.mk/arg:41»","ProbabilityTheory.Kernel.instZero.«definition-value/constructor:Zero.mk/arg:1/constructor:ProbabilityTheory.Kernel.mk/arg:4»"],["Unit.unit.«definition-value»","AlgebraicGeometry.Scheme.Cover.instUniqueI₀Sigma._aux_1.«definition-value»","CategoryTheory.SingleObj.star.«definition-value»","AlgebraicGeometry.instUniqueI₀SchemeCover._aux_1.«definition-value»","Quiver.SingleObj.star.«definition-value»","Quiver.instUniqueSingleObj._aux_1.«definition-value»","CategoryTheory.PreOneHypercover.instUniqueLMulticospanShapeSigmaOfIsColimit._aux_1.«definition-value»","CategoryTheory.WithTerminal.homFrom.«definition-value»","GlobalTheory.CechPoset.i0.«definition-value»","CategoryTheory.WithInitial.homTo.«definition-value»","GlobalTheory.ZM.DimZero.zeroSieg._aux_2.«definition-value»","Formalism.MainNotions.G.CmpJ.chU.«definition-value»"],["Unit.«definition-value»","GlobalTheory.Mem.Top.Bl.parametersOfDependence.«definition-value/constructor:GlobalTheory.Mem.Top.Bl.Parameters.mk/arg:3»","GlobalTheory.Mem.Top.Bl.SExt.none.«definition-value»","ReciprocityTheory.ChartRestriction.G.Semi.LB.triv.«definition-value/constructor:ReciprocityTheory.ChartRestriction.G.Semi.LB.mk/arg:1»","GlobalTheory.HermLB.triv.«definition-value/constructor:GlobalTheory.HermLB.mk/arg:4/constructor:ReciprocityTheory.ChartRestriction.G.Semi.LB.mk/arg:1»","GlobalTheory.ArInt.fnB.«definition-value/constructor:GlobalTheory.HermLB.mk/arg:4/constructor:ReciprocityTheory.ChartRestriction.G.Semi.LB.mk/arg:1»","AlgebraicGeometry.Scheme.coverOfIsIso.«definition-value/constructor:CategoryTheory.Precoverage.ZeroHypercover.mk/arg:4/constructor:CategoryTheory.PreZeroHypercover.mk/arg:3»","GlobalTheory.Mem.Col2.TC.perIn.«definition-value/constructor:GlobalTheory.Mem.Col2.PerIn.mk/arg:9/constructor:GlobalTheory.Mem.Col2.GStep.mk/arg:6»","GlobalTheory.Fc.Bd0.«definition-value»","AlgebraicGeometry.Scheme.Hom.cover.«definition-value/constructor:CategoryTheory.Precoverage.ZeroHypercover.mk/arg:4/constructor:CategoryTheory.PreZeroHypercover.mk/arg:3»","GlobalTheory.LB.generatorsOfIso.«definition-value/constructor:SheafOfModules.LocalGeneratorsData.mk/arg:10/constructor:SheafOfModules.GeneratingSections.mk/arg:7»","GlobalTheory.CxCoh.Cx.single.«definition-value/constructor:GlobalTheory.CxCoh.Cx.mk/arg:3/constructor:GlobalTheory.CxCoh.Coef.mk/arg:2»"],[]]}
+RH_STAGE2_JSON	{"closure_declarations":1478222,"cohort":"five-headline-reference-union","constructor_fields_visited":730453,"definitions_attempted":214234,"definitions_completed":213831,"definitions_unknown":403,"definitions_with_record_depth_limit":12603,"event":"semantic-complete","missing":[],"semantic_tests_are_independent_kernel_checks":false,"unknown_examples":["GlobalTheory.Mem.Top.Bl.ColW.D: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.Mem.R3.famR: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.LieVB.Lie: failed to synthesize\n  Zero\n    (↑((GlobalTheory.VB.homPresheaf (GlobalTheory.LieVB.omega G) (GlobalTheory.structureModule S)).obj\n          X) →ₗ[↑(S.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (S.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(S.ringCatSheaf.obj.obj Y)\n            ↑((GlobalTheory.VB.homPresheaf (GlobalTheory.LieVB.omega G) (GlobalTheory.structureModule S)).obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","GlobalTheory.structureModule: failed to synthesize\n  Zero\n    (↑(X✝.ringCatSheaf.obj.obj X) →ₗ[↑(X✝.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (X✝.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(X✝.ringCatSheaf.obj.obj Y) ↑(X✝.ringCatSheaf.obj.obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","GlobalTheory.Cp.SquareIntegrableColumns.toS: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.Mem.Col2.TC.rec7: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.BigTop.Fun.lamOf: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.Mem.R3.famC: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.VB.dual: failed to synthesize\n  Zero\n    (↑((GlobalTheory.VB.homPresheaf F (GlobalTheory.structureModule X✝)).obj X) →ₗ[↑(X✝.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (X✝.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(X✝.ringCatSheaf.obj.obj Y)\n            ↑((GlobalTheory.VB.homPresheaf F (GlobalTheory.structureModule X✝)).obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","GlobalTheory.twist: failed to synthesize\n  Zero\n    (↑((GlobalTheory.Twist.secPresheaf F L).obj X) →ₗ[↑(X✝.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (X✝.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(X✝.ringCatSheaf.obj.obj Y) ↑((GlobalTheory.Twist.secPresheaf F L).obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","SheafOfModules.unit: failed to synthesize\n  Zero\n    (↑(R.obj.obj X) →ₗ[↑(R.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (R.obj.map f))).obj (ModuleCat.of ↑(R.obj.obj Y) ↑(R.obj.obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","GlobalTheory.LB.toMod: failed to synthesize\n  Zero\n    (↑((GlobalTheory.LB.secPresheaf L).obj X) →ₗ[↑(X✝.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (X✝.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(X✝.ringCatSheaf.obj.obj Y) ↑((GlobalTheory.LB.secPresheaf L).obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","GlobalTheory.LB.unitMod: failed to synthesize\n  Zero\n    (↑(X✝.ringCatSheaf.obj.obj X) →ₗ[↑(X✝.ringCatSheaf.obj.obj X)]\n      ↑((ModuleCat.restrictScalars (RingCat.Hom.hom (X✝.ringCatSheaf.obj.map f))).obj\n          (ModuleCat.of ↑(X✝.ringCatSheaf.obj.obj Y) ↑(X✝.ringCatSheaf.obj.obj Y))))\n\nHint: Additional diagnostic information may be available using the `set_option diagnostics true` command.","PositivityTheory.Rg.BcB.F.rlΘ₂: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.Cp.ColRec3.ev: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","Formalism.L2.DIV.ColRec3.ev: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.Cp.ColRec3.toS: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.EX.OB.LedPart.pt: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","GlobalTheory.FunObj.LaP: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)","Formalism.BasicNotions.DV.aPlusQ: (deterministic) timeout at `whnf`, maximum number of heartbeats (2000) has been reached\n\nNote: Use `set_option maxHeartbeats <num>` to set the limit.(invalid MessageData.lazy, missing context)"],"witness_vs_ordinary_role_classification":"not established globally; do not infer from value classification"}
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 --run /audit/SemanticAudit.lean semantic-main"
+	User time (seconds): 6258.66
+	System time (seconds): 135.51
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:47:57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93960116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 101267
+	Minor (reclaiming a frame) page faults: 49958209
+	Voluntary context switches: 110223
+	Involuntary context switches: 38536
+	Swaps: 0
+	File system inputs: 15752792
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+FINISHED 2026-11-22T20:47:51.318909-05:00

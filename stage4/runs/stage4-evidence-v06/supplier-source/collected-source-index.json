@@ -1,0 +1,158 @@
+{
+  "meaning": "bounded source context, not a proof closure or use census",
+  "configuration": {
+    "roots": [
+      "Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+      "Formalism/LocalToGlobal/Divisibility/RecBridgeNum.lean",
+      "Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+      "Formalism/LocalToGlobal/Divisibility/HeckeCSDICommTrRep.lean",
+      "Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+      "Formalism/LocalToGlobal/PtKOfReal.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DIVRecBridgeSel.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/InpAtOf.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Wire4F.lean",
+      "Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+      "Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Rec.lean",
+      "Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+      "Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean",
+      "Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+      "Formalism/LocalToGlobal/InpAtOf.lean"
+    ],
+    "import_depth": 0,
+    "max_files": 80,
+    "max_file_bytes": 2097152,
+    "max_total_bytes": 25165824
+  },
+  "total_bytes": 209438,
+  "files": [
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 3369,
+      "sha256": "96f33bffcc1a9841f460b04e015ae70d8876ff83b2f6f54364d6e8f94e61fb41",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridgeMkF.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeNum.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 12189,
+      "sha256": "2b5d393ed2220d57d6765bd422c8c8dcaa02fb0e0336ba5e7b993ac69c31c6d5",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridgeNum.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 18505,
+      "sha256": "4713087be5bc51d5a1a642f74ab5336d438e62a895b111be8f706ddcff42be5b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/ConstantGeTwentyEight.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/HeckeCSDICommTrRep.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 10010,
+      "sha256": "8a08e20ec86cab25c19e0761e81b6f754dd128affdb007ee4c8033262fc027c1",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/HeckeCSDICommTrRep.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 24624,
+      "sha256": "762f44709bd2ff068a2ab3734819dfd9c333a59d71152d7b40a320f9e4ec5abc",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridgeSel.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/PtKOfReal.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 12505,
+      "sha256": "3d253bc6599f44d2fbab0b762a344f5ab0707fcaf33afe92b554d65c9cfd8bd7",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/PtKOfReal.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 7981,
+      "sha256": "29747d9769df72dba7797154ceb5794e087b89ec0b05c9b5bfb354ff067955c6",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PtKOfReal.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DIVRecBridgeSel.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 13306,
+      "sha256": "0de206a2fc6c31be807f5f06931f747cdf014ebdd0eb620d68241201dc036dde",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DIVRecBridgeSel.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/InpAtOf.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 5928,
+      "sha256": "66eb3f839c2b7accb531ecf3e976fdaf754702325334670ff5b20a33df80bc02",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/InpAtOf.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Wire4F.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 10651,
+      "sha256": "b41c1e36a871464f2f263e8861ff384845034e716b20a76c4149f07a3bb3e2d4",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/Wire4F.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4164,
+      "sha256": "e1000dd0beb873645560c4423423d8e1069c928dfa81a1c599080f87a50a15fd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Col.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Rec.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4072,
+      "sha256": "3f4d22d665c710cebe20ac290d55293e083ec8e5afe23c43451599c454caa1f2",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/LinkDIVL2R3Rec.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridge.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 40684,
+      "sha256": "ba20a46a7a5132ecd646b85dfd4ec4df838e818543083930b34d2a11533e962b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridge.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 16995,
+      "sha256": "26f3646e1a6c5182f383f442e0dfcacda5cfe18aee70c7d78635f152d2613da6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RecBridgeTied.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 20226,
+      "sha256": "df4d56377100efd36b8695cfbef6c7366d8431dc72a47cdd7ffe7f358c42ac74",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/TwistedPlaceEtaSumLeExtended.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/InpAtOf.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4229,
+      "sha256": "01d33e06ef19b4915a0abf8c5bd533f542135ee3a623b3ec5b9a5ebb1ab9cfcd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/InpAtOf.lean"
+    }
+  ]
+}

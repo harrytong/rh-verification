@@ -1,0 +1,19 @@
+Stage 3 v0.14 local validation — 2026-11-23
+
+python3 -m unittest discover -s rh-audit-stage3-v0.14 -p 'test_*.py'
+84 tests passed.
+
+The new phase is tested with synthetic Lean logs and mocked Docker calls:
+target/helper contract, successful evidence production, fixture failure
+preventing the project probe, and project failure preserving evidence.
+New real temporary-Git-repository tests verify pinned revision search despite
+working-tree edits, deterministic capped file selection with omitted paths,
+no-match handling, explicit output-cap failure, and Git errors not becoming
+absence claims. Earlier runner/parser/safety tests remain passing.
+
+No Lean executable is available in the authoring environment. StateWitnesses.lean
+has NOT been compiled here. The provenance helper and the three Lean fixtures
+are byte-for-byte unchanged from v0.13, which passed on Harry's server. Server
+execution must confirm target availability and successful collection.
+
+No RH/GRH, necessity, non-vacuity, or Comparator verdict is asserted.

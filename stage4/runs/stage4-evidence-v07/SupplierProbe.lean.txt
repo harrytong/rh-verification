@@ -1,0 +1,23 @@
+/- Bounded declaration records. Compiled fields are inspected using the unchanged
+   v0.5 argument scanner; this helper records the named supporting declarations. -/
+namespace RHStage4
+def supplierDeclaration (env : Environment) (target : String) : IO Unit := do
+  try
+    let some ci := env.checked.get.find? (nameOf target) |
+      throw (IO.userError "Declaration not found")
+    inMeta env do
+      let value ← match bodyOf ci with
+        | some b => pure (clipped (← ppExpr b).pretty 80000)
+        | none => pure Json.null
+      let refs := match bodyOf ci with
+        | some b => b.getUsedConstants
+        | none => #[]
+      emitMeta [("event", toJson "supplier-declaration"), ("name", toJson target),
+        ("status", toJson "recorded"), ("type", clipped (← ppExpr ci.type).pretty 24000),
+        ("body", value), ("body_reference_count", toJson refs.size),
+        ("body_references", toJson ((refs.toList.take 512).map Name.toString)),
+        ("body_references_truncated", toJson (decide (refs.size > 512)))]
+  catch e =>
+    emit [("event", toJson "supplier-declaration"), ("name", toJson target),
+      ("status", toJson "unknown"), ("error", toJson e.toString)]
+end RHStage4

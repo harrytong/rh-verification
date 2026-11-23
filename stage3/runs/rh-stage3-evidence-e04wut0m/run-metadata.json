@@ -1,0 +1,102 @@
+{
+  "started_utc": "2026-11-23T07:05:27.726886+00:00",
+  "method_version": "stage3-targeted-0.1",
+  "phase": "inspect",
+  "input_hashes_before": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean": "b9ba78e313f6c7a601d87a1672429122d7f976a0afdd8bae8e4efed68a7215df",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean": "54dbd62bbacc19db2294f1c41fd28663522acf498a732f9328ed2086b08b9e38",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean": "e761e876e3236895eec1b67b5a2118846ddfcc6883eed367ac6cc78523da15f2",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean": "49644e6edf3cbd5bbb1cb0e7608c9e6c59e55f22452a1bb33aa2668947e619ed",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean": "66b53ba0f9a6f01367766db7fb04418907174a7464fe48ee01b78aa639e86829",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean": "38b99bb13cfbe01cb1752c03b08eed22db748be05a4f8f03dae70863eaecd467",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean": "80ebd1ee514d8a6a7967fe3e87c775148615416906038a046b27ea9436a2cc1f",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean": "52560bbc51e012b706fc6838bfa75eb15f2cf05f7e6f9ccde98d2d8b5c5c60df",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean": "746e963b4c8c187041017a8e4c50978363efe65a6cbf691c39f7f455167422c4",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean": "22fdce18696511899e2818b3ea8b2868f97cb810b02b8f9b1fc1cbbd98f120af",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean": "545f4dbcc8b67e0d001951fcad7abaa8250d335a64a6950adf5ce69fee5f30a0",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean": "7431256e8a6c407c4a9f42bde70edd2077884e8ee3af503b3eb01028f72f2bbf"
+  },
+  "source_pin": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib_pin": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "phase_completed": true,
+  "steps": [
+    {
+      "name": "positive",
+      "started_utc": "2026-11-23T07:05:31.986621+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "finished_utc": "2026-11-23T07:05:33.352155+00:00",
+      "printer_limit_indicators": {},
+      "rendering_completeness": "not independently certified; inspect any elisions before a complete-use claim",
+      "meaning": "requested Lean commands completed"
+    },
+    {
+      "name": "negative",
+      "started_utc": "2026-11-23T07:05:33.353126+00:00",
+      "completed": true,
+      "exit_status": 1,
+      "finished_utc": "2026-11-23T07:05:34.778457+00:00",
+      "printer_limit_indicators": {},
+      "rendering_completeness": "not independently certified; inspect any elisions before a complete-use claim",
+      "meaning": "expected type error observed"
+    },
+    {
+      "name": "geometry",
+      "started_utc": "2026-11-23T07:05:34.780973+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "finished_utc": "2026-11-23T07:06:53.391634+00:00",
+      "printer_limit_indicators": {
+        "⋯": 275
+      },
+      "rendering_completeness": "not independently certified; inspect any elisions before a complete-use claim",
+      "meaning": "requested Lean commands completed"
+    },
+    {
+      "name": "height",
+      "started_utc": "2026-11-23T07:06:53.396617+00:00",
+      "completed": true,
+      "exit_status": 0,
+      "finished_utc": "2026-11-23T07:08:10.055090+00:00",
+      "printer_limit_indicators": {
+        "⋯": 2
+      },
+      "rendering_completeness": "not independently certified; inspect any elisions before a complete-use claim",
+      "meaning": "requested Lean commands completed"
+    }
+  ],
+  "comparator": "not inspected or controlled",
+  "independent_kernel_verdict": "not performed",
+  "budget": {
+    "cpus": 2,
+    "memory_gib": 100,
+    "probe_seconds": 1800,
+    "log_limit_bytes_per_step": 67108864
+  },
+  "resources_before": {
+    "disk_free_bytes": 68590825472,
+    "mem_available_bytes": 168523587584
+  },
+  "docker_image_id": "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4",
+  "input_hashes_after": {
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Main.olean": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+    "/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean/Statements.olean": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+    "/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/OverIx.lean": "b9ba78e313f6c7a601d87a1672429122d7f976a0afdd8bae8e4efed68a7215df",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NotGeoClFalse.lean": "54dbd62bbacc19db2294f1c41fd28663522acf498a732f9328ed2086b08b9e38",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean": "e761e876e3236895eec1b67b5a2118846ddfcc6883eed367ac6cc78523da15f2",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/OpenAndLinkedOfStrongerExtension.lean": "49644e6edf3cbd5bbb1cb0e7608c9e6c59e55f22452a1bb33aa2668947e619ed",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowFunAtGridA.lean": "66b53ba0f9a6f01367766db7fb04418907174a7464fe48ee01b78aa639e86829",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedBundlesL3OfOpen.lean": "38b99bb13cfbe01cb1752c03b08eed22db748be05a4f8f03dae70863eaecd467",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HypothesesNonemptyOfUnramifiedExponents.lean": "80ebd1ee514d8a6a7967fe3e87c775148615416906038a046b27ea9436a2cc1f",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SetUnipotentTranslate.lean": "52560bbc51e012b706fc6838bfa75eb15f2cf05f7e6f9ccde98d2d8b5c5c60df",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/SharpRestriction/InertJacobiLevels/AsmIface.lean": "746e963b4c8c187041017a8e4c50978363efe65a6cbf691c39f7f455167422c4",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Formalism/LocalRingCardinality/KernelPlaceMeanBound.lean": "22fdce18696511899e2818b3ea8b2868f97cb810b02b8f9b1fc1cbbd98f120af",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/TopCovolSlim2Use.lean": "545f4dbcc8b67e0d001951fcad7abaa8250d335a64a6950adf5ce69fee5f30a0",
+    "/home/harry/rh-verification/riemann-hypothesis/src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/GeometricWeakTies.lean": "7431256e8a6c407c4a9f42bde70edd2077884e8ee3af503b3eb01028f72f2bbf"
+  },
+  "finished_utc": "2026-11-23T07:08:10.390729+00:00"
+}

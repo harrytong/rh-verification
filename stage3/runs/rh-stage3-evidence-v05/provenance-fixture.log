@@ -1,0 +1,41 @@
+START_UTC 2026-11-23T08:17:46.324829+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-mc73ncns/provenance-fixture.cid", "--name", "rh-audit-stage3-mc73ncns-provenancefixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-mc73ncns,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "120", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/ProvenanceFixture.lean"]
+RH_STAGE3_PROVENANCE_JSON	{"event":"target","has_body":true,"kind":"definition","module":"<no module index>","target":"RHStage3ProvenanceFixture.wrapper"}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"type","references":[{"found":true,"module":"Init.Prelude","name":"Nat"}],"retained":1,"target":"RHStage3ProvenanceFixture.wrapper","total":1,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"body","references":[{"found":true,"module":"<no module index>","name":"RHStage3ProvenanceFixture.bodyOnly"}],"retained":1,"target":"RHStage3ProvenanceFixture.wrapper","total":1,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"target","has_body":true,"kind":"theorem","module":"<no module index>","target":"RHStage3ProvenanceFixture.witnessed"}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"type","references":[{"found":true,"module":"Init.Prelude","name":"True"}],"retained":1,"target":"RHStage3ProvenanceFixture.witnessed","total":1,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"body","references":[{"found":true,"module":"Init.Prelude","name":"True"}],"retained":1,"target":"RHStage3ProvenanceFixture.witnessed","total":1,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"target","has_body":true,"kind":"definition","module":"Init.Prelude","target":"Nat.add"}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"type","references":[{"found":true,"module":"Init.Prelude","name":"Nat"}],"retained":1,"target":"Nat.add","total":1,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":4096,"location":"body","references":[{"found":true,"module":"Init.Prelude","name":"Nat"},{"found":true,"module":"Init.Prelude","name":"Nat.brecOn"},{"found":true,"module":"Init.Prelude","name":"Nat.add._f"}],"retained":3,"target":"Nat.add","total":3,"truncated":false}
+RH_STAGE3_PROVENANCE_JSON	{"event":"target","has_body":true,"kind":"definition","module":"<no module index>","target":"RHStage3ProvenanceFixture.wrapper"}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":0,"location":"type","references":[],"retained":0,"target":"RHStage3ProvenanceFixture.wrapper","total":1,"truncated":true}
+RH_STAGE3_PROVENANCE_JSON	{"event":"references","limit":0,"location":"body","references":[],"retained":0,"target":"RHStage3ProvenanceFixture.wrapper","total":1,"truncated":true}
+RH_STAGE3_PROVENANCE_FIXTURE_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/ProvenanceFixture.lean"
+	User time (seconds): 0.85
+	System time (seconds): 0.39
+	Percent of CPU this job got: 107%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1609448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39807
+	Voluntary context switches: 521
+	Involuntary context switches: 66
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T08:17:47.797748+00:00

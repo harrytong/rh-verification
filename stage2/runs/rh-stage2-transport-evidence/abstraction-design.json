@@ -1,0 +1,9 @@
+{
+  "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SiegelEisensteinSecondTermHypotheses.lean",
+  "source_sha256": "e761e876e3236895eec1b67b5a2118846ddfcc6883eed367ac6cc78523da15f2",
+  "theorem": "UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound",
+  "literal_arguments_generalized": 3,
+  "global_parameterization": false,
+  "imported_dependencies": "unchanged pinned declarations; some may still specialize to anyGeometry",
+  "universal_P_probe": "Makes an additional premise available; does not infer a weakest precondition or automatically adapt all imported interfaces"
+}

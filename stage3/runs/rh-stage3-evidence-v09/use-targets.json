@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "GlobalTheory.BigTop.PtAt.nmjT_at_tied_alt",
+    "GlobalTheory.ClassSumLift.eM_eq_thPe_alt",
+    "GlobalTheory.Fc.Ind.evWC_onPt_of_guarded_alt",
+    "GlobalTheory.Fc.Ind.eventual_L3_of_covolume_alt",
+    "GlobalTheory.Fc.TieOfLink.hasTie_of_linked",
+    "SelfIntersectionVolumeEstimates.topCovolG_alt_alt",
+    "GlobalTheory.CovTop.CovolumeBoundOfX",
+    "GlobalTheory.CovHt.FrameCmp.htCmp",
+    "GlobalTheory.CompHt.recVals",
+    "GlobalTheory.CompHt.htVals"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 1,
+  "max_source_files": 160,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "node_limit_per_binder": 100000,
+  "depth_limit": 600,
+  "max_binders": 128,
+  "outer_step_limit": 256
+}

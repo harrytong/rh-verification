@@ -1,0 +1,63 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.T.class_sum_divisor_all_alt",
+      "begin_line": 3,
+      "end_line": 53,
+      "rendered_block_sha256": "e10fa0cf48b882b8185b4fc427545749ea70667bca3bf3498761e16348de500f",
+      "rendered_block_utf8_bytes": 4089,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.linkedAt_tie_of_nonempty_extensionWithLaw",
+      "begin_line": 54,
+      "end_line": 85,
+      "rendered_block_sha256": "dd5c77acc961e0ae7c08c9bfcd09a43acd0f046b6f5c42ab5e22e146e67af75e",
+      "rendered_block_utf8_bytes": 2249,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.GeoZeroAt.geometricWeakTies_of_linked_ties",
+      "begin_line": 86,
+      "end_line": 1062,
+      "rendered_block_sha256": "a2d1d4404a618b99c7c7e14d2d8c771636647f0632a66e69b442d829318add17",
+      "rendered_block_utf8_bytes": 76925,
+      "elision_indicators": {
+        "⋯": 18
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.evW_pRows_of_rows_alt",
+      "begin_line": 1063,
+      "end_line": 1472,
+      "rendered_block_sha256": "85aec139f4bcf969d5361e11f378a0af3973d7ed03feb268aca41a8a4e7b2a8b",
+      "rendered_block_utf8_bytes": 30098,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.pNmj_of_pDiv_of_classSumPin_alt",
+      "begin_line": 1473,
+      "end_line": 1863,
+      "rendered_block_sha256": "25239816644639000993ea53056d240b3525e8ee7509f31d579285938a64b1c3",
+      "rendered_block_utf8_bytes": 30600,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Fc.Ind.pRows_of_parts_alt",
+      "begin_line": 1864,
+      "end_line": 3870,
+      "rendered_block_sha256": "cacf01a8b85a31617eb8fee7d5db06018dd35f46b3b7d5eaa5bff8ade9b401b5",
+      "rendered_block_utf8_bytes": 179969,
+      "elision_indicators": {
+        "⋯": 49
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

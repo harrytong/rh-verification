@@ -1,0 +1,2834 @@
+{
+  "meaning": "bounded source context, not a proof closure or use census",
+  "configuration": {
+    "roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+      "Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/ZeroPartEigenvalueConvention.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/LinksW.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/BaseLiftsPackageOfPrimitiveLinks.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StableIffCarrierEq.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/OrthogonalComplementCharacterisation.lean",
+      "Development/AbelianVarietyTheory/Proofs/FoundationProofs/MeasureToRealEqMass.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TwArgs.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvLgGFieldOfSmallField.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsLocalTupleAtState.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeOpen.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelCharAllStStatement.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RationalSeriesCoeffAtState.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "Formalism/LocalRingCardinality/DataTheta.lean",
+      "Formalism/LocalToGlobal/BesselHermitianTheta/IsAutFunDef.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/AtTauExUniqueHolds.lean"
+    ],
+    "import_depth": 2,
+    "max_files": 250,
+    "max_file_bytes": 2097152,
+    "max_total_bytes": 8388608
+  },
+  "total_bytes": 3034946,
+  "files": [
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 20197,
+      "sha256": "42fc67b2a0277d418d58a17fd0e07882e02ae57d268df8373c6d1d23d3901dd5",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 5738,
+      "sha256": "d9217943223947728fe512f33dfa8f8108cdf35b2d3702f9450c66d6a4926d90",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ZeroPartEigenvalueConvention.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 12019,
+      "sha256": "743df0ea8ad94fd75c8220c9d771ba52dd58e8a8c5ddd41613216cd2c2896500",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ZeroPartEigenvalueConvention.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksW.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 5340,
+      "sha256": "6eb43b36cf8eeba14bf3e9c8e79fd30b53cffc286d486a8b6de32c889ab5766a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LinksW.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/BaseLiftsPackageOfPrimitiveLinks.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 17123,
+      "sha256": "23e3f53128c19bdc4e8895c5597ffea694be41d2ea592d6be6c7dd153e662217",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/BaseLiftsPackageOfPrimitiveLinks.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StableIffCarrierEq.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 20008,
+      "sha256": "78e2633aab1796854588075bf06a25da073137da93b7e6af66fc518da32fa273",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StableIffCarrierEq.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/OrthogonalComplementCharacterisation.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 19517,
+      "sha256": "51a22439714cab5bedd717325148da07d75f8bd38bc166455e75b163f8af7c8e",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/OrthogonalComplementCharacterisation.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MeasureToRealEqMass.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 17297,
+      "sha256": "104e97a421765e1c53acd96d8dcef9603f8a75db4132996b3cf08cb00c918362",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/FoundationProofs/MeasureToRealEqMass.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 19451,
+      "sha256": "152bd2e10244a159d054f393d9e10599dc263190291afd59f04cd0a2170000f1",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 8544,
+      "sha256": "fe767704c5cbbeac034e64889b62432c4688d2a3cfee347ca6b69ca1ef397483",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TwArgs.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 3024,
+      "sha256": "e3ead136f54f5477e36e2defae6e783abe6a4a0cbfdf9d9694f836eec43efd79",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TwArgs.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 11268,
+      "sha256": "41563ec29f4fd3060f7f34377f50104b0694395d7cff3b48465010be6aebaccc",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimes.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvLgGFieldOfSmallField.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2189,
+      "sha256": "55a6c44e77862def524b9978bb6f576799ef7046deda32a9939ddcaf8f0a2e94",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EvLgGFieldOfSmallField.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsLocalTupleAtState.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 7252,
+      "sha256": "90c80658e5dc1151a73a9e5f57c9796ebcd7f851b92f11f61fbf66d9bd655c8d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsLocalTupleAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeOpen.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 9541,
+      "sha256": "19d2e0182327dd83ee996dcd659cf54803a4502c2bb62157d0aa85c07af665af",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeOpen.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelCharAllStStatement.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2142,
+      "sha256": "f6bfae6ed4845437b8696cfb04d58285074bce31bad64ed2d75356c878ecec1b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelCharAllStStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 1687,
+      "sha256": "38a7f18a0640d6b84d2abf2f462b9881cf74654c6250cf10df7900538c755a97",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/PublishedInputsThirdLayer.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RationalSeriesCoeffAtState.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 6832,
+      "sha256": "80f61e720915076a41fdd9950f8250cff7ec90699c8e7aac2e173a6ecbe8fc60",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RationalSeriesCoeffAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 7299,
+      "sha256": "c7e9db07074e0403d8416fbbb467360c9a8d968095530b8760da15d9fd9406fd",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RootsOfUnityRingLeWittIntegers.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 6033,
+      "sha256": "03b29295c4d0d7e2750eb3eef9672f8f3fd09540caffe2d05ba2f95b5fcb15a3",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SameGaloisLevelExists.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataTheta.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 31645,
+      "sha256": "9d8a58534206ed5adc7fc58b2fa6fba341be0bc66ec6b997c56c6d971079399a",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataTheta.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/IsAutFunDef.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 4917,
+      "sha256": "7f0778e92063714885e9ca3b7e3de25ae7b1f22e88387ea01af25f013075739e",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/IsAutFunDef.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/AtTauExUniqueHolds.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 13022,
+      "sha256": "2fb6fadd62ad59d55b21ce0f6a421d476b4ccf05337e85940828defb075ce709",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/AtTauExUniqueHolds.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalComponentAtPlaceDetermined.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 19496,
+      "sha256": "689fc707b1f74903097fb0545f882877c096604ee72fb9e10c42cb18939abc2a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalComponentAtPlaceDetermined.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 15,
+      "sha256": "1015f8f4676a27ea63780b30cc916712232857097b2bdf635dc61cb949c107fb",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalFixedPointAtPlace.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5814,
+      "sha256": "0c209b7802854e5a85fb4fabffc553dd7c72f03fb5207fef27d8c8d96fa22e05",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalFixedPointAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsLocalTupleAtPlace.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5599,
+      "sha256": "f1f77d2f4a45efa105dca67f725f73762cf6fceeec8ee984eac58381c7f0a7d4",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ExistsLocalTupleAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalConjExpansionAtPlace.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5999,
+      "sha256": "bb697a05b8803313e572d9a45eb2f1b0bbd4f3c6220e593ed3077271f599914c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalConjExpansionAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/IsRecTOfIsRec.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6283,
+      "sha256": "4054d69535a55b8df339dee1ed766d38cb271ae87ce6033a8e0195ac577d9931",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/Foundations/LocalLanglands/IsRecTOfIsRec.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/UnivChar.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8306,
+      "sha256": "948ede3f2a9c3b9f8468519b2bfedf236a48c54539c9e275283160ed5d29e6cf",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/UnivChar.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RingSpecNormalisedCharacterEq.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 33635,
+      "sha256": "6886e5dd980b032f12981d9577ce59cf506bb0ccc7375d0ee3afee18f679bb95",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RingSpecNormalisedCharacterEq.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksLemmas.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 23524,
+      "sha256": "b467b6ec8733cf078fb3486f37947b8f24b4210ce3273bfe52f519049832d8ac",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LinksLemmas.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/WeilFull.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4837,
+      "sha256": "2070ee1f8dddb94c08c02396fd07c4332e97cbe677cf31d786c3da9ca2217a1c",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/WeilFull.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/PrimitiveStatementsWithPassage.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 12504,
+      "sha256": "fad85dde8979da2bed51a220afe6b14765b01b843e3e0bb2d85fcfefc3dcc950",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/PrimitiveStatementsWithPassage.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/HeckeIndexRange.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5439,
+      "sha256": "976dcd7360b58473367586d5fdddc3ba829e687bd7653b28835570091c672f21",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/HeckeIndexRange.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Columns/HeckeInertComm.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 22107,
+      "sha256": "e473184802a6d72de4dafcbdc668e826d3330ee5ebd06c55e1419e1d363dcf41",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Columns/HeckeInertComm.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/EvTieP.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5343,
+      "sha256": "940e0f2a56f197218bf129e4f51e652f9504275e6ff629e564bdbc23f88ae9d6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/EvTieP.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ExistsSumOfMemISup.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 11684,
+      "sha256": "025348eb78ecdbde2a4891a33b8a5a2e9aa493c8a6d1c8f8d0c081ce30a1f292",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ExistsSumOfMemISup.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/UnitaryTwoPackage.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3653,
+      "sha256": "424823390ac641709c9af4540221c1ae238bc643e2dd8f3f6b90e26c678d4206",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/UnitaryTwoPackage.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/LiftHeckeOperators.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4629,
+      "sha256": "e30e943192b61ac05bced622410b0732a8f07d558801ee881e6ebfb83e5d50ef",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/LiftHeckeOperators.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/IsometricPeriodsOfUnitHypotheses.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 12242,
+      "sha256": "c4c7ebfa16f6db2d3f804c5561d339139d7d5b4296b19aca3a3ccd7fa76a3da9",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/IsometricPeriodsOfUnitHypotheses.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/WeakCharacterisationWithError.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8321,
+      "sha256": "97a2ba3ae1f4b2b05f4a4010364252b272df81853c9b3100c8ba9d76a46db71a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/WeakCharacterisationWithError.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/BridgeSeed.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4773,
+      "sha256": "56956352770e922bca28b37de499c887f2d83ada50e39dccc623dd70d9c91dae",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/BridgeSeed.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/NormalFrameClauses.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2478,
+      "sha256": "42c52eda50ecfd164e9f6a35d8f9ec16fb5729a15fce7e6222babdbc7a5cfaba",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/NormalFrameClauses.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealSeparation/SignsG.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1693,
+      "sha256": "99657ec0743eb3941a1b3b1fb9d239fa21e2e779508a8a51aae11ee2c2697a2c",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealSeparation/SignsG.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ThetaFireRow.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2531,
+      "sha256": "c953774447190beeba92df94d7b836f4afea0f35683ada962e071e3981885893",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ThetaFireRow.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/PartsRow.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3069,
+      "sha256": "7afa719ec68e029307b593b633bba77cd09234400ec4dd8f6c93da7ed8ed52b6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/PartsRow.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/CutTuples2.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 10100,
+      "sha256": "11ddf1235208613c2abf8169c105c2885e1636bdc699d0bb22080d666cf9ebe6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/CutTuples2.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/PsiWeilOfAbsNorm.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 13429,
+      "sha256": "56431bc96ed2286b0277ca8150fba678ded3aa6ae7595f8381ba51cc77d34903",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/PsiWeilOfAbsNorm.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/HilbertRowConditions/CenterIdempotentAction.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 7231,
+      "sha256": "dfb63dcfa5150dcb268057cb4248db4445eb52dac6d554920d457b18c3b73c18",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/HilbertRowConditions/CenterIdempotentAction.lean"
+    },
+    {
+      "source": "src/ReciprocityTheory/Automorphisms/Unitary.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6273,
+      "sha256": "551b76a2e444b5e24d4a5f0f91c9229c5184c3b540bc4116e8b6fed98a4080f3",
+      "evidence_path": "collected-source/ReciprocityTheory/Automorphisms/Unitary.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/JEvExists.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6593,
+      "sha256": "8b6c8f1dedd3488f110834df650d0dca040f17c649b8ea3c8201e9a2b5d82e4b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/JEvExists.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LocalNewformFunction.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 20788,
+      "sha256": "779c2ccbce05db041abfac3561ada1049c47b6ec234ede989a092b8dc0486415",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LocalNewformFunction.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/SubgroupCharExtensionOneApply.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 18032,
+      "sha256": "2f0cf522b81fdec8dd398ccbd1d7dbf5ca3e07cc0e267b85699f315ea2bba88f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/SubgroupCharExtensionOneApply.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/Foundations/ClassMassEqSumOfBijective.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 33739,
+      "sha256": "551ed21a32c6b3f78482015e9c6572b493752821d916f2ab656fe4baff301b14",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/Foundations/ClassMassEqSumOfBijective.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsCompactAdele.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 13104,
+      "sha256": "6db29cbdcbbeae7fbe73ff25d7168839f16531d2539b3d0937cd32b971291e36",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsCompactAdele.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CompletedLatticeStabilizerCompactOpen.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 14332,
+      "sha256": "70b06a9c46fd509a1223e77505fc64a021886c041f811ffe61f4e5d6dc742fbc",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CompletedLatticeStabilizerCompactOpen.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CmDataIsCMExtAndGramIsHermND.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1728,
+      "sha256": "bf6c12ee86c4697b8cd797963648f3e5b4d4a3912b25138827eb74c3239292e7",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/CmDataIsCMExtAndGramIsHermND.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksDefs.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 28675,
+      "sha256": "bdae4db85b68e7a103437d8f31c38d8eacc2d3acd3e1271400ce311f6290861f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LinksDefs.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/BrgStdR.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5403,
+      "sha256": "0fc87f309377cd8a7b6bddece19bf6ec2822e671c341425bb73ec01410442c80",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/BrgStdR.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ReadPk.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 9162,
+      "sha256": "bcc39d59bb5b22ee2b83a1703b591c457c572e50a98f076c6fcc54bb28582ad5",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ReadPk.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/WeightDegreeSizes.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 145840,
+      "sha256": "7f217e6e208c5054cf1ecd619e93cf782f47de697509aed9814b607acb950458",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/WeightDegreeSizes.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/DivisionPairOfAdelicFormsFaceColumnsData.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 10520,
+      "sha256": "13dde5a72ce7efdfdf29e72dcb8d2e2aaeb14cbd7f3377eb8c66cf50a99d430f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/DivisionPairOfAdelicFormsFaceColumnsData.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PlaceModelImp.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 16339,
+      "sha256": "ae11832e67ebf87d2110128ca07d4859f2dd8c9ab23c9718222513ef929ffe91",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PlaceModelImp.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/ProjectiveLattices/ParCanon.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6821,
+      "sha256": "de64041a317580d0315eb1c50024bac272cf1a4bbb2522d30b6fa66a0d9a6eed",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/ProjectiveLattices/ParCanon.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TiedColumnData.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 9107,
+      "sha256": "1074541bb0a76862ffbbca64a3ac78a3e827f825af50cfe853a2ce1e46d0395c",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TiedColumnData.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FieldValuesMemFixedField.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 3809,
+      "sha256": "4b61b343c928abb6bdc634b394dd14ec82042b50a64c21939945a7d261863417",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FieldValuesMemFixedField.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/LowerTieTwAt.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4645,
+      "sha256": "ecf1cef4112a3b2fcc30c1ef936cbfb3f9bfeb08fba49b47ec988c10d89b80e4",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/LowerTieTwAt.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/DivisionCompatibleToSub2Indef2.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 16249,
+      "sha256": "64063582f19117f01a60b87a6649472d8b451ee2d8cbf58d476e8de3d6478303",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/DivisionCompatibleToSub2Indef2.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TypeIdempotentCoeffAcrossLayers.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 16059,
+      "sha256": "93cda35d5286266fa31ec049af5f6c7a2771df2db8d5fb7990b0e337c3898297",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TypeIdempotentCoeffAcrossLayers.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/EvLgGFieldOfSmallField.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2103,
+      "sha256": "a40261083c0892474d4be17d6c794c745c9ee9fd0c6f5dfc773c285aa2b54e2d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/EvLgGFieldOfSmallField.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ExistsLocalTupleAtState.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 6745,
+      "sha256": "8615effb37f86a0a2549159bece47cf7541c11b3e855a2e2da9c6f9c043fa332",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ExistsLocalTupleAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DaAutRepSphAt.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 233,
+      "sha256": "496de44ae80c3bdf7c1087be273d9ad12fc19d05c0d4d41205d3489638144702",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/DaAutRepSphAt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CGTrueT.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1518,
+      "sha256": "9db2c974f0df3a6f4b2fcddad483baed51e1145806765ce3d20b84b56acfc182",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CGTrueT.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/Divisors/IsRecTLocRecT.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1678,
+      "sha256": "cf5c6ea675fe48794e34d8a221fd64c29a95712acf6154de005f3394f7b3a006",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/Divisors/IsRecTLocRecT.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/SeriesCharacterInverseStatement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1454,
+      "sha256": "b8e200602f736c23c49ed64b79b698c5e620ec5c384d27b6ba46cf0d3ef0c482",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/SeriesCharacterInverseStatement.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelCharAllSt.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2575,
+      "sha256": "47e5d210a697de5ec962df29b0ca2b2b54c2a95392de6e77eb12ab74a63a20a2",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LevelCharAllSt.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/PublishedInputsThirdLayer.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1611,
+      "sha256": "6c63793f19960c7ce22a281f2cd5cc14c1c564f2a3c88c2dcf7f31549277099c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/PublishedInputsThirdLayer.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaLocalInputs.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1575,
+      "sha256": "fad3f38583734f73cfb5e7c2ceca414b9113a6dc1a8acd18b5cea56348711605",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaLocalInputs.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/RationalSeriesCoeffAtState.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5929,
+      "sha256": "81522774162fb32274a58f49b05f3cebc28a507f4de4cbf523ab12a45c4aa397",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/RationalSeriesCoeffAtState.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2049,
+      "sha256": "4d155718d7474a6c9615b061b80494817023f855f70bf7c889e15f52bf15f25d",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/SXdAll.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8042,
+      "sha256": "f9596e85c42411193ee6c1a86ef19ea1c6c1eef6decb6f3e52dd3ead03a13e01",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RootsOfUnityRingLeWittIntegers.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5257,
+      "sha256": "e58e8bd2d19935c944a331e638e9e08f0b7398444077e84f715db89496943b2b",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NormChoiceOfExtension.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTied.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 2158,
+      "sha256": "97958166b1f744c7c17d2aee1fb2f57cd6452972cf3be96bc6b1896b67a8fb47",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalTied.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEq.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5362,
+      "sha256": "299a93f17a70eabf03506e18f00e2db19b7ea363283b0d3e48e35f8aaf9f8ee1",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEq.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 5218,
+      "sha256": "8a04a9690a6f7021e7957fa027a4666aa17546333b41ca23857a4956c464cd57",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StrictHenselianAcyclic.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 4974,
+      "sha256": "98b9e4db79d3c7e7b650dedb897a52f279392a03696134b104891137ffe674ae",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CoreAltAltBis.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ForcedByAutomorphicSemisimpleData.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1762,
+      "sha256": "1eae1731f22b88b429c59321ffd0a9705fec06a998266878ef1811d1c3f2d84c",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ForcedByAutomorphicSemisimpleData.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 17018,
+      "sha256": "b31bcce565741e65c97db0341916d5fafcf416c19a1b02515143c9537ed11691",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean"
+    },
+    {
+      "source": "src/Formalism/SatakeDualWeyl/Statement.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 30033,
+      "sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "evidence_path": "collected-source/Formalism/SatakeDualWeyl/Statement.lean"
+    },
+    {
+      "source": "src/Formalism/FormalDegreeBessel/StatementG.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 8277,
+      "sha256": "6e89a4393d81afa0f93b3477f5b48ba4c7681c7ff067105ca2878cb9b338bd60",
+      "evidence_path": "collected-source/Formalism/FormalDegreeBessel/StatementG.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GlobalSchurBounds/StandardLattice.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 39018,
+      "sha256": "215a35253504ad71f5a74cddbfe80e0a088204a273c55627defc88bdc4d7dfc8",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/GlobalSchurBounds/StandardLattice.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/InfFam.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 15222,
+      "sha256": "3128070f7b25e6d464311444a91d0297d44a7d49c4403fe5b43439b6d72c6ff0",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/InfFam.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/ContinuousTensMap.lean",
+      "import_depth": 1,
+      "status": "collected-and-git-verified",
+      "bytes": 1156,
+      "sha256": "6050c120cb8b4a3cd4fafc11d58a1b20ea34e116b472636f73e8f5880e508074",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/ContinuousTensMap.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/DiscreteSpectrumResidualClassification.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 695,
+      "sha256": "a2bfc64f874c0807fa9b309f9b9775786d29f72c615fc6119a9a600c87ce9663",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/DiscreteSpectrumResidualClassification.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ChoiceSideTwistedConsistent.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 40243,
+      "sha256": "ce3f5f5e8212f47a85e51d7a6c265e6ad2f031c9cb22b591a865ea8b5672389a",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ChoiceSideTwistedConsistent.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalFixedPointAtPlace.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5812,
+      "sha256": "d318bd883b9456286c248ccb368481992f132039ef8f166c7a8a617057fb9660",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalFixedPointAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ExistsLocalTupleAtPlace.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5480,
+      "sha256": "a8223c2bab15901aa7e6701e9aebcf1e00f55ec4844467e159aaa014a8519bfa",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ExistsLocalTupleAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalConjExpansionAtPlace.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5934,
+      "sha256": "0111e5af72c97ed358739247c07ed539bbd5d2113503562c147a2800d3ee534a",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/LocalConjExpansionAtPlace.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ChoiceSideTwistedConsistentStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2419,
+      "sha256": "3266a0c6af9ea5a2a928ee6723eca475273ae92e1e8be0ecc4efd4abc51aef28",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ChoiceSideTwistedConsistentStatement.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/Langlands.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4779,
+      "sha256": "a82916d5e90fdedaac71437878b1189335039c2da98d1f8d2b110351f76f31b8",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/Langlands.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroTypeInertia.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2315,
+      "sha256": "edeef8be534f05b693450c70f5ca86be1a87ffd2667dda37b8816a5ed45e2c88",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/DepthZeroTypeInertia.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/LevelLetterCocycles/TwGood.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13041,
+      "sha256": "666775cf90661319177ef622d29370d8739ce8de3682bdf492ad6431081e2c16",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/LevelLetterCocycles/TwGood.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/WdOfMono0L.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10228,
+      "sha256": "4f2430f3907f31f10ab9fc0277816d41bc97c5166285e625da225e3dc2e07187",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/WdOfMono0L.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/ExistsIsScalar.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11428,
+      "sha256": "efb82f6bc118acc35a70ec6e3e3dd548e07cbd0ee616641dca00d8154df7f8dd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/ExistsIsScalar.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OffRange.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2200,
+      "sha256": "56dc4db6e92e579af91beda5c19162c85de49e7162cf5615d478467d2ff65ddf",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OffRange.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CharpolySmulOfProd.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 24611,
+      "sha256": "be2c5fc0e7e21254681bac1e77e7f532eae2e44afab00d7e3eae6227ec692ae7",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/CharpolySmulOfProd.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsAuxiliaryHeckeCharacter.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5821,
+      "sha256": "c95d402d014906c37b75a7653a3dd6fec771732268be4d41a1d9614aa23f65a5",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsAuxiliaryHeckeCharacter.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/ToUnitsCompToCircle.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 18735,
+      "sha256": "afa760ba855837334c43f6e020c1eb41322b4f7a1618af8da7ce7e5fe4dc9aa6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/ToUnitsCompToCircle.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/InjPrimeTo.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8502,
+      "sha256": "ad284aa92c7283d6eff8ffd9e72e93b48744db1482d4c9a5e182e15519c3f6cd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/InjPrimeTo.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/TwistedInnerProducts/HeckePin.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2507,
+      "sha256": "6cbc08e84df697c85e414e334c2a341c1f8ae9ba1751fd7b1fc3683be831ad27",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/TwistedInnerProducts/HeckePin.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/RationalRayLevels.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6901,
+      "sha256": "eb494c06ae68ad8e2a8c65959ce64e1084560cb7a2ec874617d32ac6016bed82",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/RationalRayLevels.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsAttachedHodge.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6517,
+      "sha256": "48c9422f2efb2ea35b48e4bf3e02b90dd6f6e0fc14c09f1cca7fb890ac53379b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsAttachedHodge.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/TiedLevel.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3953,
+      "sha256": "654d169cd4de5cb3c5098b0dc30d2c8d0a9242246fd503b95172074d10bfe203",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GaloisLevelStructure/TiedLevel.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/DefsAutLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 875,
+      "sha256": "9075cc8f79b81aefc086047ec8641bc2ae4e35c1baa9a0254066a5cb1649dc3a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GaloisLevelStructure/DefsAutLoc.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/NormalizedHeckeFactors/HeckeStdTwOfStd.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8592,
+      "sha256": "8caeb2dee33e4d063090b748bc90823c9217b40aa35d34eb9f8160a5add06e31",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/NormalizedHeckeFactors/HeckeStdTwOfStd.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/NormalizedHeckeFactors/TwoPowS0EqTwoPartModulus.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19094,
+      "sha256": "e5667b903e240176929ccd48f4e176291e8bc530f7fab48e4081126d49e0c268",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/NormalizedHeckeFactors/TwoPowS0EqTwoPartModulus.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/NormalizedHeckeFactors/RingHomOfBaseOrderToFraction.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 25756,
+      "sha256": "1fa83c0ac21118d98400a9fd1c34df6dc7d7518e3bce6bf391f60f6f2f71c49f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/NormalizedHeckeFactors/RingHomOfBaseOrderToFraction.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/Objects.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8829,
+      "sha256": "412095e0e45fc4d9c9ee873b0edf37fa015454caf945a1ba479bfde1c1246c05",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/Objects.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/TwistedCharacterValue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13359,
+      "sha256": "d03eb810c69a526de45f6c0fad064879c8b2e39c6c64267c293394ea602b4005",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/DoubleCosetOperators/TwistedCharacterValue.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/DefsRowLoc.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1188,
+      "sha256": "7081dbc3720d61de086c0bbf544deb90b8b7ee21df4ed9fbf2741f98f62564c6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GaloisLevelStructure/DefsRowLoc.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LocAutHodgeTateWeightsLevelZeroDef.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19507,
+      "sha256": "12876a23a87a0828aae4f4cabd70e610aaf743265fcb2e1c6c63a18b5426dba6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LocAutHodgeTateWeightsLevelZeroDef.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CGTrue.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1742,
+      "sha256": "6fedc7b3928ac9f755460ea987903a85bbd1e70f55da1f8de5794d3d3753c4aa",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CGTrue.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ConcreteTwistFrameExtraExcludedOverSmallPrimes.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13845,
+      "sha256": "534bfb81aa6a9fec0e0b4b7e690aa438b9f2a7cecb352281f889a2f9b2cc0ee6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ConcreteTwistFrameExtraExcludedOverSmallPrimes.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ConcretePkgSpec.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8985,
+      "sha256": "f3d5361898c546383bcb76c856f6a1fddc79266099f5af40fc7254dc87251a39",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ConcretePkgSpec.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/CxCore.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9626,
+      "sha256": "26e6a09fada6a12fb6bbd99cd4d16afdadc302612e5efbeeffb91a5d3b8642a6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/CxCore.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LiftGoodPartComplexEqRange.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 48024,
+      "sha256": "73775117c2fab69f8b7af7b082cba908b1d57a194060f7fc0e02db128e781c30",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LiftGoodPartComplexEqRange.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/BridgeLemmas.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 21924,
+      "sha256": "7ec8c3cbf9e75ee6fb559ccf127904b39157191cbafb99e88ce25b9ea5cb14e6",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/BridgeLemmas.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ArithLemmas.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3526,
+      "sha256": "ded86e52c25cd7c75e4fceb949267d61207d0acf88b15d33107abcfcbac70e00",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ArithLemmas.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/HeightBoundGeFourthPowerRank.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4805,
+      "sha256": "cdb25907cd38f08de3eeee221218228c792d3a5ed79bfbfe80b3e6a2e06141da",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/HeightBoundGeFourthPowerRank.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FockTheta/UnitBracket.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 15287,
+      "sha256": "865c78e00c9717af3b2efdcac8d96c5edb0411de9cace8e9b17886db89379f5d",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FockTheta/UnitBracket.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/AutomorphicFormsHyp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7219,
+      "sha256": "5429d911de2c5a6ea619eeb2c7ace836223d2d71dfcdb4e4e8d23989453755bd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/AutomorphicFormsHyp.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FaceOf3.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1641,
+      "sha256": "ca84e0fe3b978fc0e98c47d21a1251effb82b4c9574a5fb4ee2ccf0b6f3b0817",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FaceOf3.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/CxCoreRG.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8758,
+      "sha256": "24adc0d25c2d6abb47ce06ea149e572f876c507539c8dc5d30d1bad915733f7b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/CxCoreRG.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LiftCoordinatesInGoodPartOfDefinite.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10742,
+      "sha256": "c8d6089413cf83f8e8b9b536fcefd247848d9b5d2154fcb0c91fde4776e52731",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LiftCoordinatesInGoodPartOfDefinite.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/EigSumLeComapSemi.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13916,
+      "sha256": "697ad71a6a797b5ea021f0d74bdf4f93852b249dba322cabb05cfaf566d3d5ec",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/EigSumLeComapSemi.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/CxHecke.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8952,
+      "sha256": "f28200d9c4b1ab7b9a527ce676b078ce219e27347a81c06e8854c348ba657bb5",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/CxHecke.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/IsometricPeriodsOfHypotheses.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19453,
+      "sha256": "37fd02e5a0c279513633a6609503e417d616f95281eada1e4cf4e99b51304cfd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/IsometricPeriodsOfHypotheses.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RationalAdjoints/RatZOfTests.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2966,
+      "sha256": "5cee205494a23a3b8d5cf0f27e289bf06e29a96e6efa1eb0bbd8b0d83c5d8830",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RationalAdjoints/RatZOfTests.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/Bridge.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12216,
+      "sha256": "2016ebbef877941572f03980c63c30c2aea065610202c3907da9f679f8f24260",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/Bridge.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/HeckeRI.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1637,
+      "sha256": "2f552388ddde27731d374f2d64644465eb9eb537fb75aaa73411207d17af53ed",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/HeckeRI.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/BridgeTie.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6370,
+      "sha256": "8a0455264dfeb911e93fa6b1a14576ace26645aebf6b8bd017d514c1d47ba8dd",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/BridgeTie.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Columns/HeckeInertSq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12873,
+      "sha256": "9aee653db7c8aa5113e902b7a20c0fd88237853b46f664cc23a4065e0ebe9cfe",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Columns/HeckeInertSq.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Columns/PathCountSymmetricHolds.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1178,
+      "sha256": "f3e14ab24de03e24a3ba43d6e3375107bfa5bd06f90f67ade1ab3f9b256cc81f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Columns/PathCountSymmetricHolds.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/PackageFromPrimitiveStatements.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10216,
+      "sha256": "10f8d2a16186a9cbeae9d098b1f8b8dce734fcf475437f3d9bd180ddf3f634d3",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/PackageFromPrimitiveStatements.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/PairingCommutesLiftOperators.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 15542,
+      "sha256": "303b2f5925e839bc86ee82626005b1f21c322954b1c8e167805e683754a46e23",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/PairingCommutesLiftOperators.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/Decomp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7579,
+      "sha256": "5126bedc46eff7f7ae5377f6aaf63b67be34a85d46540e1d5a042b2987cbf23a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/Decomp.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RationalAdjoints/RangeAdjointRat.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6000,
+      "sha256": "185e553eb6c82ed95a0806f78885b1b8fcb03561284a1619a302952d716bbb8a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RationalAdjoints/RangeAdjointRat.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/DecompOfNormalStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6624,
+      "sha256": "ef8b69557b0410b5cc58999d92446b2cfe5540c25ccc17811efdb91bede61850",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/NormalDecomposition/DecompOfNormalStatement.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LiftCoordinatesInGoodPartFamily.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8386,
+      "sha256": "4af9c9a88b85a03c1c49f02c45563f7ee07717ebcb06d8dc1e041399733b1fc0",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LiftCoordinatesInGoodPartFamily.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LiftGoodPartComplexEqRangeFamily.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 26894,
+      "sha256": "fd352f6ff75ecf9fa89be55ad858912ab974f4170c82e643979295b0b24621a2",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LiftGoodPartComplexEqRangeFamily.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LinksExistW.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 20101,
+      "sha256": "ea846777a7c3ffc7227300a141d7cbc3cc90bbab2712c794c8649cec6be8ef1e",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/LinksExistW.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/InitialDataUntwistedOfModelChoice.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 22672,
+      "sha256": "ca61a8ef8b29a3b3c51d6dad7035aaef05946a04e75dd9717060afe696b5e90e",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/InitialDataUntwistedOfModelChoice.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealSeparation/FramesOKg2.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1592,
+      "sha256": "c4906f8d02bee77d812aeef51a004fae8df50208283887b7421d7a8ad0b230fc",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealSeparation/FramesOKg2.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/FramesExistGOfFramesExist.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3502,
+      "sha256": "87fc2b7c5b81e3a55d558a422a05b9b345a997361d72cefd420142a10b58fdb3",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FrameExistence/FramesExistGOfFramesExist.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/HeckeThetaElements/IsHeckeElt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4647,
+      "sha256": "ce65fa0484d409d1c8066512f869094e1733f2d918cc329689b786218401c359",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/HeckeThetaElements/IsHeckeElt.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/IsMultMapUnivZero.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8916,
+      "sha256": "4b9fa200b8a1c6a5e5f2a90e16be7f9901d0e62efafb6869f7e226977202901d",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/IsMultMapUnivZero.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/PartsOrth.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11486,
+      "sha256": "0443495fee3f85807f0cc3c51d19b570ebbeeb76bba750563729368510796162",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/PartsOrth.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/HeckeTupleStatement.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 906,
+      "sha256": "d9a9796f88bcce56ee2d29169022b4955bdf4408b6161221eb62b09d6c0e9b71",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/HeckeTupleStatement.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GlobalTheory/DivPassage.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5421,
+      "sha256": "3899b793ef906a8d98578868114693e398abbbbd7e3023ee4f0f7af5bf8769da",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GlobalTheory/DivPassage.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Columns/StdLatUnimodular.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 28589,
+      "sha256": "5e8750f4338f19d051b89afa8bbb851ceb82fed462c615efb68ae610798a5d39",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Columns/StdLatUnimodular.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/RowSideTie.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 14153,
+      "sha256": "70be3a1abe2c8178eef543bd00d231af7199a0f69658850d75c1e4ec1c946f3f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/RowSideTie.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataExtra.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3062,
+      "sha256": "b6a5db1eca2667dc8d30345900e2aa7d0b450b9c86e66032e3f171c8a0269f63",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataExtra.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RhoGeo.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1412,
+      "sha256": "26dc319592061e103bfcacab525f054fef1b17a2d3d54da47c32275f710fe7a7",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RhoGeo.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/FWExist.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 40357,
+      "sha256": "d787f414953e14ead7347d86e3abf66c6ddad0f0f54f17f1693d7b5eb41955ea",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/FWExist.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/ProjectiveLattices/XcLat.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4101,
+      "sha256": "6e92a66221bf97a66a61831cae8bb9f792870ae8ed4b8e8d87804d6c66b68f0b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/ProjectiveLattices/XcLat.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/LatticeGeometry/InstAddCommSemigroupWt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 34130,
+      "sha256": "8d728e2a224557f248dc8650100dea6fd8ea0cb799945d37d922f9fef54be428",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/LatticeGeometry/InstAddCommSemigroupWt.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/TiedKfin.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4160,
+      "sha256": "89b1f2a2edd62b19b2ba4f2c65b930728556fb2943a13bdee642e0c69fa54ba1",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/TiedKfin.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/TiedWeilUnr.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1763,
+      "sha256": "dbeefa4e4ec6297bcd01aef5526d41218b3ae6e6ed43cac569e25b1b7e1e8af9",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/TiedWeilUnr.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/DefsReal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6274,
+      "sha256": "e7b761b4f6adea8e9472b6f2bd5d730839d5d424784cfda978bf264482ac31a7",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/DefsReal.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/MinfDensity.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3846,
+      "sha256": "48735900fde259cc863766e792fc7a5471653d7e92ff3d79565d76460cde6621",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/MinfDensity.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/DefGroup.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 40272,
+      "sha256": "de55ce48c31b1799b7b9aa3dc26f7256988f5cbd4b34df2139856428b46a7a4f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/DefGroup.lean"
+    },
+    {
+      "source": "src/Formalism/SatakeDualWeyl/KpqSubgroupCompact.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 27253,
+      "sha256": "d9237ac0f86892b61d391824b15d8d5f311d7829008034cd04e0243f1970d9bd",
+      "evidence_path": "collected-source/Formalism/SatakeDualWeyl/KpqSubgroupCompact.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GlobalTheory/GL5/FamilyMassVolumeIdentityOfClassDecomp.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19255,
+      "sha256": "1ef21ec3d06145f076a857a9a43f90bbe69b80258f4663b9d7c0927ae404a2f7",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GlobalTheory/GL5/FamilyMassVolumeIdentityOfClassDecomp.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/ExistsCompactLatticeStabilizerBoundedReal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12741,
+      "sha256": "8e27d672c78a5f431a43612669990688c79159cdd23aa32cb870ca702c1e21ac",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/ExistsCompactLatticeStabilizerBoundedReal.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/AdelicUnitaryEqRealMulFiniteSplit.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9286,
+      "sha256": "b1ad6711661f1e4938c4b5864336ea2c01d694f9cdde5feba64b0ab1dc27586e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/AdelicUnitaryEqRealMulFiniteSplit.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/Foundations/CdScaleTieIff.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5392,
+      "sha256": "6904f6d04eba9f6bebb717bc3aa157d672805bbaed2733fd100777b5b35fc660",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/Foundations/CdScaleTieIff.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/LeftInvOfUnitary.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 11869,
+      "sha256": "260293bd2efdc5c1b44320949eb4da0b0ee7cf31f66c3c78f9451b6dbfc8c256",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/LeftInvOfUnitary.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/DiscreteTopologyRationalPointsHermitianSpace.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3828,
+      "sha256": "5542ef414e99b32eb21391e899217a8c6c358f8d873bf8b6bfa83e4ec238bddd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/DiscreteTopologyRationalPointsHermitianSpace.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsFinPartMat.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12987,
+      "sha256": "ab40eac982dd9f1ed57514616b049d7856e437901d4b02bb00f3d684227a92fb",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ExistsFinPartMat.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ArchimedeanMatrixUnitaryContinuousMultiplicative.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9962,
+      "sha256": "469ac671afcdae33ca9802a542502c302b2d92a10c4bd8701e8275550a52dcdd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/ArchimedeanMatrixUnitaryContinuousMultiplicative.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/InfAdeleTensorBijective.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12816,
+      "sha256": "fc7b75dbfbd67ed55454ea4fa7887ea3f7b313dccd526f53446a6b7aff1f035e",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/InfAdeleTensorBijective.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/ExistsIsFundamentalDomainAndQuotMeasureEq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 34531,
+      "sha256": "36a39fa6fc2c93851a8a2bc8b96a1438e64ddf59d49a3344b8dab6282e733a01",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/ExistsIsFundamentalDomainAndQuotMeasureEq.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LcscAdelicUnitaryGroup.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7348,
+      "sha256": "e95470e0c3c7fcc4a94ffaf1021f1212b165eaca893efb94b240a075e92dee3b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LcscAdelicUnitaryGroup.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsOpenNsmulAdelicCompletionOfVectorSet.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8927,
+      "sha256": "60bfca724de7035c4bd1a39e8b796fe098c45c700ace4e4886a3033ce172a77c",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/IsOpenNsmulAdelicCompletionOfVectorSet.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/HeightProofs/ExistsCompactAdeleRingModNumberField.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5014,
+      "sha256": "18444cc4e905dc2841b589eff94c5a6d0faaf7c6f255e77815f7082caf8a4e8f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/HeightProofs/ExistsCompactAdeleRingModNumberField.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/CxToPkgFamIn.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1985,
+      "sha256": "2004ad352cf47a94c299a81b60716f7dc49bf0112d84a0390b7cf197532b5fe5",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/CxToPkgFamIn.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/ScalarOnPartsFull.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 21875,
+      "sha256": "852304e97383da7abe8073867e9b50edc66f50671653ab7a531e5955337037d5",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/ScalarOnPartsFull.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/DatumVec.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13891,
+      "sha256": "1fd48d7f8c1a572bfa4d7a4c5474c16a6e2b0cb51ba57c92479fc161e13cf89b",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/DatumVec.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12023,
+      "sha256": "9bcac15cdedb0852561187834c7d325f74a1069594c7e2de8f8c86b8c616ec60",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/HeckeThetaElements/DefsWt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8293,
+      "sha256": "54a2788577751d95937a3c8de8c8bbb0a45db92d89f9327f37ff714421e2a5a1",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/HeckeThetaElements/DefsWt.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/JointCharacters/LocEMulLocE.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2006,
+      "sha256": "b00e65b3d24c50f571a7237d3a5845e5065e7f423cfbbc03752f4396162eeaae",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/JointCharacters/LocEMulLocE.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/UnitaryNorms/CharTied.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6791,
+      "sha256": "ea3bc1b19b08f0b70247853824e3d44d16688ad3e6f9007240cf353b1e8aae07",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/UnitaryNorms/CharTied.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Columns/RowFormsAdelic.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1977,
+      "sha256": "c59f5670868eb0fe7e50390e8557e3539e3c52e4df46ed9ca7f25b6992f4be37",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Columns/RowFormsAdelic.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/HeckeNonvanishing/Imports.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 201,
+      "sha256": "f31ce165cd4783d48da9b4c3cd10f037e3e0fccd46aab4532edb54e43a9f350c",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/HeckeNonvanishing/Imports.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RowsRestWordColumnUnitBaseTupleAlt.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 23194,
+      "sha256": "037e00b1cff9a7d2b20b7548ca301c678232be4dbc5b6320b78087d67256d7bc",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RowsRestWordColumnUnitBaseTupleAlt.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RealIoX.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6523,
+      "sha256": "29b499b0efa4e8bc72fdac1fba7a17bba4fd4aad0c83a3dc83541407473141ac",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RealIoX.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MovedReadingSameMapsBaseReadingAgrees.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6647,
+      "sha256": "3ca86d7586e33c4b83f9860e52f84c373a990682c66d4321931e4cd1dc2234f2",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/MovedReadingSameMapsBaseReadingAgrees.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/ZetaProductPairs.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 33039,
+      "sha256": "fe711c1eeb948dde69c4216c6a42c3cc4ebd314c9558d8723d4f320b420774ed",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/ZetaProductPairs.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/InnerProductFormulaField.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 31023,
+      "sha256": "3194380e5d3c6fc9888fd268b42c94c27cfdeab635dfe8dbf7bcc96220337b43",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/InnerProductFormulaField.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/AbsolutelyIrreducibleSpan.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 44023,
+      "sha256": "ac3a4fd9b3143acb3ab6763ae999333aa7ae8874c8fd5a5fc4dbc9402ba63e9d",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/AbsolutelyIrreducibleSpan.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/JumpSets.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 44425,
+      "sha256": "80d77b01b7806f2ecd43df094cae85c1cf71d918e84cb8d1b146d0d48dc86282",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/JumpSets.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/LiftErrorLocal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 31832,
+      "sha256": "9320a897d2b8b4f093fc695f193102deffe8a7014275a7af1ce692e96dba8dc8",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/LiftErrorLocal.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 44191,
+      "sha256": "7b0dcf3680ea9942d350110db269931f859b2276885b417445ecf5629be1dc5c",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/LocalQuadraticParts.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/FamilyThetaDenominatorValues.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 39068,
+      "sha256": "de1fc5cc148ccc4212b62685cd36d02af0dbcd219a58f37c99f3621678521c46",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/FamilyThetaDenominatorValues.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/ParConsts.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4615,
+      "sha256": "5527c6bf036e019f4649ca1862b323bdeab0f1b25c2b1475c375e58a0b2edb48",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/ParConsts.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GrowthBounds/WeilJacquetShalikaLaw.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 40298,
+      "sha256": "81650085226b6234f68c2fc57ddc6cb64703fe97000eb8d864a15d4980874d76",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/GrowthBounds/WeilJacquetShalikaLaw.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GlobalSchurBounds/ProductFirstZerothParts.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 34491,
+      "sha256": "d97f23d2c6c6252027e8182e77f79dd5fb597ed441a7353c170c4648c33aca78",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/GlobalSchurBounds/ProductFirstZerothParts.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/CuspSpanNormBounds/CayleySignature.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 25827,
+      "sha256": "97ba89bc2dcd1885c6c73698d87431ccaa23d0acb01907882c530bcc43fc6645",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/CuspSpanNormBounds/CayleySignature.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/ElevenLe.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6593,
+      "sha256": "65e8de4c64d63e9deb6c249289b357852279496fa8d14dd66a918a11989406db",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/ElevenLe.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataBu.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3713,
+      "sha256": "8a91bfe0baa56d29992b4e4e012975433228dfdda466294776f295f266484d26",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataBu.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataDIV.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 18599,
+      "sha256": "1ec315a1e0a2c4a9996b2f1a2c81cfe024b36863a493a97a52dfdc79b66c0daa",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataDIV.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataDIVDefs.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4916,
+      "sha256": "703fca7aec19ec11b05856833b497e27a3a2ee08f0c6df5d606c1ec43b5287c3",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataDIVDefs.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataErr.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10377,
+      "sha256": "32c08cdb69013acaaf806847474f7af3ed4cd770eff544c62d155919a3a6fcaf",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataErr.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataForced.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 13803,
+      "sha256": "e1dea81df381751809bd5c1cf3aacadec8c0a84ffa50a11532d348a49cd698c4",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataForced.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataParams₂.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10441,
+      "sha256": "39d84d7e7db5196715f955ac44f45e61a23fcf4ebd5065ca41444f836efd3099",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/DataParams₂.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/PrincipalHermitianLattice.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7667,
+      "sha256": "e08db2159644e77d6aa288f084c8a06389f531be7c6198453ef7bd458837b736",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/PrincipalHermitianLattice.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/RankBoundMonotoneInDimension.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 54531,
+      "sha256": "f80fc042708c423ffa4b90ff5365be9ba7603158a41e4c55b363fd0a798a6b1f",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/RankBoundMonotoneInDimension.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/Lemmas.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 82304,
+      "sha256": "f6df1300c74abdfc8d19e2a589a1e4d4088534a3f4abfbfaa60e2774e8b9a1c8",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/Lemmas.lean"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/CoeNeZeroOfNotMem.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 31031,
+      "sha256": "9a4bfd60f0a3ee15e2d263724faebaa6fc240fbbea216fa12b22675d51517615",
+      "evidence_path": "collected-source/Formalism/LocalRingCardinality/CoeNeZeroOfNotMem.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealTB.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3088,
+      "sha256": "85568226e111788ecf59d572e76b124fb070c82d28a457baa61e982b64320fd1",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealTB.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealRec.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6248,
+      "sha256": "d72deb8a32f91020e7a296fe9157cf8b0d074061fd58ea3beb189222597941a4",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealRec.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealPins.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 4567,
+      "sha256": "07858414142cfea2a1227b284e23a24e93387a5e2c4b24966530701b2d0b596d",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealPins.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/RealRecPins.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1624,
+      "sha256": "ae56bbdca5ee9ccd505a100f3047d6abd23f238054f5e3687faa1ac33f9c745a",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/IndefiniteReal/RealRecPins.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LatAtLattice.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19394,
+      "sha256": "d90edded55eda3dd30231321943482803760c243e926755b1e92691da0db1cd1",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LatAtLattice.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/HeightProofs/HaarUpqEqOfOmegaDensity.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5127,
+      "sha256": "e96ebb389ac1f84db1640bd55ee0d4d52f94a8959b0a60508628d1c0482c944b",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/HeightProofs/HaarUpqEqOfOmegaDensity.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/ProjectiveLattices/InvProofs.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6096,
+      "sha256": "49108a9b0d84277725bbd53e1d3300b85bcfaabb61e5addb9fe2d67691b1f6b9",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/ProjectiveLattices/InvProofs.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/ProjectiveLattices/DatumOfRecordSignature.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 620,
+      "sha256": "766973b39b5b194a4d950dcc7ec9165a70d835a609e7b0d762e80258da8e53ce",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/ProjectiveLattices/DatumOfRecordSignature.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PositionOfIntro.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6444,
+      "sha256": "a482f53207751861c6e1f8f05a4d8c2b4eae5b1764b4539ec31b441e47deb4fd",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/PositionOfIntro.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FixedVectorEqOfStandardData.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8094,
+      "sha256": "62d56cdf73ab696aa5dea0ebb031aa0233b125f814fc469a403db1276a3051a7",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/FixedVectorEqOfStandardData.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsTwIffCanonEq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7427,
+      "sha256": "96d3d09990fdbf300e1227eae817767041ccf4425f47d7717fcf03ddde9c8fe1",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsTwIffCanonEq.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/JetsInIffStepField.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 8257,
+      "sha256": "cda04f7dc50a3ea7d41ad66225cf415f031116b3b9855540d047a3b504e390d6",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/JetsInIffStepField.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ExistsSplittingCharacterSelf.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 35099,
+      "sha256": "f7d14826c1db5197ee9ac2b4e2dc5fcc3219af7b76abd8e00a4769e19bb07a1f",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ExistsSplittingCharacterSelf.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/FullTiedCBase.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7297,
+      "sha256": "cb7ed99b8a6b7d826b66fa2e2c45482f1ad17d79dd08dc0e4eebb3eb5b978ab0",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/FullTiedCBase.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/IntSplitOf.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3100,
+      "sha256": "86a193f5c8bae20fea1378ed8f0fbea035c9673c400769f98e5a7b8f2ef12103",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/IntSplitOf.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/ComparisonMaps/RecThm.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2713,
+      "sha256": "d71b6f7debf895b5a2f1dc006ab1cccf00b7ae46fd2be4817130ec9426078086",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/ComparisonMaps/RecThm.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/TieIwLevTieOf.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 5847,
+      "sha256": "04a57a423182f3b0915c45768e008fa211a8973bc35159c00fba430782d6ab0f",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/TieIwLevTieOf.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/CmpHyp0P.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2020,
+      "sha256": "68f10f94ea91609da09e47e583ca409932ddbe265e9e3d93afdb9adf5462ee64",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/CmpHyp0P.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/SelfDualAtColLevel.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 2227,
+      "sha256": "72c3868d1db964dead051e9833a81f95f0a98559a1f193025722043fa17353d5",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GroupLattices/TiedFamilies/SelfDualAtColLevel.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/UnitaryNorms/CharGal.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 9834,
+      "sha256": "8df2d1b424490e10026a6bf62c63f9c1b99aa5204ae1d293c8a80a0048fdef89",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/UnitaryNorms/CharGal.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/UnitaryNorms/DefsDatum.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1441,
+      "sha256": "cc587913c24ee91021ba56e6b97eb0b2499e7f4a1f825da75a3a5ab6e97cc2fb",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/UnitaryNorms/DefsDatum.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/Divisibility/QLocTied.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 19757,
+      "sha256": "e44a9a8167fd064c86eda71929a8627289b85ffd1f4e2bdf287e401b0ce2b2b0",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/Divisibility/QLocTied.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10010,
+      "sha256": "0a1ea1663240f2e7e3efa8c1ce5439e5c8327a220fd47b48582f4b832fe65cc2",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/LatticeGeometry/GeoTiedP.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/AllTied.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1167,
+      "sha256": "f372d40c3d452085cb0015ed406e010e3c654f4ccec1d4661038a91f3a452981",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/AllTied.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/BesselHermitianTheta/TiedWeilEq.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 3569,
+      "sha256": "3638195db18eca6abcda5b3c70c2aadc892c3c04fd24a90b151bba32d657b1cb",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/BesselHermitianTheta/TiedWeilEq.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/JointCharacters/SameChr.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 1209,
+      "sha256": "bc2e420da22f6fe57f87cd8360c5895f0cd9aed4029c7ecb637e3f4b7d945b11",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/JointCharacters/SameChr.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GlobalTheory/LinkTiesOm.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 7090,
+      "sha256": "23d8b509180f0ea54ea6dbb3115c7501a7ed9e534625b456604b992f52c977ee",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/GlobalTheory/LinkTiesOm.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsAbsIrrCharCompIff.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 12008,
+      "sha256": "a4e1fd7c93d8c83f69d46af85f8cd7105b722c323c1c75bcc67893666116a733",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/IsAbsIrrCharCompIff.lean"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/Divisibility/StatementFT/PeriodPointConditions.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 6696,
+      "sha256": "dd2c57878cd881e54fb7745f447697326d82ba633a944c59cffb48746998a4e6",
+      "evidence_path": "collected-source/Formalism/SharpRestriction/Divisibility/StatementFT/PeriodPointConditions.lean"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/KernelLattices/InterlaceAll.lean",
+      "import_depth": 2,
+      "status": "collected-and-git-verified",
+      "bytes": 10841,
+      "sha256": "d1718c06c2526fcab95e0cc1012c954593e0d766f5cbe09e2c2651f9dbba1dd4",
+      "evidence_path": "collected-source/Formalism/LocalToGlobal/KernelLattices/InterlaceAll.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CmQuadraticFormEqAlternatingForm.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ThetaOfOfIsCharLab.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsRowsRest.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsUnramifiedDataCharacter.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsExponentThetaData.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsTypesIdempotentCoefficients.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsNonnegShaOK.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsPreHasLetters.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/ZOfCoeffMem.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/GreenCuspidalIff.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AuxiliaryPrimeNeTypePrime.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/TwistingOkClassAtPlace.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/TwistingOkClassAtPlaceStatement.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/Foundations/UnitarySphericalFixing/SatakeParameters/GoodAUIso.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsIrreducibleFixed.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/CompanionTheory/EightfoldTheory/ZeroLevelTheory/LocalLanglands/Imports.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/SeriesCharacterInverse.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FockOfApply.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/CenUsedOfCenReal.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/LocalTypeDictionary/ThetaLocalInputs.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/WeightsConj.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/HeckeLAdicParameterAbove.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/RationalRowSeries.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/RationalRowSeriesStatement.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/SXdAll.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/ThetaDataExists.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/SubsetTwistExceptionalPlaces.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/RatInEig.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/NonemptyPtsOfReading.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsWildInertiaCyclotomicElement.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/LabConj.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowLocPin.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/GaloisLevelStructure/NGalTied.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonemptyAllIff.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/NGalLinkChar.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/LiftToGlobalDescentData.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/ThetaChr.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/BuiltEx.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/TwistDataAgreeAcrossCoefficients.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LayerTwoFamilyClass.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesKernelFrame.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LinkedFamiliesFixedValues.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RingSpecNormalisedCharacterEqAlt.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/Params.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataHost.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataSpaces.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataCoeff.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataArith.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataKernels.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataRows.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/CuspSpanNormBounds/DataS.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GrowthBounds/DataG.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/LevelLetterCocycles/DataNLoc.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/AdicCompletionLocal/LocTied.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataForms.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataJet.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataCD.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/RealPlaceAnalysis/Complexify.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataLevelD.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalRingCardinality/DataTies.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/CuspSpanNormBounds/RelevantZeroGramTerms.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GapAtLeast.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/IndefiniteReal/LevelTypeEquivalence/BaseSt.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Formalism/LocalToGlobal/UnitaryNorms/RealPl.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/InfEmbUnique.lean",
+      "import_depth": 2,
+      "status": "file-count-cap"
+    }
+  ],
+  "selection": {
+    "target_module_priority": [
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LocalComponentAtPlaceDetermined",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.OfFirstStepLoc",
+      "Formalism.LocalToGlobal.IndefiniteReal.ZeroPartEigenvalueConvention",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Formalism.LocalToGlobal.IndefiniteReal.OrthogonalComplementCharacterisation",
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasureToRealEqMass"
+    ],
+    "direct_reference_modules_lexical": [
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AssembleLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.BaseDataEmbeddingConj",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CenUsedOfCenReal",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CmQuadraticFormEqAlternatingForm",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FieldValuesMemFixedField",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsAbsIrrCharCompIff",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.JEvExists",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimes",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimesLifts",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBaseCondFalse",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ReadPk",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingSpecNormalisedCharacterEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RootsOfUnityRingLeWittIntegers",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StableIffCarrierEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StdLvPr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SubsetTwistExceptionalPlaces",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TrueColumnChoicesHeckeCharReferenceEqOne",
+      "Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIsScalar",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GoodSetupCountEqZeroOffBadPlaces",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsAuxiliaryHeckeCharacter",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NotTeichTrivOfIsDelta",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.OfFirstStepLoc",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ToUnitsCompToCircle",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnivChar",
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactAdele",
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasureToRealEqMass",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ChoiceSideWithE",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsExtensionComplexDataEmbeddingRestrictCoeffStatement",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FockOfApply",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CmDataIsCMExtAndGramIsHermND",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EventuallyDefiniteSpacesStandardAndLarge",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StandardLatticesDiagonal",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPlaceIndexMemFirstPairOfCompatibleChoice",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.AdmissibleDiscreteSeriesOfHasParam",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn",
+      "Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EvLgGFieldOfSmallField",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsLocalTupleAtState",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HeckeOpen",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelCharAllStStatement",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LocalComponentAtPlaceDetermined",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PublishedInputsThirdLayer",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RationalSeriesCoeffAtState",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RootsOfUnityRingLeWittIntegers",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SameGaloisLevelExists",
+      "Formalism.ConjugateSelfDual.Statement",
+      "Formalism.LocalRingCardinality.DataCD",
+      "Formalism.LocalRingCardinality.DataHost",
+      "Formalism.LocalRingCardinality.DataNChTie",
+      "Formalism.LocalRingCardinality.DataNChoice",
+      "Formalism.LocalRingCardinality.DataRows",
+      "Formalism.LocalRingCardinality.DataSpaces",
+      "Formalism.LocalRingCardinality.DataTheta",
+      "Formalism.LocalRingCardinality.Params",
+      "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+      "Formalism.LocalToGlobal.BesselHermitianTheta.IsAutFunDef",
+      "Formalism.LocalToGlobal.Columns.AbelianHostFieldConditions",
+      "Formalism.LocalToGlobal.Columns.RowForms",
+      "Formalism.LocalToGlobal.Divisibility.DefGroup",
+      "Formalism.LocalToGlobal.Divisibility.HeckeRI",
+      "Formalism.LocalToGlobal.Divisibility.LiftLat",
+      "Formalism.LocalToGlobal.HermitianColumns.InLocalDiscriminantKernel",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Formalism.LocalToGlobal.IndefiniteReal.Bridge",
+      "Formalism.LocalToGlobal.IndefiniteReal.DoubleCosetOperators.RatDatOfReal",
+      "Formalism.LocalToGlobal.IndefiniteReal.FrameExistence.FramesExistOfDiagonalTypePlaces",
+      "Formalism.LocalToGlobal.IndefiniteReal.IsFDiagIffDiagonal",
+      "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.AtTauExUniqueHolds",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksChar",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksDefs",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksLemmas",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Formalism.LocalToGlobal.IndefiniteReal.LocalNewformFunction",
+      "Formalism.LocalToGlobal.IndefiniteReal.OrthogonalComplementCharacterisation",
+      "Formalism.LocalToGlobal.IndefiniteReal.ScalarOnPartsFull",
+      "Formalism.LocalToGlobal.IndefiniteReal.SubgroupCharExtensionOneApply",
+      "Formalism.LocalToGlobal.IndefiniteReal.ThPinsR",
+      "Formalism.LocalToGlobal.IndefiniteReal.ZeroPartEigenvalueConvention",
+      "Formalism.LocalToGlobal.ProjectiveLattices.CuspidalL2Subspace",
+      "Formalism.LocalToGlobal.ProjectiveLattices.EmbKCoe",
+      "Formalism.LocalToGlobal.ProjectiveLattices.FamilyUniformisationBasePointOrthogonalBis",
+      "Formalism.LocalToGlobal.ProjectiveLattices.PartitionExtendByZeroAntitone",
+      "Formalism.LocalToGlobal.UnitaryNorms.CharTied",
+      "Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf",
+      "Formalism.SatakeDualWeyl.Statement",
+      "Formalism.SharpRestriction.Divisibility.AbsolutelyIrreducibleSpan",
+      "Formalism.SharpRestriction.Divisibility.LiftErrorLocal",
+      "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+      "Formalism.SharpRestriction.GlobalSchurBounds.StandardLattice",
+      "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+      "Formalism.SharpRestriction.LevelLetterCocycles.IntegralHeckeForms",
+      "Formalism.SharpRestriction.LevelLetterCocycles.TwGood",
+      "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+      "Init.Classical",
+      "Init.Core",
+      "Init.Data.Nat.Basic",
+      "Init.Data.Rat.Basic",
+      "Init.Data.Zero",
+      "Init.Prelude",
+      "Mathlib.Algebra.Algebra.Basic",
+      "Mathlib.Algebra.Algebra.Defs",
+      "Mathlib.Algebra.Algebra.Equiv",
+      "Mathlib.Algebra.Algebra.Hom",
+      "Mathlib.Algebra.Algebra.Rat",
+      "Mathlib.Algebra.Algebra.Tower",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+      "Mathlib.Algebra.Field.Defs",
+      "Mathlib.Algebra.Field.Rat",
+      "Mathlib.Algebra.Field.Subfield.Basic",
+      "Mathlib.Algebra.Field.Subfield.Defs",
+      "Mathlib.Algebra.Field.ZMod",
+      "Mathlib.Algebra.Group.Action.Defs",
+      "Mathlib.Algebra.Group.Action.Pi",
+      "Mathlib.Algebra.Group.Defs",
+      "Mathlib.Algebra.Group.Equiv.Defs",
+      "Mathlib.Algebra.Group.Hom.Defs",
+      "Mathlib.Algebra.Group.Pi.Basic",
+      "Mathlib.Algebra.Group.Subgroup.Defs",
+      "Mathlib.Algebra.Group.Subgroup.Map",
+      "Mathlib.Algebra.Group.Units.Defs",
+      "Mathlib.Algebra.GroupWithZero.Action.Defs",
+      "Mathlib.Algebra.GroupWithZero.Defs",
+      "Mathlib.Algebra.GroupWithZero.Nat",
+      "Mathlib.Algebra.GroupWithZero.NonZeroDivisors",
+      "Mathlib.Algebra.GroupWithZero.Units.Lemmas",
+      "Mathlib.Algebra.Module.Defs",
+      "Mathlib.Algebra.Module.LinearMap.Defs",
+      "Mathlib.Algebra.Module.Pi",
+      "Mathlib.Algebra.Module.Submodule.Defs",
+      "Mathlib.Algebra.Module.Submodule.Range",
+      "Mathlib.Algebra.MonoidAlgebra.Defs",
+      "Mathlib.Algebra.Notation.Pi.Defs",
+      "Mathlib.Algebra.Quotient",
+      "Mathlib.Algebra.Ring.CompTypeclasses",
+      "Mathlib.Algebra.Ring.Defs",
+      "Mathlib.Algebra.Ring.Hom.Defs",
+      "Mathlib.Algebra.Ring.Subring.Defs",
+      "Mathlib.Algebra.Ring.Subsemiring.Defs",
+      "Mathlib.Algebra.Star.Basic",
+      "Mathlib.Analysis.Complex.Basic",
+      "Mathlib.Analysis.InnerProductSpace.Defs",
+      "Mathlib.Analysis.Normed.Group.Defs",
+      "Mathlib.Analysis.Normed.Module.Basic",
+      "Mathlib.Data.Complex.Basic",
+      "Mathlib.Data.ENNReal.Basic",
+      "Mathlib.Data.Finite.Defs",
+      "Mathlib.Data.Finset.Defs",
+      "Mathlib.Data.Finsupp.Defs",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Data.Fintype.Defs",
+      "Mathlib.Data.Fintype.EquivFin",
+      "Mathlib.Data.Fintype.Sum",
+      "Mathlib.Data.FunLike.Basic",
+      "Mathlib.Data.FunLike.Equiv",
+      "Mathlib.Data.Int.Cast.Defs",
+      "Mathlib.Data.Matrix.Basic",
+      "Mathlib.Data.Matrix.Mul",
+      "Mathlib.Data.Nat.Cast.Defs",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Data.Set.Defs",
+      "Mathlib.Data.Set.Operations",
+      "Mathlib.Data.SetLike.Basic",
+      "Mathlib.Data.ZMod.Defs",
+      "Mathlib.FieldTheory.IntermediateField.Basic",
+      "Mathlib.GroupTheory.OreLocalization.Basic",
+      "Mathlib.GroupTheory.OreLocalization.OreSet",
+      "Mathlib.LinearAlgebra.Basis.Defs",
+      "Mathlib.LinearAlgebra.Matrix.ConjTranspose",
+      "Mathlib.LinearAlgebra.Matrix.Defs",
+      "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+      "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs",
+      "Mathlib.LinearAlgebra.Multilinear.Basic",
+      "Mathlib.LinearAlgebra.PiTensorProduct.Basic",
+      "Mathlib.LinearAlgebra.Span.Defs",
+      "Mathlib.LinearAlgebra.TensorProduct.Defs",
+      "Mathlib.MeasureTheory.Group.Measure",
+      "Mathlib.MeasureTheory.MeasurableSpace.Defs",
+      "Mathlib.MeasureTheory.Measure.MeasureSpaceDef",
+      "Mathlib.MeasureTheory.Measure.Typeclasses.Probability",
+      "Mathlib.NumberTheory.NumberField.AdeleRing",
+      "Mathlib.NumberTheory.NumberField.Basic",
+      "Mathlib.NumberTheory.NumberField.InfiniteAdeleRing",
+      "Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex",
+      "Mathlib.RingTheory.DedekindDomain.FiniteAdeleRing",
+      "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas",
+      "Mathlib.RingTheory.Ideal.Defs",
+      "Mathlib.RingTheory.Ideal.Quotient.Defs",
+      "Mathlib.RingTheory.Localization.FractionRing",
+      "Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic",
+      "Mathlib.RingTheory.OreLocalization.Basic",
+      "Mathlib.RingTheory.OreLocalization.Ring",
+      "Mathlib.RingTheory.TensorProduct.Basic",
+      "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PushInvertible"
+    ],
+    "priority_module_fragments": [
+      "Primitive",
+      "LinksW",
+      "Measure",
+      "Meas",
+      "ExAt",
+      "FirstStep",
+      "NonzeroPlaces",
+      "Theta",
+      "Holds"
+    ],
+    "prioritized_reference_modules": [
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimes",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimesLifts",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.OfFirstStepLoc",
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasureToRealEqMass",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EvLgGFieldOfSmallField",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.ExistsLocalTupleAtState",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.HeckeOpen",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LevelCharAllStStatement",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LocalComponentAtPlaceDetermined",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PublishedInputsThirdLayer",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RationalSeriesCoeffAtState",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.RootsOfUnityRingLeWittIntegers",
+      "Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SameGaloisLevelExists",
+      "Formalism.LocalRingCardinality.DataTheta",
+      "Formalism.LocalToGlobal.BesselHermitianTheta.IsAutFunDef",
+      "Formalism.LocalToGlobal.IndefiniteReal.BaseLiftsPackageOfPrimitiveLinks",
+      "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.AtTauExUniqueHolds",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksW",
+      "Mathlib.MeasureTheory.Group.Measure",
+      "Mathlib.MeasureTheory.MeasurableSpace.Defs",
+      "Mathlib.MeasureTheory.Measure.MeasureSpaceDef",
+      "Mathlib.MeasureTheory.Measure.Typeclasses.Probability"
+    ],
+    "explicit_priority_source_roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+      "Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/OfFirstStepLoc.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/StableIffCarrierEq.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/LinksW.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/BaseLiftsPackageOfPrimitiveLinks.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/LinksChar.lean",
+      "Formalism/LocalToGlobal/IndefiniteReal/OrthogonalComplementCharacterisation.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/NonzeroPlacesOverPrimesLifts.lean",
+      "Development/AbelianVarietyTheory/Definitions/AutomorphicMembership/TwArgs.lean"
+    ],
+    "source_reference_mode": "priority-only",
+    "reference_modules_not_seeded": [
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AssembleLattice",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.BaseDataEmbeddingConj",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CenUsedOfCenReal",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CmQuadraticFormEqAlternatingForm",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FieldValuesMemFixedField",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsAbsIrrCharCompIff",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.JEvExists",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotBaseCondFalse",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PositionOfIntro",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ReadPk",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingSpecNormalisedCharacterEq",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RootsOfUnityRingLeWittIntegers",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StdLvPr",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.StrictHenselianAcyclic",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SubsetTwistExceptionalPlaces",
+      "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TrueColumnChoicesHeckeCharReferenceEqOne",
+      "Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIsScalar",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GoodSetupCountEqZeroOffBadPlaces",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsAuxiliaryHeckeCharacter",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NotTeichTrivOfIsDelta",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ToUnitsCompToCircle",
+      "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnivChar",
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactAdele",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ChoiceSideWithE",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsExtensionComplexDataEmbeddingRestrictCoeffStatement",
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FockOfApply",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CmDataIsCMExtAndGramIsHermND",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EventuallyDefiniteSpacesStandardAndLarge",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StandardLatticesDiagonal",
+      "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPlaceIndexMemFirstPairOfCompatibleChoice",
+      "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.AdmissibleDiscreteSeriesOfHasParam",
+      "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn",
+      "Development.AutomorphicArithmetic.Foundations.LocalLanglands.IsRecTOfIsRec",
+      "Formalism.ConjugateSelfDual.Statement",
+      "Formalism.LocalRingCardinality.DataCD",
+      "Formalism.LocalRingCardinality.DataHost",
+      "Formalism.LocalRingCardinality.DataNChTie",
+      "Formalism.LocalRingCardinality.DataNChoice",
+      "Formalism.LocalRingCardinality.DataRows",
+      "Formalism.LocalRingCardinality.DataSpaces",
+      "Formalism.LocalRingCardinality.Params",
+      "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+      "Formalism.LocalToGlobal.Columns.AbelianHostFieldConditions",
+      "Formalism.LocalToGlobal.Columns.RowForms",
+      "Formalism.LocalToGlobal.Divisibility.DefGroup",
+      "Formalism.LocalToGlobal.Divisibility.HeckeRI",
+      "Formalism.LocalToGlobal.Divisibility.LiftLat",
+      "Formalism.LocalToGlobal.HermitianColumns.InLocalDiscriminantKernel",
+      "Formalism.LocalToGlobal.IndefiniteReal.Bridge",
+      "Formalism.LocalToGlobal.IndefiniteReal.DoubleCosetOperators.RatDatOfReal",
+      "Formalism.LocalToGlobal.IndefiniteReal.FrameExistence.FramesExistOfDiagonalTypePlaces",
+      "Formalism.LocalToGlobal.IndefiniteReal.IsFDiagIffDiagonal",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksChar",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksDefs",
+      "Formalism.LocalToGlobal.IndefiniteReal.LinksLemmas",
+      "Formalism.LocalToGlobal.IndefiniteReal.LocalNewformFunction",
+      "Formalism.LocalToGlobal.IndefiniteReal.ScalarOnPartsFull",
+      "Formalism.LocalToGlobal.IndefiniteReal.SubgroupCharExtensionOneApply",
+      "Formalism.LocalToGlobal.IndefiniteReal.ThPinsR",
+      "Formalism.LocalToGlobal.ProjectiveLattices.CuspidalL2Subspace",
+      "Formalism.LocalToGlobal.ProjectiveLattices.EmbKCoe",
+      "Formalism.LocalToGlobal.ProjectiveLattices.FamilyUniformisationBasePointOrthogonalBis",
+      "Formalism.LocalToGlobal.ProjectiveLattices.PartitionExtendByZeroAntitone",
+      "Formalism.LocalToGlobal.UnitaryNorms.CharTied",
+      "Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf",
+      "Formalism.SatakeDualWeyl.Statement",
+      "Formalism.SharpRestriction.Divisibility.AbsolutelyIrreducibleSpan",
+      "Formalism.SharpRestriction.Divisibility.LiftErrorLocal",
+      "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+      "Formalism.SharpRestriction.GlobalSchurBounds.StandardLattice",
+      "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+      "Formalism.SharpRestriction.LevelLetterCocycles.IntegralHeckeForms",
+      "Formalism.SharpRestriction.LevelLetterCocycles.TwGood",
+      "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+      "Init.Classical",
+      "Init.Core",
+      "Init.Data.Nat.Basic",
+      "Init.Data.Rat.Basic",
+      "Init.Data.Zero",
+      "Init.Prelude",
+      "Mathlib.Algebra.Algebra.Basic",
+      "Mathlib.Algebra.Algebra.Defs",
+      "Mathlib.Algebra.Algebra.Equiv",
+      "Mathlib.Algebra.Algebra.Hom",
+      "Mathlib.Algebra.Algebra.Rat",
+      "Mathlib.Algebra.Algebra.Tower",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Basic",
+      "Mathlib.Algebra.BigOperators.Group.Finset.Defs",
+      "Mathlib.Algebra.Field.Defs",
+      "Mathlib.Algebra.Field.Rat",
+      "Mathlib.Algebra.Field.Subfield.Basic",
+      "Mathlib.Algebra.Field.Subfield.Defs",
+      "Mathlib.Algebra.Field.ZMod",
+      "Mathlib.Algebra.Group.Action.Defs",
+      "Mathlib.Algebra.Group.Action.Pi",
+      "Mathlib.Algebra.Group.Defs",
+      "Mathlib.Algebra.Group.Equiv.Defs",
+      "Mathlib.Algebra.Group.Hom.Defs",
+      "Mathlib.Algebra.Group.Pi.Basic",
+      "Mathlib.Algebra.Group.Subgroup.Defs",
+      "Mathlib.Algebra.Group.Subgroup.Map",
+      "Mathlib.Algebra.Group.Units.Defs",
+      "Mathlib.Algebra.GroupWithZero.Action.Defs",
+      "Mathlib.Algebra.GroupWithZero.Defs",
+      "Mathlib.Algebra.GroupWithZero.Nat",
+      "Mathlib.Algebra.GroupWithZero.NonZeroDivisors",
+      "Mathlib.Algebra.GroupWithZero.Units.Lemmas",
+      "Mathlib.Algebra.Module.Defs",
+      "Mathlib.Algebra.Module.LinearMap.Defs",
+      "Mathlib.Algebra.Module.Pi",
+      "Mathlib.Algebra.Module.Submodule.Defs",
+      "Mathlib.Algebra.Module.Submodule.Range",
+      "Mathlib.Algebra.MonoidAlgebra.Defs",
+      "Mathlib.Algebra.Notation.Pi.Defs",
+      "Mathlib.Algebra.Quotient",
+      "Mathlib.Algebra.Ring.CompTypeclasses",
+      "Mathlib.Algebra.Ring.Defs",
+      "Mathlib.Algebra.Ring.Hom.Defs",
+      "Mathlib.Algebra.Ring.Subring.Defs",
+      "Mathlib.Algebra.Ring.Subsemiring.Defs",
+      "Mathlib.Algebra.Star.Basic",
+      "Mathlib.Analysis.Complex.Basic",
+      "Mathlib.Analysis.InnerProductSpace.Defs",
+      "Mathlib.Analysis.Normed.Group.Defs",
+      "Mathlib.Analysis.Normed.Module.Basic",
+      "Mathlib.Data.Complex.Basic",
+      "Mathlib.Data.ENNReal.Basic",
+      "Mathlib.Data.Finite.Defs",
+      "Mathlib.Data.Finset.Defs",
+      "Mathlib.Data.Finsupp.Defs",
+      "Mathlib.Data.Fintype.Basic",
+      "Mathlib.Data.Fintype.Defs",
+      "Mathlib.Data.Fintype.EquivFin",
+      "Mathlib.Data.Fintype.Sum",
+      "Mathlib.Data.FunLike.Basic",
+      "Mathlib.Data.FunLike.Equiv",
+      "Mathlib.Data.Int.Cast.Defs",
+      "Mathlib.Data.Matrix.Basic",
+      "Mathlib.Data.Matrix.Mul",
+      "Mathlib.Data.Nat.Cast.Defs",
+      "Mathlib.Data.Real.Basic",
+      "Mathlib.Data.Set.Defs",
+      "Mathlib.Data.Set.Operations",
+      "Mathlib.Data.SetLike.Basic",
+      "Mathlib.Data.ZMod.Defs",
+      "Mathlib.FieldTheory.IntermediateField.Basic",
+      "Mathlib.GroupTheory.OreLocalization.Basic",
+      "Mathlib.GroupTheory.OreLocalization.OreSet",
+      "Mathlib.LinearAlgebra.Basis.Defs",
+      "Mathlib.LinearAlgebra.Matrix.ConjTranspose",
+      "Mathlib.LinearAlgebra.Matrix.Defs",
+      "Mathlib.LinearAlgebra.Matrix.Determinant.Basic",
+      "Mathlib.LinearAlgebra.Matrix.GeneralLinearGroup.Defs",
+      "Mathlib.LinearAlgebra.Multilinear.Basic",
+      "Mathlib.LinearAlgebra.PiTensorProduct.Basic",
+      "Mathlib.LinearAlgebra.Span.Defs",
+      "Mathlib.LinearAlgebra.TensorProduct.Defs",
+      "Mathlib.NumberTheory.NumberField.AdeleRing",
+      "Mathlib.NumberTheory.NumberField.Basic",
+      "Mathlib.NumberTheory.NumberField.InfiniteAdeleRing",
+      "Mathlib.NumberTheory.NumberField.InfinitePlace.TotallyRealComplex",
+      "Mathlib.RingTheory.DedekindDomain.FiniteAdeleRing",
+      "Mathlib.RingTheory.DedekindDomain.Ideal.Lemmas",
+      "Mathlib.RingTheory.Ideal.Defs",
+      "Mathlib.RingTheory.Ideal.Quotient.Defs",
+      "Mathlib.RingTheory.Localization.FractionRing",
+      "Mathlib.RingTheory.MvPolynomial.IrreducibleQuadratic",
+      "Mathlib.RingTheory.OreLocalization.Basic",
+      "Mathlib.RingTheory.OreLocalization.Ring",
+      "Mathlib.RingTheory.TensorProduct.Basic",
+      "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.PushInvertible"
+    ],
+    "skipped_modules": [
+      {
+        "module": "Mathlib.MeasureTheory.Group.Measure",
+        "reason": "outside configured project module prefixes"
+      },
+      {
+        "module": "Mathlib.MeasureTheory.MeasurableSpace.Defs",
+        "reason": "outside configured project module prefixes"
+      },
+      {
+        "module": "Mathlib.MeasureTheory.Measure.MeasureSpaceDef",
+        "reason": "outside configured project module prefixes"
+      },
+      {
+        "module": "Mathlib.MeasureTheory.Measure.Typeclasses.Probability",
+        "reason": "outside configured project module prefixes"
+      }
+    ],
+    "reference_lists_truncated": false
+  }
+}

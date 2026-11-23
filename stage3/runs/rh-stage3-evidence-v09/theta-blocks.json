@@ -1,0 +1,115 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.emtTheta_L_alt",
+      "begin_line": 6,
+      "end_line": 1888,
+      "rendered_block_sha256": "8f423464e9c72d9dd84bbea25ce819adf6b94f0172c8df0538a42a7bc8972183",
+      "rendered_block_utf8_bytes": 142604,
+      "elision_indicators": {
+        "⋯": 81
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.emtTheta_of_yRel",
+      "begin_line": 1892,
+      "end_line": 2789,
+      "rendered_block_sha256": "1bcf49ec02a54fce6f11ddf7201e2290a02cf88a7aef22cfe44e9410ebf3f741",
+      "rendered_block_utf8_bytes": 67254,
+      "elision_indicators": {
+        "⋯": 38
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.normalisedReadings_related_localizedAdelicData",
+      "begin_line": 2793,
+      "end_line": 3825,
+      "rendered_block_sha256": "f3649f4f1579733d25537e3e7cbed577dbe1c918a3ec0eebda02ee02e05bc6d1",
+      "rendered_block_utf8_bytes": 82654,
+      "elision_indicators": {
+        "⋯": 40
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.YRel",
+      "begin_line": 3828,
+      "end_line": 7892,
+      "rendered_block_sha256": "d3401f7b8075c9a5d569f125c301e2f7870cd4399b493cbb3a24ef31bf4a7142",
+      "rendered_block_utf8_bytes": 305984,
+      "elision_indicators": {
+        "⋯": 485
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.yStructureLocal",
+      "begin_line": 7896,
+      "end_line": 9801,
+      "rendered_block_sha256": "dae02e38f22a5df223f3585b4efac8a19a034d1212828122480c0857d45e994f",
+      "rendered_block_utf8_bytes": 151997,
+      "elision_indicators": {
+        "⋯": 60
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.characterChoiceLocal",
+      "begin_line": 9805,
+      "end_line": 10737,
+      "rendered_block_sha256": "cc90f4ac078be626019f15419b2b511909ad4acdfbea3a708b5c3650b2784458",
+      "rendered_block_utf8_bytes": 69150,
+      "elision_indicators": {
+        "⋯": 47
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.nonempty_nMore_of_xdAll",
+      "begin_line": 10741,
+      "end_line": 12534,
+      "rendered_block_sha256": "60b32a73b8ace51a2ac296e0f6b0f7477bffc84906237552cfc7312896bf2426",
+      "rendered_block_utf8_bytes": 134661,
+      "elision_indicators": {
+        "⋯": 94
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.thetaTie_yStructureLocal_nonempty",
+      "begin_line": 12538,
+      "end_line": 14346,
+      "rendered_block_sha256": "50c860dcf79645bcd266c6ebe140c932c6fe24dedb8db6c6ba882a8fb279c976",
+      "rendered_block_utf8_bytes": 134664,
+      "elision_indicators": {
+        "⋯": 68
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.EMtTheta",
+      "begin_line": 14350,
+      "end_line": 18075,
+      "rendered_block_sha256": "b5558e2efa2b9d97cd3670c6336215a5ffcf66c646749a6a2321cb3d0557c956",
+      "rendered_block_utf8_bytes": 335861,
+      "elision_indicators": {
+        "⋯": 54
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.HeightCounting.Fin3.exists_base_level_rXs_and_yRel",
+      "begin_line": 18079,
+      "end_line": 19990,
+      "rendered_block_sha256": "c0d212e643085fff5fe6925c20bf3f15139509e8975c52c01f540b7437c7f191",
+      "rendered_block_utf8_bytes": 154949,
+      "elision_indicators": {
+        "⋯": 89
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

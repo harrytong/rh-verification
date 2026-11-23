@@ -1,0 +1,45 @@
+START_UTC 2026-11-23T08:17:47.800409+00:00
+COMMAND_JSON ["sudo", "-n", "docker", "run", "--rm", "--cidfile", "/home/harry/rh-verification/critics-audit-stage3/stage3-mc73ncns/use-fixture.cid", "--name", "rh-audit-stage3-mc73ncns-argumentusefixture", "--network", "none", "--log-driver=none", "--read-only", "--cap-drop", "ALL", "--security-opt", "no-new-privileges:true", "--user", "1000:1000", "--cpus=2", "--memory=4g", "--memory-swap=4g", "--pids-limit=256", "--ulimit", "core=0", "--tmpfs", "/tmp:rw,nosuid,nodev,size=1g,mode=1777", "--mount", "type=bind,src=/home/harry/.elan/toolchains/leanprover--lean4---v4.33.1,dst=/opt/lean,readonly", "--mount", "type=bind,src=/home/harry/rh-verification/critics-audit-stage3/stage3-mc73ncns,dst=/audit,readonly", "--workdir", "/audit", "--env", "PATH=/opt/lean/bin:/usr/bin:/bin", "--env", "LEAN_NUM_THREADS=2", "--env", "LEAN_ABORT_ON_PANIC=1", "--env", "LAKE_ARTIFACT_CACHE=false", "--env", "LEAN_PATH=", "sha256:787b5bc568798ca5ca82cef9c80345e77b316ce529e312e5f49e43949570baa4", "/usr/bin/timeout", "--signal=TERM", "--kill-after=10s", "120", "/usr/bin/time", "-v", "/opt/lean/bin/lean", "--tstack=400000", "/audit/ArgumentUseFixture.lean"]
+RH_STAGE3_USES_JSON	{"case":"direct","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"absent","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"shadowed","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"outer-under-lambda","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"binder-domain-only","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"forall-domain-and-body","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"let-type-value-body","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"projection","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"annotation-inherited","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"metadata","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"node-cap","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"case":"depth-cap","event":"fixture","passed":true}
+RH_STAGE3_USES_JSON	{"binder_or_let_type_position":0,"depth_limit":600,"event":"binder","name":"h","node_limit":100000,"nodes_visited":1,"ordinal":0,"other_expression_position":1,"target":"RHStage3UsesFixture.identity","truncated":false}
+RH_STAGE3_USES_JSON	{"binder_count":1,"event":"end","stop":"non-lambda-head","target":"RHStage3UsesFixture.identity"}
+RH_STAGE3_USES_JSON	{"binder_count":0,"event":"end","stop":"outer-step-cap","target":"synthetic-outer-cap"}
+RH_STAGE3_USES_JSON	{"binder_count":128,"event":"end","stop":"binder-cap","target":"synthetic-binder-cap"}
+RH_STAGE3_USE_FIXTURE_END
+	Command being timed: "/opt/lean/bin/lean --tstack=400000 /audit/ArgumentUseFixture.lean"
+	User time (seconds): 1.28
+	System time (seconds): 0.46
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1620988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39961
+	Voluntary context switches: 807
+	Involuntary context switches: 59
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+PROCESS_EXIT_STATUS 0
+END_UTC 2026-11-23T08:17:49.641293+00:00

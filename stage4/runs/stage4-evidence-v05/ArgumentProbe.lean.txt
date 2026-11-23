@@ -1,0 +1,118 @@
+/- Stage 4 v0.5: first stored application, with dependent argument types.
+   This file follows ComparisonProbe.lean.txt in both generated probes. -/
+namespace RHStage4
+partial def argumentConclusion (owner location callee : String) (ty : Expr) : MetaM Unit := do
+  match ty with
+  | .forallE n t b bi =>
+    emitMeta [("event", toJson "argument-binder"), ("owner", toJson owner),
+      ("location", toJson location), ("callee", toJson callee),
+      ("name", toJson n.toString), ("type", ← printed t)]
+    withLocalDecl n bi t fun x => argumentConclusion owner location callee (b.instantiate1 x)
+  | .mdata _ b => argumentConclusion owner location callee b
+  | _ => comparison owner location callee ty
+
+partial def argumentShape (e : Expr) : String :=
+  match e with
+  | .mdata _ b => argumentShape b
+  | .fvar _ => "local-reference"
+  | .lam .. => "lambda"
+  | .letE .. => "let"
+  | .proj .. => "projection"
+  | .const .. => "constant"
+  | .app .. => "application"
+  | _ => "other"
+
+def inspectArguments (owner path callee : String) (e : Expr)
+    (selected compared : Array String) : MetaM Unit := do
+  let args := e.getAppArgs
+  let mut ty ← inferType e.getAppFn
+  let mut found : Array String := #[]
+  for i in List.range args.size do
+    let bt ← whnf ty
+    match bt with
+    | .forallE n expected body _ =>
+      let a := args[i]!
+      let param := n.toString
+      if selected.contains param then
+        found := found.push param
+        let refs := a.getUsedConstants
+        let loc := path ++ "/parameter-" ++ param ++ s!"-{i}"
+        emitMeta [("event", toJson "argument"), ("owner", toJson owner),
+          ("callee", toJson callee), ("location", toJson loc),
+          ("parameter", toJson param), ("argument_index", toJson i),
+          ("argument_shape", toJson (argumentShape a)),
+          ("argument", clipped (← ppExpr a).pretty 24000),
+          ("expected_type", ← printed expected),
+          ("local_context", ← context),
+          ("references", toJson ((refs.toList.take 256).map Name.toString)),
+          ("reference_count", toJson refs.size),
+          ("references_truncated", toJson (decide (refs.size > 256))),
+          ("comparison_requested", toJson (compared.contains param)),
+          ("scope", toJson "actual argument at this stored wrapper call; not a transitive headline specialization")]
+        if compared.contains param then
+          argumentConclusion owner loc callee expected
+      ty := body.instantiate1 a
+    | _ =>
+      throwError "Application telescope ended before argument {i}"
+  emitMeta [("event", toJson "arguments-end"), ("owner", toJson owner),
+    ("callee", toJson callee), ("location", toJson path),
+    ("supplied_argument_count", toJson args.size),
+    ("selected", toJson selected), ("found", toJson found),
+    ("missing", toJson (selected.filter fun n => !(found.contains n)))]
+
+-- Same bounded traversal policy as the v0.4 scanner. Proof arguments themselves
+-- are recorded at the first match; this does not recursively expand constants.
+partial def argumentWalk (owner callee : String) (selected compared : Array String)
+    (e : Expr) (path : String) (depth : Nat) (ref : IO.Ref Scan) : MetaM Unit := do
+  let s ← ref.get
+  if s.hits > 0 then return ()
+  if s.visited >= 250000 || depth > 600 then
+    ref.modify fun s => { s with capped := true }
+    return ()
+  ref.modify fun s => { s with visited := s.visited + 1 }
+  if !(e.getUsedConstants.contains (nameOf callee)) then
+    ref.modify fun s => { s with pruned := s.pruned + 1 }
+    return ()
+  match e with
+  | .lam n t b bi =>
+    withLocalDecl n bi t fun x => argumentWalk owner callee selected compared
+      (b.instantiate1 x) (path ++ "/lambda") (depth+1) ref
+  | .letE n t v b _ =>
+    withLetDecl n t v fun x => argumentWalk owner callee selected compared
+      (b.instantiate1 x) (path ++ "/let-body") (depth+1) ref
+    argumentWalk owner callee selected compared v (path ++ "/let-value") (depth+1) ref
+  | .app .. =>
+    let fn := e.getAppFn
+    let args := e.getAppArgs
+    if headName fn == some (nameOf callee) then
+      ref.modify fun s => { s with hits := s.hits + 1 }
+      inspectArguments owner path callee e selected compared
+    else if (headName fn).isNone then
+      argumentWalk owner callee selected compared fn (path ++ "/function") (depth+1) ref
+    for i in (List.range args.size).reverse do
+      argumentWalk owner callee selected compared args[i]! (path ++ s!"/arg-{i}") (depth+1) ref
+  | .mdata _ b => argumentWalk owner callee selected compared b (path ++ "/metadata") (depth+1) ref
+  | .proj _ _ b => argumentWalk owner callee selected compared b (path ++ "/projection") (depth+1) ref
+  | _ => pure ()
+
+def argumentCalls (env : Environment) (owner callee : String)
+    (selected compared : Array String) : IO Unit := do
+  let ref ← IO.mkRef ({} : Scan)
+  emit [("event", toJson "argument-calls-start"), ("owner", toJson owner),
+    ("callee", toJson callee), ("selected", toJson selected), ("compared", toJson compared)]
+  try
+    let some ci := env.checked.get.find? (nameOf owner) |
+      throw (IO.userError "Owner not found")
+    let some b := bodyOf ci | throw (IO.userError "Owner has no stored body")
+    inMeta env <| argumentWalk owner callee selected compared b "body" 0 ref
+    let s ← ref.get
+    emit [("event", toJson "argument-calls-end"), ("owner", toJson owner),
+      ("callee", toJson callee),
+      ("status", toJson (if s.capped then "incomplete-cap" else
+        if s.hits == 1 then "first-match-observed" else "no-call-observed")),
+      ("visited", toJson s.visited), ("hits", toJson s.hits),
+      ("scan_capped", toJson s.capped), ("pruned_subtrees", toJson s.pruned)]
+  catch e =>
+    emit [("event", toJson "argument-calls-end"), ("owner", toJson owner),
+      ("callee", toJson callee), ("status", toJson "unknown"), ("error", toJson e.toString)]
+end RHStage4

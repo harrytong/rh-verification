@@ -1,0 +1,122 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.LiftUnfold.integral_theta",
+      "begin_line": 6,
+      "end_line": 4071,
+      "rendered_block_sha256": "3b23a7efee69541ec40bdecbcb61ab9cb2b88b922927b3f60424590166651721",
+      "rendered_block_utf8_bytes": 321940,
+      "elision_indicators": {
+        "⋯": 100
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.LiftClassSumTwist.thF_eq_princ",
+      "begin_line": 4075,
+      "end_line": 7430,
+      "rendered_block_sha256": "0f3a3dc33709fda11d6f8d784a43d98d9d1e5454bd65e3a0911a71fbcfff3b31",
+      "rendered_block_utf8_bytes": 265980,
+      "elision_indicators": {
+        "⋯": 88
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.LiftClassSumTwist.thF_eq_classSum",
+      "begin_line": 7434,
+      "end_line": 11448,
+      "rendered_block_sha256": "a09d01dc2fce642099cc9e0f9fd8949e65bae710a8cba2660e47b92f3575ff1b",
+      "rendered_block_utf8_bytes": 347888,
+      "elision_indicators": {
+        "⋯": 90
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Hk3.Core",
+      "begin_line": 11451,
+      "end_line": 11526,
+      "rendered_block_sha256": "d9824b3ee2e544605e0f4182aaf999c84df0728e4c0163bddb769619730b1623",
+      "rendered_block_utf8_bytes": 5973,
+      "elision_indicators": {
+        "⋯": 4
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.Hk3.Core.thP",
+      "begin_line": 11530,
+      "end_line": 11580,
+      "rendered_block_sha256": "3fdd5ead21945772aac76d830e1b90d39cc4e17fb81b4354efba5a4e76d6ad22",
+      "rendered_block_utf8_bytes": 3636,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.TwInputs.RealSide.char",
+      "begin_line": 11584,
+      "end_line": 11667,
+      "rendered_block_sha256": "b048b728126bb6c008205444b642e895db1f3c950ce99d2a973fa8fbb4c533c5",
+      "rendered_block_utf8_bytes": 6724,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "Formalism.IndefR.Links.RealDat3.Char3",
+      "begin_line": 11670,
+      "end_line": 11872,
+      "rendered_block_sha256": "67f65843d75b0eaa4cb67d649c49746aaa6fc3393b10f15f7c8e914c48113437",
+      "rendered_block_utf8_bytes": 16541,
+      "elision_indicators": {
+        "⋯": 18
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.FlatVecExist.flatVec_existsUnique",
+      "begin_line": 11876,
+      "end_line": 14033,
+      "rendered_block_sha256": "1d773cdacb42bbdbc2e0b7fdf4cf6184da8380ab772164bb231f99778fad28db",
+      "rendered_block_utf8_bytes": 164665,
+      "elision_indicators": {
+        "⋯": 43
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.FlatLift.flat_eq_unit_smul_om",
+      "begin_line": 14037,
+      "end_line": 19776,
+      "rendered_block_sha256": "fde59f38542177a6432b2acb2f7019864d6fbec3184a6a9fe2a959b5c0683a0b",
+      "rendered_block_utf8_bytes": 505523,
+      "elision_indicators": {
+        "⋯": 97
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.weilRep_central_acts_by_dilation_unit",
+      "begin_line": 19780,
+      "end_line": 23217,
+      "rendered_block_sha256": "e92af925d6d7bc5dffa15cbff897bd90a0c803c247200e17637673acf4c0cb5f",
+      "rendered_block_utf8_bytes": 357231,
+      "elision_indicators": {
+        "⋯": 55
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.T.lift_vector_eq_unit_mul_dilated_flat_datum",
+      "begin_line": 23221,
+      "end_line": 26032,
+      "rendered_block_sha256": "175850f3e8a4aa737898ed390de27a6800a460eecca4bdb67a8d521dd157ec18",
+      "rendered_block_utf8_bytes": 256567,
+      "elision_indicators": {
+        "⋯": 51
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}

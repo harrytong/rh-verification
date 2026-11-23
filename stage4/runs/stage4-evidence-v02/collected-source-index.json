@@ -1,0 +1,41 @@
+{
+  "meaning": "bounded source context, not a proof closure or use census",
+  "configuration": {
+    "roots": [
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+      "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+      "Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean"
+    ],
+    "import_depth": 0,
+    "max_files": 3,
+    "max_file_bytes": 2097152,
+    "max_total_bytes": 6291456
+  },
+  "total_bytes": 35708,
+  "files": [
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 10065,
+      "sha256": "3dff82e5e34f65ff304d29b0c1ca692d6a76942063c0f76b07813cf5a2da6a09",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/HeightAddLogNonneg.lean"
+    },
+    {
+      "source": "src/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 2520,
+      "sha256": "7d87fe77f24ae3ba0c02c14c84eaddf8a1ba9e0e731b26b78060ed53934b45bd",
+      "evidence_path": "collected-source/Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/CoverHeightComparison.lean"
+    },
+    {
+      "source": "src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean",
+      "import_depth": 0,
+      "status": "collected-and-git-verified",
+      "bytes": 23123,
+      "sha256": "1c7c77e08ea8161382c64e5773cb1628daa91c74cd54f068a524fdd043b67936",
+      "evidence_path": "collected-source/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumAbsExOfLe.lean"
+    }
+  ]
+}

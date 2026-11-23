@@ -1,0 +1,37 @@
+{
+  "targets": [
+    "GlobalTheory.HeightCounting.Fin3.emtTheta_L_alt",
+    "GlobalTheory.T.emtTheta_of_yRel",
+    "GlobalTheory.T.normalisedReadings_related_localizedAdelicData",
+    "GlobalTheory.HeightCounting.Fin3.YRel",
+    "GlobalTheory.HeightCounting.Fin3.yStructureLocal",
+    "GlobalTheory.HeightCounting.Fin3.characterChoiceLocal",
+    "GlobalTheory.HeightCounting.Fin3.nonempty_nMore_of_xdAll",
+    "GlobalTheory.HeightCounting.Fin3.thetaTie_yStructureLocal_nonempty",
+    "GlobalTheory.HeightCounting.EMtTheta",
+    "GlobalTheory.HeightCounting.Fin3.exists_base_level_rXs_and_yRel"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Theta",
+    "ReadRelation",
+    "Readings",
+    "LocalMultiplicity",
+    "CharacterChoice",
+    "RowsAtStart"
+  ],
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaL.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/EmtThetaLStatement.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalMultiplicityFamily.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/RowsAtStart.lean",
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/FinitenessOfHyp.lean",
+    "Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NormalisedReadingsRelatedLocalizedAdelicDataStatement.lean",
+    "Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TwistDataAgreeAcrossCoefficientsLocalized.lean"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "definition body reference",
+    "type reference",
+    "unused definition excluded",
+    "cap is explicit",
+    "imported module provenance",
+    "theorem body available"
+  ],
+  "meaning": "tool fixture only; no RH statement or necessity check"
+}

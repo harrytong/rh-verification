@@ -1,0 +1,17 @@
+{
+  "started": "2026-11-22T14:22:49.288073-05:00",
+  "source": "753431bfe28701f6f3937f664fcaf08daa139c03",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "main_olean_sha256": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+  "statements_olean_sha256": "f8e0aed3c2d69390b6dd3bb24e13aa25e043a02ca42f021e3f6e4ec8b57fd6b1",
+  "lean_executable_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "trace_program_sha256": "8f7674dfaaf318db3231b037448cf2b98871adff08ad9afaf4000a38f07d5d72",
+  "memory_limit_gib": 112,
+  "cpu_limit": 2,
+  "lean_path": "/tmp:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/Qq/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/aesop/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/batteries/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/importGraph/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/mathlib/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/plausible/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/harry/rh-verification/riemann-hypothesis/.lake/build/lib/lean",
+  "finished": "2026-11-22T14:22:54.811525-05:00",
+  "container_status": 1,
+  "smoke_passed": false,
+  "dependency_audit_completed": false
+}

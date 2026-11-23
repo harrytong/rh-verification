@@ -1,0 +1,30 @@
+{
+  "targets": [
+    "GlobalTheory.T.thetaLift_twistLevelForm_eq_unit_mul_classSum",
+    "GlobalTheory.T.chosenField_forms_proportional_of_readings",
+    "GlobalTheory.T.exists_integral_unit_of_isUnitAwayFromLevel_embedding",
+    "GlobalTheory.PlaceRead.exists_local_component_at_place_alt",
+    "GlobalTheory.PlaceRead.exists_basisAt_latAt_thetaAt_of_atPlace",
+    "GlobalTheory.PlaceRead.exists_local_map_at_place_alt",
+    "GlobalTheory.ChoiceRead.ThetaAt",
+    "GlobalTheory.HeightCounting.EMtTheta"
+  ],
+  "reference_limit_per_location": 4096,
+  "source_import_depth": 2,
+  "max_source_files": 250,
+  "max_source_file_bytes": 2097152,
+  "max_source_total_bytes": 8388608,
+  "source_reference_mode": "priority-only",
+  "priority_module_fragments": [
+    "Theta",
+    "ClassSum",
+    "Proportional",
+    "Unit",
+    "Reading",
+    "LocalComponent"
+  ],
+  "priority_source_roots": [
+    "Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/LocalComponentAtPlaceDetermined.lean",
+    "Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ChoiceSideWithE.lean"
+  ]
+}

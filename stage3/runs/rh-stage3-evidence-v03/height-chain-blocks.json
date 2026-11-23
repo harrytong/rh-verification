@@ -1,0 +1,58 @@
+{
+  "meaning": "index of compiler-rendered declarations and axiom output; not a raw term export",
+  "blocks": [
+    {
+      "declaration": "GlobalTheory.CovHt.GeomBound.geometric_height_bound_at_place",
+      "begin_line": 3,
+      "end_line": 1355,
+      "rendered_block_sha256": "7f7cdf61790e8d50641c8a5e53b743f1bf4dcee50728f3e5e3d7b5778769f8b3",
+      "rendered_block_utf8_bytes": 104688,
+      "elision_indicators": {
+        "⋯": 60
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.GeomBound.geom_of_prints_toroidal_deepGood_size",
+      "begin_line": 1356,
+      "end_line": 2784,
+      "rendered_block_sha256": "45a7a1e0e9cf809577be1b6b3086a22ada0333eb42fa538059011e8020587c17",
+      "rendered_block_utf8_bytes": 103836,
+      "elision_indicators": {
+        "⋯": 25
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.HtTopG.height_of_meanAll_bound",
+      "begin_line": 2785,
+      "end_line": 4612,
+      "rendered_block_sha256": "08b88ec4213b547993859c55d0fa817a7eb4e7c94045b378117b2f6feeb4e8cc",
+      "rendered_block_utf8_bytes": 153717,
+      "elision_indicators": {
+        "⋯": 33
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.HtTopG.heightAt_eq_of_cover",
+      "begin_line": 4613,
+      "end_line": 6431,
+      "rendered_block_sha256": "88358c8b5983ce89bdc995aded2fee607d1aa260c01b4c1e134672233f1c6442",
+      "rendered_block_utf8_bytes": 143885,
+      "elision_indicators": {
+        "⋯": 64
+      },
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    },
+    {
+      "declaration": "GlobalTheory.CovHt.cover_height_comparison",
+      "begin_line": 6432,
+      "end_line": 6459,
+      "rendered_block_sha256": "1c300ea647c78134ffc0ffcf58503ff30cd18563746774fed649b0d148e88018",
+      "rendered_block_utf8_bytes": 1991,
+      "elision_indicators": {},
+      "rendering_completeness": "not certified, even when no elision indicator is detected"
+    }
+  ]
+}
