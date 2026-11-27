@@ -1,6 +1,6 @@
 # RH / Dirichlet-GRH verification and critics’ audit
 
-**Maintainer: Harry Tong. Updated 23 November 2026 (US Eastern time).**
+**Maintainer: Harry Tong. Updated 26 November 2026, 18:54 EST.**
 
 This repository records a local rebuild, proof export, independent Nanoda check,
 and four stages of AI-assisted investigation of objections to the published
@@ -12,13 +12,34 @@ possible generalized L-function.
 by the critics and traced explicit conditions, witnesses, and bound proofs
 surrounding them. We found no formal proof defect in the inspected routes.
 Those observations alone do not establish invalidity of the headline theorems.
-Broader semantic objections remain unresolved. **No completed result from
-Harry’s protected Comparator run has been recorded in this closing summary.**
+Broader semantic objections remain unresolved. **The tuned standalone Lean
+paranoid replay passed. Harry’s protected Comparator has accepted the solution
+through Lean paranoid and nanoda; its Lean default-kernel stage is still running.
+The overall Comparator verdict remains pending as of 26 November, 18:54 EST.**
 
 Stage 4 is **closed within its selected scope**. We rely on the recorded formal
 checking for upstream proof obligations; we do not interpret a premise of a
 helper theorem as evidence of a missing witness. This stopping decision is not
 a new proof of semantic equivalence or a global refutation of the critics.
+
+## Latest verification update — 26 November 2026
+
+The standalone Lean paranoid replay with `MIMALLOC_GENERIC_COLLECT=1000000`
+finished successfully in **21:43:05**, with checker, Docker and logging exit
+codes all zero. Peak checker RSS was **98.8 GiB**; peak container memory was
+**109.8 GiB**, below its 120 GiB limit, with no recorded OOM events or kills.
+
+**Tuning credit:** Andrew Sutherland (MIT) documented this allocator setting in
+his [RH verification record](https://math.mit.edu/~drew/grh/). Harry applied that
+setting locally to the stock Lean 4.36.0 paranoid checker. This is a local
+reproduction of the documented tuning, not a new verification algorithm or
+an independently implemented kernel.
+
+The original Comparator remains active: paranoid and nanoda acceptance are
+recorded; the default-kernel stage has run for 24:03:08 at the supplied snapshot.
+The separate tuned pass does not complete or replace that Comparator run.
+See the [dated report](reports/VERIFICATION_UPDATE_20261126.md), including
+provenance, exact counters and the supplied terminal excerpt.
 
 ## Start here
 
@@ -45,7 +66,8 @@ override the decision to close Stage 4.
 | Headline statement / axiom inspection | Five declarations; only `propext`, `Classical.choice`, `Quot.sound` reported | In the imported environment, not independently compared with the protected challenge |
 | Proof export | 61,570,595,788 bytes; checksum matched the published value in the recorded run | Byte agreement alone is not a proof check |
 | Standalone Nanoda | 1,484,733 declarations; no typechecker errors; exit 0; 1:03:30 elapsed | Also reported one pretty-printer error, “Unable to print axioms” |
-| Protected Comparator | Last supplied status: running Lean paranoid on the solution | No success or failure verdict supplied; do not infer either from elapsed time |
+| Protected Comparator | Lean paranoid and nanoda accepted; Lean default kernel running at 18:54 EST on 26 November | Overall statement-comparison / axiom-check verdict still pending |
+| Tuned standalone Lean paranoid replay | Exit 0; 21:43:05; 98.8 GiB peak checker RSS | Same stock checker with Sutherland’s allocator setting; not a full Comparator verdict |
 | Stage 1 | Stored dependency traversal completed | Reachability is not necessity or a kernel replay |
 | Stage 2 | Statement, transport and bounded semantic-census results recorded | Census classes are candidates for inspection, not defects |
 | Stage 3 | Targeted geometry, height, theta, descent and realization probes recorded through v0.13 | v0.14 code is archived, but no corresponding completed run was supplied |

@@ -1,0 +1,41 @@
+{
+  "snapshot_est": "2026-11-26T18:54:42-05:00",
+  "snapshot_utc": "2026-11-26T23:54:42Z",
+  "provenance": "User-supplied monitor.sh terminal output; not direct server access",
+  "original_comparator": {
+    "overall": "pending",
+    "paranoid": "accepted",
+    "nanoda": "accepted",
+    "default_kernel": "running",
+    "elapsed": "111:11:27",
+    "default_elapsed": "24:03:08",
+    "log": "comparator-20261122-034314.log"
+  },
+  "tuned_standalone_paranoid": {
+    "status": "passed",
+    "elapsed": "21:43:05",
+    "elapsed_seconds": 78185,
+    "checker_exit": 0,
+    "docker_exit": 0,
+    "logging_exit": 0,
+    "max_rss_kib": 103594140,
+    "cgroup_peak_bytes": 117896380416,
+    "memory_events": {
+      "low": 0,
+      "high": 0,
+      "max": 0,
+      "oom": 0,
+      "oom_kill": 0,
+      "oom_group_kill": 0
+    },
+    "allocator_setting": {
+      "MIMALLOC_GENERIC_COLLECT": "1000000"
+    },
+    "tuning_credit": "Andrew Sutherland (MIT)",
+    "tuning_source": "https://math.mit.edu/~drew/grh/",
+    "log": "paranoid-tuned-20261125-100037.log",
+    "checker_sha256": "cd9a6ddb5fbf8f649c789dc905236e1ddee9fb32a323c141a4e63478f72e47b6",
+    "export_bytes": 61570595788,
+    "export_hash_recomputed_in_supplied_run": false
+  }
+}

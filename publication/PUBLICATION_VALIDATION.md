@@ -5,7 +5,8 @@ This validates packaging and upload preparation, not Lean or RH.
 - Seven publication-helper tests passed: preservation/backups, symlink rejection,
   scoped collection/deduplication/compression, bounded log copies, collection
   byte-limit failure recording, checksum corruption and path traversal detection.
-- Shell syntax check passed for publish.sh.
+- Shell syntax check passed for `publish.sh` in the external preparation bundle.
+  That script was not committed to this repository.
 - All 5,978 copied inventory records matched their stored size and SHA-256.
 - All 3,828 entries in available EVIDENCE_SHA256SUMS files matched their files.
 - Relative links in the new README, index, closing assessment, verification
@@ -19,5 +20,7 @@ This validates packaging and upload preparation, not Lean or RH.
 - Additional server snapshots are collected later and have their own index;
   they are outside the prepared archive manifest and this validation.
 
-The bundle includes helper test source. Original audit TEST_RESULTS files are
+The external preparation bundle included helper test source; that helper test
+source was not committed to this repository. The checks above describe the
+23 November assembly, not a validation of later updates. Original audit TEST_RESULTS files are
 historical evidence; this publication validation does not substitute for them.

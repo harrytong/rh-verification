@@ -3,13 +3,27 @@
 23 November 2026. This is Harry Tong’s AI-assisted assessment of his recorded
 audit runs and supplied sources, not a new independent proof check.
 
+## Verification addendum — 26 November 2026, 18:54 EST
+
+The scoped Stage 1–4 assessment below is unchanged. Subsequent execution
+evidence records acceptance by Lean paranoid and nanoda within Harry’s
+protected Comparator; the default-kernel stage is still running. A separate
+paranoid replay using `MIMALLOC_GENERIC_COLLECT=1000000` passed in 21:43:05
+with exit 0. Credit for documenting the tuning parameter belongs to
+**Andrew Sutherland (MIT)**; see his [verification page](https://math.mit.edu/~drew/grh/)
+and the [local update report](VERIFICATION_UPDATE_20261126.md).
+
+No final protected Comparator verdict is asserted. These kernel results do
+not establish semantic adequacy of every auxiliary geometric definition or
+settle all of the critics’ arguments.
+
 ## Conclusion
 
 We confirmed several constructions highlighted by Nielsen and discussed by
 Chu, and traced additional explicit conditions, witnesses and bound proofs.
 No formal proof defect was found in the inspected routes. The observations
 alone do not establish invalidity of the headline statements. Broader semantic
-objections remain unresolved. Harry’s Comparator outcome is not yet recorded.
+objections remain unresolved. Harry’s overall Comparator verdict remains pending; see the dated addendum above.
 
 Stage 4 is closed within its selected scope. Successful formal checking is the
 basis for accepting formal upstream obligations, rather than demanding a new
@@ -60,7 +74,7 @@ those printing limitations.
 ## Limits retained at closure
 
 - No global semantic necessity or dispensability theorem was proved.
-- No completed protected Comparator result was supplied for this summary.
+- No completed protected Comparator verdict is recorded as of the 26 November update.
 - The intended mathematical interpretation of all auxiliary definitions was
   not exhaustively established.
 - Daniel’s full census follow-up program was not completed by the named-case
