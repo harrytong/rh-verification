@@ -1,0 +1,54 @@
+Wed Nov 25 10:00:40 AM EST 2026
+Standalone Lean paranoid check; original Comparator untouched.
+MIMALLOC_GENERIC_COLLECT=1000000
+Container memory limit: 120 GiB; swap disabled.
+Export: /home/harry/rh-verification/verification-data/solution.export
+Export bytes: 61570595788
+Checker executable SHA-256:
+cd9a6ddb5fbf8f649c789dc905236e1ddee9fb32a323c141a4e63478f72e47b6  /home/harry/.elan/toolchains/leanprover--lean4---v4.36.0/bin/leanchecker-paranoid
+Log: /home/harry/rh-verification/logs/paranoid-tuned-20261125-100037.log
+
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+
+Allocator setting: 1000000
+	Command being timed: "/opt/lean/bin/leanchecker-paranoid --silent --from-export /proof/solution.export"
+	User time (seconds): 77450.83
+	System time (seconds): 720.35
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 21:43:05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 103594140
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 16
+	Minor (reclaiming a frame) page faults: 96068362
+	Voluntary context switches: 4877
+	Involuntary context switches: 266795
+	Swaps: 0
+	File system inputs: 85614848
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+Checker exit status: 0
+
+memory.peak:
+117896380416
+
+memory.events:
+low 0
+high 0
+max 0
+oom 0
+oom_kill 0
+oom_group_kill 0
+
+Docker/checker exit status: 0; logging exit status: 0
+
+STANDALONE TUNED PARANOID CHECK PASSED
+This is not a completed Comparator verdict.

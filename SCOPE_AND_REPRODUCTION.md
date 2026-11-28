@@ -4,6 +4,14 @@ This publication preserves evidence and exact issued audit packages. Do not
 confuse a successful inspection process, complete selected coverage, a census
 classification, a Lean build, a kernel replay, and protected statement comparison.
 
+## Verification project closed — 28 November 2026
+
+Harry concluded local Ubuntu verification after the original Comparator passed
+in 141:35:16. This resolves the pending protected comparison and kernel-check
+item. The historical Stage 4 scope decision below predates that result; its
+semantic research limits and unfinished census follow-ups remain unchanged.
+See [current status](VERIFICATION_STATUS.md).
+
 ## Reproduction
 
 1. Read the root README and the relevant stage protocol first.

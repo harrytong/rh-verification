@@ -3,7 +3,19 @@
 23 November 2026. This is Harry Tong’s AI-assisted assessment of his recorded
 audit runs and supplied sources, not a new independent proof check.
 
-## Verification addendum — 26 November 2026, 18:54 EST
+## Final verification addendum — 28 November 2026
+
+**Harry’s original protected Comparator passed in 141:35:16, exit 0.** Lean
+paranoid, nanoda and Lean default all accepted the solution; the final verdict
+was “Your solution is okay!”. Harry has concluded local RH/Dirichlet-GRH
+verification on his Ubuntu server. See the [completion report](VERIFICATION_COMPLETION_20261128.md).
+
+This closes the previously pending verification item. The historical bounded
+Stage 1–4 audit is not being enlarged into a claim that every semantic objection
+was investigated or refuted. The earlier tuning credit to Andrew Sutherland
+(MIT), the 21:43:05 standalone pass, and the original audit evidence are retained.
+
+## Historical verification addendum — 26 November 2026, 18:54 EST
 
 The scoped Stage 1–4 assessment below is unchanged. Subsequent execution
 evidence records acceptance by Lean paranoid and nanoda within Harry’s
@@ -23,7 +35,7 @@ We confirmed several constructions highlighted by Nielsen and discussed by
 Chu, and traced additional explicit conditions, witnesses and bound proofs.
 No formal proof defect was found in the inspected routes. The observations
 alone do not establish invalidity of the headline statements. Broader semantic
-objections remain unresolved. Harry’s overall Comparator verdict remains pending; see the dated addendum above.
+objections remain unresolved. Harry’s overall Comparator has now passed; see the 28 November addendum above.
 
 Stage 4 is closed within its selected scope. Successful formal checking is the
 basis for accepting formal upstream obligations, rather than demanding a new
@@ -74,7 +86,7 @@ those printing limitations.
 ## Limits retained at closure
 
 - No global semantic necessity or dispensability theorem was proved.
-- No completed protected Comparator verdict is recorded as of the 26 November update.
+- The pending Comparator item was closed on 28 November by the recorded successful run.
 - The intended mathematical interpretation of all auxiliary definitions was
   not exhaustively established.
 - Daniel’s full census follow-up program was not completed by the named-case

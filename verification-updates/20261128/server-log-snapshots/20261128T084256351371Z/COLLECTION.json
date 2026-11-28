@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-11-28T08:42:56.351922+00:00",
+  "base_commit": "85711452e38d628c184a83850f4e040ab0f2b569",
+  "mode": "read-only stable copies of original logs",
+  "report_as_of": "2026-11-28T03:35:12-05:00",
+  "note": "Completed original logs copied without modification. Completion timestamp in prose is inferred.",
+  "logs": [
+    {
+      "source": "/home/harry/rh-verification/logs/paranoid-tuned-20261125-100037.log",
+      "file": "paranoid-tuned-20261125-100037.log",
+      "bytes": 1741,
+      "sha256": "1f1c1aa5f591e79f934456d13738231b805108352e705f9bce5b779b1f8b7b63",
+      "source_size_before": 1741,
+      "source_size_after": 1741,
+      "source_mtime_ns_before": 1795697026497792724,
+      "source_mtime_ns_after": 1795697026497792724,
+      "source_changed_during_copy": false
+    },
+    {
+      "source": "/home/harry/rh-verification/logs/comparator-20261122-034314.log",
+      "file": "comparator-20261122-034314.log",
+      "bytes": 1971,
+      "sha256": "1164b3eff0693d55eff6d5250f99066a3c1d8107df64acf146a6506c9da1a89b",
+      "source_size_before": 1971,
+      "source_size_after": 1971,
+      "source_mtime_ns_before": 1795846712743747892,
+      "source_mtime_ns_after": 1795846712743747892,
+      "source_changed_during_copy": false
+    }
+  ]
+}

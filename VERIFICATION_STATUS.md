@@ -1,6 +1,6 @@
 # Verification record and evidence availability
 
-Updated snapshot: 26 November 2026, 18:54:42 EST (23:54:42 UTC). “Recorded” below means
+Updated: 28 November 2026; completed transcript and 03:35:12 EST monitor snapshot. “Recorded” below means
 Harry supplied the result, not that the publication assembly reran Lean.
 
 ## Headline declarations
@@ -27,7 +27,36 @@ errors and one pretty-printer error (`Unable to print axioms`). Preserve that
 diagnostic when quoting its success. Standalone Nanoda is not the full protected
 Comparator operation.
 
-## Comparator and tuned replay update
+## Final Comparator verdict — 28 November 2026
+
+**PASSED. Local Ubuntu verification concluded by Harry Tong.**
+
+The original log records all three configured acceptances, “Your solution is
+okay!”, `/usr/bin/time` exit status 0, `Comparator exit status: 0`, and
+`COMPARATOR VERIFICATION PASSED`. The launch script checks both Comparator and
+tee pipeline statuses before printing that final marker.
+
+Elapsed: **141:35:16**, or **509,716 seconds**. Recorded start:
+2026-11-22 03:43:16 EST. Inferred completion: approximately
+2026-11-28 01:18:32 EST (06:18:32 UTC). This completion time is derived, not
+an independently captured timestamp.
+
+The run used Lean 4.36.0 with the existing challenge and solution exports.
+It did not rebuild source during this Comparator invocation. Earlier source
+build, export and standalone checks remain separate evidence. Five target
+statements and the permitted axioms were checked against the protected challenge.
+
+The final [report](reports/VERIFICATION_COMPLETION_20261128.md) and
+[results](verification-updates/20261128/RESULTS.json) supersede earlier pending
+status. The update helper requires and copies the completed original log to
+`verification-updates/20261128/server-log-snapshots/`, with a capture timestamp,
+byte count and SHA-256; it does not reconstruct a raw log from chat text.
+
+The timing wrapper’s reported 1% CPU does not represent aggregate checker
+utilization: earlier process snapshots show the checkers near one core. Its
+reported RSS is not asserted to be the peak of the entire process tree.
+
+## Historical Comparator and tuned replay update — 26 November 2026
 
 The supplied monitor output at 18:54:42 EST on 26 November records:
 

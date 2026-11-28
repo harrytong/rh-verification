@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-11-28T03:35:12-05:00",
+  "project_status": "local verification concluded",
+  "comparator": {
+    "status": "passed",
+    "exit_status": 0,
+    "elapsed": "141:35:16",
+    "elapsed_seconds": 509716,
+    "start_recorded": "2026-11-22T03:43:16-05:00",
+    "completion_inferred_approximate": "2026-11-28T01:18:32-05:00",
+    "completion_timestamp_captured": false,
+    "mode": "existing challenge and solution exports",
+    "kernels": {
+      "Lean paranoid": "accepted",
+      "nanoda": "accepted",
+      "Lean default": "accepted"
+    },
+    "verdict": "Your solution is okay!",
+    "theorem_names": [
+      "riemannHypothesis",
+      "riemannZeta_eq_zero_re",
+      "LFunction_ne_zero_of_half_lt_re",
+      "LFunction_eq_zero_re",
+      "LFunction_eq_zero_re_of_isPrimitive"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ]
+  },
+  "separate_tuned_paranoid": {
+    "status": "passed",
+    "elapsed": "21:43:05",
+    "tuning": "MIMALLOC_GENERIC_COLLECT=1000000",
+    "tuning_credit": "Andrew Sutherland (MIT)"
+  },
+  "evidence_basis": "Harry-supplied completed transcript; original logs required and hashed by apply_update.py",
+  "raw_log_collection": "server-log-snapshots/<capture timestamp>/COLLECTION.json",
+  "semantic_audit": "scoped findings unchanged"
+}
